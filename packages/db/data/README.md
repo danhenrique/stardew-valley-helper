@@ -4,7 +4,8 @@ Game resources as JSON, one file per resource, grouped by type. Generated from t
 `stardew-valley-scheduler` repository by `../scripts/build-data.py`:
 
 ```bash
-python3 -I scripts/build-data.py .tmp/stardew-valley-scheduler data
+# from the repository root
+python3 -I packages/db/scripts/build-data.py .tmp/stardew-valley-scheduler packages/db/data
 ```
 
 > The script **regenerates everything in `data/`** except this README. Manual edits to the JSON

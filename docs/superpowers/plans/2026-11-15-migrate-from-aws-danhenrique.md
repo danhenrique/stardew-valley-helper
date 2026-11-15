@@ -109,7 +109,7 @@
 **Files:**
 - Generate: `pnpm nx g @aws/nx-plugin:py#dynamodb --name=stardew-valley-db --moduleName=stardew_valley_db --directory=packages --subDirectory=db --iac=terraform`
 - Copy: `OLD/packages/stardew-valley/db/aws_danhenrique_stardew_valley_db/**` → `NEW/packages/db/stardew_valley_db/`, `tests/**`, `README.md`, `config.json`
-- Copy: `OLD/.tmp/data/**` → `NEW/packages/db/data/` and `OLD/.tmp/scripts/build-data.py` → `NEW/packages/db/data/scripts/build-data.py`, excluding every `*:Zone.Identifier` file
+- Copy: `OLD/.tmp/data/**` → `NEW/packages/db/data/` and `OLD/.tmp/scripts/build-data.py` → `NEW/packages/db/scripts/build-data.py` (outside `data/`: the script wipes its output directory except `README.md`), excluding every `*:Zone.Identifier` file
 - Modify: `NEW/packages/db/stardew_valley_db/importer/cli.py` (`WORKSPACE_ROOT`, `DEFAULT_DATA_DIR`), `NEW/packages/db/project.json` (reapply OLD targets `import`, `pull-image`, `dev`), `NEW/packages/db/pyproject.toml` (report paths with `../../`)
 - Test: `NEW/packages/db/tests/test_import_paths.py`
 

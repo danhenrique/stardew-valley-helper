@@ -44,7 +44,8 @@ that `bootstrap-destroy` must not run while `aws-danhenrique` uses the same buck
 stardew-valley-helper/
 ├── packages/
 │   ├── db/              stardew_valley_helper.stardew_valley_db   (py#dynamodb)  module stardew_valley_db
-│   │   └── data/        versioned dataset + build-data.py
+│   │   ├── data/        versioned dataset
+│   │   └── scripts/     build-data.py
 │   ├── api/             stardew_valley_helper.stardew_valley_api  (py#fast-api)  module stardew_valley_api
 │   ├── website/         @stardew-valley-helper/website  (ts#react-website)  dev 4201, preview 4301
 │   ├── infra/           @stardew-valley-helper/infra    (terraform#project, with bootstrap)
@@ -136,7 +137,8 @@ This is how it already works today; those records move with the state.
 ### Import dataset
 
 - The dataset moves from `aws-danhenrique/.tmp/data` to `packages/db/data` (JSON files, `README.md`
-  and `_meta/`). `build-data.py` goes to `packages/db/data/scripts/`.
+  and `_meta/`). `build-data.py` goes to `packages/db/scripts/`, outside `data/`, because it wipes everything in its
+  output directory except `README.md`.
 - `*:Zone.Identifier` files (Windows metadata) are left out.
 - `importer/cli.py` `DEFAULT_DATA_DIR` points to `packages/db/data`. Today it points to
   `../../stardew-valley/game-data/data`, which does not exist.
