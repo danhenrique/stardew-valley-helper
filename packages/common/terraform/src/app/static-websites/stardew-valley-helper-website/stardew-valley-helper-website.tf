@@ -59,7 +59,9 @@ variable "enable_key_rotation" {
 module "static_website" {
   source = "../../../core/static-website"
 
-  website_name      = "website"
+  # Short name: S3 bucket names (name + "-distribution-logs-" + 16 hex) must stay within 63 chars.
+  # Frozen: physical name from aws-danhenrique; renaming replaces the resource
+  website_name      = "stardew-helper"
   website_file_path = "${path.module}/../../../../../../../dist/packages/website/bundle"
 
   custom_domain_names = var.custom_domain_names

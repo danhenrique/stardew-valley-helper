@@ -102,6 +102,12 @@ variable "enable_waf" {
   default     = true
 }
 
+variable "encrypt_access_logs_with_kms" {
+  description = "Encrypt the API access log group with a customer-managed KMS key (~US$1/month). When false, CloudWatch Logs default encryption is used."
+  type        = bool
+  default     = true
+}
+
 # Tags
 variable "tags" {
   description = "Tags to apply to all resources"
@@ -441,7 +447,8 @@ resource "aws_lambda_function" "api_lambda" {
   layers          = ["arn:aws:lambda:${data.aws_region.current.region}:753240598075:layer:LambdaAdapterLayerX86:24"]
   timeout         = 30
   memory_size     = 128
-  publish         = true
+  # No published versions: every version would keep its own billed copy
+  publish         = false
 
   source_code_hash = data.archive_file.lambda_zip.output_base64sha256
 
@@ -456,11 +463,6 @@ resource "aws_lambda_function" "api_lambda" {
       subnet_ids         = var.subnet_ids
       security_group_ids = [aws_security_group.api_lambda[0].id]
     }
-  }
-
-  # Enable SnapStart for faster cold starts
-  snap_start {
-    apply_on = "PublishedVersions"
   }
 
   environment {
@@ -571,17 +573,6 @@ resource "aws_cloudwatch_log_group" "lambda_logs" {
   tags = var.tags
 }
 
-# Lambda alias pointing to the latest published version for SnapStart
-resource "aws_lambda_alias" "live" {
-  for_each = local.operations
-
-  name             = "live"
-  function_name    = aws_lambda_function.api_lambda[each.key].function_name
-  function_version = aws_lambda_function.api_lambda[each.key].version
-
-  depends_on = [aws_lambda_function.api_lambda]
-}
-
 
 # Method per operation
 resource "aws_api_gateway_method" "operation_methods" {
@@ -614,11 +605,11 @@ resource "aws_api_gateway_integration" "lambda_integration" {
 
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  # Use the response streaming invocation path with the alias ARN for SnapStart
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2021-11-15/functions/${aws_lambda_alias.live[each.key].arn}/response-streaming-invocations"
+  # Use the response streaming invocation path with the unqualified function ARN
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2021-11-15/functions/${aws_lambda_function.api_lambda[each.key].arn}/response-streaming-invocations"
   response_transfer_mode  = "STREAM"
 
-  depends_on = [aws_lambda_alias.live]
+  depends_on = [aws_lambda_function.api_lambda]
 }
 
 # OPTIONS method for CORS preflight, on every resource an operation is served from
@@ -705,6 +696,8 @@ resource "aws_api_gateway_deployment" "api_deployment" {
       [for r in aws_api_gateway_resource.path_depth_15 : r.id],
       [for m in aws_api_gateway_method.operation_methods : m.id],
       [for i in aws_api_gateway_integration.lambda_integration : i.id],
+      # The id survives an in-place uri change, so track the uri too
+      [for i in aws_api_gateway_integration.lambda_integration : i.uri],
       [for m in aws_api_gateway_method.options_method : m.id],
       [for i in aws_api_gateway_integration.options_integration : i.id],
     )))
@@ -726,6 +719,8 @@ resource "aws_api_gateway_deployment" "api_deployment" {
 
 # KMS key for encrypting access logs at rest
 resource "aws_kms_key" "access_logs" {
+  count = var.encrypt_access_logs_with_kms ? 1 : 0
+
   description             = "StardewValleyApi API access log encryption"
   deletion_window_in_days = 7
   enable_key_rotation     = true
@@ -765,15 +760,17 @@ resource "aws_kms_key" "access_logs" {
 }
 
 resource "aws_kms_alias" "access_logs" {
+  count = var.encrypt_access_logs_with_kms ? 1 : 0
+
   name          = "alias/stardew-valley-api-${random_string.suffix.result}-access-logs"
-  target_key_id = aws_kms_key.access_logs.key_id
+  target_key_id = aws_kms_key.access_logs[0].key_id
 }
 
 # Access logs for the API Gateway stage
 resource "aws_cloudwatch_log_group" "access_logs" {
   name              = "/aws/apigateway/stardew-valley-api-${random_string.suffix.result}/access"
   retention_in_days = 365
-  kms_key_id        = aws_kms_key.access_logs.arn
+  kms_key_id        = var.encrypt_access_logs_with_kms ? aws_kms_key.access_logs[0].arn : null
   tags              = var.tags
 }
 
@@ -852,32 +849,30 @@ resource "aws_api_gateway_rest_api_policy" "api_policy" {
   })
 }
 
-# Lambda permission for API Gateway to invoke the function via alias
+# Lambda permission for API Gateway to invoke the function
 resource "aws_lambda_permission" "api_gateway_invoke" {
   for_each = local.operations
 
   statement_id  = "AllowExecutionFromAPIGateway"
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.api_lambda[each.key].function_name
-  qualifier     = aws_lambda_alias.live[each.key].name
   principal     = "apigateway.amazonaws.com"
   source_arn    = "${module.rest_api.api_execution_arn}/*/${local.permission_source_suffix[each.key]}"
 
-  depends_on = [module.rest_api, aws_lambda_alias.live]
+  depends_on = [module.rest_api]
 }
 
-# Lambda permission for API Gateway to invoke with response streaming via alias
+# Lambda permission for API Gateway to invoke with response streaming
 resource "aws_lambda_permission" "api_gateway_invoke_streaming" {
   for_each = local.operations
 
   statement_id  = "AllowStreamingFromAPIGateway"
   action        = "lambda:InvokeFunctionWithResponseStream"
   function_name = aws_lambda_function.api_lambda[each.key].function_name
-  qualifier     = aws_lambda_alias.live[each.key].name
   principal     = "apigateway.amazonaws.com"
   source_arn    = "${module.rest_api.api_execution_arn}/*/${local.permission_source_suffix[each.key]}"
 
-  depends_on = [module.rest_api, aws_lambda_alias.live]
+  depends_on = [module.rest_api]
 }
 
 # Add API url to runtime config

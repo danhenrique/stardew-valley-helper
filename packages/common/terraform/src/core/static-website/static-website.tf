@@ -555,25 +555,6 @@ resource "aws_cloudfront_distribution" "website" {
   ]
 }
 
-# Add CloudFront domain and any custom domain names to user pool client callback URLs.
-# Keyed by statically-known values so for_each keys are resolvable at plan time; the
-# CloudFront domain is only known at apply time, so it appears in the value, not the key.
-locals {
-  callback_urls = merge(
-    { cloudfront = "https://${aws_cloudfront_distribution.website.domain_name}" },
-    { for domain in var.custom_domain_names : domain => "https://${domain}" },
-  )
-}
-
-module "add_callback_url" {
-  source = "../user-identity/add-callback-url"
-  for_each = local.callback_urls
-
-  callback_url = each.value
-
-  depends_on = [aws_cloudfront_distribution.website]
-}
-
 # S3 Bucket Policy for CloudFront OAC
 resource "aws_s3_bucket_policy" "website_cloudfront_policy" {
   bucket = aws_s3_bucket.website.id
@@ -839,4 +820,8 @@ output "cloudfront_domain_name" {
 output "waf_web_acl_arn" {
   description = "ARN of the WAF Web ACL"
   value       = var.enable_waf ? aws_wafv2_web_acl.cloudfront_waf[0].arn : null
+}
+output "cloudfront_hosted_zone_id" {
+  description = "Route 53 hosted zone ID of the CloudFront distribution (for alias records)"
+  value       = aws_cloudfront_distribution.website.hosted_zone_id
 }

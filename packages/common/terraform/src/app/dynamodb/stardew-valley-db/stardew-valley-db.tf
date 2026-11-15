@@ -76,7 +76,8 @@ locals {
 
 module "dynamodb_table" {
   source                         = "../../../core/dynamodb"
-  name                           = "stardew-valley-helper-stardew-valley-db-${random_string.suffix.result}"
+  # Frozen: physical name from aws-danhenrique; renaming replaces the resource
+  name                           = "aws-danhenrique-stardew-valley-db-${random_string.suffix.result}"
   billing_mode                   = var.billing_mode
   point_in_time_recovery_enabled = var.point_in_time_recovery_enabled
   deletion_protection_enabled    = var.deletion_protection_enabled

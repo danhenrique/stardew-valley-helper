@@ -17,6 +17,12 @@ variable "user_pool_domain_prefix" {
   type        = string
 }
 
+variable "managed_login_domain" {
+  description = "Optional custom domain serving the managed login (e.g. auth.example.com), published to the runtime config so the website redirects there. The domain itself is created by the caller"
+  type        = string
+  default     = null
+}
+
 variable "allow_signup" {
   description = "Set to true to allow users to sign themselves up"
   type        = bool
@@ -69,10 +75,8 @@ data "aws_region" "current" {}
 
 locals {
   # Local dev server origins permitted to complete the sign-in redirect
-  local_callback_urls = [
-    "http://localhost:4200",
-    "http://localhost:4300"
-  ]
+  # Prod only: no localhost callback/logout URLs. Local development uses the dev target's mock auth.
+  local_callback_urls = []
 
   user_pool_waf_log_group_name = var.enable_waf ? "aws-waf-logs-UserPool-${random_id.unique_suffix.hex}" : null
 }
@@ -104,7 +108,7 @@ resource "aws_iam_role" "cognito_sms_role" {
         }
         Condition = {
           StringEquals = {
-            "sts:ExternalId" = random_uuid.sms_external_id[0].result
+            "sts:ExternalId"    = random_uuid.sms_external_id[0].result
             "aws:SourceAccount" = data.aws_caller_identity.current.account_id
           }
           ArnLike = {
@@ -198,13 +202,8 @@ resource "aws_cognito_user_pool" "user_pool" {
   # follows mfa_second_factor_sms - see that variable's description.
   auto_verified_attributes = var.mfa_second_factor_sms ? ["email", "phone_number"] : ["email"]
 
-  # User pool tier (equivalent to FeaturePlan.PLUS)
-  user_pool_tier = "PLUS"
-
-  # Threat protection. AUDIT logs threat assessments without blocking sign-in; switch to ENFORCED to apply automatic responses.
-  user_pool_add_ons {
-    advanced_security_mode = "AUDIT"
-  }
+  # Essentials keeps the 10k MAU free tier and supports managed login; Plus (threat protection) has no free tier.
+  user_pool_tier = "ESSENTIALS"
 
   # Schema attributes
   schema {
@@ -263,8 +262,8 @@ resource "aws_cognito_user_pool" "user_pool" {
   # Verification message templates
   verification_message_template {
     default_email_option = "CONFIRM_WITH_CODE"
-    email_message         = "The verification code to your new account is {####}"
-    email_subject         = "Verify your new account"
+    email_message        = "The verification code to your new account is {####}"
+    email_subject        = "Verify your new account"
     sms_message          = "The verification code to your new account is {####}"
   }
 
@@ -276,9 +275,9 @@ resource "aws_cognito_user_pool" "user_pool" {
 # User Pool Domain - temporarily commented out to resolve domain conflicts
 # Will be re-enabled after User Pool Client OAuth configuration is fixed
 resource "aws_cognito_user_pool_domain" "user_pool_domain" {
-  domain                   = "${var.user_pool_domain_prefix}-${data.aws_caller_identity.current.account_id}-${random_id.unique_suffix.hex}"
-  user_pool_id            = aws_cognito_user_pool.user_pool.id
-  managed_login_version   = 2
+  domain                = "${var.user_pool_domain_prefix}-${data.aws_caller_identity.current.account_id}-${random_id.unique_suffix.hex}"
+  user_pool_id          = aws_cognito_user_pool.user_pool.id
+  managed_login_version = 2
 }
 
 # WAFv2 Web ACL for the user pool
@@ -452,8 +451,8 @@ resource "aws_cognito_user_pool_client" "web_client" {
 
   # OAuth configuration - MUST be set before callback/logout URLs
   allowed_oauth_flows_user_pool_client = true
-  allowed_oauth_flows = ["code"]
-  allowed_oauth_scopes = ["email", "openid", "profile"]
+  allowed_oauth_flows                  = ["code"]
+  allowed_oauth_scopes                 = ["email", "openid", "profile"]
 
   # OAuth-dependent URLs - set after OAuth configuration
   callback_urls = concat(local.local_callback_urls, var.callback_urls)
@@ -461,8 +460,8 @@ resource "aws_cognito_user_pool_client" "web_client" {
   logout_urls = concat(local.local_callback_urls, var.logout_urls)
 
   # Security settings
-  prevent_user_existence_errors = "ENABLED"
-  enable_token_revocation = true
+  prevent_user_existence_errors                 = "ENABLED"
+  enable_token_revocation                       = true
   enable_propagate_additional_user_context_data = false
 
   # Token validity - ONLY refresh token to match CloudFormation exactly
@@ -568,7 +567,7 @@ resource "aws_cognito_managed_login_branding" "managed_login_branding" {
   depends_on = [
     aws_cognito_user_pool.user_pool,
     aws_cognito_user_pool_client.web_client,
-    aws_cognito_user_pool_domain.user_pool_domain  # commented out with domain
+    aws_cognito_user_pool_domain.user_pool_domain # commented out with domain
   ]
 
 }
@@ -579,12 +578,15 @@ module "add_cognito_to_runtime_config" {
 
   namespace = "connection"
   key       = "cognitoProps"
-  value = {
-    region              = data.aws_region.current.region
-    identityPoolId      = aws_cognito_identity_pool.identity_pool.id
-    userPoolId          = aws_cognito_user_pool.user_pool.id
-    userPoolWebClientId = aws_cognito_user_pool_client.web_client.id
-  }
+  value = merge(
+    {
+      region              = data.aws_region.current.region
+      identityPoolId      = aws_cognito_identity_pool.identity_pool.id
+      userPoolId          = aws_cognito_user_pool.user_pool.id
+      userPoolWebClientId = aws_cognito_user_pool_client.web_client.id
+    },
+    var.managed_login_domain == null ? {} : { domain = var.managed_login_domain },
+  )
 }
 
 # Outputs

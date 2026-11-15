@@ -27,15 +27,37 @@ variable "mfa_second_factor_sms" {
   default     = true
 }
 
+variable "callback_urls" {
+  description = "OAuth callback URLs for the user pool web client (e.g. the website's custom domain)"
+  type        = list(string)
+  default     = []
+}
+
+variable "logout_urls" {
+  description = "OAuth logout URLs for the user pool web client"
+  type        = list(string)
+  default     = []
+}
+
+variable "managed_login_domain" {
+  description = "Optional custom domain serving the managed login (e.g. auth.example.com), published to the runtime config so the website redirects there. The domain itself is created by the caller"
+  type        = string
+  default     = null
+}
+
 module "identity" {
   source = "./identity"
 
+  # Frozen: physical name from aws-danhenrique; renaming replaces the resource
   user_pool_domain_prefix = "danhenrique-stardew-valley-helper-website"
-  allow_signup = true
-  enable_waf = var.enable_waf
-  mfa = var.mfa
-  mfa_second_factor_otp = var.mfa_second_factor_otp
-  mfa_second_factor_sms = var.mfa_second_factor_sms
+  allow_signup            = true
+  enable_waf              = var.enable_waf
+  mfa                     = var.mfa
+  mfa_second_factor_otp   = var.mfa_second_factor_otp
+  mfa_second_factor_sms   = var.mfa_second_factor_sms
+  callback_urls           = var.callback_urls
+  logout_urls             = var.logout_urls
+  managed_login_domain    = var.managed_login_domain
 }
 
 # Outputs
