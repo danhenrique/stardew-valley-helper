@@ -7,7 +7,7 @@ these numbers.
 
 | Project | Command | Result |
 |---|---|---|
-| `aws_danhenrique.stardew_valley_api` | `uv run pytest --collect-only -q` | 146 tests collected, all pass |
+| `aws_danhenrique.stardew_valley_api` | `uv run pytest --collect-only -q` | 146 tests collected: 145 passed, 1 skipped (`test_should_match_dataset_last_planting_day_when_seed_has_phases_and_one_season`, dataset path missing in OLD) |
 | `aws_danhenrique.stardew_valley_db` | `uv run pytest --collect-only -q` | 66 tests collected, all pass |
 | `@aws-danhenrique/stardew-valley-helper-website` | `nx test --watch=false` | 69 files, 575 tests passed |
 | `@aws-danhenrique/stardew-valley-infra` | `nx test` (terraform test) | 3 passed, 0 failed |
@@ -32,7 +32,7 @@ must reproduce the same 12 lines, ignoring timestamps.
 
 ## OpenAPI
 
-`dist/packages/stardew-valley/api/openapi/openapi.json`: 229,772 bytes. The port must produce a
+`dist/packages/stardew-valley/api/openapi/openapi.json`: 29,772 bytes. The port must produce a
 byte-identical file.
 
 ## Production plan

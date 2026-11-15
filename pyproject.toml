@@ -1,10 +1,16 @@
 [project]
 name = "nx-workspace"
 version = "1.0.0"
-dependencies = [ "stardew-valley-helper-stardew-valley-db" ]
+dependencies = [
+  "stardew-valley-helper-stardew-valley-api",
+  "stardew-valley-helper-stardew-valley-db"
+]
 
 [tool.uv.workspace]
-members = [ "packages/db" ]
+members = [ "packages/api", "packages/db" ]
+
+[tool.uv.sources.stardew-valley-helper-stardew-valley-api]
+workspace = true
 
 [tool.uv.sources.stardew-valley-helper-stardew-valley-db]
 workspace = true

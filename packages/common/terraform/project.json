@@ -10,14 +10,20 @@
   "targets": {
     "assemble": {
       "executor": "nx:noop",
-      "dependsOn": ["stardew_valley_helper.stardew_valley_db:assemble"]
+      "dependsOn": [
+        "stardew_valley_helper.stardew_valley_db:assemble",
+        "stardew_valley_helper.stardew_valley_api:assemble",
+        "generate:stardew-valley-api-operations"
+      ]
     },
     "build": {
       "dependsOn": [
         "format",
         "checkov",
         "test",
-        "stardew_valley_helper.stardew_valley_db:build"
+        "stardew_valley_helper.stardew_valley_db:build",
+        "stardew_valley_helper.stardew_valley_api:build",
+        "generate:stardew-valley-api-operations"
       ],
       "outputs": []
     },
@@ -124,6 +130,24 @@
         "env": {
           "TF_DATA_DIR": "../../../../dist/{projectRoot}/terraform-init"
         }
+      }
+    },
+    "generate:stardew-valley-api-operations": {
+      "executor": "@aws/nx-plugin:open-api-codegen",
+      "dependsOn": ["stardew_valley_helper.stardew_valley_api:openapi"],
+      "cache": true,
+      "inputs": [
+        {
+          "dependentTasksOutputFiles": "**/*.json"
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/packages/common/terraform/src/generated/stardew-valley-api"
+      ],
+      "options": {
+        "generator": "json-metadata",
+        "openApiSpecPath": "dist/packages/api/openapi/openapi.json",
+        "outputPath": "packages/common/terraform/src/generated/stardew-valley-api"
       }
     }
   }
