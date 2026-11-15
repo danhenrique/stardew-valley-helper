@@ -1,0 +1,19 @@
+{
+  "id": "summer-squash-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Summer Squash Seeds",
+    "pt-BR": null
+  },
+  "nameVerified": false,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": 3,
+    "lastPlantingDay": 22,
+    "averageExtraYield": 0,
+    "produce": "summer-squash"
+  }
+}

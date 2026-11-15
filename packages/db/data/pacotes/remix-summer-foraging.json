@@ -1,0 +1,38 @@
+{
+  "id": "remix-summer-foraging",
+  "type": "pacotes",
+  "name": {
+    "en": "Summer Foraging",
+    "pt-BR": "Coleta do verão"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "grape",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "spice-berry",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "sweet-pea",
+      "seasons": [
+        "summer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "combat-quarterly",
+  "type": "livros",
+  "name": {
+    "en": "Combat Quarterly",
+    "pt-BR": "Periódico Trimestral de Combate"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "likes": [
+      "abigail",
+      "sebastian"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bok-choy",
+  "type": "vegetais",
+  "name": {
+    "en": "Bok Choy",
+    "pt-BR": "Acelga Chinesa"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 80,
+  "artisan": {
+    "kegPrice": 180,
+    "jarPrice": 210
+  },
+  "growsFrom": "bok-choy-seeds"
+}

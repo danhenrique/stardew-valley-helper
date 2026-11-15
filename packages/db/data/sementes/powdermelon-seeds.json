@@ -1,0 +1,19 @@
+{
+  "id": "powdermelon-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Powdermelon Seeds",
+    "pt-BR": null
+  },
+  "nameVerified": false,
+  "crop": {
+    "seasons": [
+      "winter"
+    ],
+    "growthDays": 7,
+    "regrowDays": null,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 0,
+    "produce": "powdermelon"
+  }
+}

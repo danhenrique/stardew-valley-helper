@@ -1,0 +1,45 @@
+{
+  "id": "ice-cream",
+  "type": "culinaria",
+  "name": {
+    "en": "Ice Cream",
+    "pt-BR": "Sorvete"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 240
+    },
+    {
+      "shop": "oasis",
+      "price": 240,
+      "availability": "sun"
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "demetrius"
+    ],
+    "dislikesOrHates": [
+      "emily",
+      "harvey",
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "milk",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sewers",
+  "type": "lojas",
+  "name": {
+    "en": "Sewers (Krobus)",
+    "pt-BR": "Esgoto"
+  },
+  "nameVerified": false,
+  "offers": [
+    {
+      "item": "void-egg",
+      "price": 5000
+    },
+    {
+      "item": "void-essence",
+      "price": 100
+    },
+    {
+      "item": "solar-essence",
+      "price": 80
+    },
+    {
+      "item": "sign-of-the-vessel",
+      "price": 350
+    },
+    {
+      "item": "monster-fireplace",
+      "price": 20000
+    },
+    {
+      "item": "slime",
+      "price": 10,
+      "availability": "mon"
+    },
+    {
+      "item": "omni-geode",
+      "price": 300,
+      "availability": "tue"
+    },
+    {
+      "item": "bream",
+      "price": 200,
+      "availability": "wed",
+      "special": "wednesdayRandomFishOrMagnetBait"
+    },
+    {
+      "item": "mixed-seeds",
+      "price": 30,
+      "availability": "thu"
+    },
+    {
+      "item": "iridium-sprinkler",
+      "price": 10000,
+      "availability": "fri"
+    }
+  ]
+}

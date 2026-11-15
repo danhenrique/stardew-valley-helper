@@ -1,0 +1,12 @@
+{
+  "id": "caviar",
+  "type": "artesanato",
+  "name": {
+    "en": "Caviar",
+    "pt-BR": "Caviar"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ]
+}

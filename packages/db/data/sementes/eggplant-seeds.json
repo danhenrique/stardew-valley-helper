@@ -1,0 +1,38 @@
+{
+  "id": "eggplant-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Eggplant Seeds",
+    "pt-BR": "Sementes de Berinjela"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 5,
+    "phases": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "regrowDays": 5,
+    "lastPlantingDay": 23,
+    "averageExtraYield": 0.002,
+    "produce": "eggplant"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 20,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 25,
+      "season": "fall"
+    }
+  ]
+}

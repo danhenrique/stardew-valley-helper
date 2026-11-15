@@ -1,0 +1,21 @@
+{
+  "id": "well",
+  "type": "construcoes",
+  "name": {
+    "en": "Well",
+    "pt-BR": "Poço"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 1000,
+    "materials": [
+      {
+        "item": "stone",
+        "qty": 75
+      }
+    ],
+    "buildDays": 2,
+    "builtBy": "carpenter"
+  }
+}

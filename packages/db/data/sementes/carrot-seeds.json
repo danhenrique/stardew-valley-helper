@@ -1,0 +1,19 @@
+{
+  "id": "carrot-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Carrot Seeds",
+    "pt-BR": "Sementes de Cenoura"
+  },
+  "nameVerified": false,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 3,
+    "regrowDays": null,
+    "lastPlantingDay": 25,
+    "averageExtraYield": 0,
+    "produce": "carrot"
+  }
+}

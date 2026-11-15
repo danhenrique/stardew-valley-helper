@@ -1,0 +1,15 @@
+{
+  "id": "heater",
+  "type": "maquinas",
+  "name": {
+    "en": "Heater",
+    "pt-BR": "Aquecedor"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "ranch",
+      "price": 2000
+    }
+  ]
+}

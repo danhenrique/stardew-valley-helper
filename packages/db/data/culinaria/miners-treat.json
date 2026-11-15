@@ -1,0 +1,33 @@
+{
+  "id": "miners-treat",
+  "type": "culinaria",
+  "name": {
+    "en": "Miner's Treat",
+    "pt-BR": "Refeição de Mineiro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "maru"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "cave-carrot",
+        "qty": 2
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      }
+    ]
+  }
+}

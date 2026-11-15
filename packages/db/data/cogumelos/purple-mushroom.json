@@ -1,0 +1,23 @@
+{
+  "id": "purple-mushroom",
+  "type": "cogumelos",
+  "name": {
+    "en": "Purple Mushroom",
+    "pt-BR": "Cogumelo Roxo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "mushrooms"
+  ],
+  "giftTastes": {
+    "likes": [
+      "demetrius"
+    ],
+    "dislikesOrHates": [
+      "penny"
+    ],
+    "loves": [
+      "wizard"
+    ]
+  }
+}

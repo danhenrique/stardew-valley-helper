@@ -1,0 +1,22 @@
+{
+  "id": "green-turban",
+  "type": "equipamentos",
+  "subtype": "hat",
+  "name": {
+    "en": "Green Turban",
+    "pt-BR": "Turbante Verde"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 50
+        }
+      ]
+    }
+  ]
+}

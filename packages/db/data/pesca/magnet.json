@@ -1,0 +1,31 @@
+{
+  "id": "magnet",
+  "type": "pesca",
+  "name": {
+    "en": "Magnet",
+    "pt-BR": "Ímã"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 1000,
+      "fishingLevel": 9
+    },
+    {
+      "shop": "casino",
+      "price": 0,
+      "currency": {
+        "qiCoins": 1000
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

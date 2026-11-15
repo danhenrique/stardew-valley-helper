@@ -1,0 +1,15 @@
+{
+  "id": "flooring",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Flooring 01 Icon",
+    "pt-BR": "Piso"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "joja",
+      "price": 250
+    }
+  ]
+}

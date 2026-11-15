@@ -1,0 +1,17 @@
+{
+  "id": "raisins",
+  "type": "artesanato",
+  "name": {
+    "en": "Raisins",
+    "pt-BR": "Passas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "loves": [
+      "evelyn"
+    ]
+  }
+}

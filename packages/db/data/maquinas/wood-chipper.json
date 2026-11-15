@@ -1,0 +1,9 @@
+{
+  "id": "wood-chipper",
+  "type": "maquinas",
+  "name": {
+    "en": "Wood Chipper",
+    "pt-BR": "Triturador de Madeira"
+  },
+  "nameVerified": false
+}

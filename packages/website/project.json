@@ -1,0 +1,149 @@
+{
+  "name": "@stardew-valley-helper/website",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/website/src",
+  "projectType": "application",
+  "tags": [],
+  "metadata": {
+    "ports": [4201],
+    "generator": "ts#react-website",
+    "ux": "none",
+    "framework": "react",
+    "infra": "cloudfront-s3",
+    "tailwind": true,
+    "tanstackRouter": true,
+    "iac": "terraform",
+    "components": [
+      {
+        "generator": "ts#react-website#runtime-config",
+        "path": "src/components/RuntimeConfig"
+      },
+      {
+        "generator": "ts#react-website#auth",
+        "path": "src/components/CognitoAuth",
+        "iac": "terraform"
+      },
+      {
+        "generator": "py#fast-api#react-connection",
+        "path": "src/components/StardewValleyApiProvider",
+        "name": "StardewValleyApi"
+      }
+    ]
+  },
+  "targets": {
+    "assemble": {
+      "dependsOn": ["compile", "bundle"]
+    },
+    "build": {
+      "dependsOn": ["lint", "compile", "test", "bundle"]
+    },
+    "bundle": {
+      "dependsOn": ["generate:stardew-valley-api-client"]
+    },
+    "compile": {
+      "dependsOn": ["^compile", "generate:stardew-valley-api-client"],
+      "executor": "nx:run-commands",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}/tsc"],
+      "options": {
+        "command": "tsc --build tsconfig.app.json",
+        "cwd": "{projectRoot}"
+      }
+    },
+    "dev": {
+      "executor": "nx:run-commands",
+      "dependsOn": [
+        {
+          "projects": ["stardew_valley_helper.stardew_valley_api"],
+          "target": "dev"
+        },
+        "generate:stardew-valley-api-client",
+        "watch-generate:stardew-valley-api-client"
+      ],
+      "continuous": true,
+      "options": {
+        "command": "vite --mode local-dev",
+        "cwd": "{projectRoot}"
+      }
+    },
+    "format": {
+      "executor": "nx:run-commands",
+      "cache": true,
+      "inputs": ["biome"],
+      "options": {
+        "command": "biome format {projectRoot}"
+      },
+      "configurations": {
+        "fix": {
+          "command": "biome format --write {projectRoot}"
+        },
+        "skip-lint": {
+          "command": "node -e \"\""
+        }
+      }
+    },
+    "generate:stardew-valley-api-client": {
+      "executor": "@aws/nx-plugin:open-api-codegen",
+      "dependsOn": ["stardew_valley_helper.stardew_valley_api:openapi"],
+      "cache": true,
+      "inputs": [
+        {
+          "dependentTasksOutputFiles": "**/*.json"
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/packages/website/src/generated/stardew-valley-api"
+      ],
+      "options": {
+        "generator": "ts-hooks",
+        "openApiSpecPath": "dist/packages/api/openapi/openapi.json",
+        "outputPath": "packages/website/src/generated/stardew-valley-api"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "cache": true,
+      "inputs": ["biome"],
+      "dependsOn": ["format"],
+      "options": {
+        "command": "biome lint {projectRoot}"
+      },
+      "configurations": {
+        "fix": {
+          "command": "biome check --write {projectRoot}"
+        },
+        "skip-lint": {
+          "command": "node -e \"\""
+        }
+      }
+    },
+    "load-runtime-config": {
+      "executor": "nx:run-commands",
+      "metadata": {
+        "description": "Load runtime config from most recently applied terraform env for dev purposes. Copies the runtime config from the Terraform dist directory to the website's public directory."
+      },
+      "options": {
+        "command": "node -e \"const fs=require('fs');fs.mkdirSync(process.env.DEST_DIR,{recursive:true});fs.copyFileSync(process.env.SRC_FILE,process.env.DEST_FILE);\"",
+        "env": {
+          "SRC_FILE": "dist/packages/common/terraform/runtime-config/connection.json",
+          "DEST_DIR": "{projectRoot}/public",
+          "DEST_FILE": "{projectRoot}/public/runtime-config.json"
+        }
+      }
+    },
+    "watch-generate:stardew-valley-api-client": {
+      "executor": "nx:run-commands",
+      "continuous": true,
+      "options": {
+        "commands": [
+          "nx watch --projects=stardew_valley_helper.stardew_valley_api --includeDependencies -- nx run @stardew-valley-helper/website:\"generate:stardew-valley-api-client\""
+        ]
+      }
+    },
+    "typecheck": {
+      "dependsOn": ["^typecheck", "generate:stardew-valley-api-client"]
+    },
+    "test": {
+      "dependsOn": ["^build", "generate:stardew-valley-api-client"]
+    }
+  }
+}

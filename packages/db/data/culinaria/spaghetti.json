@@ -1,0 +1,35 @@
+{
+  "id": "spaghetti",
+  "type": "culinaria",
+  "name": {
+    "en": "Spaghetti",
+    "pt-BR": "Espaguete"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 240
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "robin"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "tomato",
+        "qty": 1
+      }
+    ]
+  }
+}

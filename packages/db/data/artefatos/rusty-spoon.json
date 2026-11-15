@@ -1,0 +1,13 @@
+{
+  "id": "rusty-spoon",
+  "type": "artefatos",
+  "name": {
+    "en": "Rusty Spoon",
+    "pt-BR": "Colher Enferrujada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

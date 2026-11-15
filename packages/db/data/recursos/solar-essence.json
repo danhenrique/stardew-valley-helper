@@ -1,0 +1,23 @@
+{
+  "id": "solar-essence",
+  "type": "recursos",
+  "name": {
+    "en": "Solar Essence",
+    "pt-BR": "Essência Solar"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 80
+    }
+  ],
+  "giftTastes": {
+    "neutral": [
+      "dwarf"
+    ],
+    "loves": [
+      "wizard"
+    ]
+  }
+}

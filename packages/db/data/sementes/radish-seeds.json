@@ -1,0 +1,37 @@
+{
+  "id": "radish-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Radish Seeds",
+    "pt-BR": "Sementes de Rabanete"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 6,
+    "phases": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 22,
+    "averageExtraYield": 0,
+    "produce": "radish"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 40,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 50,
+      "season": "summer"
+    }
+  ]
+}

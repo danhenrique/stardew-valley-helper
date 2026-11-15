@@ -1,0 +1,9 @@
+{
+  "id": "cappuccino-mousse-cake",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Cappuccino Mousse Cake",
+    "pt-BR": "Bolo de Mousse de Cappuccino"
+  },
+  "nameVerified": true
+}

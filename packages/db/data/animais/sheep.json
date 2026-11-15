@@ -1,0 +1,14 @@
+{
+  "id": "sheep",
+  "type": "animais",
+  "name": {
+    "en": "Sheep",
+    "pt-BR": "Ovelha"
+  },
+  "nameVerified": true,
+  "purchase": {
+    "shop": "ranch",
+    "price": 8000
+  },
+  "housing": "deluxe-barn"
+}

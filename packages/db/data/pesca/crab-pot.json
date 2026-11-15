@@ -1,0 +1,43 @@
+{
+  "id": "crab-pot",
+  "type": "pesca",
+  "name": {
+    "en": "Crab Pot",
+    "pt-BR": "Covo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 1500,
+      "fishingLevel": 3
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 40
+      },
+      {
+        "item": "iron-bar",
+        "qty": 3
+      }
+    ],
+    "alternatives": [
+      {
+        "condition": "trapperProfession",
+        "ingredients": [
+          {
+            "item": "wood",
+            "qty": 25
+          },
+          {
+            "item": "copper-bar",
+            "qty": 2
+          }
+        ]
+      }
+    ]
+  }
+}

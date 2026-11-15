@@ -1,0 +1,39 @@
+{
+  "id": "fried-eel",
+  "type": "culinaria",
+  "name": {
+    "en": "Fried Eel",
+    "pt-BR": "Enguia Frita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 240
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "emily",
+      "evelyn"
+    ],
+    "loves": [
+      "jodi"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "eel",
+        "qty": 1
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      }
+    ]
+  }
+}

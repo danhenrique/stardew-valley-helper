@@ -1,0 +1,37 @@
+{
+  "id": "mega-bomb",
+  "type": "consumiveis",
+  "name": {
+    "en": "Mega Bomb",
+    "pt-BR": "Megabomba"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "iridium-ore",
+          "qty": 5
+        }
+      ]
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "gold-ore",
+        "qty": 4
+      },
+      {
+        "item": "solar-essence",
+        "qty": 1
+      },
+      {
+        "item": "void-essence",
+        "qty": 1
+      }
+    ]
+  }
+}

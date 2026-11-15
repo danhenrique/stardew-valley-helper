@@ -1,0 +1,51 @@
+{
+  "id": "remix-fall-crops",
+  "type": "pacotes",
+  "name": {
+    "en": "Fall Crops",
+    "pt-BR": "Cultivos do outono"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "corn",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "eggplant",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "pumpkin",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "yam",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "broccoli",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

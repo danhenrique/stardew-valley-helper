@@ -1,0 +1,18 @@
+{
+  "id": "exotic-double-bed",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Exotic Double Bed",
+    "pt-BR": "Cama de Casal Exótica"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "escargot",
+  "type": "culinaria",
+  "name": {
+    "en": "Escargot",
+    "pt-BR": "Escargô"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "gus"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "snail",
+        "qty": 1
+      },
+      {
+        "item": "garlic",
+        "qty": 1
+      }
+    ]
+  }
+}

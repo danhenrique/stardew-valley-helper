@@ -1,0 +1,22 @@
+{
+  "id": "tool-upgrade-iridium",
+  "type": "ferramentas",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Iridium Tools",
+    "pt-BR": "Melhorar Ferramentas 4"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25000,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

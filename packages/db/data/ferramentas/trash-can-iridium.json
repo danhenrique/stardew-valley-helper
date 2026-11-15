@@ -1,0 +1,22 @@
+{
+  "id": "trash-can-iridium",
+  "type": "ferramentas",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Trash Can Iridium",
+    "pt-BR": "Lixeira de Irídio"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 12500,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

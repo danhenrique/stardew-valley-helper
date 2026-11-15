@@ -1,0 +1,36 @@
+{
+  "id": "lake-fish",
+  "type": "pacotes",
+  "name": {
+    "en": "Lake Fish Bundle",
+    "pt-BR": "Pacote de peixes de lago"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "largemouth-bass"
+    },
+    {
+      "item": "carp"
+    },
+    {
+      "item": "bullhead"
+    },
+    {
+      "item": "sturgeon",
+      "seasons": [
+        "summer",
+        "winter"
+      ]
+    }
+  ]
+}

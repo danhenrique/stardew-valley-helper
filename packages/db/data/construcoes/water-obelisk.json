@@ -1,0 +1,28 @@
+{
+  "id": "water-obelisk",
+  "type": "construcoes",
+  "name": {
+    "en": "Water Obelisk",
+    "pt-BR": "Obelisco da Água"
+  },
+  "nameVerified": true,
+  "construction": {
+    "price": 500000,
+    "materials": [
+      {
+        "item": "iridium-bar",
+        "qty": 5
+      },
+      {
+        "item": "clam",
+        "qty": 10
+      },
+      {
+        "item": "coral",
+        "qty": 10
+      }
+    ],
+    "builtBy": "wizard"
+  },
+  "category": "magical"
+}

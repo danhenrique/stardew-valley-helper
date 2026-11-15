@@ -1,0 +1,31 @@
+{
+  "id": "carp-surprise",
+  "type": "culinaria",
+  "name": {
+    "en": "Carp Surprise",
+    "pt-BR": "Carpa-surpresa"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 300
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "carp",
+        "qty": 4
+      }
+    ]
+  }
+}

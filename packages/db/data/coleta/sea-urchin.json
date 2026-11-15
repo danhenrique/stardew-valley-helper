@@ -1,0 +1,18 @@
+{
+  "id": "sea-urchin",
+  "type": "coleta",
+  "name": {
+    "en": "Sea Urchin",
+    "pt-BR": "Ouriço-do-mar"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "elliott"
+    ],
+    "likes": [
+      "evelyn",
+      "leo"
+    ]
+  }
+}

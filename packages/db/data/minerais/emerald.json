@@ -1,0 +1,22 @@
+{
+  "id": "emerald",
+  "type": "minerais",
+  "subtype": "gem",
+  "name": {
+    "en": "Emerald",
+    "pt-BR": "Esmeralda"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "dwarf",
+      "emily",
+      "penny"
+    ]
+  },
+  "museumDonation": true
+}

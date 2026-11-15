@@ -1,0 +1,33 @@
+{
+  "id": "blackberry-cobbler",
+  "type": "culinaria",
+  "name": {
+    "en": "Blackberry Cobbler",
+    "pt-BR": "Torta de Amoras"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "blackberry",
+        "qty": 2
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      }
+    ]
+  }
+}

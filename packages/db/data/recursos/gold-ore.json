@@ -1,0 +1,23 @@
+{
+  "id": "gold-ore",
+  "type": "recursos",
+  "name": {
+    "en": "Gold Ore",
+    "pt-BR": "Minério de Ouro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 400
+    }
+  ],
+  "giftTastes": {
+    "neutral": [
+      "clint"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ]
+  }
+}

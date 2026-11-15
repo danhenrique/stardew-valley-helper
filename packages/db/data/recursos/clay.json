@@ -1,0 +1,21 @@
+{
+  "id": "clay",
+  "type": "recursos",
+  "name": {
+    "en": "Clay",
+    "pt-BR": "Argila"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "abigail",
+      "evelyn",
+      "george",
+      "haley",
+      "jas",
+      "marnie",
+      "sebastian",
+      "vincent"
+    ]
+  }
+}

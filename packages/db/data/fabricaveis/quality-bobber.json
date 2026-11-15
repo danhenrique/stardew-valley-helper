@@ -1,0 +1,25 @@
+{
+  "id": "quality-bobber",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Quality Bobber",
+    "pt-BR": "Boia de Qualidade"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 1
+      },
+      {
+        "item": "sap",
+        "qty": 20
+      },
+      {
+        "item": "solar-essence",
+        "qty": 5
+      }
+    ]
+  }
+}

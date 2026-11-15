@@ -1,0 +1,9 @@
+{
+  "id": "rock-candy",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Rock Candy",
+    "pt-BR": "Doce-Pedra"
+  },
+  "nameVerified": true
+}

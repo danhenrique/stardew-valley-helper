@@ -1,0 +1,16 @@
+{
+  "id": "slime-charmer-ring",
+  "type": "equipamentos",
+  "subtype": "ring",
+  "name": {
+    "en": "Slime Charmer Ring",
+    "pt-BR": "Encantador de Gosmas"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 25000
+    }
+  ]
+}

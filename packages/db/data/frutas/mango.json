@@ -1,0 +1,18 @@
+{
+  "id": "mango",
+  "type": "frutas",
+  "name": {
+    "en": "Mango",
+    "pt-BR": "Manga"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "growsFrom": "mango-sapling",
+  "giftTastes": {
+    "loves": [
+      "leo"
+    ]
+  }
+}

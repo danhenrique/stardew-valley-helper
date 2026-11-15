@@ -5,7 +5,9 @@
     "emitDeclarationOnly": true,
     "importHelpers": true,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "lib": [
+      "es2022"
+    ],
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "noEmitOnError": true,
@@ -16,6 +18,17 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@stardew-valley-helper/source"]
+    "customConditions": [
+      "@stardew-valley-helper/source"
+    ],
+    "rootDir": ".",
+    "paths": {
+      "@stardew-valley-helper/scripts": [
+        "./packages/common/scripts/src/index.ts"
+      ],
+      "@stardew-valley-helper/website": [
+        "./packages/website/src/index.ts"
+      ]
+    }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "achievement-45",
+  "type": "conquistas",
+  "name": {
+    "en": "An Unforgettable Soup",
+    "pt-BR": "Uma Sopa Inesquecível"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Delight the Governor.",
+    "pt-BR": "Agrade o Governador."
+  },
+  "order": 45
+}

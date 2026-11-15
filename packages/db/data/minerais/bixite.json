@@ -1,0 +1,14 @@
+{
+  "id": "bixite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Bixite",
+    "pt-BR": "Bixbita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

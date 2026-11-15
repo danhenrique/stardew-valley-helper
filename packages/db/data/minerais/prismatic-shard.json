@@ -1,0 +1,54 @@
+{
+  "id": "prismatic-shard",
+  "type": "minerais",
+  "subtype": "gem",
+  "name": {
+    "en": "Prismatic Shard",
+    "pt-BR": "Fragmento Prismático"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "dislikesOrHates": [
+      "haley"
+    ]
+  },
+  "museumDonation": true
+}

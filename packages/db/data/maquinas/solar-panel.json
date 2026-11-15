@@ -1,0 +1,25 @@
+{
+  "id": "solar-panel",
+  "type": "maquinas",
+  "name": {
+    "en": "Solar Panel",
+    "pt-BR": "Painel Solar"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "refined-quartz",
+        "qty": 10
+      },
+      {
+        "item": "iron-bar",
+        "qty": 5
+      },
+      {
+        "item": "gold-bar",
+        "qty": 5
+      }
+    ]
+  }
+}

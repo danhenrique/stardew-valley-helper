@@ -1,0 +1,320 @@
+{
+  "id": "desert-trader",
+  "type": "lojas",
+  "name": {
+    "en": "Desert Trader",
+    "pt-BR": "Comerciante do deserto"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "06:00",
+      "close": "02:00 (+1d)"
+    },
+    "closedDays": [],
+    "festivalClosure": "some"
+  },
+  "scheduleText": {
+    "open": {
+      "en": "6 AM – 2 AM",
+      "pt-BR": "6 AM – 2 AM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "Winter 15–17 (Night Market)",
+      "pt-BR": "Inverno 15–17 (Mercado Noturno)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "note": {
+      "en": "On Spring 25 (Pam's checkup) use Warp Totem: Desert or the Desert Obelisk.",
+      "pt-BR": "Em 25 de primavera, use o totem de teletransporte."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "artifact-trove",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item": "warp-totem-desert",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 3
+        }
+      ]
+    },
+    {
+      "item": "triple-shot-espresso",
+      "price": 0,
+      "materials": [
+        {
+          "item": "diamond",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item": "spicy-eel",
+      "price": 0,
+      "materials": [
+        {
+          "item": "ruby",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item": "mega-bomb",
+      "price": 0,
+      "materials": [
+        {
+          "item": "iridium-ore",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item": "bomb",
+      "price": 0,
+      "materials": [
+        {
+          "item": "quartz",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item": "warp-totem-desert",
+      "recipe": true,
+      "price": 0,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "item": "butterfly-hutch",
+      "price": 0,
+      "materials": [
+        {
+          "item": "bat-wing",
+          "qty": 200
+        }
+      ]
+    },
+    {
+      "item": "green-turban",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 50
+        }
+      ]
+    },
+    {
+      "item": "birch-double-bed",
+      "price": 0,
+      "materials": [
+        {
+          "item": "pearl",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item": "midnight-beach-bed",
+      "price": 0,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "item": "midnight-beach-double-bed",
+      "price": 0,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 30
+        }
+      ]
+    },
+    {
+      "item": "dark-piano",
+      "price": 0,
+      "materials": [
+        {
+          "item": "coal",
+          "qty": 999
+        }
+      ]
+    },
+    {
+      "item": "hay",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 1
+        }
+      ],
+      "availability": "mon"
+    },
+    {
+      "item": "fiber",
+      "price": 0,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 5
+        }
+      ],
+      "availability": "tue"
+    },
+    {
+      "item": "cloth",
+      "price": 0,
+      "materials": [
+        {
+          "item": "aquamarine",
+          "qty": 3
+        }
+      ],
+      "availability": "wed"
+    },
+    {
+      "item": "magic-rock-candy",
+      "price": 0,
+      "materials": [
+        {
+          "item": "prismatic-shard",
+          "qty": 3
+        }
+      ],
+      "availability": "thu"
+    },
+    {
+      "item": "cheese",
+      "price": 0,
+      "materials": [
+        {
+          "item": "emerald",
+          "qty": 1
+        }
+      ],
+      "availability": "fri"
+    },
+    {
+      "item": "spring-seeds",
+      "price": 0,
+      "materials": [
+        {
+          "item": "summer-seeds",
+          "qty": 2
+        }
+      ],
+      "availability": "sat"
+    },
+    {
+      "item": "summer-seeds",
+      "price": 0,
+      "materials": [
+        {
+          "item": "fall-seeds",
+          "qty": 2
+        }
+      ],
+      "availability": "sat"
+    },
+    {
+      "item": "fall-seeds",
+      "price": 0,
+      "materials": [
+        {
+          "item": "winter-seeds",
+          "qty": 2
+        }
+      ],
+      "availability": "sat"
+    },
+    {
+      "item": "winter-seeds",
+      "price": 0,
+      "materials": [
+        {
+          "item": "spring-seeds",
+          "qty": 2
+        }
+      ],
+      "availability": "sat"
+    },
+    {
+      "item": "staircase",
+      "price": 0,
+      "materials": [
+        {
+          "item": "jade",
+          "qty": 1
+        }
+      ],
+      "availability": "sun"
+    },
+    {
+      "item": "magic-turban",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 333
+        }
+      ],
+      "availability": "evenDays"
+    },
+    {
+      "item": "magic-cowboy-hat",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 333
+        }
+      ],
+      "availability": "oddDays"
+    },
+    {
+      "item": "void-ghost-pendant",
+      "price": 0,
+      "materials": [
+        {
+          "item": "void-essence",
+          "qty": 200
+        }
+      ],
+      "special": "onlyOneAtMaxKrobusFriendshipWhileSingle"
+    }
+  ]
+}

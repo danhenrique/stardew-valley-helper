@@ -1,0 +1,14 @@
+{
+ "id": "test-achievement",
+ "type": "conquistas",
+ "name": {
+  "en": "Tester",
+  "pt-BR": "Testador"
+ },
+ "nameVerified": true,
+ "description": {
+  "en": "Do a test",
+  "pt-BR": "Faça um teste"
+ },
+ "order": 7
+}

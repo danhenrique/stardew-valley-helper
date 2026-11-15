@@ -1,0 +1,13 @@
+{
+  "id": "elvish-jewelry",
+  "type": "artefatos",
+  "name": {
+    "en": "Elvish Jewelry",
+    "pt-BR": "Joias Élficas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

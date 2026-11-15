@@ -1,0 +1,60 @@
+{
+  "id": "magic-rock-candy",
+  "type": "consumiveis",
+  "name": {
+    "en": "Magic Rock Candy",
+    "pt-BR": "Doce-Pedra Mágico"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "prismatic-shard",
+          "qty": 3
+        }
+      ],
+      "availability": "thu"
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ]
+  }
+}

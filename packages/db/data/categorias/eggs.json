@@ -1,0 +1,20 @@
+{
+  "id": "eggs",
+  "type": "categorias",
+  "name": {
+    "en": "All eggs",
+    "pt-BR": "Todos os ovos"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "egg",
+    "brown-egg",
+    "large-egg",
+    "large-brown-egg",
+    "duck-egg",
+    "void-egg",
+    "golden-egg",
+    "ostrich-egg"
+  ]
+}

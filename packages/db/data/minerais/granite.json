@@ -1,0 +1,14 @@
+{
+  "id": "granite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Granite",
+    "pt-BR": "Granito"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

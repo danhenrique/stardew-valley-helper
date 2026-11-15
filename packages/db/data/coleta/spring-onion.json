@@ -1,0 +1,16 @@
+{
+  "id": "spring-onion",
+  "type": "coleta",
+  "name": {
+    "en": "Spring Onion",
+    "pt-BR": "Cebolinha"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "harvey",
+      "leah",
+      "linus"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "dwarf-scroll-iii",
+  "type": "artefatos",
+  "name": {
+    "en": "Dwarf Scroll III",
+    "pt-BR": "Pergaminho dos Anões III"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

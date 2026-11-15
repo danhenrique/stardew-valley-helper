@@ -1,0 +1,28 @@
+{
+  "id": "angler",
+  "type": "peixes",
+  "subtype": "legendary",
+  "name": {
+    "en": "Angler",
+    "pt-BR": "Tamboril"
+  },
+  "nameVerified": false,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "fall"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Wooden plank bridge north of JojaMart. Fishing level 3 required.",
+      "pt-BR": "Ponte de tábuas ao norte do JojaMart. Nível de pesca 3 necessário."
+    },
+    "locationVerified": false
+  }
+}

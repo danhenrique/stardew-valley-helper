@@ -1,0 +1,32 @@
+{
+  "id": "coffee-bean",
+  "type": "sementes",
+  "name": {
+    "en": "Coffee Bean",
+    "pt-BR": "Grão de Café"
+  },
+  "nameVerified": false,
+  "sellPrice": 15,
+  "artisan": {
+    "kegPrice": 30
+  },
+  "crop": {
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "growthDays": 10,
+    "phases": [
+      1,
+      2,
+      2,
+      3,
+      2
+    ],
+    "regrowDays": 2,
+    "lastPlantingDay": null,
+    "averageExtraYield": 3,
+    "produce": "coffee-bean"
+  },
+  "growsFrom": "coffee-bean"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "remix-lake-fish",
+  "type": "pacotes",
+  "name": {
+    "en": "Lake Fish",
+    "pt-BR": "Peixes de lago"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "largemouth-bass"
+    },
+    {
+      "item": "carp"
+    },
+    {
+      "item": "bullhead"
+    },
+    {
+      "item": "sturgeon",
+      "seasons": [
+        "summer",
+        "winter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dwarvish-safety-manual",
+  "type": "livros",
+  "name": {
+    "en": "Dwarvish Safety Manual",
+    "pt-BR": "Manual de Segurança dos Anões"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "likes": [
+      "kent"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "warp-totem-mountains",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Warp Totem Mountains",
+    "pt-BR": "Totem de Teletransporte: Montanhas"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 1
+      },
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "stone",
+        "qty": 25
+      }
+    ]
+  }
+}

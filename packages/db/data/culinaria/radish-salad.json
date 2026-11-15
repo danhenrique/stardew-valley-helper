@@ -1,0 +1,28 @@
+{
+  "id": "radish-salad",
+  "type": "culinaria",
+  "name": {
+    "en": "Radish Salad",
+    "pt-BR": "Salada de Rabanete"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "oil",
+        "qty": 1
+      },
+      {
+        "item": "vinegar",
+        "qty": 1
+      },
+      {
+        "item": "radish",
+        "qty": 1
+      }
+    ]
+  }
+}

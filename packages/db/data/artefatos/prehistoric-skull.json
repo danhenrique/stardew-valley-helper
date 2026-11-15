@@ -1,0 +1,13 @@
+{
+  "id": "prehistoric-skull",
+  "type": "artefatos",
+  "name": {
+    "en": "Prehistoric Skull",
+    "pt-BR": "Caveira Pré-histórica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

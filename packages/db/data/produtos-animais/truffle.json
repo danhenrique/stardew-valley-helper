@@ -1,0 +1,53 @@
+{
+  "id": "truffle",
+  "type": "produtos-animais",
+  "name": {
+    "en": "Truffle",
+    "pt-BR": "Trufa"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "gus"
+    ],
+    "loves": [
+      "leah"
+    ],
+    "dislikesOrHates": [
+      "maru"
+    ]
+  }
+}

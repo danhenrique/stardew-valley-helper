@@ -1,0 +1,16 @@
+{
+  "id": "mango-sapling",
+  "type": "arvores-frutiferas",
+  "name": {
+    "en": "Mango Sapling",
+    "pt-BR": null
+  },
+  "nameVerified": false,
+  "fruitTree": {
+    "fruit": "mango",
+    "season": "summer",
+    "daysToMature": 28,
+    "fruitsPerDay": 1,
+    "maxFruitOnTree": 3
+  }
+}

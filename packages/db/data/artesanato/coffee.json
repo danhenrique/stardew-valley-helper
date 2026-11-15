@@ -1,0 +1,26 @@
+{
+  "id": "coffee",
+  "type": "artesanato",
+  "name": {
+    "en": "Coffee",
+    "pt-BR": "Café"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 300
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "harvey"
+    ],
+    "neutral": [
+      "leo"
+    ]
+  }
+}

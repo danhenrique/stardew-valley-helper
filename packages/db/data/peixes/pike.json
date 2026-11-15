@@ -1,0 +1,31 @@
+{
+  "id": "pike",
+  "type": "peixes",
+  "name": {
+    "en": "Pike",
+    "pt-BR": "Lúcio"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest), Forest pond",
+      "pt-BR": "Rio (cidade + floresta), lago da floresta"
+    },
+    "locationVerified": false
+  }
+}

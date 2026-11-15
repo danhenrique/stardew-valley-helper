@@ -1,0 +1,35 @@
+{
+  "id": "pufferfish",
+  "type": "peixes",
+  "name": {
+    "en": "Pufferfish",
+    "pt-BR": "Baiacu"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer"
+    ],
+    "weather": "sun",
+    "timeWindows": [
+      {
+        "from": "12:00",
+        "to": "16:00"
+      }
+    ],
+    "location": {
+      "en": "Ocean, Ginger Island ocean",
+      "pt-BR": "Oceano, oceano da Ilha Gengibre"
+    },
+    "locationVerified": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "malachite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Malachite",
+    "pt-BR": "Malachita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

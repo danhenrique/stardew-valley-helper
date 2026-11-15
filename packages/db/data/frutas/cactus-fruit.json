@@ -1,0 +1,29 @@
+{
+  "id": "cactus-fruit",
+  "type": "frutas",
+  "name": {
+    "en": "Cactus Fruit",
+    "pt-BR": "Fruto do Cacto"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 150,
+      "availability": "tue"
+    }
+  ],
+  "giftTastes": {
+    "likes": [
+      "lewis"
+    ],
+    "loves": [
+      "linus",
+      "pam",
+      "sam"
+    ]
+  }
+}

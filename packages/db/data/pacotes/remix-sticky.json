@@ -1,0 +1,24 @@
+{
+  "id": "remix-sticky",
+  "type": "pacotes",
+  "name": {
+    "en": "Sticky",
+    "pt-BR": "Pegajoso"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 1,
+  "items": [
+    {
+      "item": "sap",
+      "qty": 500
+    }
+  ]
+}

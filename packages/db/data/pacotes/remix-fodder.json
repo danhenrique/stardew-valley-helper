@@ -1,0 +1,39 @@
+{
+  "id": "remix-fodder",
+  "type": "pacotes",
+  "name": {
+    "en": "Fodder",
+    "pt-BR": "Forragem"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "wheat",
+      "qty": 10,
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "hay",
+      "qty": 10
+    },
+    {
+      "item": "apple",
+      "qty": 3,
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

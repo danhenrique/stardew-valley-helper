@@ -1,0 +1,18 @@
+{
+  "id": "qi-gem",
+  "type": "itens-especiais",
+  "name": {
+    "en": "Qi Gem",
+    "pt-BR": "Gema Qi"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "goldenWalnuts": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "buy-seeds",
+  "type": "lembretes",
+  "name": {
+    "en": "New season",
+    "pt-BR": "Nova estação"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "A new season has begun - you can buy this season's crop seeds",
+    "pt-BR": "Uma nova estação começou - você pode comprar as sementes desta estação"
+  },
+  "trigger": {
+    "kind": "seasonStart"
+  },
+  "order": 7
+}

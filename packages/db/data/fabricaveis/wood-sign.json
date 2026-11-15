@@ -1,0 +1,17 @@
+{
+  "id": "wood-sign",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Wood Sign",
+    "pt-BR": "Placa de Madeira"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 25
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "stardew-valley-fair",
+  "type": "festivais",
+  "name": {
+    "en": "Stardew Valley Fair",
+    "pt-BR": "Feira de Stardew Valley"
+  },
+  "nameVerified": false,
+  "season": "fall",
+  "startDay": 16,
+  "endDay": 16,
+  "shopsClosed": true
+}

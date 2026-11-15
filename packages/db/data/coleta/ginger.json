@@ -1,0 +1,51 @@
+{
+  "id": "ginger",
+  "type": "coleta",
+  "name": {
+    "en": "Ginger",
+    "pt-BR": "Gengibre"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "clint",
+      "demetrius",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "kent",
+      "lewis",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "robin",
+      "sandy"
+    ],
+    "dislikesOrHates": [
+      "caroline",
+      "dwarf",
+      "elliott",
+      "haley",
+      "jas",
+      "jodi",
+      "krobus",
+      "leo",
+      "pierre",
+      "sam",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "harvey",
+      "leah",
+      "linus"
+    ]
+  }
+}

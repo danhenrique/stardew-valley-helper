@@ -1,0 +1,38 @@
+{
+  "id": "night-fishing",
+  "type": "pacotes",
+  "name": {
+    "en": "Night Fishing Bundle",
+    "pt-BR": "Pacote de pesca noturna"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "walleye",
+      "seasons": [
+        "fall"
+      ],
+      "rainOnly": true
+    },
+    {
+      "item": "bream"
+    },
+    {
+      "item": "eel",
+      "seasons": [
+        "spring",
+        "fall"
+      ],
+      "rainOnly": true
+    }
+  ]
+}

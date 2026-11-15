@@ -1,0 +1,30 @@
+{
+  "id": "cheese",
+  "type": "artesanato",
+  "name": {
+    "en": "Cheese",
+    "pt-BR": "Queijo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "emerald",
+          "qty": 1
+        }
+      ],
+      "availability": "fri"
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey"
+    ]
+  }
+}

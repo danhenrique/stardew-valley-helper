@@ -1,0 +1,49 @@
+{
+  "id": "dye",
+  "type": "pacotes",
+  "name": {
+    "en": "Dye Bundle",
+    "pt-BR": "Pacote de tingimento"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 6,
+  "items": [
+    {
+      "item": "red-mushroom",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "sea-urchin"
+    },
+    {
+      "item": "sunflower",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "duck-feather"
+    },
+    {
+      "item": "aquamarine"
+    },
+    {
+      "item": "red-cabbage",
+      "seasons": [
+        "summer"
+      ]
+    }
+  ]
+}

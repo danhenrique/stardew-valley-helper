@@ -1,0 +1,24 @@
+{
+  "id": "earth-obelisk",
+  "type": "construcoes",
+  "name": {
+    "en": "Earth Obelisk",
+    "pt-BR": "Obelisco da Terra"
+  },
+  "nameVerified": true,
+  "construction": {
+    "price": 500000,
+    "materials": [
+      {
+        "item": "iridium-bar",
+        "qty": 10
+      },
+      {
+        "item": "earth-crystal",
+        "qty": 10
+      }
+    ],
+    "builtBy": "wizard"
+  },
+  "category": "magical"
+}

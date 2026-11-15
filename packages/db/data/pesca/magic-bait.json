@@ -1,0 +1,30 @@
+{
+  "id": "magic-bait",
+  "type": "pesca",
+  "name": {
+    "en": "Magic Bait",
+    "pt-BR": "Isca Mágica"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 5
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "radioactive-ore",
+        "qty": 1
+      },
+      {
+        "item": "bug-meat",
+        "qty": 3
+      }
+    ]
+  }
+}

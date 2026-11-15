@@ -1,0 +1,40 @@
+{
+  "id": "movie-theater",
+  "type": "lojas",
+  "name": {
+    "en": "Movie Theater",
+    "pt-BR": "Cinema"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "closedDays": [],
+    "festivalClosure": "none"
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 9 PM",
+      "pt-BR": "9 AM – 9 PM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    }
+  },
+  "scheduleTextVerified": false
+}

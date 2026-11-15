@@ -1,0 +1,78 @@
+{
+  "id": "traveling-cart",
+  "type": "lojas",
+  "name": {
+    "en": "Traveling Cart",
+    "pt-BR": "Carroça viajante"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "06:00",
+      "close": "20:00"
+    },
+    "closedDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "sat"
+    ],
+    "festivalClosure": "none",
+    "dateHours": [
+      {
+        "date": {
+          "season": "winter",
+          "day": 15
+        },
+        "hours": {
+          "open": "17:00",
+          "close": "02:00 (+1d)"
+        }
+      },
+      {
+        "date": {
+          "season": "winter",
+          "day": 16
+        },
+        "hours": {
+          "open": "17:00",
+          "close": "02:00 (+1d)"
+        }
+      },
+      {
+        "date": {
+          "season": "winter",
+          "day": 17
+        },
+        "hours": {
+          "open": "17:00",
+          "close": "02:00 (+1d)"
+        }
+      }
+    ]
+  },
+  "scheduleText": {
+    "open": {
+      "en": "6 AM – 8 PM",
+      "pt-BR": "6 AM – 8 PM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "Mon–Thu / Saturday",
+      "pt-BR": "Seg–qui / sábado"
+    },
+    "festival": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    }
+  },
+  "scheduleTextVerified": false
+}

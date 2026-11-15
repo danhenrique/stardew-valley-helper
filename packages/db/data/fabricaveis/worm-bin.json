@@ -1,0 +1,29 @@
+{
+  "id": "worm-bin",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Worm Bin",
+    "pt-BR": "Cesto de Minhocas"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 25
+      },
+      {
+        "item": "gold-bar",
+        "qty": 1
+      },
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "fiber",
+        "qty": 50
+      }
+    ]
+  }
+}

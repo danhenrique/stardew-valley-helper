@@ -1,0 +1,14 @@
+{
+  "id": "achievement-4",
+  "type": "conquistas",
+  "name": {
+    "en": "Millionaire (1mil)",
+    "pt-BR": "Milionário (1 milhão)"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Earn 1,000,000g",
+    "pt-BR": "Ganhe 1.000.000 ouros."
+  },
+  "order": 4
+}

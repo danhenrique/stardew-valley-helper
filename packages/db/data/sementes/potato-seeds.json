@@ -1,0 +1,38 @@
+{
+  "id": "potato-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Potato Seeds",
+    "pt-BR": "Sementes de Batata"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 6,
+    "phases": [
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 22,
+    "averageExtraYield": 0.25,
+    "produce": "potato"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 50,
+      "season": "spring"
+    },
+    {
+      "shop": "joja",
+      "price": 62,
+      "season": "spring"
+    }
+  ]
+}

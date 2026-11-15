@@ -1,0 +1,16 @@
+{
+  "id": "milk",
+  "type": "categorias",
+  "name": {
+    "en": "All milk",
+    "pt-BR": "Todo o leite"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "milk",
+    "large-milk",
+    "goat-milk",
+    "large-goat-milk"
+  ]
+}

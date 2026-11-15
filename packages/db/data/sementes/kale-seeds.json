@@ -1,0 +1,37 @@
+{
+  "id": "kale-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Kale Seeds",
+    "pt-BR": "Sementes de Couve"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 6,
+    "phases": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 22,
+    "averageExtraYield": 0,
+    "produce": "kale"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 70,
+      "season": "spring"
+    },
+    {
+      "shop": "joja",
+      "price": 87,
+      "season": "spring"
+    }
+  ]
+}

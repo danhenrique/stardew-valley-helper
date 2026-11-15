@@ -1,0 +1,34 @@
+{
+  "id": "baked-fish",
+  "type": "culinaria",
+  "name": {
+    "en": "Baked Fish",
+    "pt-BR": "Peixe Assado"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 200
+    }
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "sunfish",
+        "qty": 1
+      },
+      {
+        "item": "bream",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      }
+    ]
+  }
+}

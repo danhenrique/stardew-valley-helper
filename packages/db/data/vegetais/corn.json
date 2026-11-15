@@ -1,0 +1,23 @@
+{
+  "id": "corn",
+  "type": "vegetais",
+  "name": {
+    "en": "Corn",
+    "pt-BR": "Milho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 50,
+  "artisan": {
+    "kegPrice": 112,
+    "jarPrice": 150
+  },
+  "growsFrom": "corn-seeds",
+  "giftTastes": {
+    "dislikesOrHates": [
+      "pierre"
+    ]
+  }
+}

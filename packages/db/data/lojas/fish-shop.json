@@ -1,0 +1,177 @@
+{
+  "id": "fish-shop",
+  "type": "lojas",
+  "name": {
+    "en": "Fish Shop",
+    "pt-BR": "Peixaria"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "17:00"
+    },
+    "hoursAfterBoatRepair": {
+      "open": "08:00",
+      "close": "17:00"
+    },
+    "closedDays": [
+      "sat"
+    ],
+    "openIfRainOnly": [
+      "sat"
+    ],
+    "festivalClosure": "all",
+    "dateHours": [
+      {
+        "date": {
+          "season": "spring",
+          "day": 9
+        },
+        "hours": {
+          "open": "09:00",
+          "close": "10:00"
+        }
+      }
+    ]
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 5 PM",
+      "pt-BR": "9 AM – 5 PM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "boat": {
+      "en": "8 AM – 5 PM",
+      "pt-BR": "8 AM – 5 PM"
+    },
+    "closed": {
+      "en": "Saturday (when not raining)",
+      "pt-BR": "Sábado (quando não chove)"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "Spring 9",
+      "pt-BR": "Primavera 9"
+    },
+    "note": {
+      "en": "Open on rainy Saturdays.\nOnly 9–10 AM on Spring 9.",
+      "pt-BR": "Aberto em sábados chuvosos.\nApenas das 9h às 10h em 9 de primavera."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "fish-smoker",
+      "recipe": true,
+      "price": 10000,
+      "fishingLevel": 0
+    },
+    {
+      "item": "trout-soup",
+      "price": 250,
+      "fishingLevel": 0
+    },
+    {
+      "item": "bait",
+      "price": 5,
+      "fishingLevel": 2
+    },
+    {
+      "item": "crab-pot",
+      "price": 1500,
+      "fishingLevel": 3
+    },
+    {
+      "item": "spinner",
+      "price": 500,
+      "fishingLevel": 6
+    },
+    {
+      "item": "trap-bobber",
+      "price": 500,
+      "fishingLevel": 6
+    },
+    {
+      "item": "lead-bobber",
+      "price": 200,
+      "fishingLevel": 6
+    },
+    {
+      "item": "treasure-hunter",
+      "price": 750,
+      "fishingLevel": 7
+    },
+    {
+      "item": "cork-bobber",
+      "price": 750,
+      "fishingLevel": 7
+    },
+    {
+      "item": "barbed-hook",
+      "price": 1000,
+      "fishingLevel": 8
+    },
+    {
+      "item": "dressed-spinner",
+      "price": 1000,
+      "fishingLevel": 8
+    },
+    {
+      "item": "magnet",
+      "price": 1000,
+      "fishingLevel": 9
+    },
+    {
+      "item": "bamboo-pole",
+      "price": 500,
+      "fishingLevel": 0
+    },
+    {
+      "item": "fiberglass-rod",
+      "price": 1800,
+      "fishingLevel": 2
+    },
+    {
+      "item": "iridium-rod",
+      "price": 7500,
+      "fishingLevel": 6
+    },
+    {
+      "item": "training-rod",
+      "price": 25,
+      "fishingLevel": 0
+    },
+    {
+      "item": "copper-pan",
+      "price": 2500,
+      "fishingLevel": 0
+    },
+    {
+      "item": "large-fish-tank",
+      "price": 2000,
+      "fishingLevel": 0
+    },
+    {
+      "item": "small-fish-tank",
+      "price": 500,
+      "fishingLevel": 0
+    },
+    {
+      "item": "deluxe-fish-tank",
+      "price": 5000,
+      "fishingLevel": 0
+    },
+    {
+      "item": "fisher-double-bed",
+      "price": 25000,
+      "fishingLevel": 0
+    }
+  ]
+}

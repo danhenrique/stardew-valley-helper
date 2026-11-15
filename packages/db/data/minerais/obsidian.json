@@ -1,0 +1,19 @@
+{
+  "id": "obsidian",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Obsidian",
+    "pt-BR": "Obsidiana"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "giftTastes": {
+    "loves": [
+      "sebastian"
+    ]
+  },
+  "museumDonation": true
+}

@@ -1,0 +1,208 @@
+{
+  "id": "jodi",
+  "type": "personagens",
+  "name": {
+    "en": "Jodi",
+    "pt-BR": "Jodi"
+  },
+  "nameVerified": false,
+  "marriageable": false,
+  "birthday": {
+    "season": "fall",
+    "day": 11
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "chocolate-cake"
+      },
+      {
+        "item": "crispy-bass"
+      },
+      {
+        "item": "diamond"
+      },
+      {
+        "item": "eggplant-parmesan"
+      },
+      {
+        "item": "fried-eel"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pancakes"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "rhubarb-pie"
+      },
+      {
+        "item": "vegetable-medley"
+      }
+    ],
+    "likes": [
+      {
+        "category": "fruits",
+        "except": [
+          "spice-berry"
+        ]
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "milk"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      }
+    ],
+    "dislikesOrHates": [
+      "daffodil",
+      "dandelion",
+      "garlic",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "leek",
+      "quartz",
+      "snow-yam",
+      "spice-berry",
+      "wild-horseradish",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "the-zuzu-city-express"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "mysterium",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "it-howls-in-the-rain"
+    ],
+    "lovedSnacks": [
+      "chocolate-popcorn",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "cappuccino-mousse-cake",
+      "fries",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "nachos",
+      "personal-pizza",
+      "popcorn",
+      "salmon-burger",
+      "salted-peanuts",
+      "star-cookie"
+    ]
+  }
+}

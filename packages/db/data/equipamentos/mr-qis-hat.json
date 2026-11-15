@@ -1,0 +1,19 @@
+{
+  "id": "mr-qis-hat",
+  "type": "equipamentos",
+  "subtype": "hat",
+  "name": {
+    "en": "Mr. Qi's Hat",
+    "pt-BR": "Chapéu do Sr. Qi"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ostrich-incubator",
+  "type": "maquinas",
+  "name": {
+    "en": "Ostrich Incubator",
+    "pt-BR": "Incubadora de Avestruzes"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bone-fragment",
+        "qty": 50
+      },
+      {
+        "item": "hardwood",
+        "qty": 50
+      },
+      {
+        "item": "cinder-shard",
+        "qty": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "wizard",
+  "type": "personagens",
+  "name": {
+    "en": "Wizard",
+    "pt-BR": "Feiticeiro"
+  },
+  "nameVerified": false,
+  "marriageable": false,
+  "birthday": {
+    "season": "winter",
+    "day": 17
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "book-of-mysteries"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "purple-mushroom"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "solar-essence"
+      },
+      {
+        "item": "super-cucumber"
+      },
+      {
+        "item": "void-essence"
+      }
+    ],
+    "likes": [
+      {
+        "item": "iridium-bar"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "category": "trinkets"
+      },
+      {
+        "category": "geode-minerals"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits"
+      }
+    ],
+    "dislikesOrHates": [
+      "daffodil",
+      "dandelion",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "leek",
+      "salmonberry",
+      "slime",
+      "snow-yam",
+      "wild-horseradish",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "mysterium"
+    ],
+    "likedMovies": [],
+    "lovedSnacks": [
+      "black-licorice",
+      "star-cookie",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "cotton-candy",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "jawbreaker",
+      "rock-candy",
+      "salmon-burger",
+      "sour-slimes"
+    ]
+  }
+}

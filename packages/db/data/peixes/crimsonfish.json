@@ -1,0 +1,28 @@
+{
+  "id": "crimsonfish",
+  "type": "peixes",
+  "subtype": "legendary",
+  "name": {
+    "en": "Crimsonfish",
+    "pt-BR": "Peixe-carmim"
+  },
+  "nameVerified": false,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "East bridge at the Beach, in deep water. Fishing level 5 required.",
+      "pt-BR": "Ponte leste da Praia, em água funda. Nível de pesca 5 necessário."
+    },
+    "locationVerified": false
+  }
+}

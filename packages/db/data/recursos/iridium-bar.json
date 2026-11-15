@@ -1,0 +1,23 @@
+{
+  "id": "iridium-bar",
+  "type": "recursos",
+  "name": {
+    "en": "Iridium Bar",
+    "pt-BR": "Barra de Irídio"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "krobus",
+      "maru",
+      "willy"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ],
+    "likes": [
+      "wizard"
+    ]
+  }
+}

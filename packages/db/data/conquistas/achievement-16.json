@@ -1,0 +1,14 @@
+{
+  "id": "achievement-16",
+  "type": "conquistas",
+  "name": {
+    "en": "Moving Up",
+    "pt-BR": "Subindo de Vida"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Upgrade your house.",
+    "pt-BR": "Atualize sua casa."
+  },
+  "order": 16
+}

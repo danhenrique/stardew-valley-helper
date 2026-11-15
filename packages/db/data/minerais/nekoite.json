@@ -1,0 +1,14 @@
+{
+  "id": "nekoite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Nekoite",
+    "pt-BR": "Necoíta"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

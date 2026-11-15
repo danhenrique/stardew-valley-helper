@@ -1,0 +1,24 @@
+{
+  "id": "strawberry",
+  "type": "frutas",
+  "name": {
+    "en": "Strawberry",
+    "pt-BR": "Morango"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 120,
+  "artisan": {
+    "kegPrice": 360,
+    "jarPrice": 290
+  },
+  "growsFrom": "strawberry-seeds",
+  "giftTastes": {
+    "loves": [
+      "demetrius",
+      "maru"
+    ]
+  }
+}

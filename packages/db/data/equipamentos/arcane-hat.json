@@ -1,0 +1,16 @@
+{
+  "id": "arcane-hat",
+  "type": "equipamentos",
+  "subtype": "hat",
+  "name": {
+    "en": "Arcane Hat",
+    "pt-BR": "Chapéu Arcano"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 20000
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "crystal-path",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Crystal Path",
+    "pt-BR": "Caminho de Cristal"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "refined-quartz",
+        "qty": 1
+      }
+    ]
+  }
+}

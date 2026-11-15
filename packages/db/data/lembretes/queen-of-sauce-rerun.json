@@ -1,0 +1,20 @@
+{
+  "id": "queen-of-sauce-rerun",
+  "type": "lembretes",
+  "name": {
+    "en": "Queen of Sauce (rerun)",
+    "pt-BR": "A Rainha do Molho (reprise)"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "Wednesday - rerun of the cooking recipe on TV",
+    "pt-BR": "Quarta - reprise da receita de culinária na TV"
+  },
+  "trigger": {
+    "kind": "weekly",
+    "weekdays": [
+      "wed"
+    ]
+  },
+  "order": 4
+}

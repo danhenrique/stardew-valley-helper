@@ -1,0 +1,14 @@
+{
+  "id": "rabbit",
+  "type": "animais",
+  "name": {
+    "en": "Rabbit",
+    "pt-BR": "Coelho"
+  },
+  "nameVerified": true,
+  "purchase": {
+    "shop": "ranch",
+    "price": 8000
+  },
+  "housing": "deluxe-coop"
+}

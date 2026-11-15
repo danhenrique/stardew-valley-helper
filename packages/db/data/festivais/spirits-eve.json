@@ -1,0 +1,13 @@
+{
+  "id": "spirits-eve",
+  "type": "festivais",
+  "name": {
+    "en": "Spirit's Eve",
+    "pt-BR": "Véspera dos Espíritos"
+  },
+  "nameVerified": false,
+  "season": "fall",
+  "startDay": 27,
+  "endDay": 27,
+  "shopsClosed": false
+}

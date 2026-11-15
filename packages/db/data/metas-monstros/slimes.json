@@ -1,0 +1,12 @@
+{
+  "id": "slimes",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Slimes",
+    "pt-BR": "Gosmas"
+  },
+  "nameVerified": true,
+  "killsRequired": 1000,
+  "reward": "slime-charmer-ring",
+  "location": "adventurers-guild"
+}

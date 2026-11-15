@@ -1,0 +1,210 @@
+{
+  "id": "dwarf",
+  "type": "personagens",
+  "name": {
+    "en": "Dwarf",
+    "pt-BR": "Anão"
+  },
+  "nameVerified": false,
+  "marriageable": false,
+  "birthday": {
+    "season": "summer",
+    "day": 22
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "amethyst"
+      },
+      {
+        "item": "aquamarine"
+      },
+      {
+        "item": "emerald"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "jade"
+      },
+      {
+        "item": "lava-eel"
+      },
+      {
+        "item": "lemon-stone"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "omni-geode"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "ruby"
+      },
+      {
+        "item": "topaz"
+      }
+    ],
+    "likes": [
+      {
+        "item": "cave-carrot"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "category": "artifacts"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "solar-essence"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "void-essence"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "daffodil",
+      "dandelion",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "leek",
+      "salmonberry",
+      "snow-yam",
+      "wild-horseradish",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "mysterium",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "it-howls-in-the-rain",
+      "the-zuzu-city-express"
+    ],
+    "likedMovies": [],
+    "lovedSnacks": [
+      "rock-candy",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "cotton-candy",
+      "ice-cream-sandwich",
+      "jawbreaker",
+      "salmon-burger",
+      "sour-slimes",
+      "star-cookie"
+    ]
+  }
+}

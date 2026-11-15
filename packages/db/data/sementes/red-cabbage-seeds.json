@@ -1,0 +1,33 @@
+{
+  "id": "red-cabbage-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Red Cabbage Seeds",
+    "pt-BR": "Sementes de Repolho Roxo"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 9,
+    "phases": [
+      2,
+      1,
+      2,
+      2,
+      2
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 19,
+    "averageExtraYield": 0,
+    "produce": "red-cabbage"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100,
+      "season": "summer"
+    }
+  ]
+}

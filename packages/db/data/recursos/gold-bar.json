@@ -1,0 +1,30 @@
+{
+  "id": "gold-bar",
+  "type": "recursos",
+  "name": {
+    "en": "Gold Bar",
+    "pt-BR": "Barra de Ouro"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "maru",
+      "willy"
+    ],
+    "likes": [
+      "krobus"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ]
+  },
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 2
+      }
+    ]
+  }
+}

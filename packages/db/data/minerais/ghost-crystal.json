@@ -1,0 +1,14 @@
+{
+  "id": "ghost-crystal",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Ghost Crystal",
+    "pt-BR": "Cristal-fantasma"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

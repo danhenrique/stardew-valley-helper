@@ -1,0 +1,10 @@
+# Defines the checks to skip entirely. Remove if your requirements differ.
+skip-check:
+  # Lambda function suppressions
+  - CKV_AWS_115 # Concurrent execution limit
+  - CKV_AWS_116 # Dead Letter Queue
+  - CKV_AWS_117 # Lambda functions in VPC
+  - CKV_AWS_173 # Encrypt Lambda environment variables
+  - CKV_AWS_272 # Code signing
+  # Cost choices (user asked for the cheapest setup, see cost_settings in src/locals.tf)
+  - CKV_AWS_145 # Website and distribution log buckets use S3-managed encryption instead of a customer-managed KMS key

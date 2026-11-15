@@ -1,0 +1,35 @@
+{
+  "id": "albacore",
+  "type": "peixes",
+  "name": {
+    "en": "Albacore",
+    "pt-BR": "Albacora"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "11:00"
+      },
+      {
+        "from": "18:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

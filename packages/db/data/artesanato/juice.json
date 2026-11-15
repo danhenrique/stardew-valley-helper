@@ -1,0 +1,12 @@
+{
+  "id": "juice",
+  "type": "artesanato",
+  "name": {
+    "en": "Juice",
+    "pt-BR": "Suco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ]
+}

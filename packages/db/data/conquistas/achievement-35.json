@@ -1,0 +1,14 @@
+{
+  "id": "achievement-35",
+  "type": "conquistas",
+  "name": {
+    "en": "Mystery Of The Stardrops",
+    "pt-BR": "O Mistério das Gotas Estelares"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Find all the Stardrops.",
+    "pt-BR": "Obtenha todas as gotas estelares."
+  },
+  "order": 35
+}

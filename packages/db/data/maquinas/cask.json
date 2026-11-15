@@ -1,0 +1,21 @@
+{
+  "id": "cask",
+  "type": "maquinas",
+  "name": {
+    "en": "Cask",
+    "pt-BR": "Barril de Madeira"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 20
+      },
+      {
+        "item": "hardwood",
+        "qty": 1
+      }
+    ]
+  }
+}

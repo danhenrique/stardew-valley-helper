@@ -1,0 +1,50 @@
+{
+  "id": "remix-crab-pot",
+  "type": "pacotes",
+  "name": {
+    "en": "Crab Pot",
+    "pt-BR": "Armadilha de caranguejo"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 5,
+  "items": [
+    {
+      "item": "lobster"
+    },
+    {
+      "item": "crab"
+    },
+    {
+      "item": "shrimp"
+    },
+    {
+      "item": "crayfish"
+    },
+    {
+      "item": "snail"
+    },
+    {
+      "item": "periwinkle"
+    },
+    {
+      "item": "mussel"
+    },
+    {
+      "item": "cockle"
+    },
+    {
+      "item": "oyster"
+    },
+    {
+      "item": "clam"
+    }
+  ]
+}

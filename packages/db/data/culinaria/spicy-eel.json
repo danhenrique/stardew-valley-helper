@@ -1,0 +1,49 @@
+{
+  "id": "spicy-eel",
+  "type": "culinaria",
+  "name": {
+    "en": "Spicy Eel",
+    "pt-BR": "Enguia Picante"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 350
+    },
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "ruby",
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail"
+    ],
+    "dislikesOrHates": [
+      "emily",
+      "evelyn"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "eel",
+        "qty": 1
+      },
+      {
+        "item": "hot-pepper",
+        "qty": 1
+      }
+    ]
+  }
+}

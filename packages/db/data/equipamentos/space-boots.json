@@ -1,0 +1,16 @@
+{
+  "id": "space-boots",
+  "type": "equipamentos",
+  "subtype": "boots",
+  "name": {
+    "en": "Space Boots",
+    "pt-BR": "Botas Espaciais"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 5000
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "blueberry",
+  "type": "frutas",
+  "name": {
+    "en": "Blueberry",
+    "pt-BR": "Mirtilo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 50,
+  "artisan": {
+    "kegPrice": 150,
+    "jarPrice": 150
+  },
+  "growsFrom": "blueberry-seeds",
+  "giftTastes": {
+    "likes": [
+      "lewis"
+    ]
+  }
+}

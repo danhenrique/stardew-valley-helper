@@ -1,0 +1,26 @@
+{
+  "id": "hay",
+  "type": "recursos",
+  "name": {
+    "en": "Hay",
+    "pt-BR": "Feno"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "ranch",
+      "price": 50
+    },
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 1
+        }
+      ],
+      "availability": "mon"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "red-cabbage",
+  "type": "vegetais",
+  "name": {
+    "en": "Red Cabbage",
+    "pt-BR": "Repolho Roxo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 260,
+  "artisan": {
+    "kegPrice": 585,
+    "jarPrice": 570
+  },
+  "growsFrom": "red-cabbage-seeds"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "quality-fertilizer",
+  "type": "fertilizantes",
+  "name": {
+    "en": "Quality Fertilizer",
+    "pt-BR": "Fertilizante de Qualidade"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 150
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "sap",
+        "qty": 2
+      },
+      {
+        "category": "fish",
+        "qty": 1
+      }
+    ]
+  }
+}

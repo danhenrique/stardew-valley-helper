@@ -1,0 +1,12 @@
+{
+  "id": "fiddlehead-fern",
+  "type": "vegetais",
+  "name": {
+    "en": "Fiddlehead Fern",
+    "pt-BR": "Broto de Samambaia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ]
+}

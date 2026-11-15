@@ -1,0 +1,32 @@
+{
+  "id": "geologist",
+  "type": "pacotes",
+  "name": {
+    "en": "Geologist's Bundle",
+    "pt-BR": "Pacote do geólogo"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "boiler-room",
+    "name": {
+      "en": "Boiler Room",
+      "pt-BR": "Sala da Caldeira"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "quartz"
+    },
+    {
+      "item": "earth-crystal"
+    },
+    {
+      "item": "frozen-tear"
+    },
+    {
+      "item": "fire-quartz"
+    }
+  ]
+}

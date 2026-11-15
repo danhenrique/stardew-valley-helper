@@ -1,0 +1,17 @@
+{
+  "id": "woodcutters-weekly",
+  "type": "livros",
+  "name": {
+    "en": "Woodcutter's Weekly",
+    "pt-BR": "Semanário do Lenhador"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "likes": [
+      "robin"
+    ]
+  }
+}

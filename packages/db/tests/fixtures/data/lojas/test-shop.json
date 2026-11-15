@@ -1,0 +1,47 @@
+{
+ "id": "test-shop",
+ "type": "lojas",
+ "name": {
+  "en": "Test Shop",
+  "pt-BR": "Loja Teste"
+ },
+ "nameVerified": true,
+ "schedule": {
+  "hours": {
+   "open": "09:00",
+   "close": "17:00"
+  },
+  "closedDays": [
+   "wed"
+  ]
+ },
+ "scheduleText": {
+  "open": {
+   "en": "9am-5pm",
+   "pt-BR": "9h-17h"
+  }
+ },
+ "scheduleTextVerified": false,
+ "offers": [
+  {
+   "item": "test-seed",
+   "price": 100,
+   "season": "spring"
+  },
+  {
+   "item": "test-seed",
+   "recipe": true,
+   "price": 1000
+  },
+  {
+   "item": "test-fruit",
+   "priceByYear": {
+    "year1": 50,
+    "year2plus": 75
+   },
+   "currency": {
+    "qiGems": 2
+   }
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "test-villager",
+ "type": "personagens",
+ "name": {
+  "en": "Test Villager",
+  "pt-BR": "Morador Teste"
+ },
+ "nameVerified": false,
+ "marriageable": true,
+ "birthday": {
+  "season": "fall",
+  "day": 13
+ },
+ "gifts": {
+  "loves": [
+   {
+    "item": "test-fruit"
+   }
+  ],
+  "likes": [
+   {
+    "category": "test-category",
+    "except": [
+     "test-veg"
+    ]
+   }
+  ],
+  "dislikesOrHates": [
+   "test-veg"
+  ]
+ },
+ "movieTheater": {
+  "lovedMovies": [
+   "test-movie"
+  ],
+  "likedSnacks": [
+   "test-snack"
+  ]
+ }
+}

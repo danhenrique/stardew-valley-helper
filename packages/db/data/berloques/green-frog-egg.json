@@ -1,0 +1,21 @@
+{
+  "id": "green-frog-egg",
+  "type": "berloques",
+  "name": {
+    "en": "Green Frog Egg",
+    "pt-BR": "Ovo de Sapo Verde"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ],
+  "giftTastes": {
+    "neutral": [
+      "alex"
+    ],
+    "loves": [
+      "sebastian",
+      "vincent"
+    ]
+  }
+}

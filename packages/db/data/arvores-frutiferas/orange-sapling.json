@@ -1,0 +1,22 @@
+{
+  "id": "orange-sapling",
+  "type": "arvores-frutiferas",
+  "name": {
+    "en": "Orange Sapling",
+    "pt-BR": "Muda de Laranjeira"
+  },
+  "nameVerified": true,
+  "fruitTree": {
+    "fruit": "orange",
+    "season": "summer",
+    "daysToMature": 28,
+    "fruitsPerDay": 1,
+    "maxFruitOnTree": 3
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 4000
+    }
+  ]
+}

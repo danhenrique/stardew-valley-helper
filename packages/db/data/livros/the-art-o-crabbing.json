@@ -1,0 +1,17 @@
+{
+  "id": "the-art-o-crabbing",
+  "type": "livros",
+  "name": {
+    "en": "The Art O' Crabbing",
+    "pt-BR": "A Arte dos Covos"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "loves": [
+      "willy"
+    ]
+  }
+}

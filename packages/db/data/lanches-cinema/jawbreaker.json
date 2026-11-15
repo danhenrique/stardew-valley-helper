@@ -1,0 +1,9 @@
+{
+  "id": "jawbreaker",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Jawbreaker",
+    "pt-BR": "Jawbreaker"
+  },
+  "nameVerified": true
+}

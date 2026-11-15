@@ -1,0 +1,28 @@
+{
+  "id": "trap-bobber",
+  "type": "pesca",
+  "name": {
+    "en": "Trap Bobber",
+    "pt-BR": "Boia-armadilha"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 500,
+      "fishingLevel": 6
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 1
+      },
+      {
+        "item": "sap",
+        "qty": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "field-snack",
+  "type": "consumiveis",
+  "name": {
+    "en": "Field Snack",
+    "pt-BR": "Lanchinho"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "alex"
+    ]
+  },
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "acorn",
+        "qty": 1
+      },
+      {
+        "item": "maple-seed",
+        "qty": 1
+      },
+      {
+        "item": "pine-cone",
+        "qty": 1
+      }
+    ]
+  }
+}

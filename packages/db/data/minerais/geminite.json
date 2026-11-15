@@ -1,0 +1,14 @@
+{
+  "id": "geminite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Geminite",
+    "pt-BR": "Geminita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

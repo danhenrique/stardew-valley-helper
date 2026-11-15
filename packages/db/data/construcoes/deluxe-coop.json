@@ -1,0 +1,26 @@
+{
+  "id": "deluxe-coop",
+  "type": "construcoes",
+  "name": {
+    "en": "Deluxe Coop",
+    "pt-BR": "Galinheiro de Luxo"
+  },
+  "nameVerified": true,
+  "category": "animal",
+  "construction": {
+    "price": 20000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 500
+      },
+      {
+        "item": "stone",
+        "qty": 200
+      }
+    ],
+    "buildDays": 3,
+    "upgradeFrom": "big-coop",
+    "builtBy": "carpenter"
+  }
+}

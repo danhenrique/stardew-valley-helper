@@ -1,0 +1,13 @@
+{
+  "id": "amphibian-fossil",
+  "type": "artefatos",
+  "name": {
+    "en": "Amphibian Fossil",
+    "pt-BR": "Fóssil de Anfíbio"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

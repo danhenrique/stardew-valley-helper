@@ -1,0 +1,19 @@
+{
+  "id": "pomegranate",
+  "type": "frutas",
+  "subtype": "tree-fruit",
+  "name": {
+    "en": "Pomegranate",
+    "pt-BR": "Romã"
+  },
+  "nameVerified": true,
+  "tags": [
+    "treeFruit"
+  ],
+  "growsFrom": "pomegranate-sapling",
+  "giftTastes": {
+    "loves": [
+      "elliott"
+    ]
+  }
+}

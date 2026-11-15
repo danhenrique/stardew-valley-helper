@@ -1,0 +1,15 @@
+{
+  "id": "golden-mystery-box",
+  "type": "geodos",
+  "name": {
+    "en": "Golden Mystery Box",
+    "pt-BR": "Caixa Misteriosa Dourada"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25
+    }
+  ]
+}

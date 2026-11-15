@@ -1,0 +1,35 @@
+{
+  "id": "remix-enchanter",
+  "type": "pacotes",
+  "name": {
+    "en": "Enchanter's",
+    "pt-BR": "Feiticeiro"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "oak-resin"
+    },
+    {
+      "item": "wine"
+    },
+    {
+      "item": "rabbits-foot"
+    },
+    {
+      "item": "pomegranate",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

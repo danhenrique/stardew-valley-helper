@@ -1,0 +1,9 @@
+{
+  "id": "apple-slices",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Apple Slices",
+    "pt-BR": "Pedaços de Maçã"
+  },
+  "nameVerified": true
+}

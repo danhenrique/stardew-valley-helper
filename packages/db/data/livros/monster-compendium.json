@@ -1,0 +1,21 @@
+{
+  "id": "monster-compendium",
+  "type": "livros",
+  "name": {
+    "en": "Monster Compendium",
+    "pt-BR": "Compêndio de Monstros"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "krobus"
+    ],
+    "likes": [
+      "sebastian"
+    ]
+  }
+}

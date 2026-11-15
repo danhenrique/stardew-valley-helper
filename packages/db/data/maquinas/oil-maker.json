@@ -1,0 +1,36 @@
+{
+  "id": "oil-maker",
+  "type": "maquinas",
+  "name": {
+    "en": "Oil Maker",
+    "pt-BR": "Gerador de Óleo"
+  },
+  "nameVerified": false,
+  "category": "artisan",
+  "processing": [
+    {
+      "days": 1,
+      "output": "oil",
+      "label": {
+        "en": "Oil",
+        "pt-BR": "Óleo"
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "slime",
+        "qty": 50
+      },
+      {
+        "item": "hardwood",
+        "qty": 20
+      },
+      {
+        "item": "gold-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

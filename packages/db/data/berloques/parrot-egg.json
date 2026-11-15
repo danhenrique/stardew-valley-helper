@@ -1,0 +1,21 @@
+{
+  "id": "parrot-egg",
+  "type": "berloques",
+  "name": {
+    "en": "Parrot Egg",
+    "pt-BR": "Ovo de Papagaio"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ],
+  "giftTastes": {
+    "likes": [
+      "alex"
+    ],
+    "loves": [
+      "emily",
+      "leo"
+    ]
+  }
+}

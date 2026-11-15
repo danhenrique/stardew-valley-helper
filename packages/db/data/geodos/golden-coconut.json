@@ -1,0 +1,15 @@
+{
+  "id": "golden-coconut",
+  "type": "geodos",
+  "name": {
+    "en": "Golden Coconut",
+    "pt-BR": "Coco Dourado"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25
+    }
+  ]
+}

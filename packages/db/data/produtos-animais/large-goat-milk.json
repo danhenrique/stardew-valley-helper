@@ -1,0 +1,19 @@
+{
+  "id": "large-goat-milk",
+  "type": "produtos-animais",
+  "subtype": "milk",
+  "name": {
+    "en": "Large Goat Milk",
+    "pt-BR": "Leite Grande de Cabra"
+  },
+  "nameVerified": true,
+  "tags": [
+    "milk"
+  ],
+  "giftTastes": {
+    "likes": [
+      "harvey",
+      "sandy"
+    ]
+  }
+}

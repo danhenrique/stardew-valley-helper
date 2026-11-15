@@ -1,0 +1,16 @@
+{
+  "id": "ruby-ring",
+  "type": "equipamentos",
+  "subtype": "ring",
+  "name": {
+    "en": "Ruby Ring",
+    "pt-BR": "Anel de Rubi"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 5000
+    }
+  ]
+}

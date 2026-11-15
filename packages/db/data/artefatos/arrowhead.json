@@ -1,0 +1,13 @@
+{
+  "id": "arrowhead",
+  "type": "artefatos",
+  "name": {
+    "en": "Arrowhead",
+    "pt-BR": "Ponta de Flecha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

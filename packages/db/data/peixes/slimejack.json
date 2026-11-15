@@ -1,0 +1,33 @@
+{
+  "id": "slimejack",
+  "type": "peixes",
+  "name": {
+    "en": "Slimejack",
+    "pt-BR": "Salmão Mutante"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Mutant Bug Lair",
+      "pt-BR": "Toca dos Insetos Mutantes"
+    },
+    "locationVerified": false
+  }
+}

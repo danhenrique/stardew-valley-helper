@@ -1,0 +1,176 @@
+{
+  "id": "qi-walnut-room",
+  "type": "lojas",
+  "name": {
+    "en": "Qi's Walnut Room",
+    "pt-BR": "Sala de Nozes de Qi"
+  },
+  "nameVerified": false,
+  "offers": [
+    {
+      "item": "junimo-chest",
+      "price": 0,
+      "currency": {
+        "qiGems": 30
+      },
+      "packSize": 2
+    },
+    {
+      "item": "horse-flute",
+      "price": 0,
+      "currency": {
+        "qiGems": 50
+      }
+    },
+    {
+      "item": "pierres-missing-stocklist",
+      "price": 0,
+      "currency": {
+        "qiGems": 50
+      }
+    },
+    {
+      "item": "hopper",
+      "price": 0,
+      "currency": {
+        "qiGems": 10
+      }
+    },
+    {
+      "item": "enricher",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      },
+      "packSize": 4
+    },
+    {
+      "item": "pressure-nozzle",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      },
+      "packSize": 4
+    },
+    {
+      "item": "deconstructor",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    },
+    {
+      "item": "key-to-the-town",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    },
+    {
+      "item": "galaxy-soul",
+      "price": 0,
+      "currency": {
+        "qiGems": 40
+      }
+    },
+    {
+      "item": "mushroom-tree-seed",
+      "price": 0,
+      "currency": {
+        "qiGems": 5
+      }
+    },
+    {
+      "item": "magic-bait",
+      "price": 0,
+      "currency": {
+        "qiGems": 5
+      },
+      "packSize": 20
+    },
+    {
+      "item": "qi-seasoning",
+      "price": 0,
+      "currency": {
+        "qiGems": 10
+      },
+      "packSize": 10
+    },
+    {
+      "item": "mr-qis-hat",
+      "price": 0,
+      "currency": {
+        "qiGems": 5
+      }
+    },
+    {
+      "item": "aquatic-sanctuary",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    },
+    {
+      "item": "heavy-tapper",
+      "recipe": true,
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    },
+    {
+      "item": "hyper-speed-gro",
+      "recipe": true,
+      "price": 0,
+      "currency": {
+        "qiGems": 30
+      }
+    },
+    {
+      "item": "deluxe-fertilizer",
+      "recipe": true,
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    },
+    {
+      "item": "hopper",
+      "recipe": true,
+      "price": 0,
+      "currency": {
+        "qiGems": 50
+      }
+    },
+    {
+      "item": "magic-bait",
+      "recipe": true,
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    },
+    {
+      "item": "exotic-double-bed",
+      "price": 0,
+      "currency": {
+        "qiGems": 50
+      }
+    },
+    {
+      "item": "qi-gem",
+      "price": 0,
+      "currency": {
+        "goldenWalnuts": 1
+      },
+      "packSize": 2
+    },
+    {
+      "item": "golden-egg",
+      "price": 0,
+      "currency": {
+        "qiGems": 100
+      }
+    }
+  ]
+}

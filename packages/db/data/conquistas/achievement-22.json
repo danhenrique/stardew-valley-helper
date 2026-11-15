@@ -1,0 +1,14 @@
+{
+  "id": "achievement-22",
+  "type": "conquistas",
+  "name": {
+    "en": "Ol' Mariner",
+    "pt-BR": "Velho Marinheiro"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Catch 24 different fish.",
+    "pt-BR": "Pegue 24 peixes diferentes."
+  },
+  "order": 22
+}

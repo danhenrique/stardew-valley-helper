@@ -1,0 +1,14 @@
+{
+  "id": "achievement-15",
+  "type": "conquistas",
+  "name": {
+    "en": "Gourmet Chef",
+    "pt-BR": "Chefe Gourmet"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Cook every recipe.",
+    "pt-BR": "Cozinhe todas as receitas."
+  },
+  "order": 15
+}

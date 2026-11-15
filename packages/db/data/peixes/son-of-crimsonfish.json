@@ -1,0 +1,31 @@
+{
+  "id": "son-of-crimsonfish",
+  "type": "peixes",
+  "subtype": "legendary-ii",
+  "name": {
+    "en": "Son of Crimsonfish",
+    "pt-BR": "Filho do Peixe-carmim"
+  },
+  "nameVerified": false,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "East pier at the Beach. Fishing level 5 required.",
+      "pt-BR": "Píer leste da Praia. Nível de pesca 5 necessário."
+    },
+    "locationVerified": false
+  }
+}

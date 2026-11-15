@@ -1,0 +1,44 @@
+{
+  "id": "spring-crops",
+  "type": "pacotes",
+  "name": {
+    "en": "Spring Crops Bundle",
+    "pt-BR": "Pacote de cultivos da primavera"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "parsnip",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "green-bean",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "cauliflower",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "potato",
+      "seasons": [
+        "spring"
+      ]
+    }
+  ]
+}

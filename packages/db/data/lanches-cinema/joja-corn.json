@@ -1,0 +1,9 @@
+{
+  "id": "joja-corn",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "JojaCorn",
+    "pt-BR": "Joja-Milho"
+  },
+  "nameVerified": true
+}

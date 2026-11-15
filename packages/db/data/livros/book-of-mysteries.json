@@ -1,0 +1,17 @@
+{
+  "id": "book-of-mysteries",
+  "type": "livros",
+  "name": {
+    "en": "Book of Mysteries",
+    "pt-BR": "Livro de Mistérios"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "loves": [
+      "wizard"
+    ]
+  }
+}

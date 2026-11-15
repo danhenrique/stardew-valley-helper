@@ -1,0 +1,51 @@
+{
+  "id": "nautilus-shell",
+  "type": "coleta",
+  "name": {
+    "en": "Nautilus Shell",
+    "pt-BR": "Concha de Náutilo"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "george",
+      "gus",
+      "haley",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "evelyn",
+      "leo"
+    ],
+    "dislikesOrHates": [
+      "harvey"
+    ]
+  }
+}

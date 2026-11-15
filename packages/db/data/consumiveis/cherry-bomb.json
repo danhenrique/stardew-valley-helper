@@ -1,0 +1,21 @@
+{
+  "id": "cherry-bomb",
+  "type": "consumiveis",
+  "name": {
+    "en": "Cherry Bomb",
+    "pt-BR": "Bombinha"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "qty": 4
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      }
+    ]
+  }
+}

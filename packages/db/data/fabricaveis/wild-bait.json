@@ -1,0 +1,25 @@
+{
+  "id": "wild-bait",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Wild Bait",
+    "pt-BR": "Isca Selvagem"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "fiber",
+        "qty": 10
+      },
+      {
+        "item": "bug-meat",
+        "qty": 5
+      },
+      {
+        "item": "slime",
+        "qty": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pickles",
+  "type": "artesanato",
+  "name": {
+    "en": "Pickles",
+    "pt-BR": "Picles"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "loves": [
+      "harvey"
+    ],
+    "dislikesOrHates": [
+      "leo",
+      "maru",
+      "sam",
+      "shane"
+    ]
+  }
+}

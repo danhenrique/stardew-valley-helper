@@ -1,0 +1,37 @@
+{
+  "id": "parsnip-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Parsnip Seeds",
+    "pt-BR": "Sementes de Chirívia"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 4,
+    "phases": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 24,
+    "averageExtraYield": 0,
+    "produce": "parsnip"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 20,
+      "season": "spring"
+    },
+    {
+      "shop": "joja",
+      "price": 25,
+      "season": "spring"
+    }
+  ]
+}

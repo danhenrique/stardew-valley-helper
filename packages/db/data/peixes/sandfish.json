@@ -1,0 +1,38 @@
+{
+  "id": "sandfish",
+  "type": "peixes",
+  "name": {
+    "en": "Sandfish",
+    "pt-BR": "Areinha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "loves": [
+      "penny"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "20:00"
+      }
+    ],
+    "location": {
+      "en": "Desert",
+      "pt-BR": "Deserto"
+    },
+    "locationVerified": false
+  }
+}

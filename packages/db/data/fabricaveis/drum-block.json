@@ -1,0 +1,25 @@
+{
+  "id": "drum-block",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Drum Block",
+    "pt-BR": "Bloco de Bateria"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 10
+      },
+      {
+        "item": "copper-ore",
+        "qty": 2
+      },
+      {
+        "item": "fiber",
+        "qty": 20
+      }
+    ]
+  }
+}

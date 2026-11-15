@@ -1,0 +1,53 @@
+{
+  "id": "spring-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Spring Seeds",
+    "pt-BR": "Sementes de Primavera"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 7,
+    "regrowDays": null,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 0,
+    "produce": "seasonal-forage"
+  },
+  "averageForageValue": 45,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "summer-seeds",
+          "qty": 2
+        }
+      ],
+      "availability": "sat"
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wild-horseradish",
+        "qty": 1
+      },
+      {
+        "item": "daffodil",
+        "qty": 1
+      },
+      {
+        "item": "leek",
+        "qty": 1
+      },
+      {
+        "item": "dandelion",
+        "qty": 1
+      }
+    ]
+  }
+}

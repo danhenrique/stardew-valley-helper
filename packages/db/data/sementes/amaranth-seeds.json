@@ -1,0 +1,37 @@
+{
+  "id": "amaranth-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Amaranth Seeds",
+    "pt-BR": "Sementes de Amaranto"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 7,
+    "phases": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 0,
+    "produce": "amaranth"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 70,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 87,
+      "season": "fall"
+    }
+  ]
+}

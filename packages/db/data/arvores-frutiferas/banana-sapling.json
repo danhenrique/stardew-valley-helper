@@ -1,0 +1,16 @@
+{
+  "id": "banana-sapling",
+  "type": "arvores-frutiferas",
+  "name": {
+    "en": "Banana Sapling",
+    "pt-BR": null
+  },
+  "nameVerified": false,
+  "fruitTree": {
+    "fruit": "banana",
+    "season": "summer",
+    "daysToMature": 28,
+    "fruitsPerDay": 1,
+    "maxFruitOnTree": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "tool-upgrade-steel",
+  "type": "ferramentas",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Steel Tools",
+    "pt-BR": "Melhorar Ferramentas 2"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 5000,
+      "materials": [
+        {
+          "item": "iron-bar",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

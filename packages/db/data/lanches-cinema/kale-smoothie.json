@@ -1,0 +1,9 @@
+{
+  "id": "kale-smoothie",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Kale Smoothie",
+    "pt-BR": "Batida de Couve"
+  },
+  "nameVerified": true
+}

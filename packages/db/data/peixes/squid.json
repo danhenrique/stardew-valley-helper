@@ -1,0 +1,38 @@
+{
+  "id": "squid",
+  "type": "peixes",
+  "name": {
+    "en": "Squid",
+    "pt-BR": "Lula"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "likes": [
+      "elliott"
+    ],
+    "dislikesOrHates": [
+      "pam"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "18:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

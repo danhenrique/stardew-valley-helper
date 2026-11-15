@@ -1,0 +1,25 @@
+{
+  "id": "loom",
+  "type": "maquinas",
+  "name": {
+    "en": "Loom",
+    "pt-BR": "Tear"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 60
+      },
+      {
+        "item": "fiber",
+        "qty": 30
+      },
+      {
+        "item": "pine-tar",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "blueberry-tart",
+  "type": "culinaria",
+  "name": {
+    "en": "Blueberry Tart",
+    "pt-BR": "Torta de Mirtilo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 300
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey"
+    ],
+    "loves": [
+      "linus"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "blueberry",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "egg",
+        "qty": 1
+      }
+    ]
+  }
+}

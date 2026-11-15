@@ -1,0 +1,16 @@
+{
+  "id": "wall-sconce-3",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Wall Sconce 3",
+    "pt-BR": "Arandela"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 500,
+      "availability": "tue"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cheese-cauliflower",
+  "type": "culinaria",
+  "name": {
+    "en": "Cheese Cauliflower",
+    "pt-BR": "Couve-flor com Queijo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 600
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "maru"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "cauliflower",
+        "qty": 1
+      },
+      {
+        "item": "cheese",
+        "qty": 1
+      }
+    ]
+  }
+}

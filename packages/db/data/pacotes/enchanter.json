@@ -1,0 +1,35 @@
+{
+  "id": "enchanter",
+  "type": "pacotes",
+  "name": {
+    "en": "Enchanter's Bundle",
+    "pt-BR": "Pacote do encantador"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "oak-resin"
+    },
+    {
+      "item": "wine"
+    },
+    {
+      "item": "rabbits-foot"
+    },
+    {
+      "item": "pomegranate",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

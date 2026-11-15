@@ -1,0 +1,34 @@
+{
+  "id": "tropical-curry",
+  "type": "culinaria",
+  "name": {
+    "en": "Tropical Curry",
+    "pt-BR": "Curry Tropical"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "caroline",
+      "gus"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "coconut",
+        "qty": 1
+      },
+      {
+        "item": "pineapple",
+        "qty": 1
+      },
+      {
+        "item": "hot-pepper",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "trash-can-copper",
+  "type": "ferramentas",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Trash Can Copper",
+    "pt-BR": "Lixeira de Cobre"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 1000,
+      "materials": [
+        {
+          "item": "copper-bar",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

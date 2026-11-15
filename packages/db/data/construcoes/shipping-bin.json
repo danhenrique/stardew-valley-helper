@@ -1,0 +1,21 @@
+{
+  "id": "shipping-bin",
+  "type": "construcoes",
+  "name": {
+    "en": "ShippingBox",
+    "pt-BR": "Caixa de Remessas"
+  },
+  "nameVerified": true,
+  "category": "cabin",
+  "construction": {
+    "price": 250,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 150
+      }
+    ],
+    "buildDays": 0,
+    "builtBy": "carpenter"
+  }
+}

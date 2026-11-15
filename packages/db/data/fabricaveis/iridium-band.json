@@ -1,0 +1,25 @@
+{
+  "id": "iridium-band",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Iridium Band",
+    "pt-BR": "Anel de Irídio"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iridium-bar",
+        "qty": 5
+      },
+      {
+        "item": "solar-essence",
+        "qty": 50
+      },
+      {
+        "item": "void-essence",
+        "qty": 50
+      }
+    ]
+  }
+}

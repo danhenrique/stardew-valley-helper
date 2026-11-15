@@ -1,0 +1,18 @@
+{
+  "id": "starfruit",
+  "type": "frutas",
+  "name": {
+    "en": "Starfruit",
+    "pt-BR": "Carambola"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 750,
+  "artisan": {
+    "kegPrice": 2250,
+    "jarPrice": 1550
+  },
+  "growsFrom": "starfruit-seeds"
+}

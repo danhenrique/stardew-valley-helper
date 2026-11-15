@@ -1,0 +1,32 @@
+{
+  "id": "shad",
+  "type": "peixes",
+  "name": {
+    "en": "Shad",
+    "pt-BR": "Alocine"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": "rain",
+    "timeWindows": [
+      {
+        "from": "09:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest)",
+      "pt-BR": "Rio (cidade + floresta)"
+    },
+    "locationVerified": false
+  }
+}

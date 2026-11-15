@@ -1,0 +1,9 @@
+{
+  "id": "cotton-candy",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Cotton Candy",
+    "pt-BR": "Algodão Doce"
+  },
+  "nameVerified": true
+}

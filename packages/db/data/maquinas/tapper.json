@@ -1,0 +1,48 @@
+{
+  "id": "tapper",
+  "type": "maquinas",
+  "name": {
+    "en": "Tapper",
+    "pt-BR": "Torneirinha"
+  },
+  "nameVerified": false,
+  "category": "refining",
+  "processing": [
+    {
+      "days": 9,
+      "output": "maple-syrup",
+      "label": {
+        "en": "Maple Syrup",
+        "pt-BR": "Xarope de Ácer"
+      }
+    },
+    {
+      "days": 7,
+      "output": "oak-resin",
+      "label": {
+        "en": "Oak Resin",
+        "pt-BR": "Resina de Carvalho"
+      }
+    },
+    {
+      "days": 5,
+      "output": "pine-tar",
+      "label": {
+        "en": "Pine Tar",
+        "pt-BR": "Alcatrão de Pinho"
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 40
+      },
+      {
+        "item": "copper-bar",
+        "qty": 2
+      }
+    ]
+  }
+}

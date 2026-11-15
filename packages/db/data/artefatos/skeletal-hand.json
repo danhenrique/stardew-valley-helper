@@ -1,0 +1,13 @@
+{
+  "id": "skeletal-hand",
+  "type": "artefatos",
+  "name": {
+    "en": "Skeletal Hand",
+    "pt-BR": "Mão de Esqueleto"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

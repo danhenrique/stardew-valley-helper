@@ -1,0 +1,16 @@
+{
+  "id": "dark-boots",
+  "type": "equipamentos",
+  "subtype": "boots",
+  "name": {
+    "en": "Dark Boots",
+    "pt-BR": "Botas Negras"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 2500
+    }
+  ]
+}

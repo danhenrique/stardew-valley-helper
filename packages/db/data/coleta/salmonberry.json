@@ -1,0 +1,34 @@
+{
+  "id": "salmonberry",
+  "type": "coleta",
+  "name": {
+    "en": "Salmonberry",
+    "pt-BR": "Amora-silvestre"
+  },
+  "nameVerified": false,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "alex",
+      "caroline",
+      "clint",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "harvey",
+      "krobus",
+      "leo",
+      "lewis",
+      "marnie",
+      "maru",
+      "penny",
+      "pierre",
+      "sam",
+      "sebastian",
+      "willy",
+      "wizard"
+    ]
+  }
+}

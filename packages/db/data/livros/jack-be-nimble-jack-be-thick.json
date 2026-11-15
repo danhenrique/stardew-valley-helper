@@ -1,0 +1,17 @@
+{
+  "id": "jack-be-nimble-jack-be-thick",
+  "type": "livros",
+  "name": {
+    "en": "Jack Be Nimble, Jack Be Thick",
+    "pt-BR": "Jack seja ágil, Jack seja parrudo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "loves": [
+      "alex"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "steel-hoe",
+  "type": "ferramentas",
+  "name": {
+    "en": "Steel Hoe",
+    "pt-BR": "Enxada de Aço"
+  },
+  "nameVerified": true
+}

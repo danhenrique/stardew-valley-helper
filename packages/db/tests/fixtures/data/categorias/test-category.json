@@ -1,0 +1,14 @@
+{
+ "id": "test-category",
+ "type": "categorias",
+ "name": {
+  "en": "All tests",
+  "pt-BR": "Todos os testes"
+ },
+ "nameVerified": false,
+ "note": "App UI label.",
+ "members": [
+  "test-fruit",
+  "test-veg"
+ ]
+}

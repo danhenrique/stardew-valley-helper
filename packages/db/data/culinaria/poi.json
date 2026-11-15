@@ -1,0 +1,25 @@
+{
+  "id": "poi",
+  "type": "culinaria",
+  "name": {
+    "en": "Poi",
+    "pt-BR": "Poi"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "leo"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "taro-root",
+        "qty": 4
+      }
+    ]
+  }
+}

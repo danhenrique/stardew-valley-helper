@@ -1,0 +1,14 @@
+{
+  "id": "treasure-chest",
+  "type": "geodos",
+  "name": {
+    "en": "Treasure Chest",
+    "pt-BR": null
+  },
+  "nameVerified": false,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "marnie"
+    ]
+  }
+}

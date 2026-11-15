@@ -1,0 +1,13 @@
+{
+  "id": "prehistoric-handaxe",
+  "type": "artefatos",
+  "name": {
+    "en": "Prehistoric Handaxe",
+    "pt-BR": "Biface Pré-histórico"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

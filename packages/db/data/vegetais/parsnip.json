@@ -1,0 +1,23 @@
+{
+  "id": "parsnip",
+  "type": "vegetais",
+  "name": {
+    "en": "Parsnip",
+    "pt-BR": "Chirívia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 35,
+  "artisan": {
+    "kegPrice": 78,
+    "jarPrice": 120
+  },
+  "growsFrom": "parsnip-seeds",
+  "giftTastes": {
+    "loves": [
+      "pam"
+    ]
+  }
+}

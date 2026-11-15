@@ -1,169 +1,107 @@
-# stardew-valley-helper
+# Stardew Valley Helper
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) has been successfully created! ✨.
+Helper website for Stardew Valley players. Players register planted seeds and saplings and get the
+first harvest, regrowth harvests and season-end death computed for the current in-game date. The
+whole game dataset lives in a single DynamoDB table, imported once from `packages/db/data`.
 
-[Learn more about this workspace setup and the @aws/nx-plugin](https://awslabs.github.io/nx-plugin-for-aws). Now, let's get you up to speed!
+This repository was split out of `aws-danhenrique` on 2026-11-15. The production resources were kept
+as they were: the Terraform state moved to a new key, and nothing was recreated. Design and plan:
+`docs/superpowers/specs/2026-11-15-migrate-from-aws-danhenrique-design.md` and
+`docs/superpowers/plans/2026-11-15-migrate-from-aws-danhenrique.md`. Earlier Stardew designs are in
+`docs/superpowers/` too.
 
-## Install Nx Console
+## Projects
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+Every project was created with `@aws/nx-plugin`.
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+| Path | Nx project | Python module / package | Purpose |
+|---|---|---|---|
+| `packages/db/` | `stardew_valley_helper.stardew_valley_db` | `stardew_valley_db` | PynamoDB entities, one-shot import, game dataset (`data/`) |
+| `packages/api/` | `stardew_valley_helper.stardew_valley_api` | `stardew_valley_api` | FastAPI (REST API + Lambda, IAM auth) |
+| `packages/website/` | `@stardew-valley-helper/website` | — | React website (dev port 4201, preview 4301) |
+| `packages/infra/` | `@stardew-valley-helper/infra` | — | Terraform, prod only |
+| `packages/common/terraform/` | `@stardew-valley-helper/terraform` | — | Terraform modules used by `infra` |
+| `packages/common/scripts/` | `@stardew-valley-helper/scripts` | — | DynamoDB Local scripts used by `db:dev` |
 
-## Available generators
+The website's API client hook is `useStardewValleyApi`. The API Terraform module lives in
+`packages/common/terraform/src/app/apis/stardew-valley-api`.
 
-The following list of generators are what is currently available in the `@aws/nx-plugin`:
+## Deploy (prod)
 
+Only `prod` exists. The site is served at `https://stardew.danhenrique.com.br`.
 
-- **init**: Configure an existing Nx workspace to use the @aws/nx-plugin
+### State and bootstrap
 
-- **agentcore-gateway**: Generate an AgentCore Gateway project
+The state is in the bootstrap bucket `<account>-tf-state-sa-east-1`, under its own key:
+`stardew-valley-helper-infra/prod/terraform.tfstate`.
 
-- **agentcore-harness**: Generate an AgentCore Harness project (experimental)
+`aws-danhenrique` uses the same bucket for its own state, because the bucket name only depends on the
+account and region. **Never run `bootstrap-destroy` here**: it would delete the bucket that holds the
+`aws-danhenrique` state too.
 
-- **connection**: Integrates a source project with a target project
+After the cutover, the old key (`aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate`) stays
+in place for rollback, with a permanent `.tflock` object next to it so any plan or apply from the old
+repository fails.
 
-- **greengrass#component**: Add an AWS IoT Greengrass component to an existing Python or TypeScript project (experimental)
+### DNS
 
-- **license**: Add LICENSE files and configure source code licence headers
+| Repository | Owns |
+|---|---|
+| `aws-danhenrique` | The `danhenrique.com.br` hosted zone and the main domain records |
+| `stardew-valley-helper` (this one) | `stardew.danhenrique.com.br` (A/AAAA → CloudFront), `auth.stardew.danhenrique.com.br` (Cognito managed login) and the ACM validation of `stardew.*` / `*.stardew.*` |
 
-- **py#api**: Create a Python API
+This repository only reads the zone (`data "aws_route53_zone"`) and never changes it.
 
-- **py#lambda-function**: Adds a lambda function to a python project
+### Frozen physical names
 
-- **py#mcp-server**: Generate a Python Model Context Protocol (MCP) server for providing context to Large Language Models
+Some AWS names still carry the old repository's name, because renaming them would replace live
+resources. They are marked `# Frozen` in the Terraform modules, and `packages/infra/src/tests`
+guards the most important ones:
 
-- **py#project**: Generates a Python project
+- the table `aws-danhenrique-stardew-valley-db-<suffix>`: player data, deletion protection on
+- the Cognito domain prefix `danhenrique-stardew-valley-helper-website`
+- the website name `stardew-helper`
 
-- **py#agent**: Add an AI Agent to a Python project
+### Steps
 
-- **py#agent#guardrails**: Add an Amazon Bedrock Guardrail to a Python Agent (experimental)
+1. Plan and review:
+   ```bash
+   pnpm nx run @stardew-valley-helper/infra:plan
+   ```
+2. Apply the reviewed plan:
+   ```bash
+   pnpm nx run @stardew-valley-helper/infra:apply
+   ```
+3. Import the game data (only for a fresh table; see `packages/db/README.md`):
+   ```bash
+   RUNTIME_CONFIG_APP_ID=$(cd packages/infra/src && terraform output -raw runtime_config_app_id) \
+     AWS_REGION=sa-east-1 pnpm nx run stardew_valley_helper.stardew_valley_db:import
+   ```
 
-- **smithy#project**: Generate a Smithy model project, either defining a service or a library of reusable shapes
+### Cost choices
 
-- **terraform#project**: Generates a Terraform project
+To keep the bill minimal (≈ US$ 5/month at low traffic), the stack uses:
 
-- **ts#docs**: Generates a documentation site
+- no WAF (CloudFront, API, Cognito)
+- AWS-owned encryption for the table
+- S3-managed encryption for the website buckets
+- no KMS key for the API access logs
+- Cognito Essentials (10k MAU free)
 
-- **ts#infra**: Generates a cdk application
+See `packages/infra/src/locals.tf` (`cost_settings`).
 
-- **ts#lambda-function**: Generate a TypeScript lambda function
+## Local development
 
-- **ts#dcr-proxy**: Generate an OAuth Dynamic Client Registration (DCR) proxy construct for Cognito-authenticated MCP servers
+`pnpm nx dev @stardew-valley-helper/website` starts the website, the API and DynamoDB Local (requires
+Docker). Without a `runtime-config.json`, login is mocked.
 
-- **ts#mcp-server**: Generate a TypeScript Model Context Protocol (MCP) server for providing context to Large Language Models
+Tests mock DynamoDB with moto, so they do not need Docker.
 
-- **ts#nx-generator**: Generator for adding an Nx Generator to an existing TypeScript project
+`.tmp/` is git-ignored. It holds a local copy of the community `stardew-valley-scheduler`, used as a
+reference and as the source for `packages/db/scripts/build-data.py` and
+`packages/website/scripts/sync_icons.py`.
 
-- **ts#nx-migration**: Generator for adding an Nx Migration to an Nx Plugin, applied by nx migrate when users upgrade
+## Data license
 
-- **ts#nx-plugin**: Generate an Nx Plugin of your own! Build custom generators automatically made available for AI vibe-coding via MCP
-
-- **ts#project**: Generates a TypeScript project
-
-- **ts#website**: Generates a website application
-
-- **ts#website#auth**: Adds auth to an existing website
-
-- **ts#agent**: Add an AI Agent to a TypeScript project
-
-- **ts#agent#guardrails**: Add an Amazon Bedrock Guardrail to a TypeScript Agent (experimental)
-
-- **ts#api**: Create a TypeScript API
-
-- **ts#rdb**: Create a relational database project
-
-- **ts#dynamodb**: Create a TypeScript DynamoDB project
-
-- **py#dynamodb**: Create a Python DynamoDB project
-
-- **py#rdb**: Create a Python relational database project
-
-You also have the option of using additional [commmunity plugins](https://nx.dev/plugin-registry) as needed.
-
-## Invoking a generator
-
-```sh
-pnpm nx g @aws/nx-plugin:<generator-name>
-```
-
-Alternatively you can use the Nx IDE plugin to invoke your generators.
-
-Refer to the [full documentation](https://awslabs.github.io/nx-plugin-for-aws) for additional guidance for each generator.
-
-## Common tasks
-
-### Build a single project
-
-```sh
-pnpm nx build <project-name>
-```
-
-### Build all projects
-
-```sh
-pnpm nx run-many --target build --all
-# or
-pnpm build
-```
-
-### Run arbitrary task
-
-```sh
-pnpm nx <target> <project-name>
-```
-
-### Lint (and fix) all projects
-
-```sh
-pnpm nx run-many --target lint --configuration=fix --all
-# or
-pnpm lint
-```
-
-## Test all projects (and update snapshots)
-
-```sh
-pnpm nx run-many --target test --all --update
-```
-
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
-
-[More about running tasks in the Nx docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Keep TypeScript project references up to date
-
-Nx automatically updates TypeScript [project references](https://www.typescriptlang.org/docs/handbook/project-references.html) in `tsconfig.json` files to ensure they remain accurate based on your project dependencies (`import` statements). This sync is automatically done when running tasks such as `build`, which require updated references to function correctly.
-
-To manually trigger the process to sync the project graph dependencies information to the TypeScript project references, run the following command:
-
-```sh
-pnpm nx sync
-```
-
-You can enforce that the TypeScript project references are always in the correct state when running in CI by adding a step to your CI job configuration that runs the following command:
-
-```sh
-pnpm nx sync:check
-```
-
-[Learn more about nx sync](https://nx.dev/reference/nx-commands#sync)
-
-## Set up CI!
-
-Use the following command to configure a CI workflow for your workspace:
-
-```sh
-pnpm nx g ci-workflow
-```
-
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Useful links
-
-Learn more:
-
-- [@aws/nx-plugin quick-start](https://awslabs.github.io/nx-plugin-for-aws/en/get_started/quick-start/)
-- [@aws/nx-plugin AI dungeon game](https://awslabs.github.io/nx-plugin-for-aws/en/get_started/tutorials/dungeon-game/overview/)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+Game data and icons are © ConcernedApe LLC and partly from the Stardew Valley Wiki (CC BY-NC-SA 3.0),
+for non-commercial fan use only.

@@ -1,0 +1,14 @@
+{
+  "id": "hematite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Hematite",
+    "pt-BR": "Hematita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

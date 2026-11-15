@@ -1,0 +1,21 @@
+{
+  "id": "butterfly-hutch",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Butterfly Hutch",
+    "pt-BR": "Gaiola de Borboletas"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "bat-wing",
+          "qty": 200
+        }
+      ]
+    }
+  ]
+}

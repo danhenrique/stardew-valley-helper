@@ -1,0 +1,39 @@
+{
+  "id": "super-cucumber",
+  "type": "peixes",
+  "name": {
+    "en": "Super Cucumber",
+    "pt-BR": "Superpepino"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "elliott"
+    ],
+    "loves": [
+      "wizard"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "18:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ocean, Ginger Island ocean",
+      "pt-BR": "Oceano, oceano da Ilha Gengibre"
+    },
+    "locationVerified": false
+  }
+}

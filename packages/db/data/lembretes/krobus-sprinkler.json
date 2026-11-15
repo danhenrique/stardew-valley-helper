@@ -1,0 +1,21 @@
+{
+  "id": "krobus-sprinkler",
+  "type": "lembretes",
+  "name": {
+    "en": "Buy Iridium Sprinkler (Krobus)",
+    "pt-BR": "Comprar aspersor de irídio (Krobus)"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "Friday, buy an Iridium Sprinkler from the Sewers for automation (not on festival days)",
+    "pt-BR": "Sextas, compre um aspersor de irídio no esgoto para automação (exceto em festivais)"
+  },
+  "trigger": {
+    "kind": "weekly",
+    "weekdays": [
+      "fri"
+    ]
+  },
+  "order": 1,
+  "suppressOnFestival": true
+}

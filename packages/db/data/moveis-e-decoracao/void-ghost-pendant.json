@@ -1,0 +1,21 @@
+{
+  "id": "void-ghost-pendant",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Void Ghost Pendant",
+    "pt-BR": "Pingente de Fantasma Nulo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "void-essence",
+          "qty": 200
+        }
+      ]
+    }
+  ]
+}

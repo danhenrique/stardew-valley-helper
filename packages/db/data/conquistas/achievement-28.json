@@ -1,0 +1,14 @@
+{
+  "id": "achievement-28",
+  "type": "conquistas",
+  "name": {
+    "en": "Polyculture",
+    "pt-BR": "Policultura"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Ship 15 of each crop.",
+    "pt-BR": "Envie 15 itens de cada plantação pelo correio."
+  },
+  "order": 28
+}

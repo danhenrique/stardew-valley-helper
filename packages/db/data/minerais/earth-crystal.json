@@ -1,0 +1,14 @@
+{
+  "id": "earth-crystal",
+  "type": "minerais",
+  "subtype": "foraged-mineral",
+  "name": {
+    "en": "Earth Crystal",
+    "pt-BR": "Cristal de Terra"
+  },
+  "nameVerified": true,
+  "tags": [
+    "foragedMinerals"
+  ],
+  "museumDonation": true
+}

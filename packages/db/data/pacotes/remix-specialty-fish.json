@@ -1,0 +1,38 @@
+{
+  "id": "remix-specialty-fish",
+  "type": "pacotes",
+  "name": {
+    "en": "Specialty Fish",
+    "pt-BR": "Peixes especiais"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "pufferfish",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "ghostfish"
+    },
+    {
+      "item": "sandfish",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "woodskip"
+    }
+  ]
+}

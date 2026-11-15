@@ -1,0 +1,13 @@
+{
+  "id": "skeletal-tail",
+  "type": "artefatos",
+  "name": {
+    "en": "Skeletal Tail",
+    "pt-BR": "Esqueleto de Cauda"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

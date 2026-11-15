@@ -1,0 +1,13 @@
+{
+  "id": "moonlight-jellies",
+  "type": "festivais",
+  "name": {
+    "en": "Dance of the Moonlight Jellies",
+    "pt-BR": "Dança das Águas-Vivas ao Luar"
+  },
+  "nameVerified": false,
+  "season": "summer",
+  "startDay": 28,
+  "endDay": 28,
+  "shopsClosed": false
+}

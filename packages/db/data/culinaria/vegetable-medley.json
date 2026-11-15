@@ -1,0 +1,37 @@
+{
+  "id": "vegetable-medley",
+  "type": "culinaria",
+  "name": {
+    "en": "Vegetable Medley",
+    "pt-BR": "Mexido de Legumes"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 240
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "jodi",
+      "leah",
+      "lewis"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "tomato",
+        "qty": 1
+      },
+      {
+        "item": "beet",
+        "qty": 1
+      }
+    ]
+  }
+}

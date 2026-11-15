@@ -1,0 +1,88 @@
+{
+  "id": "crystalarium",
+  "type": "maquinas",
+  "name": {
+    "en": "Crystalarium",
+    "pt-BR": "Cristalário"
+  },
+  "nameVerified": false,
+  "category": "refining",
+  "processing": [
+    {
+      "days": 5,
+      "output": "diamond",
+      "label": {
+        "en": "Diamond",
+        "pt-BR": "Diamante"
+      }
+    },
+    {
+      "days": 2,
+      "output": "emerald",
+      "label": {
+        "en": "Emerald",
+        "pt-BR": "Esmeralda"
+      }
+    },
+    {
+      "days": 2,
+      "output": "ruby",
+      "label": {
+        "en": "Ruby",
+        "pt-BR": "Rubi"
+      }
+    },
+    {
+      "days": 2,
+      "output": "jade",
+      "label": {
+        "en": "Jade",
+        "pt-BR": "Jade"
+      }
+    },
+    {
+      "days": 2,
+      "output": "aquamarine",
+      "label": {
+        "en": "Aquamarine",
+        "pt-BR": "Água-marinha"
+      }
+    },
+    {
+      "days": 1,
+      "output": "amethyst",
+      "label": {
+        "en": "Amethyst",
+        "pt-BR": "Ametista"
+      }
+    },
+    {
+      "days": 1,
+      "output": "topaz",
+      "label": {
+        "en": "Topaz",
+        "pt-BR": "Topázio"
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 99
+      },
+      {
+        "item": "gold-bar",
+        "qty": 5
+      },
+      {
+        "item": "iridium-bar",
+        "qty": 2
+      },
+      {
+        "item": "battery-pack",
+        "qty": 1
+      }
+    ]
+  }
+}

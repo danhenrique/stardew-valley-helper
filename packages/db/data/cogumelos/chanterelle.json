@@ -1,0 +1,12 @@
+{
+  "id": "chanterelle",
+  "type": "cogumelos",
+  "name": {
+    "en": "Chanterelle",
+    "pt-BR": "Cantarelo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "mushrooms"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "survival-burger",
+  "type": "culinaria",
+  "name": {
+    "en": "Survival Burger",
+    "pt-BR": "Hambúrguer de Sobrevivência"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "emily"
+    ],
+    "dislikesOrHates": [
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "bread",
+        "qty": 1
+      },
+      {
+        "item": "cave-carrot",
+        "qty": 1
+      },
+      {
+        "item": "eggplant",
+        "qty": 1
+      }
+    ]
+  }
+}

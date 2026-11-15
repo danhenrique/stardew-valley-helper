@@ -1,0 +1,15 @@
+{
+  "id": "cutlass",
+  "type": "armas",
+  "name": {
+    "en": "Cutlass",
+    "pt-BR": "Sabre"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 1500
+    }
+  ]
+}

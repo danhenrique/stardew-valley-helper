@@ -1,0 +1,38 @@
+{
+  "id": "pumpkin-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Pumpkin Seeds",
+    "pt-BR": "Sementes de Abóbora"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 13,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 15,
+    "averageExtraYield": 0,
+    "produce": "pumpkin"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 125,
+      "season": "fall"
+    }
+  ]
+}

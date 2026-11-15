@@ -1,0 +1,16 @@
+{
+  "id": "bamboo-pole",
+  "type": "ferramentas",
+  "name": {
+    "en": "Bamboo Pole",
+    "pt-BR": "Vara de Bambu"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 500,
+      "fishingLevel": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "test-dish",
+ "type": "culinaria",
+ "name": {
+  "en": "Test Dish",
+  "pt-BR": "Prato Teste"
+ },
+ "nameVerified": true,
+ "cookingRecipe": {
+  "ingredients": [
+   {
+    "item": "test-fruit",
+    "qty": 2
+   },
+   {
+    "category": "test-category",
+    "qty": 1
+   }
+  ]
+ }
+}

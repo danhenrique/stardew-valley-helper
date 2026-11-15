@@ -1,0 +1,10 @@
+{
+ "id": "test-veg",
+ "type": "vegetais",
+ "name": {
+  "en": "Test Veg",
+  "pt-BR": "Vegetal Teste"
+ },
+ "nameVerified": true,
+ "sellPrice": 80
+}

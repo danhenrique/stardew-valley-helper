@@ -1,0 +1,15 @@
+{
+  "id": "wallpaper",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Wallpaper 001 Icon",
+    "pt-BR": "Papel de Parede"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "joja",
+      "price": 250
+    }
+  ]
+}

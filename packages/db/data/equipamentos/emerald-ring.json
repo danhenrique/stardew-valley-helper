@@ -1,0 +1,16 @@
+{
+  "id": "emerald-ring",
+  "type": "equipamentos",
+  "subtype": "ring",
+  "name": {
+    "en": "Emerald Ring",
+    "pt-BR": "Anel de Esmeralda"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 5000
+    }
+  ]
+}

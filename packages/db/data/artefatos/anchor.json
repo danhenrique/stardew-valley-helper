@@ -1,0 +1,13 @@
+{
+  "id": "anchor",
+  "type": "artefatos",
+  "name": {
+    "en": "Anchor",
+    "pt-BR": "Âncora"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

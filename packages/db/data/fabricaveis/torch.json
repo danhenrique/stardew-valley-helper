@@ -1,0 +1,21 @@
+{
+  "id": "torch",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Torch",
+    "pt-BR": "Tocha"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      },
+      {
+        "item": "sap",
+        "qty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "achievement-14",
+  "type": "conquistas",
+  "name": {
+    "en": "Sous Chef",
+    "pt-BR": "Vice-chefe"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Cook 25 different recipes.",
+    "pt-BR": "Cozinhe 25 receitas diferentes."
+  },
+  "order": 14
+}

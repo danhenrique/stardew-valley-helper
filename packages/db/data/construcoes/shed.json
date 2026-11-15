@@ -1,0 +1,21 @@
+{
+  "id": "shed",
+  "type": "construcoes",
+  "name": {
+    "en": "Shed",
+    "pt-BR": "Galpão"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 15000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 300
+      }
+    ],
+    "buildDays": 2,
+    "builtBy": "carpenter"
+  }
+}

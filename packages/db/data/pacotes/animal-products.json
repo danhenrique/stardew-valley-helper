@@ -1,0 +1,38 @@
+{
+  "id": "animal-products",
+  "type": "pacotes",
+  "name": {
+    "en": "Animal Bundle",
+    "pt-BR": "Pacote de animais"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 5,
+  "items": [
+    {
+      "item": "large-milk"
+    },
+    {
+      "item": "large-egg"
+    },
+    {
+      "item": "large-egg"
+    },
+    {
+      "item": "large-goat-milk"
+    },
+    {
+      "item": "wool"
+    },
+    {
+      "item": "duck-egg"
+    }
+  ]
+}

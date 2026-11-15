@@ -1,0 +1,12 @@
+{
+  "id": "duggies",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Duggies",
+    "pt-BR": "Cavadores"
+  },
+  "nameVerified": true,
+  "killsRequired": 30,
+  "reward": "hard-hat",
+  "location": "adventurers-guild"
+}

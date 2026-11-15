@@ -1,0 +1,21 @@
+{
+  "id": "slime-incubator",
+  "type": "maquinas",
+  "name": {
+    "en": "Slime Incubator",
+    "pt-BR": "Incubador de Gosmas"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iridium-bar",
+        "qty": 2
+      },
+      {
+        "item": "slime",
+        "qty": 100
+      }
+    ]
+  }
+}

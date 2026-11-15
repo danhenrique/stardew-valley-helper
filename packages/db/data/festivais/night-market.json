@@ -1,0 +1,13 @@
+{
+  "id": "night-market",
+  "type": "festivais",
+  "name": {
+    "en": "Night Market",
+    "pt-BR": "Mercado Noturno"
+  },
+  "nameVerified": false,
+  "season": "winter",
+  "startDay": 15,
+  "endDay": 17,
+  "shopsClosed": false
+}

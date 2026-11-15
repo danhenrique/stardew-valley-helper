@@ -1,0 +1,19 @@
+{
+  "id": "tigerseye",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Tigerseye",
+    "pt-BR": "Olho de Tigre"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "giftTastes": {
+    "loves": [
+      "sam"
+    ]
+  },
+  "museumDonation": true
+}

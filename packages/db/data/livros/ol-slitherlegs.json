@@ -1,0 +1,12 @@
+{
+  "id": "ol-slitherlegs",
+  "type": "livros",
+  "name": {
+    "en": "Ol' Slitherlegs",
+    "pt-BR": "O Perna de Cobra"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

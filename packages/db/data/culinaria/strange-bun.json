@@ -1,0 +1,42 @@
+{
+  "id": "strange-bun",
+  "type": "culinaria",
+  "name": {
+    "en": "Strange Bun",
+    "pt-BR": "Pão Estranho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 450
+    }
+  ],
+  "giftTastes": {
+    "likes": [
+      "krobus"
+    ],
+    "neutral": [
+      "shane"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "periwinkle",
+        "qty": 1
+      },
+      {
+        "item": "void-mayonnaise",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bug-meat",
+  "type": "recursos",
+  "name": {
+    "en": "Bug Meat",
+    "pt-BR": "Carne de Inseto"
+  },
+  "nameVerified": false
+}

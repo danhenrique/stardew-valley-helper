@@ -1,0 +1,33 @@
+{
+  "id": "cranberry-candy",
+  "type": "culinaria",
+  "name": {
+    "en": "Cranberry Candy",
+    "pt-BR": "Doce de Oxicoco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "vincent"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "cranberries",
+        "qty": 1
+      },
+      {
+        "item": "apple",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

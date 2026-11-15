@@ -1,0 +1,38 @@
+{
+  "id": "specialty-fish",
+  "type": "pacotes",
+  "name": {
+    "en": "Specialty Fish Bundle",
+    "pt-BR": "Pacote de peixes especiais"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "pufferfish",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "ghostfish"
+    },
+    {
+      "item": "sandfish",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "woodskip"
+    }
+  ]
+}

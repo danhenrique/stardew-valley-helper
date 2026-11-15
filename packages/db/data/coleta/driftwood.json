@@ -1,0 +1,14 @@
+{
+  "id": "driftwood",
+  "type": "coleta",
+  "name": {
+    "en": "Driftwood",
+    "pt-BR": "Madeira Flutuante"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "leah"
+    ]
+  }
+}

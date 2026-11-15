@@ -1,0 +1,25 @@
+{
+  "id": "artifact-trove",
+  "type": "geodos",
+  "name": {
+    "en": "Artifact Trove",
+    "pt-BR": "Tesouro de Artefato"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25
+    },
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

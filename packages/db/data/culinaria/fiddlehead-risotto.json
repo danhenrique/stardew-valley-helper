@@ -1,0 +1,34 @@
+{
+  "id": "fiddlehead-risotto",
+  "type": "culinaria",
+  "name": {
+    "en": "Fiddlehead Risotto",
+    "pt-BR": "Risoto de Samambaia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "kent"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "oil",
+        "qty": 1
+      },
+      {
+        "item": "fiddlehead-fern",
+        "qty": 1
+      },
+      {
+        "item": "garlic",
+        "qty": 1
+      }
+    ]
+  }
+}

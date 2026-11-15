@@ -1,0 +1,12 @@
+{
+  "id": "bats",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Bats",
+    "pt-BR": "Morcegos"
+  },
+  "nameVerified": true,
+  "killsRequired": 200,
+  "reward": "vampire-ring",
+  "location": "adventurers-guild"
+}

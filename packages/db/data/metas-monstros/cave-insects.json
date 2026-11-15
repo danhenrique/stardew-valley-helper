@@ -1,0 +1,12 @@
+{
+  "id": "cave-insects",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Cave Insects",
+    "pt-BR": "Insetos das Cavernas"
+  },
+  "nameVerified": true,
+  "killsRequired": 80,
+  "reward": "insect-head",
+  "location": "adventurers-guild"
+}

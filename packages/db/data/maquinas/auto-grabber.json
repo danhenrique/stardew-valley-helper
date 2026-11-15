@@ -1,0 +1,15 @@
+{
+  "id": "auto-grabber",
+  "type": "maquinas",
+  "name": {
+    "en": "Auto-Grabber",
+    "pt-BR": "Auto-Recolhedora"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "ranch",
+      "price": 25000
+    }
+  ]
+}

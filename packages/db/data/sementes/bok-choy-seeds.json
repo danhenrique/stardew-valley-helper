@@ -1,0 +1,37 @@
+{
+  "id": "bok-choy-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Bok Choy Seeds",
+    "pt-BR": "Sementes de Acelga Chinesa"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 4,
+    "phases": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 24,
+    "averageExtraYield": 0,
+    "produce": "bok-choy"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 50,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 62,
+      "season": "fall"
+    }
+  ]
+}

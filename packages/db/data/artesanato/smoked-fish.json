@@ -1,0 +1,12 @@
+{
+  "id": "smoked-fish",
+  "type": "artesanato",
+  "name": {
+    "en": "Smoked Fish",
+    "pt-BR": "Peixe defumado"
+  },
+  "nameVerified": false,
+  "tags": [
+    "artisanGoods"
+  ]
+}

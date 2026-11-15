@@ -1,0 +1,12 @@
+{
+  "id": "treasure-appraisal-guide",
+  "type": "livros",
+  "name": {
+    "en": "Treasure Appraisal Guide",
+    "pt-BR": "Tesouros Antigos: Guia de Avaliação"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

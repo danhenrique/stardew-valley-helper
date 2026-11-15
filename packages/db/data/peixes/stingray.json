@@ -1,0 +1,33 @@
+{
+  "id": "stingray",
+  "type": "peixes",
+  "name": {
+    "en": "Stingray",
+    "pt-BR": "Arraia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Pirate Cove (Ginger Island)",
+      "pt-BR": "Enseada dos Piratas (Ilha Gengibre)"
+    },
+    "locationVerified": false
+  }
+}

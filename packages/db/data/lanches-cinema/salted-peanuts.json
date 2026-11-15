@@ -1,0 +1,9 @@
+{
+  "id": "salted-peanuts",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Salted Peanuts",
+    "pt-BR": "Amendoim Salgado"
+  },
+  "nameVerified": true
+}

@@ -1,0 +1,13 @@
+{
+ "id": "test-festival",
+ "type": "festivais",
+ "name": {
+  "en": "Test Fair",
+  "pt-BR": "Feira Teste"
+ },
+ "nameVerified": true,
+ "season": "summer",
+ "startDay": 9,
+ "endDay": 9,
+ "shopsClosed": true
+}

@@ -1,0 +1,33 @@
+{
+  "id": "coleslaw",
+  "type": "culinaria",
+  "name": {
+    "en": "Coleslaw",
+    "pt-BR": "Salada de Repolho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "gus"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "red-cabbage",
+        "qty": 1
+      },
+      {
+        "item": "vinegar",
+        "qty": 1
+      },
+      {
+        "item": "mayonnaise",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "remix-exotic-foraging",
+  "type": "pacotes",
+  "name": {
+    "en": "Exotic Foraging",
+    "pt-BR": "Coleta exótica"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 5,
+  "items": [
+    {
+      "item": "coconut"
+    },
+    {
+      "item": "cactus-fruit"
+    },
+    {
+      "item": "cave-carrot"
+    },
+    {
+      "item": "red-mushroom",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "purple-mushroom"
+    },
+    {
+      "item": "maple-syrup"
+    },
+    {
+      "item": "oak-resin"
+    },
+    {
+      "item": "pine-tar"
+    },
+    {
+      "item": "morel",
+      "seasons": [
+        "spring"
+      ]
+    }
+  ]
+}

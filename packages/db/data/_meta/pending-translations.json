@@ -1,0 +1,1632 @@
+[
+  {
+    "context": "artesanato/dried-mushrooms",
+    "en": "Dried Mushrooms",
+    "ptBrUnverified": "Cogumelos secos"
+  },
+  {
+    "context": "artesanato/dried-fruit",
+    "en": "Dried Fruit",
+    "ptBrUnverified": "Fruta seca"
+  },
+  {
+    "context": "artesanato/smoked-fish",
+    "en": "Smoked Fish",
+    "ptBrUnverified": "Peixe defumado"
+  },
+  {
+    "context": "sementes/strawberry-seeds",
+    "en": "Strawberry Seeds",
+    "ptBrUnverified": "Sementes de Morango"
+  },
+  {
+    "context": "sementes/coffee-bean",
+    "en": "Coffee Bean",
+    "ptBrUnverified": "Grão de Café"
+  },
+  {
+    "context": "sementes/rare-seed",
+    "en": "Rare Seed",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "vegetais/carrot",
+    "en": "Carrot",
+    "ptBrUnverified": "Cenoura"
+  },
+  {
+    "context": "sementes/carrot-seeds",
+    "en": "Carrot Seeds",
+    "ptBrUnverified": "Sementes de Cenoura"
+  },
+  {
+    "context": "sementes/pineapple-seeds",
+    "en": "Pineapple Seeds",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "vegetais/summer-squash",
+    "en": "Summer Squash",
+    "ptBrUnverified": "Abobrinha de Verão"
+  },
+  {
+    "context": "sementes/summer-squash-seeds",
+    "en": "Summer Squash Seeds",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "sementes/taro-tuber",
+    "en": "Taro Tuber",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "vegetais/broccoli",
+    "en": "Broccoli",
+    "ptBrUnverified": "Brócolis"
+  },
+  {
+    "context": "sementes/broccoli-seeds",
+    "en": "Broccoli Seeds",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "sementes/powdermelon-seeds",
+    "en": "Powdermelon Seeds",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "sementes/tea-sapling",
+    "en": "Tea Sapling",
+    "ptBrUnverified": "Broto de Chá"
+  },
+  {
+    "context": "sementes/ancient-seeds",
+    "en": "Ancient Seeds",
+    "ptBrUnverified": "Semente Antiga"
+  },
+  {
+    "context": "arvores-frutiferas/banana-sapling",
+    "en": "Banana Sapling",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "arvores-frutiferas/mango-sapling",
+    "en": "Mango Sapling",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "lojas/adventurers-guild",
+    "en": "Adventurer's Guild",
+    "ptBrUnverified": "Guilda dos Aventureiros"
+  },
+  {
+    "context": "lojas/blacksmith",
+    "en": "Blacksmith",
+    "ptBrUnverified": "Ferreiro"
+  },
+  {
+    "context": "lojas/carpenter",
+    "en": "Carpenter's Shop",
+    "ptBrUnverified": "Carpintaria"
+  },
+  {
+    "context": "lojas/casino",
+    "en": "Casino",
+    "ptBrUnverified": "Cassino"
+  },
+  {
+    "context": "lojas/clinic",
+    "en": "Harvey's Clinic",
+    "ptBrUnverified": "Clínica do Harvey"
+  },
+  {
+    "context": "lojas/desert-trader",
+    "en": "Desert Trader",
+    "ptBrUnverified": "Comerciante do deserto"
+  },
+  {
+    "context": "lojas/fish-shop",
+    "en": "Fish Shop",
+    "ptBrUnverified": "Peixaria"
+  },
+  {
+    "context": "lojas/ice-cream-stand",
+    "en": "Ice Cream Stand",
+    "ptBrUnverified": "Barraca de sorvete"
+  },
+  {
+    "context": "lojas/joja",
+    "en": "JojaMart",
+    "ptBrUnverified": "Mercado Joja"
+  },
+  {
+    "context": "lojas/movie-theater",
+    "en": "Movie Theater",
+    "ptBrUnverified": "Cinema"
+  },
+  {
+    "context": "lojas/museum",
+    "en": "Museum",
+    "ptBrUnverified": "Museu"
+  },
+  {
+    "context": "lojas/oasis",
+    "en": "Oasis & Casino",
+    "ptBrUnverified": "Oásis e Cassino"
+  },
+  {
+    "context": "lojas/pierre",
+    "en": "Pierre's General Store",
+    "ptBrUnverified": "Armazém do Pierre"
+  },
+  {
+    "context": "lojas/qi-walnut-room",
+    "en": "Qi's Walnut Room",
+    "ptBrUnverified": "Sala de Nozes de Qi"
+  },
+  {
+    "context": "lojas/ranch",
+    "en": "Marnie's Ranch",
+    "ptBrUnverified": "Rancho da Marnie"
+  },
+  {
+    "context": "lojas/saloon",
+    "en": "Stardrop Saloon",
+    "ptBrUnverified": "Saloon Fruta Estrelar"
+  },
+  {
+    "context": "lojas/sewers",
+    "en": "Sewers (Krobus)",
+    "ptBrUnverified": "Esgoto"
+  },
+  {
+    "context": "lojas/traveling-cart",
+    "en": "Traveling Cart",
+    "ptBrUnverified": "Carroça viajante"
+  },
+  {
+    "context": "lojas/wizard-tower",
+    "en": "Wizard's Tower",
+    "ptBrUnverified": "Torre do Feiticeiro"
+  },
+  {
+    "context": "personagens/abigail",
+    "en": "Abigail",
+    "ptBrUnverified": "Abigail"
+  },
+  {
+    "context": "personagens/alex",
+    "en": "Alex",
+    "ptBrUnverified": "Alex"
+  },
+  {
+    "context": "coleta/salmonberry",
+    "en": "Salmonberry",
+    "ptBrUnverified": "Amora-silvestre"
+  },
+  {
+    "context": "personagens/caroline",
+    "en": "Caroline",
+    "ptBrUnverified": "Caroline"
+  },
+  {
+    "context": "personagens/clint",
+    "en": "Clint",
+    "ptBrUnverified": "Clint"
+  },
+  {
+    "context": "personagens/demetrius",
+    "en": "Demetrius",
+    "ptBrUnverified": "Demetrius"
+  },
+  {
+    "context": "personagens/dwarf",
+    "en": "Dwarf",
+    "ptBrUnverified": "Anão"
+  },
+  {
+    "context": "personagens/elliott",
+    "en": "Elliott",
+    "ptBrUnverified": "Elliott"
+  },
+  {
+    "context": "personagens/emily",
+    "en": "Emily",
+    "ptBrUnverified": "Emily"
+  },
+  {
+    "context": "personagens/evelyn",
+    "en": "Evelyn",
+    "ptBrUnverified": "Evelyn"
+  },
+  {
+    "context": "personagens/george",
+    "en": "George",
+    "ptBrUnverified": "George"
+  },
+  {
+    "context": "personagens/gus",
+    "en": "Gus",
+    "ptBrUnverified": "Gus"
+  },
+  {
+    "context": "personagens/haley",
+    "en": "Haley",
+    "ptBrUnverified": "Haley"
+  },
+  {
+    "context": "recursos/mystic-syrup",
+    "en": "Mystic Syrup",
+    "ptBrUnverified": "Xarope Místico"
+  },
+  {
+    "context": "personagens/harvey",
+    "en": "Harvey",
+    "ptBrUnverified": "Harvey"
+  },
+  {
+    "context": "personagens/jas",
+    "en": "Jas",
+    "ptBrUnverified": "Jas"
+  },
+  {
+    "context": "personagens/jodi",
+    "en": "Jodi",
+    "ptBrUnverified": "Jodi"
+  },
+  {
+    "context": "personagens/kent",
+    "en": "Kent",
+    "ptBrUnverified": "Kent"
+  },
+  {
+    "context": "personagens/krobus",
+    "en": "Krobus",
+    "ptBrUnverified": "Krobus"
+  },
+  {
+    "context": "personagens/leah",
+    "en": "Leah",
+    "ptBrUnverified": "Leah"
+  },
+  {
+    "context": "personagens/leo",
+    "en": "Leo",
+    "ptBrUnverified": "Leo"
+  },
+  {
+    "context": "personagens/lewis",
+    "en": "Lewis",
+    "ptBrUnverified": "Lewis"
+  },
+  {
+    "context": "personagens/linus",
+    "en": "Linus",
+    "ptBrUnverified": "Linus"
+  },
+  {
+    "context": "personagens/marnie",
+    "en": "Marnie",
+    "ptBrUnverified": "Marnie"
+  },
+  {
+    "context": "geodos/treasure-chest",
+    "en": "Treasure Chest",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "personagens/maru",
+    "en": "Maru",
+    "ptBrUnverified": "Maru"
+  },
+  {
+    "context": "personagens/pam",
+    "en": "Pam",
+    "ptBrUnverified": "Pam"
+  },
+  {
+    "context": "personagens/penny",
+    "en": "Penny",
+    "ptBrUnverified": "Penny"
+  },
+  {
+    "context": "personagens/pierre",
+    "en": "Pierre",
+    "ptBrUnverified": "Pierre"
+  },
+  {
+    "context": "personagens/robin",
+    "en": "Robin",
+    "ptBrUnverified": "Robin"
+  },
+  {
+    "context": "personagens/sam",
+    "en": "Sam",
+    "ptBrUnverified": "Sam"
+  },
+  {
+    "context": "recursos/bone-fragment",
+    "en": "Bone Fragment",
+    "ptBrUnverified": "Fragmento de Osso"
+  },
+  {
+    "context": "recursos/cinder-shard",
+    "en": "Cinder Shard",
+    "ptBrUnverified": "Fragmento de Brasa"
+  },
+  {
+    "context": "personagens/sandy",
+    "en": "Sandy",
+    "ptBrUnverified": "Sandy"
+  },
+  {
+    "context": "personagens/sebastian",
+    "en": "Sebastian",
+    "ptBrUnverified": "Sebastian"
+  },
+  {
+    "context": "personagens/shane",
+    "en": "Shane",
+    "ptBrUnverified": "Shane"
+  },
+  {
+    "context": "personagens/vincent",
+    "en": "Vincent",
+    "ptBrUnverified": "Vincent"
+  },
+  {
+    "context": "personagens/willy",
+    "en": "Willy",
+    "ptBrUnverified": "Willy"
+  },
+  {
+    "context": "personagens/wizard",
+    "en": "Wizard",
+    "ptBrUnverified": "Feiticeiro"
+  },
+  {
+    "context": "festivais/egg-festival",
+    "en": "Egg Festival",
+    "ptBrUnverified": "Festival do Ovo"
+  },
+  {
+    "context": "festivais/desert-festival",
+    "en": "Desert Festival",
+    "ptBrUnverified": "Festival do Deserto"
+  },
+  {
+    "context": "festivais/flower-dance",
+    "en": "Flower Dance",
+    "ptBrUnverified": "Dança das Flores"
+  },
+  {
+    "context": "festivais/luau",
+    "en": "Luau",
+    "ptBrUnverified": "Luau"
+  },
+  {
+    "context": "festivais/trout-derby",
+    "en": "Trout Derby",
+    "ptBrUnverified": "Torneio da Truta"
+  },
+  {
+    "context": "festivais/moonlight-jellies",
+    "en": "Dance of the Moonlight Jellies",
+    "ptBrUnverified": "Dança das Águas-Vivas ao Luar"
+  },
+  {
+    "context": "festivais/stardew-valley-fair",
+    "en": "Stardew Valley Fair",
+    "ptBrUnverified": "Feira de Stardew Valley"
+  },
+  {
+    "context": "festivais/spirits-eve",
+    "en": "Spirit's Eve",
+    "ptBrUnverified": "Véspera dos Espíritos"
+  },
+  {
+    "context": "festivais/festival-of-ice",
+    "en": "Festival of Ice",
+    "ptBrUnverified": "Festival do Gelo"
+  },
+  {
+    "context": "festivais/squid-fest",
+    "en": "SquidFest",
+    "ptBrUnverified": "Festival da Lula"
+  },
+  {
+    "context": "festivais/night-market",
+    "en": "Night Market",
+    "ptBrUnverified": "Mercado Noturno"
+  },
+  {
+    "context": "festivais/feast-of-winter-star",
+    "en": "Feast of the Winter Star",
+    "ptBrUnverified": "Banquete da Estrela do Inverno"
+  },
+  {
+    "context": "eventos-coleta/salmonberry-season",
+    "en": "Salmonberry season",
+    "ptBrUnverified": "Temporada de salmonberry"
+  },
+  {
+    "context": "eventos-coleta/summer-beach-foraging",
+    "en": "Extra foraging on the beach",
+    "ptBrUnverified": "Coleta extra na praia"
+  },
+  {
+    "context": "eventos-coleta/blackberry-season",
+    "en": "Blackberry season",
+    "ptBrUnverified": "Temporada de amoras"
+  },
+  {
+    "context": "lembretes/traveling-cart",
+    "en": "Check Traveling Cart stock",
+    "ptBrUnverified": "Verificar estoque da carroça viajante"
+  },
+  {
+    "context": "lembretes/krobus-sprinkler",
+    "en": "Buy Iridium Sprinkler (Krobus)",
+    "ptBrUnverified": "Comprar aspersor de irídio (Krobus)"
+  },
+  {
+    "context": "lembretes/desert-trader-staircase",
+    "en": "Buy Staircase (Desert Trader)",
+    "ptBrUnverified": "Comprar escada (Comerciante do deserto)"
+  },
+  {
+    "context": "lembretes/queen-of-sauce-new",
+    "en": "Queen of Sauce (new episode)",
+    "ptBrUnverified": "A Rainha do Molho (novo episódio)"
+  },
+  {
+    "context": "lembretes/queen-of-sauce-rerun",
+    "en": "Queen of Sauce (rerun)",
+    "ptBrUnverified": "A Rainha do Molho (reprise)"
+  },
+  {
+    "context": "lembretes/special-orders",
+    "en": "Check Special Orders board",
+    "ptBrUnverified": "Verificar o quadro de pedidos especiais"
+  },
+  {
+    "context": "lembretes/forage-weekly",
+    "en": "Gather forage",
+    "ptBrUnverified": "Coletar forrageáveis"
+  },
+  {
+    "context": "lembretes/buy-seeds",
+    "en": "New season",
+    "ptBrUnverified": "Nova estação"
+  },
+  {
+    "context": "peixes/crimsonfish",
+    "en": "Crimsonfish",
+    "ptBrUnverified": "Peixe-carmim"
+  },
+  {
+    "context": "peixes/angler",
+    "en": "Angler",
+    "ptBrUnverified": "Tamboril"
+  },
+  {
+    "context": "peixes/legend",
+    "en": "Legend",
+    "ptBrUnverified": "Lenda"
+  },
+  {
+    "context": "peixes/glacierfish",
+    "en": "Glacierfish",
+    "ptBrUnverified": "Peixe-gelo"
+  },
+  {
+    "context": "peixes/mutant-carp",
+    "en": "Mutant Carp",
+    "ptBrUnverified": "Carpa Mutante"
+  },
+  {
+    "context": "peixes/son-of-crimsonfish",
+    "en": "Son of Crimsonfish",
+    "ptBrUnverified": "Filho do Peixe-carmim"
+  },
+  {
+    "context": "peixes/ms-angler",
+    "en": "Ms. Angler",
+    "ptBrUnverified": "Srta. Tamboril"
+  },
+  {
+    "context": "peixes/legend-ii",
+    "en": "Legend II",
+    "ptBrUnverified": "Lenda II"
+  },
+  {
+    "context": "peixes/glacierfish-jr",
+    "en": "Glacierfish Jr.",
+    "ptBrUnverified": "Peixe-gelo Jr."
+  },
+  {
+    "context": "peixes/radioactive-carp",
+    "en": "Radioactive Carp",
+    "ptBrUnverified": "Carpa Radioativa"
+  },
+  {
+    "context": "maquinas/keg",
+    "en": "Keg",
+    "ptBrUnverified": "Barril"
+  },
+  {
+    "context": "maquinas/preserves-jar",
+    "en": "Preserves Jar",
+    "ptBrUnverified": "Jarra de Conserva"
+  },
+  {
+    "context": "maquinas/bee-house",
+    "en": "Bee House",
+    "ptBrUnverified": "Apiário"
+  },
+  {
+    "context": "maquinas/cask",
+    "en": "Cask",
+    "ptBrUnverified": "Barril de Madeira"
+  },
+  {
+    "context": "maquinas/mayonnaise-machine",
+    "en": "Mayonnaise Machine",
+    "ptBrUnverified": "Máquina de Maionese"
+  },
+  {
+    "context": "maquinas/cheese-press",
+    "en": "Cheese Press",
+    "ptBrUnverified": "Prensa de Queijo"
+  },
+  {
+    "context": "maquinas/loom",
+    "en": "Loom",
+    "ptBrUnverified": "Tear"
+  },
+  {
+    "context": "maquinas/oil-maker",
+    "en": "Oil Maker",
+    "ptBrUnverified": "Gerador de Óleo"
+  },
+  {
+    "context": "maquinas/furnace",
+    "en": "Furnace",
+    "ptBrUnverified": "Fornalha"
+  },
+  {
+    "context": "maquinas/recycling-machine",
+    "en": "Recycling Machine",
+    "ptBrUnverified": "Máquina de Reciclagem"
+  },
+  {
+    "context": "maquinas/crystalarium",
+    "en": "Crystalarium",
+    "ptBrUnverified": "Cristalário"
+  },
+  {
+    "context": "maquinas/charcoal-kiln",
+    "en": "Charcoal Kiln",
+    "ptBrUnverified": "Carvoaria"
+  },
+  {
+    "context": "maquinas/bone-mill",
+    "en": "Bone Mill",
+    "ptBrUnverified": "Moedor de Ossos"
+  },
+  {
+    "context": "maquinas/geode-crusher",
+    "en": "Geode Crusher",
+    "ptBrUnverified": "Esmagador de Geodos"
+  },
+  {
+    "context": "maquinas/wood-chipper",
+    "en": "Wood Chipper",
+    "ptBrUnverified": "Triturador de Madeira"
+  },
+  {
+    "context": "maquinas/tapper",
+    "en": "Tapper",
+    "ptBrUnverified": "Torneirinha"
+  },
+  {
+    "context": "maquinas/slime-incubator",
+    "en": "Slime Incubator",
+    "ptBrUnverified": "Incubador de Gosmas"
+  },
+  {
+    "context": "maquinas/ostrich-incubator",
+    "en": "Ostrich Incubator",
+    "ptBrUnverified": "Incubadora de Avestruzes"
+  },
+  {
+    "context": "maquinas/solar-panel",
+    "en": "Solar Panel",
+    "ptBrUnverified": "Painel Solar"
+  },
+  {
+    "context": "recursos/white-algae",
+    "en": "White Algae",
+    "ptBrUnverified": "Algas Brancas"
+  },
+  {
+    "context": "consumiveis/cherry-bomb",
+    "en": "Cherry Bomb",
+    "ptBrUnverified": "Bombinha"
+  },
+  {
+    "context": "itens-diversos/gate",
+    "en": "Gate",
+    "ptBrUnverified": "Portão"
+  },
+  {
+    "context": "itens-diversos/wood-fence",
+    "en": "Wood Fence",
+    "ptBrUnverified": "Cerca de Madeira"
+  },
+  {
+    "context": "itens-diversos/stone-fence",
+    "en": "Stone Fence",
+    "ptBrUnverified": "Cerca de Pedra"
+  },
+  {
+    "context": "itens-diversos/iron-fence",
+    "en": "Iron Fence",
+    "ptBrUnverified": "Cerca de Ferro"
+  },
+  {
+    "context": "maquinas/sprinkler",
+    "en": "Sprinkler",
+    "ptBrUnverified": "Aspersor"
+  },
+  {
+    "context": "maquinas/quality-sprinkler",
+    "en": "Quality Sprinkler",
+    "ptBrUnverified": "Aspersor de Qualidade"
+  },
+  {
+    "context": "recursos/sap",
+    "en": "Sap",
+    "ptBrUnverified": "Seiva"
+  },
+  {
+    "context": "fertilizantes/deluxe-retaining-soil",
+    "en": "Deluxe Retaining Soil",
+    "ptBrUnverified": "Solo Retentor Premium"
+  },
+  {
+    "context": "fertilizantes/tree-fertilizer",
+    "en": "Tree Fertilizer",
+    "ptBrUnverified": "Fertilizante de Árvore"
+  },
+  {
+    "context": "sementes/fiber-seeds",
+    "en": "Fiber Seeds",
+    "ptBrUnverified": "Sementes de Fibra"
+  },
+  {
+    "context": "itens-diversos/wood-floor",
+    "en": "Wood Floor",
+    "ptBrUnverified": "Piso de Madeira"
+  },
+  {
+    "context": "itens-diversos/rustic-plank-floor",
+    "en": "Rustic Plank Floor",
+    "ptBrUnverified": "Piso Rústico de Tábuas"
+  },
+  {
+    "context": "itens-diversos/straw-floor",
+    "en": "Straw Floor",
+    "ptBrUnverified": "Piso de Palha"
+  },
+  {
+    "context": "itens-diversos/weathered-floor",
+    "en": "Weathered Floor",
+    "ptBrUnverified": "Piso Desgastado"
+  },
+  {
+    "context": "itens-diversos/stone-floor",
+    "en": "Stone Floor",
+    "ptBrUnverified": "Piso de Pedra"
+  },
+  {
+    "context": "itens-diversos/stone-walkway-floor",
+    "en": "Stone Walkway Floor",
+    "ptBrUnverified": "Piso Passarela de Pedra"
+  },
+  {
+    "context": "itens-diversos/brick-floor",
+    "en": "Brick Floor",
+    "ptBrUnverified": "Piso de Tijolo"
+  },
+  {
+    "context": "itens-diversos/wood-path",
+    "en": "Wood Path",
+    "ptBrUnverified": "Caminho de Madeira"
+  },
+  {
+    "context": "itens-diversos/gravel-path",
+    "en": "Gravel Path",
+    "ptBrUnverified": "Caminho de Cascalho"
+  },
+  {
+    "context": "itens-diversos/cobblestone-path",
+    "en": "Cobblestone Path",
+    "ptBrUnverified": "Caminho Arredondado de Pedra"
+  },
+  {
+    "context": "itens-diversos/stepping-stone-path",
+    "en": "Stepping Stone Path",
+    "ptBrUnverified": "Caminho de Pedras Polidas"
+  },
+  {
+    "context": "itens-diversos/quality-bobber",
+    "en": "Quality Bobber",
+    "ptBrUnverified": "Boia de Qualidade"
+  },
+  {
+    "context": "recursos/bug-meat",
+    "en": "Bug Meat",
+    "ptBrUnverified": "Carne de Inseto"
+  },
+  {
+    "context": "itens-diversos/wild-bait",
+    "en": "Wild Bait",
+    "ptBrUnverified": "Isca Selvagem"
+  },
+  {
+    "context": "itens-diversos/sturdy-ring",
+    "en": "Sturdy Ring",
+    "ptBrUnverified": "Anel Resistente"
+  },
+  {
+    "context": "itens-diversos/warrior-ring",
+    "en": "Warrior Ring",
+    "ptBrUnverified": "Anel de Guerreiro"
+  },
+  {
+    "context": "itens-diversos/ring-of-yoba",
+    "en": "Ring of Yoba",
+    "ptBrUnverified": "Anel de Ioba"
+  },
+  {
+    "context": "itens-diversos/thorns-ring",
+    "en": "Thorns Ring",
+    "ptBrUnverified": "Anel de Espinhos"
+  },
+  {
+    "context": "itens-diversos/glowstone-ring",
+    "en": "Glowstone Ring",
+    "ptBrUnverified": "Anel de Pedra Luminosa"
+  },
+  {
+    "context": "itens-diversos/iridium-band",
+    "en": "Iridium Band",
+    "ptBrUnverified": "Anel de Irídio"
+  },
+  {
+    "context": "itens-diversos/wedding-ring",
+    "en": "Wedding Ring",
+    "ptBrUnverified": "Anel de Casamento"
+  },
+  {
+    "context": "sementes/acorn",
+    "en": "Acorn",
+    "ptBrUnverified": "Bolota"
+  },
+  {
+    "context": "sementes/maple-seed",
+    "en": "Maple Seed",
+    "ptBrUnverified": "Semente de Ácer"
+  },
+  {
+    "context": "sementes/pine-cone",
+    "en": "Pine Cone",
+    "ptBrUnverified": null
+  },
+  {
+    "context": "itens-diversos/bug-steak",
+    "en": "Bug Steak",
+    "ptBrUnverified": "Filé de Inseto"
+  },
+  {
+    "context": "itens-diversos/oil-of-garlic",
+    "en": "Oil of Garlic",
+    "ptBrUnverified": "Óleo de Alho"
+  },
+  {
+    "context": "itens-diversos/fairy-dust",
+    "en": "Fairy Dust",
+    "ptBrUnverified": "Pó de Fada"
+  },
+  {
+    "context": "itens-diversos/warp-totem-beach",
+    "en": "Warp Totem Beach",
+    "ptBrUnverified": "Totem de Teletransporte: Praia"
+  },
+  {
+    "context": "itens-diversos/warp-totem-mountains",
+    "en": "Warp Totem Mountains",
+    "ptBrUnverified": "Totem de Teletransporte: Montanhas"
+  },
+  {
+    "context": "itens-diversos/warp-totem-island",
+    "en": "Warp Totem Island",
+    "ptBrUnverified": "Totem de Teletransporte: Ilha"
+  },
+  {
+    "context": "itens-diversos/rain-totem",
+    "en": "Rain Totem",
+    "ptBrUnverified": "Totem de Chuva"
+  },
+  {
+    "context": "itens-diversos/torch",
+    "en": "Torch",
+    "ptBrUnverified": "Tocha"
+  },
+  {
+    "context": "itens-diversos/campfire",
+    "en": "Campfire",
+    "ptBrUnverified": "Fogueira"
+  },
+  {
+    "context": "itens-diversos/wooden-brazier",
+    "en": "Wooden Brazier",
+    "ptBrUnverified": "Braseiro de Madeira"
+  },
+  {
+    "context": "itens-diversos/stone-brazier",
+    "en": "Stone Brazier",
+    "ptBrUnverified": "Braseiro de Pedra"
+  },
+  {
+    "context": "itens-diversos/gold-brazier",
+    "en": "Gold Brazier",
+    "ptBrUnverified": "Braseiro Dourado"
+  },
+  {
+    "context": "itens-diversos/carved-brazier",
+    "en": "Carved Brazier",
+    "ptBrUnverified": "Braseiro Esculpido"
+  },
+  {
+    "context": "itens-diversos/stump-brazier",
+    "en": "Stump Brazier",
+    "ptBrUnverified": "Braseiro de Toco de Árvore"
+  },
+  {
+    "context": "itens-diversos/barrel-brazier",
+    "en": "Barrel Brazier",
+    "ptBrUnverified": "Braseiro de Barril"
+  },
+  {
+    "context": "itens-diversos/skull-brazier",
+    "en": "Skull Brazier",
+    "ptBrUnverified": "Braseiro de Crânio"
+  },
+  {
+    "context": "itens-diversos/marble-brazier",
+    "en": "Marble Brazier",
+    "ptBrUnverified": "Braseiro de Mármore"
+  },
+  {
+    "context": "itens-diversos/wood-lamp-post",
+    "en": "Wood Lamp-post",
+    "ptBrUnverified": "Poste de Luz Lígneo"
+  },
+  {
+    "context": "itens-diversos/iron-lamp-post",
+    "en": "Iron Lamp-post",
+    "ptBrUnverified": "Poste de Luz Férreo"
+  },
+  {
+    "context": "itens-diversos/jack-o-lantern",
+    "en": "Jack-O-Lantern",
+    "ptBrUnverified": "Cabeça de Abóbora"
+  },
+  {
+    "context": "itens-diversos/lightning-rod",
+    "en": "Lightning Rod",
+    "ptBrUnverified": "Para-raios"
+  },
+  {
+    "context": "itens-diversos/seed-maker",
+    "en": "Seed Maker",
+    "ptBrUnverified": "Gerador de Sementes"
+  },
+  {
+    "context": "itens-diversos/slime-egg-press",
+    "en": "Slime Egg-Press",
+    "ptBrUnverified": "Prensa de Gosmas"
+  },
+  {
+    "context": "itens-diversos/worm-bin",
+    "en": "Worm Bin",
+    "ptBrUnverified": "Cesto de Minhocas"
+  },
+  {
+    "context": "coleta/moss",
+    "en": "Moss",
+    "ptBrUnverified": "Musgo"
+  },
+  {
+    "context": "itens-diversos/deluxe-worm-bin",
+    "en": "Deluxe Worm Bin",
+    "ptBrUnverified": "Cesto de Minhocas de Luxo"
+  },
+  {
+    "context": "itens-diversos/tub-o-flowers",
+    "en": "Tub o' Flowers",
+    "ptBrUnverified": "Barril de Flores"
+  },
+  {
+    "context": "itens-diversos/flute-block",
+    "en": "Flute Block",
+    "ptBrUnverified": "Bloco de Flauta"
+  },
+  {
+    "context": "itens-diversos/drum-block",
+    "en": "Drum Block",
+    "ptBrUnverified": "Bloco de Bateria"
+  },
+  {
+    "context": "itens-diversos/chest",
+    "en": "Chest",
+    "ptBrUnverified": "Baú"
+  },
+  {
+    "context": "itens-diversos/stone-chest",
+    "en": "Stone Chest",
+    "ptBrUnverified": "Baú de Pedra"
+  },
+  {
+    "context": "itens-diversos/wood-sign",
+    "en": "Wood Sign",
+    "ptBrUnverified": "Placa de Madeira"
+  },
+  {
+    "context": "itens-diversos/stone-sign",
+    "en": "Stone Sign",
+    "ptBrUnverified": "Placa de Pedra"
+  },
+  {
+    "context": "itens-diversos/dark-sign",
+    "en": "Dark Sign",
+    "ptBrUnverified": "Placa Negra"
+  },
+  {
+    "context": "itens-diversos/garden-pot",
+    "en": "Garden Pot",
+    "ptBrUnverified": "Vaso de Jardim"
+  },
+  {
+    "context": "itens-diversos/scarecrow",
+    "en": "Scarecrow",
+    "ptBrUnverified": "Espantalho"
+  },
+  {
+    "context": "itens-diversos/deluxe-scarecrow",
+    "en": "Deluxe Scarecrow",
+    "ptBrUnverified": "Espantalho de Luxo"
+  },
+  {
+    "context": "itens-diversos/mini-jukebox",
+    "en": "Mini-Jukebox",
+    "ptBrUnverified": "Mini-Jukebox"
+  },
+  {
+    "context": "itens-diversos/mini-obelisk",
+    "en": "Mini-Obelisk",
+    "ptBrUnverified": "Mini Obelisco"
+  },
+  {
+    "context": "itens-diversos/farm-computer",
+    "en": "Farm Computer",
+    "ptBrUnverified": "Computador da Fazenda"
+  },
+  {
+    "context": "itens-diversos/cookout-kit",
+    "en": "Cookout Kit",
+    "ptBrUnverified": "Cozinha Portátil"
+  },
+  {
+    "context": "pacotes/spring-crops",
+    "en": "Spring Crops Bundle",
+    "ptBrUnverified": "Pacote de cultivos da primavera"
+  },
+  {
+    "context": "pacotes/summer-crops",
+    "en": "Summer Crops Bundle",
+    "ptBrUnverified": "Pacote de cultivos do verão"
+  },
+  {
+    "context": "pacotes/fall-crops",
+    "en": "Fall Crops Bundle",
+    "ptBrUnverified": "Pacote de cultivos do outono"
+  },
+  {
+    "context": "pacotes/spring-foraging",
+    "en": "Spring Foraging Bundle",
+    "ptBrUnverified": "Pacote de coleta da primavera"
+  },
+  {
+    "context": "pacotes/summer-foraging",
+    "en": "Summer Foraging Bundle",
+    "ptBrUnverified": "Pacote de coleta do verão"
+  },
+  {
+    "context": "pacotes/fall-foraging",
+    "en": "Fall Foraging Bundle",
+    "ptBrUnverified": "Pacote de coleta do outono"
+  },
+  {
+    "context": "pacotes/winter-foraging",
+    "en": "Winter Foraging Bundle",
+    "ptBrUnverified": "Pacote de coleta do inverno"
+  },
+  {
+    "context": "pacotes/construction",
+    "en": "Construction Bundle",
+    "ptBrUnverified": "Pacote de construção"
+  },
+  {
+    "context": "pacotes/exotic-foraging",
+    "en": "Exotic Foraging Bundle",
+    "ptBrUnverified": "Pacote de coleta exótica"
+  },
+  {
+    "context": "pacotes/river-fish",
+    "en": "River Fish Bundle",
+    "ptBrUnverified": "Pacote de peixes de rio"
+  },
+  {
+    "context": "pacotes/lake-fish",
+    "en": "Lake Fish Bundle",
+    "ptBrUnverified": "Pacote de peixes de lago"
+  },
+  {
+    "context": "pacotes/ocean-fish",
+    "en": "Ocean Fish Bundle",
+    "ptBrUnverified": "Pacote de peixes do mar"
+  },
+  {
+    "context": "pacotes/night-fishing",
+    "en": "Night Fishing Bundle",
+    "ptBrUnverified": "Pacote de pesca noturna"
+  },
+  {
+    "context": "pacotes/crab-pot",
+    "en": "Crab Pot Bundle",
+    "ptBrUnverified": "Pacote de armadilhas de caranguejo"
+  },
+  {
+    "context": "pacotes/specialty-fish",
+    "en": "Specialty Fish Bundle",
+    "ptBrUnverified": "Pacote de peixes especiais"
+  },
+  {
+    "context": "pacotes/quality-crops",
+    "en": "Quality Crops Bundle",
+    "ptBrUnverified": "Pacote de cultivos de qualidade"
+  },
+  {
+    "context": "pacotes/animal-products",
+    "en": "Animal Bundle",
+    "ptBrUnverified": "Pacote de animais"
+  },
+  {
+    "context": "pacotes/artisan",
+    "en": "Artisan Bundle",
+    "ptBrUnverified": "Pacote artesanal"
+  },
+  {
+    "context": "pacotes/blacksmith",
+    "en": "Blacksmith's Bundle",
+    "ptBrUnverified": "Pacote do ferreiro"
+  },
+  {
+    "context": "pacotes/geologist",
+    "en": "Geologist's Bundle",
+    "ptBrUnverified": "Pacote do geólogo"
+  },
+  {
+    "context": "pacotes/adventurer",
+    "en": "Adventurer's Bundle",
+    "ptBrUnverified": "Pacote do aventureiro"
+  },
+  {
+    "context": "pacotes/chef",
+    "en": "Chef's Bundle",
+    "ptBrUnverified": "Pacote do chef"
+  },
+  {
+    "context": "pacotes/dye",
+    "en": "Dye Bundle",
+    "ptBrUnverified": "Pacote de tingimento"
+  },
+  {
+    "context": "pacotes/field-research",
+    "en": "Field Research Bundle",
+    "ptBrUnverified": "Pacote de pesquisa de campo"
+  },
+  {
+    "context": "pacotes/fodder",
+    "en": "Fodder Bundle",
+    "ptBrUnverified": "Pacote de forragem"
+  },
+  {
+    "context": "pacotes/enchanter",
+    "en": "Enchanter's Bundle",
+    "ptBrUnverified": "Pacote do encantador"
+  },
+  {
+    "context": "pacotes/remix-spring-foraging",
+    "en": "Spring Foraging",
+    "ptBrUnverified": "Coleta da primavera"
+  },
+  {
+    "context": "pacotes/remix-summer-foraging",
+    "en": "Summer Foraging",
+    "ptBrUnverified": "Coleta do verão"
+  },
+  {
+    "context": "pacotes/remix-fall-foraging",
+    "en": "Fall Foraging",
+    "ptBrUnverified": "Coleta do outono"
+  },
+  {
+    "context": "pacotes/remix-winter-foraging",
+    "en": "Winter Foraging",
+    "ptBrUnverified": "Coleta do inverno"
+  },
+  {
+    "context": "pacotes/remix-construction",
+    "en": "Construction",
+    "ptBrUnverified": "Construção"
+  },
+  {
+    "context": "pacotes/remix-sticky",
+    "en": "Sticky",
+    "ptBrUnverified": "Pegajoso"
+  },
+  {
+    "context": "pacotes/remix-forest",
+    "en": "Forest",
+    "ptBrUnverified": "da Floresta"
+  },
+  {
+    "context": "pacotes/remix-exotic-foraging",
+    "en": "Exotic Foraging",
+    "ptBrUnverified": "Coleta exótica"
+  },
+  {
+    "context": "pacotes/remix-wild-medicine",
+    "en": "Wild Medicine",
+    "ptBrUnverified": "Medicina Selvagem"
+  },
+  {
+    "context": "pacotes/remix-spring-crops",
+    "en": "Spring Crops",
+    "ptBrUnverified": "Cultivos da primavera"
+  },
+  {
+    "context": "pacotes/remix-summer-crops",
+    "en": "Summer Crops",
+    "ptBrUnverified": "Cultivos do verão"
+  },
+  {
+    "context": "pacotes/remix-fall-crops",
+    "en": "Fall Crops",
+    "ptBrUnverified": "Cultivos do outono"
+  },
+  {
+    "context": "pacotes/remix-quality-crops",
+    "en": "Quality Crops",
+    "ptBrUnverified": "Cultivos de qualidade"
+  },
+  {
+    "context": "pacotes/remix-rare-crops",
+    "en": "Rare Crops",
+    "ptBrUnverified": "Plantas Raras"
+  },
+  {
+    "context": "pacotes/remix-animal",
+    "en": "Animal",
+    "ptBrUnverified": "Animal"
+  },
+  {
+    "context": "pacotes/remix-fish-farmer",
+    "en": "Fish Farmer's",
+    "ptBrUnverified": "Piscicultor"
+  },
+  {
+    "context": "pacotes/remix-garden",
+    "en": "Garden",
+    "ptBrUnverified": "Jardim"
+  },
+  {
+    "context": "pacotes/remix-artisan",
+    "en": "Artisan",
+    "ptBrUnverified": "Artesão"
+  },
+  {
+    "context": "pacotes/remix-brewer",
+    "en": "Brewer's",
+    "ptBrUnverified": "Cervejeiro"
+  },
+  {
+    "context": "pacotes/remix-river-fish",
+    "en": "River Fish",
+    "ptBrUnverified": "Peixes de rio"
+  },
+  {
+    "context": "pacotes/remix-lake-fish",
+    "en": "Lake Fish",
+    "ptBrUnverified": "Peixes de lago"
+  },
+  {
+    "context": "pacotes/remix-ocean-fish",
+    "en": "Ocean Fish",
+    "ptBrUnverified": "Peixes do mar"
+  },
+  {
+    "context": "pacotes/remix-night-fish",
+    "en": "Night Fishing",
+    "ptBrUnverified": "Pesca noturna"
+  },
+  {
+    "context": "pacotes/remix-crab-pot",
+    "en": "Crab Pot",
+    "ptBrUnverified": "Armadilha de caranguejo"
+  },
+  {
+    "context": "pacotes/remix-specialty-fish",
+    "en": "Specialty Fish",
+    "ptBrUnverified": "Peixes especiais"
+  },
+  {
+    "context": "pacotes/remix-quality-fish",
+    "en": "Quality Fish",
+    "ptBrUnverified": "Peixes de Qualidade"
+  },
+  {
+    "context": "pacotes/remix-master-fisher",
+    "en": "Master Fisher's",
+    "ptBrUnverified": "Mestre Pescador"
+  },
+  {
+    "context": "pacotes/remix-blacksmith",
+    "en": "Blacksmith's",
+    "ptBrUnverified": "Ferreiro"
+  },
+  {
+    "context": "pacotes/remix-geologist",
+    "en": "Geologist's",
+    "ptBrUnverified": "Geólogo"
+  },
+  {
+    "context": "pacotes/remix-adventurer",
+    "en": "Adventurer's",
+    "ptBrUnverified": "Aventura"
+  },
+  {
+    "context": "pacotes/remix-treasure-hunter",
+    "en": "Treasure Hunter's",
+    "ptBrUnverified": "Caçador de Tesouro"
+  },
+  {
+    "context": "pacotes/remix-engineer",
+    "en": "Engineer's",
+    "ptBrUnverified": "Engenheiro"
+  },
+  {
+    "context": "pacotes/remix-chef",
+    "en": "Chef's",
+    "ptBrUnverified": "Cozinheiro"
+  },
+  {
+    "context": "pacotes/remix-dye",
+    "en": "Dye",
+    "ptBrUnverified": "Tintura"
+  },
+  {
+    "context": "pacotes/remix-field-research",
+    "en": "Field Research",
+    "ptBrUnverified": "Pesquisador de campo"
+  },
+  {
+    "context": "pacotes/remix-fodder",
+    "en": "Fodder",
+    "ptBrUnverified": "Forragem"
+  },
+  {
+    "context": "pacotes/remix-enchanter",
+    "en": "Enchanter's",
+    "ptBrUnverified": "Feiticeiro"
+  },
+  {
+    "context": "pacotes/remix-homestead",
+    "en": "Homestead",
+    "ptBrUnverified": "Comida Caseira"
+  },
+  {
+    "context": "pacotes/remix-child",
+    "en": "Child's",
+    "ptBrUnverified": "das Crianças"
+  },
+  {
+    "context": "pacotes/remix-forager",
+    "en": "Forager's",
+    "ptBrUnverified": "do Coletor"
+  },
+  {
+    "context": "pacotes/remix-spirits-eve",
+    "en": "Spirit's Eve",
+    "ptBrUnverified": "Véspera dos Espíritos"
+  },
+  {
+    "context": "pacotes/remix-vault2500",
+    "en": "2,500g",
+    "ptBrUnverified": "2.500 g"
+  },
+  {
+    "context": "pacotes/remix-vault5000",
+    "en": "5,000g",
+    "ptBrUnverified": "5.000 g"
+  },
+  {
+    "context": "pacotes/remix-vault10000",
+    "en": "10,000g",
+    "ptBrUnverified": "10.000 g"
+  },
+  {
+    "context": "pacotes/remix-vault25000",
+    "en": "25,000g",
+    "ptBrUnverified": "25.000 g"
+  },
+  {
+    "context": "conquistas/a1",
+    "en": "Greenhorn (15k)",
+    "ptBrUnverified": "Dedo Verde (15 mil)"
+  },
+  {
+    "context": "conquistas/a2",
+    "en": "Cowpoke (50k)",
+    "ptBrUnverified": "Vaqueiro (50 mil)"
+  },
+  {
+    "context": "conquistas/a3",
+    "en": "Homesteader (250k)",
+    "ptBrUnverified": "Autossuficiência (250 mil)"
+  },
+  {
+    "context": "conquistas/a4",
+    "en": "Millionaire (1mil)",
+    "ptBrUnverified": "Milionário (1 milhão)"
+  },
+  {
+    "context": "conquistas/a5",
+    "en": "Legend (10mil)",
+    "ptBrUnverified": "Lenda (10 milhões)"
+  },
+  {
+    "context": "conquistas/a6",
+    "en": "A Complete Collection",
+    "ptBrUnverified": "Coleção Completa"
+  },
+  {
+    "context": "conquistas/a7",
+    "en": "A New Friend",
+    "ptBrUnverified": "Um Novo Amigo"
+  },
+  {
+    "context": "conquistas/a8",
+    "en": "Best Friends",
+    "ptBrUnverified": "Melhores Amigos"
+  },
+  {
+    "context": "conquistas/a9",
+    "en": "The Beloved Farmer",
+    "ptBrUnverified": "Amado Fazendeiro"
+  },
+  {
+    "context": "conquistas/a10",
+    "en": "Cliques",
+    "ptBrUnverified": "Panelinha"
+  },
+  {
+    "context": "conquistas/a11",
+    "en": "Networking",
+    "ptBrUnverified": "Rede de Contatos"
+  },
+  {
+    "context": "conquistas/a12",
+    "en": "Popular",
+    "ptBrUnverified": "Popular"
+  },
+  {
+    "context": "conquistas/a13",
+    "en": "Cook",
+    "ptBrUnverified": "Cozinheiro"
+  },
+  {
+    "context": "conquistas/a14",
+    "en": "Sous Chef",
+    "ptBrUnverified": "Vice-chefe"
+  },
+  {
+    "context": "conquistas/a15",
+    "en": "Gourmet Chef",
+    "ptBrUnverified": "Chefe Gourmet"
+  },
+  {
+    "context": "conquistas/a16",
+    "en": "Moving Up",
+    "ptBrUnverified": "Subindo de Vida"
+  },
+  {
+    "context": "conquistas/a17",
+    "en": "Living Large",
+    "ptBrUnverified": "Vivendo Bem"
+  },
+  {
+    "context": "conquistas/a18",
+    "en": "D.I.Y.",
+    "ptBrUnverified": "Faça Você Mesmo"
+  },
+  {
+    "context": "conquistas/a19",
+    "en": "Artisan",
+    "ptBrUnverified": "Artesão"
+  },
+  {
+    "context": "conquistas/a20",
+    "en": "Craft Master",
+    "ptBrUnverified": "Mestre da Fabricação"
+  },
+  {
+    "context": "conquistas/a21",
+    "en": "Fisherman",
+    "ptBrUnverified": "Pescador"
+  },
+  {
+    "context": "conquistas/a22",
+    "en": "Ol' Mariner",
+    "ptBrUnverified": "Velho Marinheiro"
+  },
+  {
+    "context": "conquistas/a23",
+    "en": "Master Angler",
+    "ptBrUnverified": "Mestre Pescador"
+  },
+  {
+    "context": "conquistas/a24",
+    "en": "Mother Catch",
+    "ptBrUnverified": "Grande Pesca"
+  },
+  {
+    "context": "conquistas/a25",
+    "en": "Treasure Trove",
+    "ptBrUnverified": "Coleção de Tesouros"
+  },
+  {
+    "context": "conquistas/a26",
+    "en": "Gofer",
+    "ptBrUnverified": "Autônomo"
+  },
+  {
+    "context": "conquistas/a27",
+    "en": "A Big Help",
+    "ptBrUnverified": "Uma Grande Ajuda"
+  },
+  {
+    "context": "conquistas/a28",
+    "en": "Polyculture",
+    "ptBrUnverified": "Policultura"
+  },
+  {
+    "context": "conquistas/a29",
+    "en": "Monoculture",
+    "ptBrUnverified": "Monocultura"
+  },
+  {
+    "context": "conquistas/a30",
+    "en": "Full Shipment",
+    "ptBrUnverified": "Envio Completo"
+  },
+  {
+    "context": "conquistas/a31",
+    "en": "Prairie King",
+    "ptBrUnverified": "Rei da Pradaria"
+  },
+  {
+    "context": "conquistas/a32",
+    "en": "The Bottom",
+    "ptBrUnverified": "O Fundo"
+  },
+  {
+    "context": "conquistas/a33",
+    "en": "Local Legend",
+    "ptBrUnverified": "Lenda Local"
+  },
+  {
+    "context": "conquistas/a34",
+    "en": "Joja Co. Member Of The Year",
+    "ptBrUnverified": "Membro do Ano da Joja Co."
+  },
+  {
+    "context": "conquistas/a35",
+    "en": "Mystery Of The Stardrops",
+    "ptBrUnverified": "O Mistério das Gotas Estelares"
+  },
+  {
+    "context": "conquistas/a36",
+    "en": "Full House",
+    "ptBrUnverified": "Casa Cheia"
+  },
+  {
+    "context": "conquistas/a37",
+    "en": "Singular Talent",
+    "ptBrUnverified": "Talento Singular"
+  },
+  {
+    "context": "conquistas/a38",
+    "en": "Master Of The Five Ways",
+    "ptBrUnverified": "Mestre dos Cinco Caminhos"
+  },
+  {
+    "context": "conquistas/a39",
+    "en": "Protector Of The Valley",
+    "ptBrUnverified": "Protetor do Vale"
+  },
+  {
+    "context": "conquistas/a40",
+    "en": "Fector's Challenge",
+    "ptBrUnverified": "O Desafio de Fector"
+  },
+  {
+    "context": "conquistas/a41",
+    "en": "A Distant Shore",
+    "ptBrUnverified": "Uma Praia Distante"
+  },
+  {
+    "context": "conquistas/a42",
+    "en": "Well-read",
+    "ptBrUnverified": "Estudioso"
+  },
+  {
+    "context": "conquistas/a43",
+    "en": "Two Thumbs Up",
+    "ptBrUnverified": "Dois Joinhas"
+  },
+  {
+    "context": "conquistas/a44",
+    "en": "Blue Ribbon",
+    "ptBrUnverified": "Fita Azul"
+  },
+  {
+    "context": "conquistas/a45",
+    "en": "An Unforgettable Soup",
+    "ptBrUnverified": "Uma Sopa Inesquecível"
+  },
+  {
+    "context": "conquistas/a46",
+    "en": "Good Neighbors",
+    "ptBrUnverified": "Boa Vizinhança"
+  },
+  {
+    "context": "conquistas/a47",
+    "en": "Danger In The Deep",
+    "ptBrUnverified": "Perigo nas Profundezas"
+  },
+  {
+    "context": "conquistas/a48",
+    "en": "Infinite Power",
+    "ptBrUnverified": "Poder Infinito"
+  },
+  {
+    "context": "conquistas/a49",
+    "en": "Perfection",
+    "ptBrUnverified": "Perfeição"
+  }
+]

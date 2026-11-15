@@ -1,0 +1,25 @@
+{
+  "id": "coop",
+  "type": "construcoes",
+  "name": {
+    "en": "Coop",
+    "pt-BR": "Galinheiro"
+  },
+  "nameVerified": true,
+  "category": "animal",
+  "construction": {
+    "price": 4000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 300
+      },
+      {
+        "item": "stone",
+        "qty": 100
+      }
+    ],
+    "buildDays": 3,
+    "builtBy": "carpenter"
+  }
+}

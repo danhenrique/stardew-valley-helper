@@ -1,0 +1,33 @@
+{
+  "id": "scorpion-carp",
+  "type": "peixes",
+  "name": {
+    "en": "Scorpion Carp",
+    "pt-BR": "Carpa Escorpiônica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "20:00"
+      }
+    ],
+    "location": {
+      "en": "Desert, Fishing level 4+",
+      "pt-BR": "Deserto, nível de pesca 4+"
+    },
+    "locationVerified": false
+  }
+}

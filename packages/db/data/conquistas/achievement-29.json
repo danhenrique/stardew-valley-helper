@@ -1,0 +1,14 @@
+{
+  "id": "achievement-29",
+  "type": "conquistas",
+  "name": {
+    "en": "Monoculture",
+    "pt-BR": "Monocultura"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Ship 300 of one crop.",
+    "pt-BR": "Envie 300 itens de uma variedade só pelo correio."
+  },
+  "order": 29
+}

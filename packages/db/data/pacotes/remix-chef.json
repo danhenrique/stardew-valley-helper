@@ -1,0 +1,44 @@
+{
+  "id": "remix-chef",
+  "type": "pacotes",
+  "name": {
+    "en": "Chef's",
+    "pt-BR": "Cozinheiro"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 6,
+  "items": [
+    {
+      "item": "maple-syrup"
+    },
+    {
+      "item": "fiddlehead-fern",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "truffle"
+    },
+    {
+      "item": "poppy",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "maki-roll"
+    },
+    {
+      "item": "fried-egg"
+    }
+  ]
+}

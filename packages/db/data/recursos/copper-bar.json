@@ -1,0 +1,18 @@
+{
+  "id": "copper-bar",
+  "type": "recursos",
+  "name": {
+    "en": "Copper Bar",
+    "pt-BR": "Barra de Cobre"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "clint",
+      "maru"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "galaxy-soul",
+  "type": "itens-especiais",
+  "name": {
+    "en": "Galaxy Soul",
+    "pt-BR": "Alma da Galáxia"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 40
+      }
+    }
+  ]
+}
