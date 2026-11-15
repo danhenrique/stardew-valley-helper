@@ -62,7 +62,20 @@ guards the most important ones:
 - the Cognito domain prefix `danhenrique-stardew-valley-helper-website`
 - the website name `stardew-helper`
 
+### AWS credentials
+
+Nx loads `.env.local` (git-ignored) from the repository root. Create it once with the AWS profile to
+deploy with; without it, `plan`/`apply` fail with `CredentialsProviderError: Could not load
+credentials from any providers`:
+
+```bash
+echo 'AWS_PROFILE=danhenrique-prod' > .env.local
+aws sso login --profile danhenrique-prod   # when the SSO session has expired
+```
+
 ### Steps
+
+`apply` re-runs `plan` and applies it without asking. Review the plan first.
 
 1. Plan and review:
    ```bash
