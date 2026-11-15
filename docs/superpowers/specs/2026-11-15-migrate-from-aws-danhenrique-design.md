@@ -200,8 +200,13 @@ Port db, api, website, scripts, Terraform modules, the dataset and the docs, wit
 
 ### Phase 4: Freeze the old state
 
-Rename the old key to `aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate.migrated`. There is
-no `destroy` and nothing is deleted. The old code can no longer apply by mistake.
+Leave `aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate` untouched and write a permanent lock
+object next to it, `aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate.tflock`, whose body
+says the state moved to `stardew-valley-helper`. The backend uses `use_lockfile = true`, so any `plan`
+or `apply` from the old code fails with a state-lock error instead of planning against it.
+
+Renaming or deleting the old key is not an option: the old code would then see an empty state and
+plan to create every resource again.
 
 ### Phase 5: Removal in `aws-danhenrique`
 
@@ -230,7 +235,7 @@ On a `feature/remove-stardew-valley` branch with its own PR in `aws-danhenrique`
 | Phases 1 and 2 | Nothing changed in AWS. Discard the branch |
 | Phase 3 plan shows changes | Do not apply. Fix the new code; the old state is untouched |
 | Phase 3 apply broke something | Redeploy from the old code (the old key is still live), delete the new key, investigate |
-| After phase 4 | Rename `.migrated` back to the old key and redeploy from the old repository |
+| After phase 4 | Delete the old `.tflock` object and redeploy from the old repository |
 
 The two repositories never apply at the same time.
 
