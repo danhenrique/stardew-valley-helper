@@ -1,0 +1,13 @@
+{
+  "id": "flower-dance",
+  "type": "festivais",
+  "name": {
+    "en": "Flower Dance",
+    "pt-BR": "Dança das Flores"
+  },
+  "nameVerified": false,
+  "season": "spring",
+  "startDay": 24,
+  "endDay": 24,
+  "shopsClosed": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "large-brown-couch",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Large Brown Couch",
+    "pt-BR": "Sofá Marrom Grande"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 3000,
+      "availability": "sun"
+    }
+  ]
+}

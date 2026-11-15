@@ -1,0 +1,12 @@
+{
+  "id": "qi-fruit",
+  "type": "frutas",
+  "name": {
+    "en": "Qi Fruit",
+    "pt-BR": "Fruta Qi"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ]
+}

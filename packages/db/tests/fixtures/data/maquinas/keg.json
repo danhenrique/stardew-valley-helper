@@ -1,0 +1,28 @@
+{
+ "id": "keg",
+ "type": "maquinas",
+ "name": {
+  "en": "Keg",
+  "pt-BR": "Barril"
+ },
+ "nameVerified": true,
+ "category": "artisan",
+ "processing": [
+  {
+   "days": 7,
+   "output": "test-wine",
+   "label": {
+    "en": "Test-Wine",
+    "pt-BR": "Test-Wine"
+   }
+  },
+  {
+   "days": 2,
+   "output": "beer",
+   "label": {
+    "en": "Beer",
+    "pt-BR": "Beer"
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "achievement-47",
+  "type": "conquistas",
+  "name": {
+    "en": "Danger In The Deep",
+    "pt-BR": "Perigo nas Profundezas"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Reach the bottom of the 'dangerous' mines.",
+    "pt-BR": "Chegue até o fundo das minas 'perigosas'."
+  },
+  "order": 47
+}

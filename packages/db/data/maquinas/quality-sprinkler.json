@@ -1,0 +1,25 @@
+{
+  "id": "quality-sprinkler",
+  "type": "maquinas",
+  "name": {
+    "en": "Quality Sprinkler",
+    "pt-BR": "Aspersor de Qualidade"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "gold-bar",
+        "qty": 1
+      },
+      {
+        "item": "refined-quartz",
+        "qty": 1
+      }
+    ]
+  }
+}

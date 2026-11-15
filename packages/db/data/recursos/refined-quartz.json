@@ -1,0 +1,17 @@
+{
+  "id": "refined-quartz",
+  "type": "recursos",
+  "name": {
+    "en": "Refined Quartz",
+    "pt-BR": "Quartzo Refinado"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "clint"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ]
+  }
+}

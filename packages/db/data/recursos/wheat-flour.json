@@ -1,0 +1,19 @@
+{
+  "id": "wheat-flour",
+  "type": "recursos",
+  "name": {
+    "en": "Wheat Flour",
+    "pt-BR": "Farinha de Trigo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100
+    },
+    {
+      "shop": "joja",
+      "price": 125
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "neptunite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Neptunite",
+    "pt-BR": "Netunita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

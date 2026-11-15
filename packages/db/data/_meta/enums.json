@@ -1,0 +1,36 @@
+{
+  "seasons": {
+    "en": {
+      "spring": "Spring",
+      "summer": "Summer",
+      "fall": "Fall",
+      "winter": "Winter"
+    },
+    "pt-BR": {
+      "spring": "Primavera",
+      "summer": "Verão",
+      "fall": "Outono",
+      "winter": "Inverno"
+    }
+  },
+  "weekdays": {
+    "en": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "pt-BR": {
+      "mon": "Seg",
+      "tue": "Ter",
+      "wed": "Qua",
+      "thu": "Qui",
+      "fri": "Sex",
+      "sat": "Sáb",
+      "sun": "Dom"
+    }
+  }
+}

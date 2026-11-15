@@ -1,0 +1,14 @@
+{
+  "id": "achievement-23",
+  "type": "conquistas",
+  "name": {
+    "en": "Master Angler",
+    "pt-BR": "Mestre Pescador"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Catch every fish.",
+    "pt-BR": "Pegue todos os peixes."
+  },
+  "order": 23
+}

@@ -1,0 +1,14 @@
+{
+  "id": "achievement-48",
+  "type": "conquistas",
+  "name": {
+    "en": "Infinite Power",
+    "pt-BR": "Poder Infinito"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Obtain the most powerful weapon.",
+    "pt-BR": "Obtenha a arma mais poderosa."
+  },
+  "order": 48
+}

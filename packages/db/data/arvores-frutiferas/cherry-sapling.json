@@ -1,0 +1,22 @@
+{
+  "id": "cherry-sapling",
+  "type": "arvores-frutiferas",
+  "name": {
+    "en": "Cherry Sapling",
+    "pt-BR": "Muda de Cerejeira"
+  },
+  "nameVerified": true,
+  "fruitTree": {
+    "fruit": "cherry",
+    "season": "spring",
+    "daysToMature": 28,
+    "fruitsPerDay": 1,
+    "maxFruitOnTree": 3
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 3400
+    }
+  ]
+}

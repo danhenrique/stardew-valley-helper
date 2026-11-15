@@ -1,0 +1,14 @@
+{
+  "id": "achievement-27",
+  "type": "conquistas",
+  "name": {
+    "en": "A Big Help",
+    "pt-BR": "Uma Grande Ajuda"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Complete 40 'Help Wanted' requests.",
+    "pt-BR": "Complete 40 missões \"Precisa-se de ajuda\"."
+  },
+  "order": 27
+}

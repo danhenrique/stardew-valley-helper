@@ -1,0 +1,36 @@
+{
+  "id": "life-elixir",
+  "type": "consumiveis",
+  "name": {
+    "en": "Life Elixir",
+    "pt-BR": "Elixir da Vida"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "krobus",
+      "leo",
+      "willy"
+    ]
+  },
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "red-mushroom",
+        "qty": 1
+      },
+      {
+        "item": "purple-mushroom",
+        "qty": 1
+      },
+      {
+        "item": "morel",
+        "qty": 1
+      },
+      {
+        "item": "chanterelle",
+        "qty": 1
+      }
+    ]
+  }
+}

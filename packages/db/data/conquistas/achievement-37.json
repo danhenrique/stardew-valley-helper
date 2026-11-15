@@ -1,0 +1,14 @@
+{
+  "id": "achievement-37",
+  "type": "conquistas",
+  "name": {
+    "en": "Singular Talent",
+    "pt-BR": "Talento Singular"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Reach skill level 10 in a skill.",
+    "pt-BR": "Alcance o nível 10 em uma habilidade."
+  },
+  "order": 37
+}

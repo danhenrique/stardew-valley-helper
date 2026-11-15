@@ -1,0 +1,18 @@
+{
+  "id": "pressure-nozzle",
+  "type": "maquinas",
+  "name": {
+    "en": "Pressure Nozzle",
+    "pt-BR": "Bocal de Pressão"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    }
+  ]
+}

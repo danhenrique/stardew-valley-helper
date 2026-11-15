@@ -1,0 +1,9 @@
+{
+  "id": "popcorn",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Popcorn",
+    "pt-BR": "Pipoca"
+  },
+  "nameVerified": true
+}

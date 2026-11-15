@@ -1,0 +1,12 @@
+{
+  "id": "magma-sprites",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Magma Sprites",
+    "pt-BR": "Espíritos de Magma"
+  },
+  "nameVerified": true,
+  "killsRequired": 150,
+  "reward": "marlons-phone-number",
+  "location": "adventurers-guild"
+}

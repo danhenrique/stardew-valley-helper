@@ -1,0 +1,15 @@
+{
+  "id": "slingshot",
+  "type": "armas",
+  "name": {
+    "en": "Slingshot",
+    "pt-BR": "Estilingue"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 500
+    }
+  ]
+}

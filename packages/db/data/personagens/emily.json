@@ -1,0 +1,241 @@
+{
+  "id": "emily",
+  "type": "personagens",
+  "name": {
+    "en": "Emily",
+    "pt-BR": "Emily"
+  },
+  "nameVerified": false,
+  "marriageable": true,
+  "birthday": {
+    "season": "spring",
+    "day": 27
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "amethyst"
+      },
+      {
+        "item": "aquamarine"
+      },
+      {
+        "item": "cloth"
+      },
+      {
+        "item": "emerald"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "jade"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "parrot-egg"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "ruby"
+      },
+      {
+        "item": "survival-burger"
+      },
+      {
+        "item": "topaz"
+      },
+      {
+        "item": "wool"
+      }
+    ],
+    "likes": [
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wild-horseradish"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "fish-taco",
+      "fried-eel",
+      "holly",
+      "ice-cream",
+      "maki-roll",
+      "rice-pudding",
+      "salmon-dinner",
+      "salmonberry",
+      "sashimi",
+      "spicy-eel"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "the-miracle-at-coldstar-ranch"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "the-zuzu-city-express"
+    ],
+    "lovedSnacks": [
+      "kale-smoothie",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "jawbreaker",
+      "panzanella-salad",
+      "rock-candy",
+      "salmon-burger",
+      "sour-slimes",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

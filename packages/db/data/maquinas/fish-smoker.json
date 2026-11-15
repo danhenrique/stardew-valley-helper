@@ -1,0 +1,9 @@
+{
+  "id": "fish-smoker",
+  "type": "maquinas",
+  "name": {
+    "en": "Fish Smoker",
+    "pt-BR": "Defumador de Peixes"
+  },
+  "nameVerified": true
+}

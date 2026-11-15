@@ -1,0 +1,12 @@
+{
+  "id": "golden-spur",
+  "type": "berloques",
+  "name": {
+    "en": "Golden Spur",
+    "pt-BR": "Espora Dourada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ]
+}

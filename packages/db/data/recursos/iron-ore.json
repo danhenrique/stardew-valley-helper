@@ -1,0 +1,15 @@
+{
+  "id": "iron-ore",
+  "type": "recursos",
+  "name": {
+    "en": "Iron Ore",
+    "pt-BR": "Minério de Ferro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 150
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "tomato-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Tomato Seeds",
+    "pt-BR": "Sementes de Tomate"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 11,
+    "phases": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "regrowDays": 4,
+    "lastPlantingDay": 17,
+    "averageExtraYield": 0.05,
+    "produce": "tomato"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 50,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 62,
+      "season": "summer"
+    }
+  ]
+}

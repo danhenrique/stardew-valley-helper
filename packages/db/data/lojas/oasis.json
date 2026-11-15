@@ -1,0 +1,165 @@
+{
+  "id": "oasis",
+  "type": "lojas",
+  "name": {
+    "en": "Oasis & Casino",
+    "pt-BR": "Oásis e Cassino"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "23:50"
+    },
+    "closedDays": [],
+    "festivalClosure": "all"
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 11:50 PM",
+      "pt-BR": "9 AM – 11:50 PM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "Fall 15 after 1 PM (Oasis)",
+      "pt-BR": "Outono 15 após 13h (Oásis)"
+    },
+    "festival": {
+      "en": "Closed except Winter 25 (Feast of the Winter Star)",
+      "pt-BR": "Fechado exceto 25 de inverno (Banquete da Estrela do Inverno)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "note": {
+      "en": "On Spring 25 (Pam's checkup) use Warp Totem: Desert or the Desert Obelisk.",
+      "pt-BR": "Em 25 de primavera, use o totem de teletransporte."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "cactus-seeds",
+      "price": 150
+    },
+    {
+      "item": "rhubarb-seeds",
+      "price": 100
+    },
+    {
+      "item": "starfruit-seeds",
+      "price": 400
+    },
+    {
+      "item": "beet-seeds",
+      "price": 20
+    },
+    {
+      "item": "seasonal-plant",
+      "price": 100
+    },
+    {
+      "item": "random-shirt",
+      "price": 1000
+    },
+    {
+      "item": "wall-cactus",
+      "price": 700
+    },
+    {
+      "item": "coconut",
+      "price": 200,
+      "availability": "mon"
+    },
+    {
+      "item": "large-cottage-rug",
+      "price": 2000,
+      "availability": "mon"
+    },
+    {
+      "item": "cactus-fruit",
+      "price": 150,
+      "availability": "tue"
+    },
+    {
+      "item": "wall-sconce-1",
+      "price": 500,
+      "availability": "tue"
+    },
+    {
+      "item": "wall-sconce-2",
+      "price": 500,
+      "availability": "tue"
+    },
+    {
+      "item": "wall-sconce-3",
+      "price": 500,
+      "availability": "tue"
+    },
+    {
+      "item": "wall-sconce-4",
+      "price": 500,
+      "availability": "tue"
+    },
+    {
+      "item": "omni-geode",
+      "price": 1000,
+      "availability": "wed",
+      "packSize": 3
+    },
+    {
+      "item": "jade-hills-extended",
+      "price": 5000,
+      "availability": "wed"
+    },
+    {
+      "item": "deluxe-speed-gro",
+      "price": 80,
+      "availability": "thu"
+    },
+    {
+      "item": "old-world-rug",
+      "price": 2500,
+      "availability": "thu"
+    },
+    {
+      "item": "honey",
+      "price": 200,
+      "availability": "fri"
+    },
+    {
+      "item": "large-green-rug",
+      "price": 2500,
+      "availability": "fri"
+    },
+    {
+      "item": "quality-retaining-soil",
+      "price": 200,
+      "availability": "sat"
+    },
+    {
+      "item": "wall-sconce-5",
+      "price": 500,
+      "availability": "sat"
+    },
+    {
+      "item": "wall-sconce-7",
+      "price": 500,
+      "availability": "sat"
+    },
+    {
+      "item": "ice-cream",
+      "price": 240,
+      "availability": "sun"
+    },
+    {
+      "item": "large-brown-couch",
+      "price": 3000,
+      "availability": "sun"
+    }
+  ]
+}

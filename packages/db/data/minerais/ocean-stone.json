@@ -1,0 +1,14 @@
+{
+  "id": "ocean-stone",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Ocean Stone",
+    "pt-BR": "Pedra do Oceano"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

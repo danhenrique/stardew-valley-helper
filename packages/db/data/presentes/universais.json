@@ -1,0 +1,140 @@
+{
+  "id": "universais",
+  "type": "presentes",
+  "description": {
+    "en": "Applies to most villagers.",
+    "pt-BR": "Aplica-se à maioria dos moradores."
+  },
+  "loves": [
+    {
+      "item": "golden-pumpkin"
+    },
+    {
+      "item": "magic-rock-candy"
+    },
+    {
+      "item": "pearl"
+    },
+    {
+      "item": "prismatic-shard"
+    },
+    {
+      "item": "rabbits-foot"
+    }
+  ],
+  "likes": [
+    {
+      "category": "artisan-goods",
+      "except": [
+        "void-mayonnaise",
+        "oil"
+      ]
+    },
+    {
+      "category": "cooking",
+      "except": [
+        "fried-egg",
+        "strange-bun",
+        "bread",
+        "seafoam-pudding"
+      ]
+    },
+    {
+      "category": "flowers",
+      "except": [
+        "poppy"
+      ]
+    },
+    {
+      "category": "foraged-minerals"
+    },
+    {
+      "category": "tree-fruit"
+    },
+    {
+      "category": "gems",
+      "except": [
+        "prismatic-shard"
+      ]
+    },
+    {
+      "category": "vegetables",
+      "except": [
+        "hops",
+        "tea-leaves",
+        "unmilled-rice",
+        "wheat"
+      ]
+    },
+    {
+      "item": "life-elixir"
+    },
+    {
+      "item": "maple-syrup"
+    },
+    {
+      "item": "pina-colada"
+    }
+  ],
+  "neutral": [
+    {
+      "item": "bread"
+    },
+    {
+      "item": "clam"
+    },
+    {
+      "item": "coral"
+    },
+    {
+      "item": "duck-feather"
+    },
+    {
+      "item": "fried-egg"
+    },
+    {
+      "item": "hops"
+    },
+    {
+      "item": "nautilus-shell"
+    },
+    {
+      "item": "rainbow-shell"
+    },
+    {
+      "item": "roe"
+    },
+    {
+      "item": "squid-ink"
+    },
+    {
+      "item": "sweet-gem-berry"
+    },
+    {
+      "item": "tea-leaves"
+    },
+    {
+      "item": "truffle"
+    },
+    {
+      "item": "wheat"
+    },
+    {
+      "item": "wool"
+    }
+  ],
+  "tierLabels": {
+    "loves": {
+      "en": "Universally loved gifts",
+      "pt-BR": "Presentes universalmente adorados"
+    },
+    "likes": {
+      "en": "Universally liked gifts",
+      "pt-BR": "Presentes universalmente apreciados"
+    },
+    "neutral": {
+      "en": "Universally neutral gifts",
+      "pt-BR": "Presentes universalmente neutros"
+    }
+  }
+}

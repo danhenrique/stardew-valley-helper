@@ -1,0 +1,31 @@
+{
+  "id": "herring",
+  "type": "peixes",
+  "name": {
+    "en": "Herring",
+    "pt-BR": "Arenque"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

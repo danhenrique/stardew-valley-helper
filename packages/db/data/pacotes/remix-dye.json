@@ -1,0 +1,79 @@
+{
+  "id": "remix-dye",
+  "type": "pacotes",
+  "name": {
+    "en": "Dye",
+    "pt-BR": "Tintura"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 6,
+  "items": [
+    {
+      "item": "red-mushroom",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "beet",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "sea-urchin"
+    },
+    {
+      "item": "amaranth",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "sunflower",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "starfruit",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "duck-feather"
+    },
+    {
+      "item": "cactus-fruit"
+    },
+    {
+      "item": "aquamarine"
+    },
+    {
+      "item": "blueberry",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "red-cabbage",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "iridium-bar"
+    }
+  ]
+}

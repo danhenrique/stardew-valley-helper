@@ -1,0 +1,34 @@
+{
+  "id": "poppyseed-muffin",
+  "type": "culinaria",
+  "name": {
+    "en": "Poppyseed Muffin",
+    "pt-BR": "Bolinho de Papoula"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "leah",
+      "penny"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "poppy",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

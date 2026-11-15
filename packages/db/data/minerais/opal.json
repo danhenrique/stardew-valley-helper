@@ -1,0 +1,14 @@
+{
+  "id": "opal",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Opal",
+    "pt-BR": "Opala"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

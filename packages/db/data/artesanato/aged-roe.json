@@ -1,0 +1,12 @@
+{
+  "id": "aged-roe",
+  "type": "artesanato",
+  "name": {
+    "en": "Aged Roe",
+    "pt-BR": "Ovas Maturadas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ]
+}

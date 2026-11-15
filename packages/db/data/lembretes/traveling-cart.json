@@ -1,0 +1,22 @@
+{
+  "id": "traveling-cart",
+  "type": "lembretes",
+  "name": {
+    "en": "Check Traveling Cart stock",
+    "pt-BR": "Verificar estoque da carroça viajante"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "Fri & Sun, 6:00 AM–8:00 PM / Night Market (Winter 15–17) daily, 5:00 PM–2:00 AM",
+    "pt-BR": "Sex e dom, 6:00–20:00 / Mercado Noturno (Inverno 15–17) diariamente, 17:00–2:00"
+  },
+  "trigger": {
+    "kind": "weekly",
+    "weekdays": [
+      "fri",
+      "sun"
+    ]
+  },
+  "order": 0,
+  "nightMarketDaily": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wooden-brazier",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Wooden Brazier",
+    "pt-BR": "Braseiro de Madeira"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 10
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      },
+      {
+        "item": "fiber",
+        "qty": 5
+      }
+    ]
+  }
+}

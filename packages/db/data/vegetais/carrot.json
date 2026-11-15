@@ -1,0 +1,15 @@
+{
+  "id": "carrot",
+  "type": "vegetais",
+  "name": {
+    "en": "Carrot",
+    "pt-BR": "Cenoura"
+  },
+  "nameVerified": false,
+  "sellPrice": 35,
+  "artisan": {
+    "kegPrice": 78,
+    "jarPrice": 120
+  },
+  "growsFrom": "carrot-seeds"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "salmon-dinner",
+  "type": "culinaria",
+  "name": {
+    "en": "Salmon Dinner",
+    "pt-BR": "Jantar de Salmão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 600
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "alex"
+    ],
+    "dislikesOrHates": [
+      "emily"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "salmon",
+        "qty": 1
+      },
+      {
+        "item": "amaranth",
+        "qty": 1
+      },
+      {
+        "item": "kale",
+        "qty": 1
+      }
+    ]
+  }
+}

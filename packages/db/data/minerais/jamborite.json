@@ -1,0 +1,14 @@
+{
+  "id": "jamborite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Jamborite",
+    "pt-BR": "Jamborita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

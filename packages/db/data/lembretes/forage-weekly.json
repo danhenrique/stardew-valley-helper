@@ -1,0 +1,20 @@
+{
+  "id": "forage-weekly",
+  "type": "lembretes",
+  "name": {
+    "en": "Gather forage",
+    "pt-BR": "Coletar forrageáveis"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "Saturday · Collect forageables around the valley. Forage resets on Sunday, so Saturday is most efficient.",
+    "pt-BR": "Sábado · Colete os forrageáveis pelo vale. A coleta reinicia no domingo, então sábado é o mais eficiente."
+  },
+  "trigger": {
+    "kind": "weekly",
+    "weekdays": [
+      "sat"
+    ]
+  },
+  "order": 6
+}

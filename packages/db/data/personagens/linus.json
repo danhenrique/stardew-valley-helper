@@ -1,0 +1,232 @@
+{
+  "id": "linus",
+  "type": "personagens",
+  "name": {
+    "en": "Linus",
+    "pt-BR": "Linus"
+  },
+  "nameVerified": false,
+  "marriageable": false,
+  "birthday": {
+    "season": "winter",
+    "day": 3
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "blueberry-tart"
+      },
+      {
+        "item": "cactus-fruit"
+      },
+      {
+        "item": "coconut"
+      },
+      {
+        "item": "dish-o-the-sea"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "the-alleyway-buffet"
+      },
+      {
+        "item": "yam"
+      }
+    ],
+    "likes": [
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "holly"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "spring-onion"
+      },
+      {
+        "item": "wild-horseradish"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "category": "fruits",
+        "except": [
+          "cactus-fruit",
+          "coconut"
+        ]
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "milk"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fish",
+        "except": [
+          "snail"
+        ]
+      }
+    ],
+    "dislikesOrHates": []
+  },
+  "movieTheater": {
+    "lovedMovies": [],
+    "likedMovies": [],
+    "lovedSnacks": [
+      "salmon-burger",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "fries",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "jasmine-tea",
+      "jawbreaker",
+      "kale-smoothie",
+      "nachos",
+      "panzanella-salad",
+      "personal-pizza",
+      "popcorn",
+      "rock-candy",
+      "salted-peanuts",
+      "sour-slimes",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "remix-wild-medicine",
+  "type": "pacotes",
+  "name": {
+    "en": "Wild Medicine",
+    "pt-BR": "Medicina Selvagem"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "purple-mushroom",
+      "qty": 5
+    },
+    {
+      "item": "fiddlehead-fern",
+      "qty": 5,
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "white-algae",
+      "qty": 5
+    },
+    {
+      "item": "hops",
+      "qty": 5,
+      "seasons": [
+        "summer"
+      ]
+    }
+  ]
+}

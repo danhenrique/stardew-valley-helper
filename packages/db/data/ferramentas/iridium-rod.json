@@ -1,0 +1,16 @@
+{
+  "id": "iridium-rod",
+  "type": "ferramentas",
+  "name": {
+    "en": "Iridium Rod",
+    "pt-BR": "Vara de Irídio"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 7500,
+      "fishingLevel": 6
+    }
+  ]
+}

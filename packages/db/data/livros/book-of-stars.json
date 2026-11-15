@@ -1,0 +1,12 @@
+{
+  "id": "book-of-stars",
+  "type": "livros",
+  "name": {
+    "en": "Book Of Stars",
+    "pt-BR": "Livro das Estrelas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

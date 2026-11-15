@@ -1,0 +1,28 @@
+{
+  "id": "junimo-hut",
+  "type": "construcoes",
+  "name": {
+    "en": "Junimo Hut",
+    "pt-BR": "Cabana de Junimo"
+  },
+  "nameVerified": true,
+  "construction": {
+    "price": 20000,
+    "materials": [
+      {
+        "item": "stone",
+        "qty": 200
+      },
+      {
+        "item": "starfruit",
+        "qty": 9
+      },
+      {
+        "item": "fiber",
+        "qty": 100
+      }
+    ],
+    "builtBy": "wizard"
+  },
+  "category": "magical"
+}

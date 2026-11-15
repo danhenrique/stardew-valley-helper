@@ -1,0 +1,28 @@
+{
+  "id": "island-obelisk",
+  "type": "construcoes",
+  "name": {
+    "en": "Island Obelisk",
+    "pt-BR": "Obelisco da Ilha"
+  },
+  "nameVerified": true,
+  "construction": {
+    "price": 1000000,
+    "materials": [
+      {
+        "item": "iridium-bar",
+        "qty": 10
+      },
+      {
+        "item": "dragon-tooth",
+        "qty": 10
+      },
+      {
+        "item": "banana",
+        "qty": 10
+      }
+    ],
+    "builtBy": "wizard"
+  },
+  "category": "magical"
+}

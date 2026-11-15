@@ -1,0 +1,14 @@
+{
+  "id": "aerinite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Aerinite",
+    "pt-BR": "Aerinita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

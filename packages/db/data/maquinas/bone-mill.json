@@ -1,0 +1,25 @@
+{
+  "id": "bone-mill",
+  "type": "maquinas",
+  "name": {
+    "en": "Bone Mill",
+    "pt-BR": "Moedor de Ossos"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bone-fragment",
+        "qty": 10
+      },
+      {
+        "item": "clay",
+        "qty": 3
+      },
+      {
+        "item": "stone",
+        "qty": 20
+      }
+    ]
+  }
+}

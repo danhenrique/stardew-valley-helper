@@ -1,0 +1,25 @@
+{
+ "id": "test-summer-seed",
+ "type": "sementes",
+ "name": {
+  "en": "Summer Seed",
+  "pt-BR": "Semente de Verão"
+ },
+ "nameVerified": true,
+ "crop": {
+  "seasons": [
+   "summer"
+  ],
+  "growthDays": 6,
+  "phases": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "regrowDays": null,
+  "lastPlantingDay": 22,
+  "averageExtraYield": 0,
+  "produce": "test-veg"
+ }
+}

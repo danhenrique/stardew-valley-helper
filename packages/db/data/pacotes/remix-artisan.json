@@ -1,0 +1,71 @@
+{
+  "id": "remix-artisan",
+  "type": "pacotes",
+  "name": {
+    "en": "Artisan",
+    "pt-BR": "Artesão"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 6,
+  "items": [
+    {
+      "item": "truffle-oil"
+    },
+    {
+      "item": "cloth"
+    },
+    {
+      "item": "goat-cheese"
+    },
+    {
+      "item": "honey"
+    },
+    {
+      "item": "jelly"
+    },
+    {
+      "item": "apple",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "apricot",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "orange",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "peach",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "pomegranate",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "cherry",
+      "seasons": [
+        "spring"
+      ]
+    }
+  ]
+}

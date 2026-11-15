@@ -1,0 +1,41 @@
+{
+  "id": "octopus",
+  "type": "peixes",
+  "name": {
+    "en": "Octopus",
+    "pt-BR": "Polvo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "likes": [
+      "elliott"
+    ],
+    "dislikesOrHates": [
+      "pam"
+    ],
+    "loves": [
+      "willy"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "13:00"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

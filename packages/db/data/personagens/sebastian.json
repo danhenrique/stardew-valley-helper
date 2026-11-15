@@ -1,0 +1,219 @@
+{
+  "id": "sebastian",
+  "type": "personagens",
+  "name": {
+    "en": "Sebastian",
+    "pt-BR": "Sebastian"
+  },
+  "nameVerified": false,
+  "marriageable": true,
+  "birthday": {
+    "season": "winter",
+    "day": 10
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "frozen-tear"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "green-frog-egg"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "obsidian"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "pumpkin-soup"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "sashimi"
+      },
+      {
+        "item": "void-egg"
+      }
+    ],
+    "likes": [
+      {
+        "item": "combat-quarterly"
+      },
+      {
+        "item": "flounder"
+      },
+      {
+        "item": "monster-compendium"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "fish",
+        "except": [
+          "carp",
+          "flounder",
+          "snail"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "clay",
+      "complete-breakfast",
+      "daffodil",
+      "dandelion",
+      "farmers-lunch",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "leek",
+      "omelet",
+      "pina-colada",
+      "salmonberry",
+      "snow-yam",
+      "wild-horseradish",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "mysterium",
+      "it-howls-in-the-rain"
+    ],
+    "likedMovies": [
+      "journey-of-the-prairie-king-the-motion-picture",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus"
+    ],
+    "lovedSnacks": [
+      "jasmine-tea",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "fries",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jawbreaker",
+      "nachos",
+      "personal-pizza",
+      "popcorn",
+      "rock-candy",
+      "salmon-burger",
+      "salted-peanuts",
+      "sour-slimes",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

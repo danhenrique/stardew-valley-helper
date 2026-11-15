@@ -1,0 +1,33 @@
+{
+  "id": "blue-discus",
+  "type": "peixes",
+  "name": {
+    "en": "Blue Discus",
+    "pt-BR": "Acará-disco Azul"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ginger Island lakes & rivers",
+      "pt-BR": "Lagos e rios da Ilha Gengibre"
+    },
+    "locationVerified": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rustic-plank-floor",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Rustic Plank Floor",
+    "pt-BR": "Piso Rústico de Tábuas"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ]
+  }
+}

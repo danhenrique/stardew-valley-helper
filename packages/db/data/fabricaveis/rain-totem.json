@@ -1,0 +1,25 @@
+{
+  "id": "rain-totem",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Rain Totem",
+    "pt-BR": "Totem de Chuva"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 1
+      },
+      {
+        "item": "truffle-oil",
+        "qty": 1
+      },
+      {
+        "item": "pine-tar",
+        "qty": 5
+      }
+    ]
+  }
+}

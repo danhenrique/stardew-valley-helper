@@ -1,0 +1,351 @@
+{
+  "id": "carpenter",
+  "type": "lojas",
+  "name": {
+    "en": "Carpenter's Shop",
+    "pt-BR": "Carpintaria"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "17:00"
+    },
+    "hoursWithKeyToTown": [
+      {
+        "open": "08:20",
+        "close": "17:00"
+      }
+    ],
+    "closedDays": [
+      "tue"
+    ],
+    "festivalClosure": "all",
+    "closedDates": [
+      {
+        "season": "summer",
+        "day": 18
+      }
+    ],
+    "weekdayHours": {
+      "fri": {
+        "open": "09:00",
+        "close": "16:00"
+      }
+    }
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 5 PM",
+      "pt-BR": "9 AM – 5 PM"
+    },
+    "key": {
+      "en": "8:20 AM – 5 PM",
+      "pt-BR": "8:20 AM – 5 PM"
+    },
+    "closed": {
+      "en": "Tuesday",
+      "pt-BR": "Terça-feira"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "Summer 18",
+      "pt-BR": "Verão 18"
+    },
+    "note": {
+      "en": "Closes at 4:00 PM on Friday.",
+      "pt-BR": "Fecha às 16:00 nas sextas-feiras."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "wood",
+      "price": 10,
+      "section": "shop",
+      "priceByYear": {
+        "year1": 10,
+        "year2plus": 50
+      }
+    },
+    {
+      "item": "stone",
+      "price": 20,
+      "section": "shop",
+      "priceByYear": {
+        "year1": 20,
+        "year2plus": 100
+      }
+    },
+    {
+      "item": "barn",
+      "price": 6000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 350
+        },
+        {
+          "item": "stone",
+          "qty": 150
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "big-barn",
+      "price": 12000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 450
+        },
+        {
+          "item": "stone",
+          "qty": 200
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "deluxe-barn",
+      "price": 25000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 550
+        },
+        {
+          "item": "stone",
+          "qty": 300
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "coop",
+      "price": 4000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 300
+        },
+        {
+          "item": "stone",
+          "qty": 100
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "big-coop",
+      "price": 10000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 400
+        },
+        {
+          "item": "stone",
+          "qty": 150
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "deluxe-coop",
+      "price": 20000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 500
+        },
+        {
+          "item": "stone",
+          "qty": 200
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "fish-pond",
+      "price": 5000,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 200
+        },
+        {
+          "item": "seaweed",
+          "qty": 5
+        },
+        {
+          "item": "green-algae",
+          "qty": 5
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "mill",
+      "price": 2500,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 50
+        },
+        {
+          "item": "wood",
+          "qty": 150
+        },
+        {
+          "item": "cloth",
+          "qty": 4
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "shed",
+      "price": 15000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 300
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "big-shed",
+      "price": 20000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 550
+        },
+        {
+          "item": "stone",
+          "qty": 300
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "silo",
+      "price": 100,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 100
+        },
+        {
+          "item": "clay",
+          "qty": 10
+        },
+        {
+          "item": "copper-bar",
+          "qty": 5
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "slime-hutch",
+      "price": 10000,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 500
+        },
+        {
+          "item": "refined-quartz",
+          "qty": 10
+        },
+        {
+          "item": "iridium-bar",
+          "qty": 1
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "stable",
+      "price": 10000,
+      "materials": [
+        {
+          "item": "hardwood",
+          "qty": 100
+        },
+        {
+          "item": "iron-bar",
+          "qty": 5
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "well",
+      "price": 1000,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 75
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "cabin",
+      "price": 100,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 10
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "shipping-bin",
+      "price": 250,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 150
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "farmhouse-upgrade-1",
+      "price": 10000,
+      "materials": [
+        {
+          "item": "wood",
+          "qty": 450
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "farmhouse-upgrade-2",
+      "price": 65000,
+      "materials": [
+        {
+          "item": "hardwood",
+          "qty": 100
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "farmhouse-upgrade-3",
+      "price": 100000,
+      "section": "upgrade"
+    }
+  ]
+}

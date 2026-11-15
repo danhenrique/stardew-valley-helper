@@ -1,0 +1,32 @@
+{
+  "id": "remix-homestead",
+  "type": "pacotes",
+  "name": {
+    "en": "Homestead",
+    "pt-BR": "Comida Caseira"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "egg",
+      "qty": 10
+    },
+    {
+      "item": "milk",
+      "qty": 10
+    },
+    {
+      "item": "wheat-flour",
+      "qty": 100
+    }
+  ]
+}

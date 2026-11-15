@@ -1,0 +1,21 @@
+{
+  "id": "straw-floor",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Straw Floor",
+    "pt-BR": "Piso de Palha"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      },
+      {
+        "item": "fiber",
+        "qty": 1
+      }
+    ]
+  }
+}

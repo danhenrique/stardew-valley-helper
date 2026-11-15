@@ -1,0 +1,16 @@
+{
+  "id": "firewalker-boots",
+  "type": "equipamentos",
+  "subtype": "boots",
+  "name": {
+    "en": "Firewalker Boots",
+    "pt-BR": "Botas de Salamandra"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 2000
+    }
+  ]
+}

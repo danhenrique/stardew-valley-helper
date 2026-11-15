@@ -1,0 +1,35 @@
+{
+  "id": "vegetables",
+  "type": "categorias",
+  "name": {
+    "en": "All vegetables",
+    "pt-BR": "Todos os vegetais"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "amaranth",
+    "artichoke",
+    "beet",
+    "bok-choy",
+    "cauliflower",
+    "corn",
+    "eggplant",
+    "fiddlehead-fern",
+    "garlic",
+    "green-bean",
+    "hops",
+    "kale",
+    "parsnip",
+    "potato",
+    "pumpkin",
+    "radish",
+    "red-cabbage",
+    "taro-root",
+    "tea-leaves",
+    "tomato",
+    "unmilled-rice",
+    "wheat",
+    "yam"
+  ]
+}

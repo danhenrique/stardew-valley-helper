@@ -1,0 +1,1 @@
+{"id": "test-reminder", "type": "lembretes", "name": {"en": "Test Reminder", "pt-BR": "Lembrete Teste"}, "nameVerified": false, "detail": {"en": "Fridays", "pt-BR": "Sextas"}, "trigger": {"kind": "weekly", "weekdays": ["fri"]}, "suppressOnFestival": true, "order": 0}

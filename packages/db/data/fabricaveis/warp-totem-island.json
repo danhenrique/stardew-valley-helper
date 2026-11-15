@@ -1,0 +1,25 @@
+{
+  "id": "warp-totem-island",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Warp Totem Island",
+    "pt-BR": "Totem de Teletransporte: Ilha"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 5
+      },
+      {
+        "item": "dragon-tooth",
+        "qty": 1
+      },
+      {
+        "item": "ginger",
+        "qty": 1
+      }
+    ]
+  }
+}

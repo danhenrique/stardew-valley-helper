@@ -1,0 +1,15 @@
+{
+  "id": "summer-squash",
+  "type": "vegetais",
+  "name": {
+    "en": "Summer Squash",
+    "pt-BR": "Abobrinha de Verão"
+  },
+  "nameVerified": false,
+  "sellPrice": 45,
+  "artisan": {
+    "kegPrice": 101,
+    "jarPrice": 140
+  },
+  "growsFrom": "summer-squash-seeds"
+}

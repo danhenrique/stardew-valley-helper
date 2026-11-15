@@ -1,0 +1,23 @@
+{
+  "id": "magic-cowboy-hat",
+  "type": "equipamentos",
+  "subtype": "hat",
+  "name": {
+    "en": "Magic Cowboy Hat",
+    "pt-BR": "Chapéu de Vaqueiro Mágico"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 333
+        }
+      ],
+      "availability": "oddDays"
+    }
+  ]
+}

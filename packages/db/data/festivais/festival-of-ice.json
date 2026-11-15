@@ -1,0 +1,13 @@
+{
+  "id": "festival-of-ice",
+  "type": "festivais",
+  "name": {
+    "en": "Festival of Ice",
+    "pt-BR": "Festival do Gelo"
+  },
+  "nameVerified": false,
+  "season": "winter",
+  "startDay": 8,
+  "endDay": 8,
+  "shopsClosed": true
+}

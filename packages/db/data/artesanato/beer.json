@@ -1,0 +1,28 @@
+{
+  "id": "beer",
+  "type": "artesanato",
+  "name": {
+    "en": "Beer",
+    "pt-BR": "Cerveja"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 400
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leo",
+      "penny"
+    ],
+    "loves": [
+      "pam",
+      "shane"
+    ]
+  }
+}

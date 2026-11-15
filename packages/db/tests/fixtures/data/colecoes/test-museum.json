@@ -1,0 +1,15 @@
+{
+ "id": "test-museum",
+ "type": "colecoes",
+ "name": {
+  "en": "Test Museum",
+  "pt-BR": "Museu Teste"
+ },
+ "nameVerified": false,
+ "artifacts": [
+  "test-artifact"
+ ],
+ "minerals": [
+  "test-mineral"
+ ]
+}

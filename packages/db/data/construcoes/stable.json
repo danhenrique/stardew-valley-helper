@@ -1,0 +1,25 @@
+{
+  "id": "stable",
+  "type": "construcoes",
+  "name": {
+    "en": "Horse Stable",
+    "pt-BR": "Estábulo"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 10000,
+    "materials": [
+      {
+        "item": "hardwood",
+        "qty": 100
+      },
+      {
+        "item": "iron-bar",
+        "qty": 5
+      }
+    ],
+    "buildDays": 2,
+    "builtBy": "carpenter"
+  }
+}

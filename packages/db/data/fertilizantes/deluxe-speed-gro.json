@@ -1,0 +1,32 @@
+{
+  "id": "deluxe-speed-gro",
+  "type": "fertilizantes",
+  "name": {
+    "en": "Deluxe Speed-Gro",
+    "pt-BR": "Solo Foliar Premium"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 150
+    },
+    {
+      "shop": "oasis",
+      "price": 80,
+      "availability": "thu"
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "oak-resin",
+        "qty": 1
+      },
+      {
+        "item": "coral",
+        "qty": 1
+      }
+    ]
+  }
+}

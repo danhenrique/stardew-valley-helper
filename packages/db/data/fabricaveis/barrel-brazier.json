@@ -1,0 +1,25 @@
+{
+  "id": "barrel-brazier",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Barrel Brazier",
+    "pt-BR": "Braseiro de Barril"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 50
+      },
+      {
+        "item": "solar-essence",
+        "qty": 1
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cranberry-sauce",
+  "type": "culinaria",
+  "name": {
+    "en": "Cranberry Sauce",
+    "pt-BR": "Molho de Oxicoco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 240
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "cranberries",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

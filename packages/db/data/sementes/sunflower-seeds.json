@@ -1,0 +1,48 @@
+{
+  "id": "sunflower-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Sunflower Seeds",
+    "pt-BR": "Sementes de Girassol"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "growthDays": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": null,
+    "averageExtraYield": 0,
+    "produce": "sunflower"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 200,
+      "season": "summer"
+    },
+    {
+      "shop": "pierre",
+      "price": 200,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 125,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 125,
+      "season": "fall"
+    }
+  ]
+}

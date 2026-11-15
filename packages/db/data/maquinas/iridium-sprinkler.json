@@ -1,0 +1,32 @@
+{
+  "id": "iridium-sprinkler",
+  "type": "maquinas",
+  "name": {
+    "en": "Iridium Sprinkler",
+    "pt-BR": "Aspersor de Irídio"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 10000,
+      "availability": "fri"
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 1
+      },
+      {
+        "item": "iridium-bar",
+        "qty": 1
+      },
+      {
+        "item": "battery-pack",
+        "qty": 1
+      }
+    ]
+  }
+}

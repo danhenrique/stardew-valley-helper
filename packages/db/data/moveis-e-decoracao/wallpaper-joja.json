@@ -1,0 +1,15 @@
+{
+  "id": "wallpaper-joja",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Wallpaper 022 Icon",
+    "pt-BR": "Papel de Parede"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "joja",
+      "price": 20
+    }
+  ]
+}

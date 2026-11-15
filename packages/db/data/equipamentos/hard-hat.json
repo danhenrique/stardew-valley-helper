@@ -1,0 +1,16 @@
+{
+  "id": "hard-hat",
+  "type": "equipamentos",
+  "subtype": "hat",
+  "name": {
+    "en": "Hard Hat",
+    "pt-BR": "Capacete de Segurança"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 20000
+    }
+  ]
+}

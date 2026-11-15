@@ -1,0 +1,14 @@
+{
+  "id": "achievement-39",
+  "type": "conquistas",
+  "name": {
+    "en": "Protector Of The Valley",
+    "pt-BR": "Protetor do Vale"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Complete all of the Adventurer's Guild monster eradication goals.",
+    "pt-BR": "Conclua todas as metas de erradicação de monstros da Guilda dos Aventureiros."
+  },
+  "order": 39
+}

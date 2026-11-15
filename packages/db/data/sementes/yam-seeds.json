@@ -1,0 +1,37 @@
+{
+  "id": "yam-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Yam Seeds",
+    "pt-BR": "Sementes de Inhame"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 10,
+    "phases": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 18,
+    "averageExtraYield": 0,
+    "produce": "yam"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 60,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 75,
+      "season": "fall"
+    }
+  ]
+}

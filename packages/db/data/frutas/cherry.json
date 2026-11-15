@@ -1,0 +1,14 @@
+{
+  "id": "cherry",
+  "type": "frutas",
+  "subtype": "tree-fruit",
+  "name": {
+    "en": "Cherry",
+    "pt-BR": "Cereja"
+  },
+  "nameVerified": true,
+  "tags": [
+    "treeFruit"
+  ],
+  "growsFrom": "cherry-sapling"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "duck-egg",
+  "type": "produtos-animais",
+  "subtype": "egg",
+  "name": {
+    "en": "Duck Egg",
+    "pt-BR": "Ovo de Pata"
+  },
+  "nameVerified": true,
+  "tags": [
+    "eggs"
+  ],
+  "giftTastes": {
+    "likes": [
+      "harvey"
+    ]
+  }
+}

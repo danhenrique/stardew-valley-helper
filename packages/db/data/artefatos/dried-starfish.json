@@ -1,0 +1,13 @@
+{
+  "id": "dried-starfish",
+  "type": "artefatos",
+  "name": {
+    "en": "Dried Starfish",
+    "pt-BR": "Estrela-do-mar Ressecada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

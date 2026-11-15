@@ -1,0 +1,22 @@
+{
+  "id": "trash-can-steel",
+  "type": "ferramentas",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Trash Can Steel",
+    "pt-BR": "Lixeira de Aço"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 2500,
+      "materials": [
+        {
+          "item": "iron-bar",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

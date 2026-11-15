@@ -1,0 +1,14 @@
+{
+  "id": "broken-glasses",
+  "type": "itens-especiais",
+  "name": {
+    "en": "Broken Glasses",
+    "pt-BR": "Óculos Quebrados"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "evelyn"
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "id": "elliott",
+  "type": "personagens",
+  "name": {
+    "en": "Elliott",
+    "pt-BR": "Elliott"
+  },
+  "nameVerified": false,
+  "marriageable": true,
+  "birthday": {
+    "season": "fall",
+    "day": 5
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "crab-cakes"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "lobster"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "pomegranate"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "tom-kha-soup"
+      }
+    ],
+    "likes": [
+      {
+        "item": "octopus"
+      },
+      {
+        "item": "squid"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "books"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "sea-urchin"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "fish",
+        "except": [
+          "carp",
+          "octopus",
+          "squid",
+          "sea-cucumber",
+          "lobster",
+          "snail"
+        ]
+      }
+    ],
+    "dislikesOrHates": [
+      "amaranth",
+      "daffodil",
+      "dandelion",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "leek",
+      "pizza",
+      "quartz",
+      "salmonberry",
+      "sea-cucumber",
+      "snow-yam",
+      "super-cucumber",
+      "wild-horseradish",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "mysterium"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "the-zuzu-city-express"
+    ],
+    "lovedSnacks": [
+      "cappuccino-mousse-cake",
+      "stardrop-sorbet",
+      "truffle-popcorn"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "chocolate-popcorn",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "kale-smoothie",
+      "panzanella-salad",
+      "salmon-burger",
+      "star-cookie"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "galaxy-hammer",
+  "type": "armas",
+  "name": {
+    "en": "Galaxy Hammer",
+    "pt-BR": "Martelo da Galáxia"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 75000
+    }
+  ]
+}

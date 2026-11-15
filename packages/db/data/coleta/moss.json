@@ -1,0 +1,9 @@
+{
+  "id": "moss",
+  "type": "coleta",
+  "name": {
+    "en": "Moss",
+    "pt-BR": "Musgo"
+  },
+  "nameVerified": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "thorns-ring",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Thorns Ring",
+    "pt-BR": "Anel de Espinhos"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bone-fragment",
+        "qty": 50
+      },
+      {
+        "item": "stone",
+        "qty": 50
+      },
+      {
+        "item": "gold-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

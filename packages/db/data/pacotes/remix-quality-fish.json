@@ -1,0 +1,42 @@
+{
+  "id": "remix-quality-fish",
+  "type": "pacotes",
+  "name": {
+    "en": "Quality Fish",
+    "pt-BR": "Peixes de Qualidade"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "largemouth-bass"
+    },
+    {
+      "item": "shad",
+      "rainOnly": true
+    },
+    {
+      "item": "tuna",
+      "seasons": [
+        "summer",
+        "winter"
+      ]
+    },
+    {
+      "item": "walleye",
+      "seasons": [
+        "fall"
+      ],
+      "rainOnly": true
+    }
+  ],
+  "quality": "gold"
+}

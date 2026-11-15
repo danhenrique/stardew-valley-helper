@@ -1,0 +1,38 @@
+{
+  "id": "lobster",
+  "type": "peixes",
+  "name": {
+    "en": "Lobster",
+    "pt-BR": "Lagosta"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "loves": [
+      "elliott"
+    ]
+  },
+  "catch": {
+    "tool": "crabPot",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

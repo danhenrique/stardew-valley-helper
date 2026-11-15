@@ -1,0 +1,21 @@
+{
+  "id": "mini-jukebox",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Mini-Jukebox",
+    "pt-BR": "Mini-Jukebox"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 2
+      },
+      {
+        "item": "battery-pack",
+        "qty": 1
+      }
+    ]
+  }
+}

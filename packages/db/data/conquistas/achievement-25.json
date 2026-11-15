@@ -1,0 +1,14 @@
+{
+  "id": "achievement-25",
+  "type": "conquistas",
+  "name": {
+    "en": "Treasure Trove",
+    "pt-BR": "Coleção de Tesouros"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Donate 40 different items to the museum.",
+    "pt-BR": "Doe 40 itens ao museu."
+  },
+  "order": 25
+}

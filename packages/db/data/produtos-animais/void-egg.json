@@ -1,0 +1,28 @@
+{
+  "id": "void-egg",
+  "type": "produtos-animais",
+  "subtype": "egg",
+  "name": {
+    "en": "Void Egg",
+    "pt-BR": "Ovo Nulo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "eggs"
+  ],
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 5000
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "krobus",
+      "sebastian"
+    ],
+    "dislikesOrHates": [
+      "leah"
+    ]
+  }
+}

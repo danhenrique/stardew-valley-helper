@@ -1,0 +1,26 @@
+{
+  "id": "big-shed",
+  "type": "construcoes",
+  "name": {
+    "en": "Big Shed",
+    "pt-BR": "Galpão Grande"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 20000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 550
+      },
+      {
+        "item": "stone",
+        "qty": 300
+      }
+    ],
+    "buildDays": 2,
+    "upgradeFrom": "shed",
+    "builtBy": "carpenter"
+  }
+}

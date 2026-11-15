@@ -1,0 +1,21 @@
+{
+  "id": "deluxe-worm-bin",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Deluxe Worm Bin",
+    "pt-BR": "Cesto de Minhocas de Luxo"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "worm-bin",
+        "qty": 1
+      },
+      {
+        "item": "moss",
+        "qty": 30
+      }
+    ]
+  }
+}

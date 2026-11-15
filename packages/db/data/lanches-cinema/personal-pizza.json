@@ -1,0 +1,9 @@
+{
+  "id": "personal-pizza",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Personal Pizza",
+    "pt-BR": "Pizza Pessoal"
+  },
+  "nameVerified": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "milk",
+  "type": "produtos-animais",
+  "subtype": "milk",
+  "name": {
+    "en": "Milk",
+    "pt-BR": "Leite"
+  },
+  "nameVerified": true,
+  "tags": [
+    "milk"
+  ],
+  "giftTastes": {
+    "neutral": [
+      "harvey",
+      "sandy"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "bread",
+  "type": "culinaria",
+  "name": {
+    "en": "Bread",
+    "pt-BR": "Pão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 120
+    }
+  ],
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "dislikesOrHates": [
+      "harvey",
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      }
+    ]
+  }
+}

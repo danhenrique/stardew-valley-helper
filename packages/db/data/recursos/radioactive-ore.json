@@ -1,0 +1,14 @@
+{
+  "id": "radioactive-ore",
+  "type": "recursos",
+  "name": {
+    "en": "Radioactive Ore",
+    "pt-BR": "Minério Radioativo"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "maru"
+    ]
+  }
+}

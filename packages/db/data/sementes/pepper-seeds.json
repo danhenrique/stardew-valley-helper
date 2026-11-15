@@ -1,0 +1,38 @@
+{
+  "id": "pepper-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Pepper Seeds",
+    "pt-BR": "Sementes de Pimenta"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 5,
+    "phases": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "regrowDays": 3,
+    "lastPlantingDay": 23,
+    "averageExtraYield": 0.03,
+    "produce": "hot-pepper"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 40,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 50,
+      "season": "summer"
+    }
+  ]
+}

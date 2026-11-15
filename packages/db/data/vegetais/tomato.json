@@ -1,0 +1,18 @@
+{
+  "id": "tomato",
+  "type": "vegetais",
+  "name": {
+    "en": "Tomato",
+    "pt-BR": "Tomate"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 60,
+  "artisan": {
+    "kegPrice": 135,
+    "jarPrice": 170
+  },
+  "growsFrom": "tomato-seeds"
+}

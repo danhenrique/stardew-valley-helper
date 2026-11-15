@@ -1,0 +1,20 @@
+{
+  "id": "gems",
+  "type": "categorias",
+  "name": {
+    "en": "All gems",
+    "pt-BR": "Todas as gemas"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "emerald",
+    "aquamarine",
+    "ruby",
+    "amethyst",
+    "topaz",
+    "jade",
+    "diamond",
+    "prismatic-shard"
+  ]
+}

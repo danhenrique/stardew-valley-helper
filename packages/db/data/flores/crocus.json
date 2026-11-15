@@ -1,0 +1,17 @@
+{
+  "id": "crocus",
+  "type": "flores",
+  "name": {
+    "en": "Crocus",
+    "pt-BR": "Flor de Açafrão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "giftTastes": {
+    "loves": [
+      "sandy"
+    ]
+  }
+}

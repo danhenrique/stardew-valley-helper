@@ -1,0 +1,44 @@
+{
+  "id": "remix-fall-foraging",
+  "type": "pacotes",
+  "name": {
+    "en": "Fall Foraging",
+    "pt-BR": "Coleta do outono"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "common-mushroom",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "wild-plum",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "hazelnut",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "blackberry",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

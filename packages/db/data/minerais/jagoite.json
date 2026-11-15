@@ -1,0 +1,14 @@
+{
+  "id": "jagoite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Jagoite",
+    "pt-BR": "Jagoíta"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

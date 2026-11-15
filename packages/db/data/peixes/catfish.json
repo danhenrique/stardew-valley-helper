@@ -1,0 +1,37 @@
+{
+  "id": "catfish",
+  "type": "peixes",
+  "name": {
+    "en": "Catfish",
+    "pt-BR": "Bagre"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "loves": [
+      "willy"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": "rain",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest), Secret Woods pond, Witch's Swamp",
+      "pt-BR": "Rio (cidade + floresta), lago do Bosque Secreto, Pântano da Bruxa"
+    },
+    "locationVerified": false
+  }
+}

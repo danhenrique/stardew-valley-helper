@@ -1,0 +1,29 @@
+{
+  "id": "remix-blacksmith",
+  "type": "pacotes",
+  "name": {
+    "en": "Blacksmith's",
+    "pt-BR": "Ferreiro"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "boiler-room",
+    "name": {
+      "en": "Boiler Room",
+      "pt-BR": "Sala da Caldeira"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "copper-bar"
+    },
+    {
+      "item": "iron-bar"
+    },
+    {
+      "item": "gold-bar"
+    }
+  ]
+}

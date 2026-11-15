@@ -1,0 +1,25 @@
+{
+  "id": "recycling-machine",
+  "type": "maquinas",
+  "name": {
+    "en": "Recycling Machine",
+    "pt-BR": "Máquina de Reciclagem"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 25
+      },
+      {
+        "item": "stone",
+        "qty": 25
+      },
+      {
+        "item": "iron-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "chub",
+  "type": "peixes",
+  "name": {
+    "en": "Chub",
+    "pt-BR": "Esquálio"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Forest), Mountain Lake",
+      "pt-BR": "Rio (floresta), Lago da montanha"
+    },
+    "locationVerified": false
+  }
+}

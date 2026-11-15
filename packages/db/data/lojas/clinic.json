@@ -1,0 +1,66 @@
+{
+  "id": "clinic",
+  "type": "lojas",
+  "name": {
+    "en": "Harvey's Clinic",
+    "pt-BR": "Clínica do Harvey"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "12:00"
+    },
+    "closedDays": [
+      "sat"
+    ],
+    "festivalClosure": "all",
+    "weekdayHours": {
+      "tue": {
+        "open": "09:00",
+        "close": "14:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "14:00"
+      }
+    }
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 3 PM",
+      "pt-BR": "9 AM – 3 PM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "note": {
+      "en": "Closed Saturdays. Until 2 PM on Tue/Thu; until 12 PM on Sun/Mon/Wed/Fri.",
+      "pt-BR": "Fechado aos sábados. Até 14h ter/qui; até 12h dom/seg/qua/sex."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "energy-tonic",
+      "price": 500
+    },
+    {
+      "item": "muscle-remedy",
+      "price": 500
+    }
+  ]
+}

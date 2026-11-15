@@ -1,0 +1,14 @@
+{
+  "id": "achievement-26",
+  "type": "conquistas",
+  "name": {
+    "en": "Gofer",
+    "pt-BR": "Autônomo"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Complete 10 'Help Wanted' requests.",
+    "pt-BR": "Complete 10 missões \"Precisa-se de Ajuda\"."
+  },
+  "order": 26
+}

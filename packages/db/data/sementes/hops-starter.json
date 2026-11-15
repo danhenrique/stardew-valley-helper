@@ -1,0 +1,38 @@
+{
+  "id": "hops-starter",
+  "type": "sementes",
+  "name": {
+    "en": "Hops Starter",
+    "pt-BR": "Mudas de Lúpulo"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 11,
+    "phases": [
+      1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "regrowDays": 1,
+    "lastPlantingDay": 17,
+    "averageExtraYield": 0,
+    "produce": "hops"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 60,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 75,
+      "season": "summer"
+    }
+  ]
+}

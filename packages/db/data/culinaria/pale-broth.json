@@ -1,0 +1,25 @@
+{
+  "id": "pale-broth",
+  "type": "culinaria",
+  "name": {
+    "en": "Pale Broth",
+    "pt-BR": "Caldo Pálido"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "penny"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "white-algae",
+        "qty": 2
+      }
+    ]
+  }
+}

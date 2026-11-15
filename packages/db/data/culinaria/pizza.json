@@ -1,0 +1,45 @@
+{
+  "id": "pizza",
+  "type": "culinaria",
+  "name": {
+    "en": "Pizza",
+    "pt-BR": "Pizza"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 600
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "elliott",
+      "harvey",
+      "leah"
+    ],
+    "loves": [
+      "sam",
+      "shane"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "tomato",
+        "qty": 1
+      },
+      {
+        "item": "cheese",
+        "qty": 1
+      }
+    ]
+  }
+}

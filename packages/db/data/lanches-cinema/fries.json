@@ -1,0 +1,9 @@
+{
+  "id": "fries",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Fries",
+    "pt-BR": "Batata Frita"
+  },
+  "nameVerified": true
+}

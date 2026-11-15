@@ -1,0 +1,9 @@
+{
+  "id": "jasmine-tea",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Jasmine Tea",
+    "pt-BR": "Chá de Jasmim"
+  },
+  "nameVerified": true
+}

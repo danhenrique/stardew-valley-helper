@@ -1,0 +1,20 @@
+{
+  "id": "desert-trader-staircase",
+  "type": "lembretes",
+  "name": {
+    "en": "Buy Staircase (Desert Trader)",
+    "pt-BR": "Comprar escada (Comerciante do deserto)"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "Sunday, trade Jade for Staircases to prep for the Skull Cavern",
+    "pt-BR": "Domingos, troque jade por escadas para se preparar para a Caverna da Caveira"
+  },
+  "trigger": {
+    "kind": "weekly",
+    "weekdays": [
+      "sun"
+    ]
+  },
+  "order": 2
+}

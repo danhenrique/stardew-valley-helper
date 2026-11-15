@@ -1,0 +1,49 @@
+{
+  "id": "squid-ink",
+  "type": "produtos-animais",
+  "name": {
+    "en": "Squid Ink",
+    "pt-BR": "Tinta de Lula"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "loves": [
+      "elliott"
+    ]
+  }
+}

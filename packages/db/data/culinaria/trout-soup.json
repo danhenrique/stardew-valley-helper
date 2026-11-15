@@ -1,0 +1,40 @@
+{
+  "id": "trout-soup",
+  "type": "culinaria",
+  "name": {
+    "en": "Trout Soup",
+    "pt-BR": "Sopa de Truta"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 200
+    },
+    {
+      "shop": "fish-shop",
+      "price": 250,
+      "fishingLevel": 0
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "evelyn"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "rainbow-trout",
+        "qty": 1
+      },
+      {
+        "item": "green-algae",
+        "qty": 1
+      }
+    ]
+  }
+}

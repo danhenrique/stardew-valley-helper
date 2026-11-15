@@ -1,0 +1,16 @@
+{
+  "id": "training-rod",
+  "type": "ferramentas",
+  "name": {
+    "en": "Training Rod",
+    "pt-BR": "Vara de Treinamento"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 25,
+      "fishingLevel": 0
+    }
+  ]
+}

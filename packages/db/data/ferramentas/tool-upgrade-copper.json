@@ -1,0 +1,22 @@
+{
+  "id": "tool-upgrade-copper",
+  "type": "ferramentas",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Copper Tools",
+    "pt-BR": "Melhorar Ferramentas 1"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 2000,
+      "materials": [
+        {
+          "item": "copper-bar",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

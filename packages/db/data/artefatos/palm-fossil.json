@@ -1,0 +1,13 @@
+{
+  "id": "palm-fossil",
+  "type": "artefatos",
+  "name": {
+    "en": "Palm Fossil",
+    "pt-BR": "Fóssil de Palma"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

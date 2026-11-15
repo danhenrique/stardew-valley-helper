@@ -1,0 +1,28 @@
+{
+  "id": "squid-ink-ravioli",
+  "type": "culinaria",
+  "name": {
+    "en": "Squid Ink Ravioli",
+    "pt-BR": "Ravioli de Tinta de Lula"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "squid-ink",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "tomato",
+        "qty": 1
+      }
+    ]
+  }
+}

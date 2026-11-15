@@ -1,0 +1,16 @@
+{
+  "id": "mixed-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Mixed Seeds",
+    "pt-BR": "Sementes Mistas"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 30,
+      "availability": "thu"
+    }
+  ]
+}

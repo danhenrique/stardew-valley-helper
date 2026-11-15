@@ -1,0 +1,9 @@
+{
+  "id": "chocolate-popcorn",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Chocolate Popcorn",
+    "pt-BR": "Pipoca de Chocolate"
+  },
+  "nameVerified": true
+}

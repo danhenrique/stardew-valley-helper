@@ -1,0 +1,18 @@
+{
+  "id": "kale",
+  "type": "vegetais",
+  "name": {
+    "en": "Kale",
+    "pt-BR": "Couve"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 110,
+  "artisan": {
+    "kegPrice": 247,
+    "jarPrice": 270
+  },
+  "growsFrom": "kale-seeds"
+}

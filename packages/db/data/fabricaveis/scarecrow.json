@@ -1,0 +1,25 @@
+{
+  "id": "scarecrow",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Scarecrow",
+    "pt-BR": "Espantalho"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 50
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      },
+      {
+        "item": "fiber",
+        "qty": 20
+      }
+    ]
+  }
+}

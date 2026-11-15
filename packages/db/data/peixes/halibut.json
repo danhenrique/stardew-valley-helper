@@ -1,0 +1,36 @@
+{
+  "id": "halibut",
+  "type": "peixes",
+  "name": {
+    "en": "Halibut",
+    "pt-BR": "Halibute"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "11:00"
+      },
+      {
+        "from": "19:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

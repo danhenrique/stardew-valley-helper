@@ -1,0 +1,51 @@
+{
+  "id": "river-fish",
+  "type": "pacotes",
+  "name": {
+    "en": "River Fish Bundle",
+    "pt-BR": "Pacote de peixes de rio"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "sunfish",
+      "seasons": [
+        "spring",
+        "summer"
+      ]
+    },
+    {
+      "item": "catfish",
+      "seasons": [
+        "spring",
+        "fall"
+      ],
+      "rainOnly": true
+    },
+    {
+      "item": "shad",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "rainOnly": true
+    },
+    {
+      "item": "tiger-trout",
+      "seasons": [
+        "fall",
+        "winter"
+      ]
+    }
+  ]
+}

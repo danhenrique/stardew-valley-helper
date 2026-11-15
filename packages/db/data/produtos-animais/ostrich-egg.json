@@ -1,0 +1,18 @@
+{
+  "id": "ostrich-egg",
+  "type": "produtos-animais",
+  "subtype": "egg",
+  "name": {
+    "en": "Ostrich Egg",
+    "pt-BR": "Ovo de Avestruz"
+  },
+  "nameVerified": true,
+  "tags": [
+    "eggs"
+  ],
+  "giftTastes": {
+    "loves": [
+      "leo"
+    ]
+  }
+}

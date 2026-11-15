@@ -1,0 +1,16 @@
+{
+  "id": "amethyst-ring",
+  "type": "equipamentos",
+  "subtype": "ring",
+  "name": {
+    "en": "Amethyst Ring",
+    "pt-BR": "Anel de Ametista"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 1000
+    }
+  ]
+}

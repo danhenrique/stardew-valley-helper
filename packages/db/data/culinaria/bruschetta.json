@@ -1,0 +1,28 @@
+{
+  "id": "bruschetta",
+  "type": "culinaria",
+  "name": {
+    "en": "Bruschetta",
+    "pt-BR": "Brusqueta"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "bread",
+        "qty": 1
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      },
+      {
+        "item": "tomato",
+        "qty": 1
+      }
+    ]
+  }
+}

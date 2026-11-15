@@ -1,0 +1,56 @@
+{
+  "id": "ice-cream-stand",
+  "type": "lojas",
+  "name": {
+    "en": "Ice Cream Stand",
+    "pt-BR": "Barraca de sorvete"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "13:00",
+      "close": "17:00"
+    },
+    "closedDays": [
+      "wed"
+    ],
+    "openSeasons": [
+      "summer"
+    ],
+    "festivalClosure": "none",
+    "closedIfRain": true,
+    "closedDates": [
+      {
+        "season": "summer",
+        "day": 16
+      }
+    ]
+  },
+  "scheduleText": {
+    "open": {
+      "en": "1 PM – 5 PM",
+      "pt-BR": "1 PM – 5 PM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "Wednesday / rainy days",
+      "pt-BR": "Quarta-feira / dias de chuva"
+    },
+    "festival": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "checkup": {
+      "en": "Summer 16",
+      "pt-BR": "Verão 16"
+    },
+    "note": {
+      "en": "Operates only in summer.",
+      "pt-BR": "Funciona apenas no verão."
+    }
+  },
+  "scheduleTextVerified": false
+}

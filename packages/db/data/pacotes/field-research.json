@@ -1,0 +1,35 @@
+{
+  "id": "field-research",
+  "type": "pacotes",
+  "name": {
+    "en": "Field Research Bundle",
+    "pt-BR": "Pacote de pesquisa de campo"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "purple-mushroom"
+    },
+    {
+      "item": "nautilus-shell",
+      "seasons": [
+        "winter"
+      ]
+    },
+    {
+      "item": "chub"
+    },
+    {
+      "item": "frozen-geode"
+    }
+  ]
+}

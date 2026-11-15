@@ -1,0 +1,39 @@
+{
+  "id": "crispy-bass",
+  "type": "culinaria",
+  "name": {
+    "en": "Crispy Bass",
+    "pt-BR": "Achigã Crocante"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 300
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "jodi"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "largemouth-bass",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      }
+    ]
+  }
+}

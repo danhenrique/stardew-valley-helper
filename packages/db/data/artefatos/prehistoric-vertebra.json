@@ -1,0 +1,13 @@
+{
+  "id": "prehistoric-vertebra",
+  "type": "artefatos",
+  "name": {
+    "en": "Prehistoric Vertebra",
+    "pt-BR": "Vértebra Pré-histórica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

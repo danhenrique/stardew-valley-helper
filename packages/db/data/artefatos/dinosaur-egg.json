@@ -1,0 +1,19 @@
+{
+  "id": "dinosaur-egg",
+  "type": "artefatos",
+  "name": {
+    "en": "Dinosaur Egg",
+    "pt-BR": "Ovo de Dinossauro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "giftTastes": {
+    "likes": [
+      "alex",
+      "demetrius"
+    ]
+  },
+  "museumDonation": true
+}

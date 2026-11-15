@@ -1,0 +1,13 @@
+{
+  "id": "desert-festival",
+  "type": "festivais",
+  "name": {
+    "en": "Desert Festival",
+    "pt-BR": "Festival do Deserto"
+  },
+  "nameVerified": false,
+  "season": "spring",
+  "startDay": 15,
+  "endDay": 17,
+  "shopsClosed": false
+}

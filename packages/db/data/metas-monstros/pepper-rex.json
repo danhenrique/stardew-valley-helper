@@ -1,0 +1,12 @@
+{
+  "id": "pepper-rex",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Pepper Rex",
+    "pt-BR": "Rex Pimenta"
+  },
+  "nameVerified": true,
+  "killsRequired": 50,
+  "reward": "knights-helmet",
+  "location": "adventurers-guild"
+}

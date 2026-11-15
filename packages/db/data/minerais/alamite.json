@@ -1,0 +1,14 @@
+{
+  "id": "alamite",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Alamite",
+    "pt-BR": "Alamita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

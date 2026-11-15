@@ -1,0 +1,50 @@
+{
+  "id": "pink-cake",
+  "type": "culinaria",
+  "name": {
+    "en": "Pink Cake",
+    "pt-BR": "Bolo Rosa"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 960
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "haley",
+      "jas",
+      "marnie",
+      "vincent"
+    ],
+    "dislikesOrHates": [
+      "harvey",
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "melon",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "egg",
+        "qty": 1
+      }
+    ]
+  }
+}

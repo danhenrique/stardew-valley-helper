@@ -1,0 +1,21 @@
+{
+  "id": "aquamarine",
+  "type": "minerais",
+  "subtype": "gem",
+  "name": {
+    "en": "Aquamarine",
+    "pt-BR": "Água-marinha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "dwarf",
+      "emily"
+    ]
+  },
+  "museumDonation": true
+}

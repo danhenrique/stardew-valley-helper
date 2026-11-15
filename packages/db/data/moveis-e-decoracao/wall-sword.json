@@ -1,0 +1,15 @@
+{
+  "id": "wall-sword",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Wall Sword",
+    "pt-BR": "Espada Montada"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 2000
+    }
+  ]
+}

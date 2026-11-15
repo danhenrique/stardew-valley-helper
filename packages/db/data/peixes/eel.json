@@ -1,0 +1,31 @@
+{
+  "id": "eel",
+  "type": "peixes",
+  "name": {
+    "en": "Eel",
+    "pt-BR": "Enguia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": "rain",
+    "timeWindows": [
+      {
+        "from": "16:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

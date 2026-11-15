@@ -1,0 +1,9 @@
+{
+  "id": "ice-cream-sandwich",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Ice Cream Sandwich",
+    "pt-BR": "Sanduíche de Sorvete"
+  },
+  "nameVerified": true
+}

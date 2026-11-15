@@ -1,0 +1,14 @@
+{
+  "id": "achievement-13",
+  "type": "conquistas",
+  "name": {
+    "en": "Cook",
+    "pt-BR": "Cozinheiro"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Cook 10 different recipes.",
+    "pt-BR": "Cozinhe 10 receitas diferentes."
+  },
+  "order": 13
+}

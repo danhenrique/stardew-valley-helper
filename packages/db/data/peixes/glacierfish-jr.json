@@ -1,0 +1,31 @@
+{
+  "id": "glacierfish-jr",
+  "type": "peixes",
+  "subtype": "legendary-ii",
+  "name": {
+    "en": "Glacierfish Jr.",
+    "pt-BR": "Peixe-gelo Jr."
+  },
+  "nameVerified": false,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Pulsenest sap forest at the south tip of Arrowhead Island. Fishing level 6 required.",
+      "pt-BR": "Floresta de seiva incandescente na ponta sul da Ilha Ponta de Flecha. Nível de pesca 6 necessário."
+    },
+    "locationVerified": false
+  }
+}

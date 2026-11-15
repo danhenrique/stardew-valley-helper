@@ -1,0 +1,14 @@
+{
+  "id": "achievement-24",
+  "type": "conquistas",
+  "name": {
+    "en": "Mother Catch",
+    "pt-BR": "Grande Pesca"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Catch 100 fish.",
+    "pt-BR": "Pegue 100 peixes."
+  },
+  "order": 24
+}

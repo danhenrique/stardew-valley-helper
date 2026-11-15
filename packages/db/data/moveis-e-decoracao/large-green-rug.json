@@ -1,0 +1,16 @@
+{
+  "id": "large-green-rug",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Large Green Rug",
+    "pt-BR": "Tapete Verde Grande"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 2500,
+      "availability": "fri"
+    }
+  ]
+}

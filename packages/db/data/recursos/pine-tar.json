@@ -1,0 +1,14 @@
+{
+  "id": "pine-tar",
+  "type": "recursos",
+  "name": {
+    "en": "Pine Tar",
+    "pt-BR": "Alcatrão de Pinho"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "maru"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chest",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Chest",
+    "pt-BR": "Baú"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 50
+      }
+    ]
+  }
+}

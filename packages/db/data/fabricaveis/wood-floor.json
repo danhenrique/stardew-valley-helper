@@ -1,0 +1,17 @@
+{
+  "id": "wood-floor",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Wood Floor",
+    "pt-BR": "Piso de Madeira"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ]
+  }
+}

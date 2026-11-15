@@ -1,0 +1,13 @@
+{
+  "id": "large-egg",
+  "type": "produtos-animais",
+  "subtype": "egg",
+  "name": {
+    "en": "Large Egg",
+    "pt-BR": "Ovo Grande"
+  },
+  "nameVerified": true,
+  "tags": [
+    "eggs"
+  ]
+}

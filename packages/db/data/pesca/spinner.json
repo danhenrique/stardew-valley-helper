@@ -1,0 +1,24 @@
+{
+  "id": "spinner",
+  "type": "pesca",
+  "name": {
+    "en": "Spinner",
+    "pt-BR": "Anzol Giratório"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 500,
+      "fishingLevel": 6
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 2
+      }
+    ]
+  }
+}

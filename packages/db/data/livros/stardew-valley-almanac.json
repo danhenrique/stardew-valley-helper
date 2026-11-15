@@ -1,0 +1,17 @@
+{
+  "id": "stardew-valley-almanac",
+  "type": "livros",
+  "name": {
+    "en": "Stardew Valley Almanac",
+    "pt-BR": "Almanaque do Vale do Orvalho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "likes": [
+      "marnie"
+    ]
+  }
+}

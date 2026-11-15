@@ -1,0 +1,44 @@
+{
+  "id": "fall-foraging",
+  "type": "pacotes",
+  "name": {
+    "en": "Fall Foraging Bundle",
+    "pt-BR": "Pacote de coleta do outono"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "common-mushroom",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "wild-plum",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "hazelnut",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "blackberry",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

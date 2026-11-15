@@ -1,0 +1,17 @@
+{
+  "id": "void-mayonnaise",
+  "type": "artesanato",
+  "name": {
+    "en": "Void Mayonnaise",
+    "pt-BR": "Maionese Nula"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "loves": [
+      "krobus"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "milk-pail",
+  "type": "ferramentas",
+  "name": {
+    "en": "Milk Pail",
+    "pt-BR": "Balde de Leite"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "ranch",
+      "price": 1000
+    }
+  ]
+}

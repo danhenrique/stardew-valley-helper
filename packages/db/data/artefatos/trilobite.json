@@ -1,0 +1,13 @@
+{
+  "id": "trilobite",
+  "type": "artefatos",
+  "name": {
+    "en": "Trilobite",
+    "pt-BR": "Trilobita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

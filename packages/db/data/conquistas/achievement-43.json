@@ -1,0 +1,14 @@
+{
+  "id": "achievement-43",
+  "type": "conquistas",
+  "name": {
+    "en": "Two Thumbs Up",
+    "pt-BR": "Dois Joinhas"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "See a movie.",
+    "pt-BR": "Assista a um filme."
+  },
+  "order": 43
+}

@@ -1,0 +1,22 @@
+{
+  "id": "farmhouse-upgrade-2",
+  "type": "construcoes",
+  "name": {
+    "en": "House (tier 3)",
+    "pt-BR": "Aprimorar Casa 3"
+  },
+  "nameVerified": true,
+  "category": "farmhouse",
+  "construction": {
+    "price": 65000,
+    "materials": [
+      {
+        "item": "hardwood",
+        "qty": 100
+      }
+    ],
+    "buildDays": 3,
+    "upgradeFrom": "farmhouse-upgrade-1",
+    "builtBy": "carpenter"
+  }
+}

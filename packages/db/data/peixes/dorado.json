@@ -1,0 +1,30 @@
+{
+  "id": "dorado",
+  "type": "peixes",
+  "name": {
+    "en": "Dorado",
+    "pt-BR": "Dourado"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "19:00"
+      }
+    ],
+    "location": {
+      "en": "River (Forest)",
+      "pt-BR": "Rio (floresta)"
+    },
+    "locationVerified": false
+  }
+}

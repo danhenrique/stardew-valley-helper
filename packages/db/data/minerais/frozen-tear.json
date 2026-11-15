@@ -1,0 +1,19 @@
+{
+  "id": "frozen-tear",
+  "type": "minerais",
+  "subtype": "foraged-mineral",
+  "name": {
+    "en": "Frozen Tear",
+    "pt-BR": "Lágrima Congelada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "foragedMinerals"
+  ],
+  "giftTastes": {
+    "loves": [
+      "sebastian"
+    ]
+  },
+  "museumDonation": true
+}

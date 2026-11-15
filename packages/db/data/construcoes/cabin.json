@@ -1,0 +1,21 @@
+{
+  "id": "cabin",
+  "type": "construcoes",
+  "name": {
+    "en": "Log Cabin Stage 1",
+    "pt-BR": "Casa"
+  },
+  "nameVerified": true,
+  "category": "cabin",
+  "construction": {
+    "price": 100,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 10
+      }
+    ],
+    "buildDays": 0,
+    "builtBy": "carpenter"
+  }
+}

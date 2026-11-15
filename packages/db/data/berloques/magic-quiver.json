@@ -1,0 +1,12 @@
+{
+  "id": "magic-quiver",
+  "type": "berloques",
+  "name": {
+    "en": "Magic Quiver",
+    "pt-BR": "Aljava Mágica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "golden-mask",
+  "type": "artefatos",
+  "name": {
+    "en": "Golden Mask",
+    "pt-BR": "Máscara Dourada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

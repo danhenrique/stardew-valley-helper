@@ -1,0 +1,17 @@
+{
+  "id": "stone-sign",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Stone Sign",
+    "pt-BR": "Placa de Pedra"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 25
+      }
+    ]
+  }
+}

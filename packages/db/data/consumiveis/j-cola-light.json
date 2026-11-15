@@ -1,0 +1,15 @@
+{
+  "id": "j-cola-light",
+  "type": "consumiveis",
+  "name": {
+    "en": "J. Cola Light",
+    "pt-BR": "Luz Joja-Cola"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "joja",
+      "price": 500
+    }
+  ]
+}

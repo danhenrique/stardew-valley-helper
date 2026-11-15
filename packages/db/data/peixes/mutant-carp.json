@@ -1,0 +1,31 @@
+{
+  "id": "mutant-carp",
+  "type": "peixes",
+  "subtype": "legendary",
+  "name": {
+    "en": "Mutant Carp",
+    "pt-BR": "Carpa Mutante"
+  },
+  "nameVerified": false,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Sewers",
+      "pt-BR": "Esgoto"
+    },
+    "locationVerified": false
+  }
+}

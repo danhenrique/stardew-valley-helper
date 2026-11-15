@@ -1,0 +1,20 @@
+{
+  "id": "sunflower",
+  "type": "flores",
+  "name": {
+    "en": "Sunflower",
+    "pt-BR": "Girassol"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "sellPrice": 80,
+  "artisan": {},
+  "growsFrom": "sunflower-seeds",
+  "giftTastes": {
+    "loves": [
+      "haley"
+    ]
+  }
+}

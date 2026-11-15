@@ -1,0 +1,9 @@
+{
+  "id": "panzanella-salad",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Panzanella Salad",
+    "pt-BR": "Salada Panzanella"
+  },
+  "nameVerified": true
+}

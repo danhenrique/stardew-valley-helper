@@ -1,0 +1,13 @@
+{
+  "id": "blackberry-season",
+  "type": "eventos-coleta",
+  "name": {
+    "en": "Blackberry season",
+    "pt-BR": "Temporada de amoras"
+  },
+  "nameVerified": false,
+  "season": "fall",
+  "startDay": 8,
+  "endDay": 11,
+  "item": "blackberry"
+}

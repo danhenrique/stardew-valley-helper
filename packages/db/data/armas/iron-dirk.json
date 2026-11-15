@@ -1,0 +1,15 @@
+{
+  "id": "iron-dirk",
+  "type": "armas",
+  "name": {
+    "en": "Iron Dirk",
+    "pt-BR": "Punhal de Ferro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 500
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "joja-cola",
+  "type": "consumiveis",
+  "name": {
+    "en": "Joja Cola",
+    "pt-BR": "Joja-Cola"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "joja",
+      "price": 75
+    }
+  ],
+  "giftTastes": {
+    "neutral": [
+      "pam"
+    ],
+    "likes": [
+      "sam"
+    ]
+  }
+}

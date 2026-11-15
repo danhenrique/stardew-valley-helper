@@ -1,0 +1,16 @@
+{
+  "id": "savage-ring",
+  "type": "equipamentos",
+  "subtype": "ring",
+  "name": {
+    "en": "Savage Ring",
+    "pt-BR": "Anel Selvagem"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 25000
+    }
+  ]
+}

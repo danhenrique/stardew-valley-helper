@@ -1,0 +1,51 @@
+{
+  "id": "remix-ocean-fish",
+  "type": "pacotes",
+  "name": {
+    "en": "Ocean Fish",
+    "pt-BR": "Peixes do mar"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "sardine",
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ]
+    },
+    {
+      "item": "tuna",
+      "seasons": [
+        "summer",
+        "winter"
+      ]
+    },
+    {
+      "item": "red-snapper",
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "rainOnly": true
+    },
+    {
+      "item": "tilapia",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    }
+  ]
+}

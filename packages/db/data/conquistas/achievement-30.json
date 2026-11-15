@@ -1,0 +1,14 @@
+{
+  "id": "achievement-30",
+  "type": "conquistas",
+  "name": {
+    "en": "Full Shipment",
+    "pt-BR": "Envio Completo"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Ship every item.",
+    "pt-BR": "Envie um item de cada pelo correio."
+  },
+  "order": 30
+}

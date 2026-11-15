@@ -1,0 +1,15 @@
+{
+  "id": "decorative-sword",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Decorative Sword",
+    "pt-BR": "Espada Decorativa"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 10000
+    }
+  ]
+}

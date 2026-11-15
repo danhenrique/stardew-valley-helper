@@ -1,0 +1,38 @@
+{
+  "id": "books",
+  "type": "categorias",
+  "name": {
+    "en": "All books",
+    "pt-BR": "Todos os livros"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "price-catalogue",
+    "mapping-cave-systems",
+    "way-of-the-wind-pt-1",
+    "way-of-the-wind-pt-2",
+    "monster-compendium",
+    "friendship-101",
+    "jack-be-nimble-jack-be-thick",
+    "woodys-secret",
+    "ways-of-the-wild",
+    "jewels-of-the-sea",
+    "dwarvish-safety-manual",
+    "the-art-o-crabbing",
+    "the-alleyway-buffet",
+    "the-diamond-hunter",
+    "book-of-mysteries",
+    "horse-the-book",
+    "treasure-appraisal-guide",
+    "ol-slitherlegs",
+    "animal-catalogue",
+    "bait-and-bobber",
+    "book-of-stars",
+    "combat-quarterly",
+    "mining-monthly",
+    "queen-of-sauce-cookbook",
+    "stardew-valley-almanac",
+    "woodcutters-weekly"
+  ]
+}

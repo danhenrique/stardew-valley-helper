@@ -1,0 +1,18 @@
+{
+  "id": "ancient-doll",
+  "type": "artefatos",
+  "name": {
+    "en": "Ancient Doll",
+    "pt-BR": "Boneco Antigo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "giftTastes": {
+    "loves": [
+      "jas"
+    ]
+  },
+  "museumDonation": true
+}

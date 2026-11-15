@@ -1,0 +1,14 @@
+{
+  "id": "mystic-syrup",
+  "type": "recursos",
+  "name": {
+    "en": "Mystic Syrup",
+    "pt-BR": "Xarope Místico"
+  },
+  "nameVerified": false,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "haley"
+    ]
+  }
+}

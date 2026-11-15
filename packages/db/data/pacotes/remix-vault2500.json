@@ -1,0 +1,23 @@
+{
+  "id": "remix-vault2500",
+  "type": "pacotes",
+  "name": {
+    "en": "2,500g",
+    "pt-BR": "2.500 g"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "vault",
+    "name": {
+      "en": "Vault",
+      "pt-BR": "Cofre"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 1,
+  "items": [
+    {
+      "gold": 2500
+    }
+  ]
+}

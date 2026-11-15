@@ -1,0 +1,14 @@
+{
+  "id": "achievement-32",
+  "type": "conquistas",
+  "name": {
+    "en": "The Bottom",
+    "pt-BR": "O Fundo"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Reach the bottom of the mines.",
+    "pt-BR": "Chegue ao fundo das minas."
+  },
+  "order": 32
+}

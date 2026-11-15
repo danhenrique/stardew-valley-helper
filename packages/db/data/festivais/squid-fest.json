@@ -1,0 +1,13 @@
+{
+  "id": "squid-fest",
+  "type": "festivais",
+  "name": {
+    "en": "SquidFest",
+    "pt-BR": "Festival da Lula"
+  },
+  "nameVerified": false,
+  "season": "winter",
+  "startDay": 12,
+  "endDay": 13,
+  "shopsClosed": false
+}

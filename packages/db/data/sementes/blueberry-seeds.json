@@ -1,0 +1,33 @@
+{
+  "id": "blueberry-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Blueberry Seeds",
+    "pt-BR": "Sementes de Mirtilo"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 13,
+    "phases": [
+      1,
+      3,
+      3,
+      4,
+      2
+    ],
+    "regrowDays": 4,
+    "lastPlantingDay": 15,
+    "averageExtraYield": 2,
+    "produce": "blueberry"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 80,
+      "season": "summer"
+    }
+  ]
+}

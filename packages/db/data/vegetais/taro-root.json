@@ -1,0 +1,18 @@
+{
+  "id": "taro-root",
+  "type": "vegetais",
+  "name": {
+    "en": "Taro Root",
+    "pt-BR": "Inhame-coco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 100,
+  "artisan": {
+    "kegPrice": 225,
+    "jarPrice": 250
+  },
+  "growsFrom": "taro-tuber"
+}

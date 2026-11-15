@@ -1,0 +1,36 @@
+{
+  "id": "remix-construction",
+  "type": "pacotes",
+  "name": {
+    "en": "Construction",
+    "pt-BR": "Construção"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "wood",
+      "qty": 99
+    },
+    {
+      "item": "wood",
+      "qty": 99
+    },
+    {
+      "item": "stone",
+      "qty": 99
+    },
+    {
+      "item": "hardwood",
+      "qty": 10
+    }
+  ]
+}

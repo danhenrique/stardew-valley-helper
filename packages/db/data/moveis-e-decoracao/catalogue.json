@@ -1,0 +1,15 @@
+{
+  "id": "catalogue",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Catalogue",
+    "pt-BR": "Catálogo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 30000
+    }
+  ]
+}

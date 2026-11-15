@@ -1,0 +1,26 @@
+{
+  "id": "hardwood-fence",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Hardwood Fence",
+    "pt-BR": "Cerca de Madeira de Lei"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "casino",
+      "price": 0,
+      "currency": {
+        "qiCoins": 100
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 1
+      }
+    ]
+  }
+}

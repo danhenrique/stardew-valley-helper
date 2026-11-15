@@ -1,0 +1,48 @@
+{
+  "id": "wheat-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Wheat Seeds",
+    "pt-BR": "Sementes de Trigo"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "growthDays": 4,
+    "phases": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": null,
+    "averageExtraYield": 0,
+    "produce": "wheat"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 10,
+      "season": "summer"
+    },
+    {
+      "shop": "pierre",
+      "price": 10,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 12,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 12,
+      "season": "fall"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "starfruit-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Starfruit Seeds",
+    "pt-BR": "Sementes de Carambola"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 13,
+    "phases": [
+      2,
+      3,
+      2,
+      3,
+      3
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 15,
+    "averageExtraYield": 0,
+    "produce": "starfruit"
+  },
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 400
+    }
+  ]
+}

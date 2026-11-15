@@ -1,0 +1,16 @@
+{
+  "id": "crabshell-ring",
+  "type": "equipamentos",
+  "subtype": "ring",
+  "name": {
+    "en": "Crabshell Ring",
+    "pt-BR": "Anel de Caranguejo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 15000
+    }
+  ]
+}

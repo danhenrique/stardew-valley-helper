@@ -1,0 +1,12 @@
+{
+  "id": "serpents",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Serpents",
+    "pt-BR": "Serpentes"
+  },
+  "nameVerified": true,
+  "killsRequired": 250,
+  "reward": "napalm-ring",
+  "location": "adventurers-guild"
+}

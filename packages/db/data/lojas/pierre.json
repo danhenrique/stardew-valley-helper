@@ -1,0 +1,323 @@
+{
+  "id": "pierre",
+  "type": "lojas",
+  "name": {
+    "en": "Pierre's General Store",
+    "pt-BR": "Armazém do Pierre"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "17:00"
+    },
+    "hoursWithKeyToTown": [
+      {
+        "open": "06:00",
+        "close": "07:00"
+      },
+      {
+        "open": "08:30",
+        "close": "17:00"
+      }
+    ],
+    "closedDaysBeforeCC": [
+      "wed"
+    ],
+    "closedDaysAfterCC": [],
+    "festivalClosure": "all"
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 5 PM",
+      "pt-BR": "9 AM – 5 PM"
+    },
+    "key": {
+      "en": "6–7 AM / 8:30 AM–5 PM",
+      "pt-BR": "6–7 AM / 8:30 AM–5 PM"
+    },
+    "closed": {
+      "en": "Wednesday (before Community Center restored)",
+      "pt-BR": "Quarta-feira (antes de restaurar o Centro Comunitário)"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "grass-starter",
+      "price": 100
+    },
+    {
+      "item": "grass-starter",
+      "recipe": true,
+      "price": 1000
+    },
+    {
+      "item": "sugar",
+      "price": 100
+    },
+    {
+      "item": "wheat-flour",
+      "price": 100
+    },
+    {
+      "item": "rice",
+      "price": 200
+    },
+    {
+      "item": "oil",
+      "price": 200
+    },
+    {
+      "item": "vinegar",
+      "price": 200
+    },
+    {
+      "item": "basic-fertilizer",
+      "price": 100
+    },
+    {
+      "item": "quality-fertilizer",
+      "price": 150,
+      "fromYear": 2
+    },
+    {
+      "item": "basic-retaining-soil",
+      "price": 100
+    },
+    {
+      "item": "quality-retaining-soil",
+      "price": 150
+    },
+    {
+      "item": "speed-gro",
+      "price": 100
+    },
+    {
+      "item": "deluxe-speed-gro",
+      "price": 150
+    },
+    {
+      "item": "cherry-sapling",
+      "price": 3400
+    },
+    {
+      "item": "apricot-sapling",
+      "price": 2000
+    },
+    {
+      "item": "orange-sapling",
+      "price": 4000
+    },
+    {
+      "item": "peach-sapling",
+      "price": 6000
+    },
+    {
+      "item": "pomegranate-sapling",
+      "price": 6000
+    },
+    {
+      "item": "apple-sapling",
+      "price": 4000
+    },
+    {
+      "item": "catalogue",
+      "price": 30000
+    },
+    {
+      "item": "dehydrator",
+      "recipe": true,
+      "price": 10000
+    },
+    {
+      "item": "bouquet",
+      "price": 200
+    },
+    {
+      "item": "large-pack",
+      "price": 2000
+    },
+    {
+      "item": "deluxe-pack",
+      "price": 10000
+    },
+    {
+      "item": "parsnip-seeds",
+      "price": 20,
+      "season": "spring"
+    },
+    {
+      "item": "bean-starter",
+      "price": 60,
+      "season": "spring"
+    },
+    {
+      "item": "cauliflower-seeds",
+      "price": 80,
+      "season": "spring"
+    },
+    {
+      "item": "potato-seeds",
+      "price": 50,
+      "season": "spring"
+    },
+    {
+      "item": "tulip-bulb",
+      "price": 20,
+      "season": "spring"
+    },
+    {
+      "item": "kale-seeds",
+      "price": 70,
+      "season": "spring"
+    },
+    {
+      "item": "jazz-seeds",
+      "price": 30,
+      "season": "spring"
+    },
+    {
+      "item": "garlic-seeds",
+      "price": 40,
+      "season": "spring",
+      "fromYear": 2
+    },
+    {
+      "item": "rice-shoot",
+      "price": 40,
+      "season": "spring",
+      "fromYear": 2
+    },
+    {
+      "item": "melon-seeds",
+      "price": 80,
+      "season": "summer"
+    },
+    {
+      "item": "tomato-seeds",
+      "price": 50,
+      "season": "summer"
+    },
+    {
+      "item": "blueberry-seeds",
+      "price": 80,
+      "season": "summer"
+    },
+    {
+      "item": "pepper-seeds",
+      "price": 40,
+      "season": "summer"
+    },
+    {
+      "item": "wheat-seeds",
+      "price": 10,
+      "season": "summer"
+    },
+    {
+      "item": "radish-seeds",
+      "price": 40,
+      "season": "summer"
+    },
+    {
+      "item": "poppy-seeds",
+      "price": 100,
+      "season": "summer"
+    },
+    {
+      "item": "spangle-seeds",
+      "price": 50,
+      "season": "summer"
+    },
+    {
+      "item": "hops-starter",
+      "price": 60,
+      "season": "summer"
+    },
+    {
+      "item": "corn-seeds",
+      "price": 150,
+      "season": "summer"
+    },
+    {
+      "item": "sunflower-seeds",
+      "price": 200,
+      "season": "summer"
+    },
+    {
+      "item": "red-cabbage-seeds",
+      "price": 100,
+      "season": "summer",
+      "fromYear": 2
+    },
+    {
+      "item": "eggplant-seeds",
+      "price": 20,
+      "season": "fall"
+    },
+    {
+      "item": "corn-seeds",
+      "price": 150,
+      "season": "fall"
+    },
+    {
+      "item": "pumpkin-seeds",
+      "price": 100,
+      "season": "fall"
+    },
+    {
+      "item": "bok-choy-seeds",
+      "price": 50,
+      "season": "fall"
+    },
+    {
+      "item": "yam-seeds",
+      "price": 60,
+      "season": "fall"
+    },
+    {
+      "item": "cranberry-seeds",
+      "price": 240,
+      "season": "fall"
+    },
+    {
+      "item": "sunflower-seeds",
+      "price": 200,
+      "season": "fall"
+    },
+    {
+      "item": "fairy-seeds",
+      "price": 200,
+      "season": "fall"
+    },
+    {
+      "item": "amaranth-seeds",
+      "price": 70,
+      "season": "fall"
+    },
+    {
+      "item": "grape-starter",
+      "price": 60,
+      "season": "fall"
+    },
+    {
+      "item": "wheat-seeds",
+      "price": 10,
+      "season": "fall"
+    },
+    {
+      "item": "artichoke-seeds",
+      "price": 30,
+      "season": "fall",
+      "fromYear": 2
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "horse-the-book",
+  "type": "livros",
+  "name": {
+    "en": "Horse The Book",
+    "pt-BR": "Cavalo: O Livro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

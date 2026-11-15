@@ -1,0 +1,23 @@
+{
+  "id": "basic-retaining-soil",
+  "type": "fertilizantes",
+  "name": {
+    "en": "Basic Retaining Soil",
+    "pt-BR": "Solo Retentor"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 2
+      }
+    ]
+  }
+}

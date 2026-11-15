@@ -1,0 +1,15 @@
+{
+  "id": "shears",
+  "type": "ferramentas",
+  "name": {
+    "en": "Shears",
+    "pt-BR": "Tesoura"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "ranch",
+      "price": 1000
+    }
+  ]
+}

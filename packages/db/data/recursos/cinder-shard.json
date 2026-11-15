@@ -1,0 +1,14 @@
+{
+  "id": "cinder-shard",
+  "type": "recursos",
+  "name": {
+    "en": "Cinder Shard",
+    "pt-BR": "Fragmento de Brasa"
+  },
+  "nameVerified": false,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "sam"
+    ]
+  }
+}

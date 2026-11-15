@@ -1,0 +1,29 @@
+{
+  "id": "ancient-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Ancient Seeds",
+    "pt-BR": "Semente Antiga"
+  },
+  "nameVerified": false,
+  "crop": {
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "growthDays": 28,
+    "regrowDays": 7,
+    "lastPlantingDay": null,
+    "averageExtraYield": 0,
+    "produce": "ancient-fruit"
+  },
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "ancient-seed",
+        "qty": 1
+      }
+    ]
+  }
+}

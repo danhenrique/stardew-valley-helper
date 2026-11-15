@@ -1,0 +1,30 @@
+{
+  "id": "perch",
+  "type": "peixes",
+  "name": {
+    "en": "Perch",
+    "pt-BR": "Perca"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest), Forest pond, Mountain Lake",
+      "pt-BR": "Rio (cidade + floresta), lago da floresta, Lago da montanha"
+    },
+    "locationVerified": false
+  }
+}

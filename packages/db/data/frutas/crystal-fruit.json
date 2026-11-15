@@ -1,0 +1,17 @@
+{
+  "id": "crystal-fruit",
+  "type": "frutas",
+  "name": {
+    "en": "Crystal Fruit",
+    "pt-BR": "Fruta de Cristal"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "maru"
+    ]
+  }
+}

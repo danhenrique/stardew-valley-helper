@@ -1,0 +1,31 @@
+{
+  "id": "remix-fish-farmer",
+  "type": "pacotes",
+  "name": {
+    "en": "Fish Farmer's",
+    "pt-BR": "Piscicultor"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "roe",
+      "qty": 15
+    },
+    {
+      "item": "aged-roe",
+      "qty": 15
+    },
+    {
+      "item": "squid-ink"
+    }
+  ]
+}

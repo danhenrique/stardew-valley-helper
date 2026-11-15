@@ -1,0 +1,14 @@
+{
+  "id": "achievement-11",
+  "type": "conquistas",
+  "name": {
+    "en": "Networking",
+    "pt-BR": "Rede de Contatos"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Reach a 5-heart friend level with 10 people.",
+    "pt-BR": "Alcance amizade nível 5 com 10 pessoas."
+  },
+  "order": 11
+}

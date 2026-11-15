@@ -1,0 +1,14 @@
+{
+  "id": "achievement-6",
+  "type": "conquistas",
+  "name": {
+    "en": "A Complete Collection",
+    "pt-BR": "Coleção Completa"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Complete the museum collection.",
+    "pt-BR": "Complete a coleção do museu."
+  },
+  "order": 6
+}

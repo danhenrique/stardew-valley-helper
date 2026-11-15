@@ -1,0 +1,21 @@
+{
+  "id": "stump-brazier",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Stump Brazier",
+    "pt-BR": "Braseiro de Toco de Árvore"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 5
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      }
+    ]
+  }
+}

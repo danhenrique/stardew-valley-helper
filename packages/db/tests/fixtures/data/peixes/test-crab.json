@@ -1,0 +1,30 @@
+{
+ "id": "test-crab",
+ "type": "peixes",
+ "name": {
+  "en": "Test Crab",
+  "pt-BR": "Caranguejo Teste"
+ },
+ "nameVerified": true,
+ "catch": {
+  "tool": "crabPot",
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "weather": "any",
+  "timeWindows": [
+   {
+    "from": "06:00",
+    "to": "02:00 (+1d)"
+   }
+  ],
+  "location": {
+   "en": "Ocean",
+   "pt-BR": "Oceano"
+  },
+  "locationVerified": false
+ }
+}

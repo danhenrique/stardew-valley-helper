@@ -1,0 +1,27 @@
+{
+  "id": "speed-gro",
+  "type": "fertilizantes",
+  "name": {
+    "en": "Speed-Gro",
+    "pt-BR": "Solo Foliar"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "pine-tar",
+        "qty": 1
+      },
+      {
+        "item": "clam",
+        "qty": 1
+      }
+    ]
+  }
+}

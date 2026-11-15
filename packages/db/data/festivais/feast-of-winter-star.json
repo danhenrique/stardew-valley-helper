@@ -1,0 +1,13 @@
+{
+  "id": "feast-of-winter-star",
+  "type": "festivais",
+  "name": {
+    "en": "Feast of the Winter Star",
+    "pt-BR": "Banquete da Estrela do Inverno"
+  },
+  "nameVerified": false,
+  "season": "winter",
+  "startDay": 25,
+  "endDay": 25,
+  "shopsClosed": true
+}

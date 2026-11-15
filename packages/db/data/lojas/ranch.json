@@ -1,0 +1,124 @@
+{
+  "id": "ranch",
+  "type": "lojas",
+  "name": {
+    "en": "Marnie's Ranch",
+    "pt-BR": "Rancho da Marnie"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "16:00"
+    },
+    "hoursWithKeyToTown": [
+      {
+        "open": "06:00",
+        "close": "08:30"
+      },
+      {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    ],
+    "closedDays": [
+      "mon",
+      "tue"
+    ],
+    "festivalClosure": "all",
+    "closedDates": [
+      {
+        "season": "fall",
+        "day": 18
+      },
+      {
+        "season": "winter",
+        "day": 18
+      }
+    ]
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 4 PM",
+      "pt-BR": "9 AM – 4 PM"
+    },
+    "key": {
+      "en": "6–8:30 AM / 9 AM–5 PM",
+      "pt-BR": "6–8:30 AM / 9 AM–5 PM"
+    },
+    "closed": {
+      "en": "Monday / Tuesday",
+      "pt-BR": "Segunda-feira / terça-feira"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "Fall 18 / Winter 18",
+      "pt-BR": "Outono 18 / Inverno 18"
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "hay",
+      "price": 50
+    },
+    {
+      "item": "heater",
+      "price": 2000
+    },
+    {
+      "item": "milk-pail",
+      "price": 1000
+    },
+    {
+      "item": "shears",
+      "price": 1000
+    },
+    {
+      "item": "auto-grabber",
+      "price": 25000
+    },
+    {
+      "item": "ornamental-hay-bale",
+      "price": 250
+    },
+    {
+      "item": "chicken",
+      "price": 800,
+      "requiresBuilding": "coop"
+    },
+    {
+      "item": "cow",
+      "price": 1500,
+      "requiresBuilding": "barn"
+    },
+    {
+      "item": "goat",
+      "price": 4000,
+      "requiresBuilding": "big-barn"
+    },
+    {
+      "item": "duck",
+      "price": 1200,
+      "requiresBuilding": "big-coop"
+    },
+    {
+      "item": "sheep",
+      "price": 8000,
+      "requiresBuilding": "deluxe-barn"
+    },
+    {
+      "item": "rabbit",
+      "price": 8000,
+      "requiresBuilding": "deluxe-coop"
+    },
+    {
+      "item": "pig",
+      "price": 16000,
+      "requiresBuilding": "deluxe-barn"
+    }
+  ]
+}

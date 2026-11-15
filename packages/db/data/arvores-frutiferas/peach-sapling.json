@@ -1,0 +1,22 @@
+{
+  "id": "peach-sapling",
+  "type": "arvores-frutiferas",
+  "name": {
+    "en": "Peach Sapling",
+    "pt-BR": "Muda de Pessegueiro"
+  },
+  "nameVerified": true,
+  "fruitTree": {
+    "fruit": "peach",
+    "season": "summer",
+    "daysToMature": 28,
+    "fruitsPerDay": 1,
+    "maxFruitOnTree": 3
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 6000
+    }
+  ]
+}

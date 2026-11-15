@@ -1,0 +1,18 @@
+{
+  "id": "potato",
+  "type": "vegetais",
+  "name": {
+    "en": "Potato",
+    "pt-BR": "Batata"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 80,
+  "artisan": {
+    "kegPrice": 180,
+    "jarPrice": 210
+  },
+  "growsFrom": "potato-seeds"
+}

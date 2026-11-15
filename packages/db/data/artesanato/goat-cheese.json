@@ -1,0 +1,21 @@
+{
+  "id": "goat-cheese",
+  "type": "artesanato",
+  "name": {
+    "en": "Goat Cheese",
+    "pt-BR": "Queijo de Cabra"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey"
+    ],
+    "loves": [
+      "leah",
+      "robin"
+    ]
+  }
+}

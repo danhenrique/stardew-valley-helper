@@ -1,0 +1,21 @@
+{
+  "id": "oil-of-garlic",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Oil of Garlic",
+    "pt-BR": "Óleo de Alho"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "garlic",
+        "qty": 10
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      }
+    ]
+  }
+}

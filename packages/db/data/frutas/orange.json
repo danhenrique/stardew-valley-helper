@@ -1,0 +1,19 @@
+{
+  "id": "orange",
+  "type": "frutas",
+  "subtype": "tree-fruit",
+  "name": {
+    "en": "Orange",
+    "pt-BR": "Laranja"
+  },
+  "nameVerified": true,
+  "tags": [
+    "treeFruit"
+  ],
+  "growsFrom": "orange-sapling",
+  "giftTastes": {
+    "loves": [
+      "gus"
+    ]
+  }
+}

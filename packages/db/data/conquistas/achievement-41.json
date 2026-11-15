@@ -1,0 +1,14 @@
+{
+  "id": "achievement-41",
+  "type": "conquistas",
+  "name": {
+    "en": "A Distant Shore",
+    "pt-BR": "Uma Praia Distante"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Reach Ginger Island.",
+    "pt-BR": "Chegue à Ilha Gengibre."
+  },
+  "order": 41
+}

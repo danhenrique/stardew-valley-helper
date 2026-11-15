@@ -1,0 +1,16 @@
+{
+  "id": "skeleton-mask",
+  "type": "equipamentos",
+  "subtype": "hat",
+  "name": {
+    "en": "Skeleton Mask",
+    "pt-BR": "Máscara de Esqueleto"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 20000
+    }
+  ]
+}

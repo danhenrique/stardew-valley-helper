@@ -1,0 +1,50 @@
+{
+  "id": "sweet-gem-berry",
+  "type": "coleta",
+  "name": {
+    "en": "Sweet Gem Berry",
+    "pt-BR": "Cereja de Joia Doce"
+  },
+  "nameVerified": true,
+  "sellPrice": 3000,
+  "artisan": {},
+  "growsFrom": "rare-seed",
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ]
+  }
+}

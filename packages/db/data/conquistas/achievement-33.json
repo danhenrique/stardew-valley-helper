@@ -1,0 +1,14 @@
+{
+  "id": "achievement-33",
+  "type": "conquistas",
+  "name": {
+    "en": "Local Legend",
+    "pt-BR": "Lenda Local"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Restore the Community Center in Pelican Town.",
+    "pt-BR": "Restaure o Centro Comunitário de Pelican Town."
+  },
+  "order": 33
+}

@@ -1,0 +1,17 @@
+{
+  "id": "blackberry",
+  "type": "frutas",
+  "name": {
+    "en": "Blackberry",
+    "pt-BR": "Amora"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "maru"
+    ]
+  }
+}

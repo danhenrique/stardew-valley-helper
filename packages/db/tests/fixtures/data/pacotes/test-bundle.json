@@ -1,0 +1,31 @@
+{
+ "id": "test-bundle",
+ "type": "pacotes",
+ "name": {
+  "en": "Test Bundle",
+  "pt-BR": "Pacote Teste"
+ },
+ "nameVerified": false,
+ "room": {
+  "id": "pantry",
+  "name": {
+   "en": "Pantry",
+   "pt-BR": "Copa"
+  }
+ },
+ "remixed": false,
+ "slotsRequired": 2,
+ "quality": "gold",
+ "items": [
+  {
+   "item": "test-fruit",
+   "qty": 5,
+   "seasons": [
+    "fall"
+   ]
+  },
+  {
+   "gold": 2500
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "legend",
+  "type": "peixes",
+  "subtype": "legendary",
+  "name": {
+    "en": "Legend",
+    "pt-BR": "Lenda"
+  },
+  "nameVerified": false,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring"
+    ],
+    "weather": "rain",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Mountain Lake, near the log. Fishing level 10 required.",
+      "pt-BR": "Lago da montanha, perto do tronco. Nível de pesca 10 necessário."
+    },
+    "locationVerified": false
+  }
+}

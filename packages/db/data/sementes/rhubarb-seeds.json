@@ -1,0 +1,32 @@
+{
+  "id": "rhubarb-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Rhubarb Seeds",
+    "pt-BR": "Sementes de Ruibarbo"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 13,
+    "phases": [
+      2,
+      2,
+      2,
+      3,
+      4
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 15,
+    "averageExtraYield": 0,
+    "produce": "rhubarb"
+  },
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 100
+    }
+  ]
+}

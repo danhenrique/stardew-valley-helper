@@ -1,0 +1,12 @@
+{
+  "id": "rock-crabs",
+  "type": "metas-monstros",
+  "name": {
+    "en": "Rock Crabs",
+    "pt-BR": "Caranguejos Rocha"
+  },
+  "nameVerified": true,
+  "killsRequired": 60,
+  "reward": "crabshell-ring",
+  "location": "adventurers-guild"
+}

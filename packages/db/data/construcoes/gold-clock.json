@@ -1,0 +1,15 @@
+{
+  "id": "gold-clock",
+  "type": "construcoes",
+  "name": {
+    "en": "Gold Clock",
+    "pt-BR": "Relógio Dourado"
+  },
+  "nameVerified": true,
+  "construction": {
+    "price": 10000000,
+    "materials": [],
+    "builtBy": "wizard"
+  },
+  "category": "magical"
+}

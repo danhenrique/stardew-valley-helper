@@ -1,0 +1,21 @@
+{
+  "id": "birch-double-bed",
+  "type": "moveis-e-decoracao",
+  "name": {
+    "en": "Birch Double Bed",
+    "pt-BR": "Cama de Casal de Bétula"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "pearl",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

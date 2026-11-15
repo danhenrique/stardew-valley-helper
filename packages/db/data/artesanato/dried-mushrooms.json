@@ -1,0 +1,12 @@
+{
+  "id": "dried-mushrooms",
+  "type": "artesanato",
+  "name": {
+    "en": "Dried Mushrooms",
+    "pt-BR": "Cogumelos secos"
+  },
+  "nameVerified": false,
+  "tags": [
+    "artisanGoods"
+  ]
+}

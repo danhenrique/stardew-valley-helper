@@ -1,0 +1,38 @@
+{
+  "id": "artisan-goods",
+  "type": "categorias",
+  "name": {
+    "en": "All artisan goods",
+    "pt-BR": "Todos os produtos artesanais"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "honey",
+    "cheese",
+    "goat-cheese",
+    "beer",
+    "vinegar",
+    "coffee",
+    "green-tea",
+    "juice",
+    "mead",
+    "pale-ale",
+    "wine",
+    "cloth",
+    "mayonnaise",
+    "duck-mayonnaise",
+    "void-mayonnaise",
+    "dinosaur-mayonnaise",
+    "truffle-oil",
+    "oil",
+    "pickles",
+    "jelly",
+    "caviar",
+    "aged-roe",
+    "dried-mushrooms",
+    "dried-fruit",
+    "raisins",
+    "smoked-fish"
+  ]
+}

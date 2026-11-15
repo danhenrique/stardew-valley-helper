@@ -1,0 +1,14 @@
+{
+  "id": "limestone",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Limestone",
+    "pt-BR": "Calcário"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

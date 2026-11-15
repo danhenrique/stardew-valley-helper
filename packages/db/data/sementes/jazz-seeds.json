@@ -1,0 +1,37 @@
+{
+  "id": "jazz-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Jazz Seeds",
+    "pt-BR": "Sementes de Jasmim-azul"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 7,
+    "phases": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 0,
+    "produce": "blue-jazz"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 30,
+      "season": "spring"
+    },
+    {
+      "shop": "joja",
+      "price": 37,
+      "season": "spring"
+    }
+  ]
+}

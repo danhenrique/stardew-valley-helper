@@ -1,0 +1,27 @@
+{
+  "id": "explosive-ammo",
+  "type": "armas",
+  "name": {
+    "en": "Explosive Ammo",
+    "pt-BR": "Munição Explosiva"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 300
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "coal",
+        "qty": 2
+      }
+    ]
+  }
+}

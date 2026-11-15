@@ -1,0 +1,16 @@
+{
+  "id": "burglars-ring",
+  "type": "equipamentos",
+  "subtype": "ring",
+  "name": {
+    "en": "Burglar's Ring",
+    "pt-BR": "Anel do Ladrão"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 20000
+    }
+  ]
+}

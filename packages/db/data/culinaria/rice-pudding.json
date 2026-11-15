@@ -1,0 +1,44 @@
+{
+  "id": "rice-pudding",
+  "type": "culinaria",
+  "name": {
+    "en": "Rice Pudding",
+    "pt-BR": "Pudim de Arroz"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 520
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "demetrius"
+    ],
+    "dislikesOrHates": [
+      "emily",
+      "harvey",
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "milk",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "rice",
+        "qty": 1
+      }
+    ]
+  }
+}

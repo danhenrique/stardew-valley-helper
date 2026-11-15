@@ -1,0 +1,53 @@
+{
+  "id": "wool",
+  "type": "produtos-animais",
+  "name": {
+    "en": "Wool",
+    "pt-BR": "Lã"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "pierre",
+      "robin",
+      "sam",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "loves": [
+      "emily"
+    ],
+    "dislikesOrHates": [
+      "penny"
+    ],
+    "likes": [
+      "sandy"
+    ]
+  }
+}

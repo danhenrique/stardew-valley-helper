@@ -1,0 +1,15 @@
+{
+  "id": "wooden-blade",
+  "type": "armas",
+  "name": {
+    "en": "Wooden Blade",
+    "pt-BR": "Espada de Madeira"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 250
+    }
+  ]
+}

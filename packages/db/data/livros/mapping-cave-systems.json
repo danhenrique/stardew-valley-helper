@@ -1,0 +1,12 @@
+{
+  "id": "mapping-cave-systems",
+  "type": "livros",
+  "name": {
+    "en": "Mapping Cave Systems",
+    "pt-BR": "Mapeamento das Cavernas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

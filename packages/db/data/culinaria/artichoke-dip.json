@@ -1,0 +1,29 @@
+{
+  "id": "artichoke-dip",
+  "type": "culinaria",
+  "name": {
+    "en": "Artichoke Dip",
+    "pt-BR": "Molho de Alcachofra"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "artichoke",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      }
+    ]
+  }
+}

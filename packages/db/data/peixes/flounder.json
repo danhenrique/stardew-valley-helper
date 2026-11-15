@@ -1,0 +1,36 @@
+{
+  "id": "flounder",
+  "type": "peixes",
+  "name": {
+    "en": "Flounder",
+    "pt-BR": "Linguado"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "likes": [
+      "sebastian"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "20:00"
+      }
+    ],
+    "location": {
+      "en": "Ocean, Ginger Island ocean",
+      "pt-BR": "Oceano, oceano da Ilha Gengibre"
+    },
+    "locationVerified": false
+  }
+}

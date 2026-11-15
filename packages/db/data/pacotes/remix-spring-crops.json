@@ -1,0 +1,56 @@
+{
+  "id": "remix-spring-crops",
+  "type": "pacotes",
+  "name": {
+    "en": "Spring Crops",
+    "pt-BR": "Cultivos da primavera"
+  },
+  "nameVerified": false,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "parsnip",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "green-bean",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "cauliflower",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "potato",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "kale",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "carrot",
+      "seasons": [
+        "spring"
+      ]
+    }
+  ]
+}

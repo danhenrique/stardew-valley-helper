@@ -1,0 +1,15 @@
+{
+  "id": "broccoli",
+  "type": "vegetais",
+  "name": {
+    "en": "Broccoli",
+    "pt-BR": "Brócolis"
+  },
+  "nameVerified": false,
+  "sellPrice": 70,
+  "artisan": {
+    "kegPrice": 157,
+    "jarPrice": 190
+  },
+  "growsFrom": "broccoli-seeds"
+}

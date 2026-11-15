@@ -1,0 +1,13 @@
+{
+  "id": "dwarvish-helm",
+  "type": "artefatos",
+  "name": {
+    "en": "Dwarvish Helm",
+    "pt-BR": "Elmo Anão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

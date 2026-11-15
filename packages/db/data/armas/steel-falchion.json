@@ -1,0 +1,15 @@
+{
+  "id": "steel-falchion",
+  "type": "armas",
+  "name": {
+    "en": "Steel Falchion",
+    "pt-BR": "Cimitarra de Metal"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 9000
+    }
+  ]
+}

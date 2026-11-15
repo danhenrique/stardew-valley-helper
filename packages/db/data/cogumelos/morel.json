@@ -1,0 +1,17 @@
+{
+  "id": "morel",
+  "type": "cogumelos",
+  "name": {
+    "en": "Morel",
+    "pt-BR": "Morel"
+  },
+  "nameVerified": true,
+  "tags": [
+    "mushrooms"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leo"
+    ]
+  }
+}

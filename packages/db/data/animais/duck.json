@@ -1,0 +1,14 @@
+{
+  "id": "duck",
+  "type": "animais",
+  "name": {
+    "en": "Duck",
+    "pt-BR": "Pato"
+  },
+  "nameVerified": true,
+  "purchase": {
+    "shop": "ranch",
+    "price": 1200
+  },
+  "housing": "big-coop"
+}

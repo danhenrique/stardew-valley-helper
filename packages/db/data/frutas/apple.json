@@ -1,0 +1,14 @@
+{
+  "id": "apple",
+  "type": "frutas",
+  "subtype": "tree-fruit",
+  "name": {
+    "en": "Apple",
+    "pt-BR": "Maçã"
+  },
+  "nameVerified": true,
+  "tags": [
+    "treeFruit"
+  ],
+  "growsFrom": "apple-sapling"
+}

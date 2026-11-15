@@ -1,0 +1,9 @@
+{
+  "id": "nachos",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Nachos",
+    "pt-BR": "Nachos"
+  },
+  "nameVerified": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "grass-starter",
+  "type": "itens-especiais",
+  "name": {
+    "en": "Grass Starter",
+    "pt-BR": "Muda de Grama"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100
+    },
+    {
+      "shop": "joja",
+      "price": 125
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "fiber",
+        "qty": 10
+      }
+    ]
+  }
+}

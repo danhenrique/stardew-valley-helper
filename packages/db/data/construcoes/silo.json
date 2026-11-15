@@ -1,0 +1,29 @@
+{
+  "id": "silo",
+  "type": "construcoes",
+  "name": {
+    "en": "Silo",
+    "pt-BR": "Silo"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 100,
+    "materials": [
+      {
+        "item": "stone",
+        "qty": 100
+      },
+      {
+        "item": "clay",
+        "qty": 10
+      },
+      {
+        "item": "copper-bar",
+        "qty": 5
+      }
+    ],
+    "buildDays": 2,
+    "builtBy": "carpenter"
+  }
+}

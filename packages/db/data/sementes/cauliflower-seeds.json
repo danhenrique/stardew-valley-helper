@@ -1,0 +1,37 @@
+{
+  "id": "cauliflower-seeds",
+  "type": "sementes",
+  "name": {
+    "en": "Cauliflower Seeds",
+    "pt-BR": "Sementes de Couve-flor"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 12,
+    "phases": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 16,
+    "averageExtraYield": 0,
+    "produce": "cauliflower"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 80,
+      "season": "spring"
+    },
+    {
+      "shop": "joja",
+      "price": 100,
+      "season": "spring"
+    }
+  ]
+}

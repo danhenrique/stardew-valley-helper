@@ -1,0 +1,9 @@
+{
+  "id": "stardrop-sorbet",
+  "type": "lanches-cinema",
+  "name": {
+    "en": "Stardrop Sorbet",
+    "pt-BR": "Sorbet de Fruta-Estrela"
+  },
+  "nameVerified": true
+}

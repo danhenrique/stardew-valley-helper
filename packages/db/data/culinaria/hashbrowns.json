@@ -1,0 +1,36 @@
+{
+  "id": "hashbrowns",
+  "type": "culinaria",
+  "name": {
+    "en": "Hashbrowns",
+    "pt-BR": "Hash Brown"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 240
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey",
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "potato",
+        "qty": 1
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      }
+    ]
+  }
+}

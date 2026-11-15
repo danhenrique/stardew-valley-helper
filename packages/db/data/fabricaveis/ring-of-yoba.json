@@ -1,0 +1,25 @@
+{
+  "id": "ring-of-yoba",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Ring of Yoba",
+    "pt-BR": "Anel de Ioba"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 5
+      },
+      {
+        "item": "iron-bar",
+        "qty": 5
+      },
+      {
+        "item": "diamond",
+        "qty": 1
+      }
+    ]
+  }
+}

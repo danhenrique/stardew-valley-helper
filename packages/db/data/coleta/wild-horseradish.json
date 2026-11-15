@@ -1,0 +1,53 @@
+{
+  "id": "wild-horseradish",
+  "type": "coleta",
+  "name": {
+    "en": "Wild Horseradish",
+    "pt-BR": "Raiz-forte"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "abigail",
+      "alex",
+      "clint",
+      "dwarf",
+      "elliott",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "jas",
+      "jodi",
+      "leo",
+      "lewis",
+      "marnie",
+      "pam",
+      "pierre",
+      "robin",
+      "sam",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "caroline",
+      "harvey",
+      "leah",
+      "linus"
+    ],
+    "neutral": [
+      "demetrius",
+      "emily",
+      "kent",
+      "maru",
+      "penny",
+      "sandy"
+    ],
+    "loves": [
+      "krobus"
+    ]
+  }
+}

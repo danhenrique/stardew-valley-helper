@@ -1,0 +1,14 @@
+{
+  "id": "mudstone",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Mudstone",
+    "pt-BR": "Lamito"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

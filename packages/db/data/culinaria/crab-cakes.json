@@ -1,0 +1,37 @@
+{
+  "id": "crab-cakes",
+  "type": "culinaria",
+  "name": {
+    "en": "Crab Cakes",
+    "pt-BR": "Bolinhos de Caranguejo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "elliott"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "crab",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "egg",
+        "qty": 1
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      }
+    ]
+  }
+}

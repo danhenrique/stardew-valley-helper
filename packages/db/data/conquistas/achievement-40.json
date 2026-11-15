@@ -1,0 +1,14 @@
+{
+  "id": "achievement-40",
+  "type": "conquistas",
+  "name": {
+    "en": "Fector's Challenge",
+    "pt-BR": "O Desafio de Fector"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Clear 'Journey of the Prairie King' without dying. (Hidden achievement)",
+    "pt-BR": "Conclua «A aventura do Rei da Pradaria» sem morrer. (Conquista oculta)"
+  },
+  "order": 40
+}

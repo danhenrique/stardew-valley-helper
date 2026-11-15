@@ -1,0 +1,18 @@
+{
+  "id": "strange-doll-green",
+  "type": "artefatos",
+  "name": {
+    "en": "Strange Doll (green)",
+    "pt-BR": "Boneco Estranho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "giftTastes": {
+    "loves": [
+      "jas"
+    ]
+  },
+  "museumDonation": true
+}

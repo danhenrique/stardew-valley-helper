@@ -1,0 +1,13 @@
+{
+  "id": "ornamental-fan",
+  "type": "artefatos",
+  "name": {
+    "en": "Ornamental Fan",
+    "pt-BR": "Leque Ornamental"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

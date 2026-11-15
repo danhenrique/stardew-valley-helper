@@ -1,0 +1,17 @@
+{
+  "id": "stone-chest",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Stone Chest",
+    "pt-BR": "Baú de Pedra"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 50
+      }
+    ]
+  }
+}

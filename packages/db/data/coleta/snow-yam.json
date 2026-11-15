@@ -1,0 +1,51 @@
+{
+  "id": "snow-yam",
+  "type": "coleta",
+  "name": {
+    "en": "Snow Yam",
+    "pt-BR": "Inhame da Neve"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "clint",
+      "demetrius",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "lewis",
+      "marnie",
+      "pam",
+      "penny",
+      "robin",
+      "sandy"
+    ],
+    "dislikesOrHates": [
+      "caroline",
+      "dwarf",
+      "elliott",
+      "haley",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leo",
+      "maru",
+      "pierre",
+      "sam",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "harvey",
+      "leah",
+      "linus"
+    ]
+  }
+}

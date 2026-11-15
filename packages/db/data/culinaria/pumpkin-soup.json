@@ -1,0 +1,35 @@
+{
+  "id": "pumpkin-soup",
+  "type": "culinaria",
+  "name": {
+    "en": "Pumpkin Soup",
+    "pt-BR": "Sopa de Abóbora"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 600
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "sebastian"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "pumpkin",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "deluxe-barn",
+  "type": "construcoes",
+  "name": {
+    "en": "Deluxe Barn",
+    "pt-BR": "Celeiro de Luxo"
+  },
+  "nameVerified": true,
+  "category": "animal",
+  "construction": {
+    "price": 25000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 550
+      },
+      {
+        "item": "stone",
+        "qty": 300
+      }
+    ],
+    "buildDays": 3,
+    "upgradeFrom": "big-barn",
+    "builtBy": "carpenter"
+  }
+}

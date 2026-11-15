@@ -1,0 +1,21 @@
+{
+  "id": "furnace",
+  "type": "maquinas",
+  "name": {
+    "en": "Furnace",
+    "pt-BR": "Fornalha"
+  },
+  "nameVerified": false,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "qty": 20
+      },
+      {
+        "item": "stone",
+        "qty": 25
+      }
+    ]
+  }
+}

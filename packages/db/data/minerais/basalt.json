@@ -1,0 +1,14 @@
+{
+  "id": "basalt",
+  "type": "minerais",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Basalt",
+    "pt-BR": "Basalto"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

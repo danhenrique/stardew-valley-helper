@@ -1,0 +1,12 @@
+{
+ "id": "test-goal",
+ "type": "metas-monstros",
+ "name": {
+  "en": "Test Goal",
+  "pt-BR": "Meta Teste"
+ },
+ "nameVerified": false,
+ "killsRequired": 10,
+ "location": "mines",
+ "reward": "test-fruit"
+}

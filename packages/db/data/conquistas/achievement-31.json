@@ -1,0 +1,14 @@
+{
+  "id": "achievement-31",
+  "type": "conquistas",
+  "name": {
+    "en": "Prairie King",
+    "pt-BR": "Rei da Pradaria"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Win a game of 'Journey of the Prairie King'.",
+    "pt-BR": "Vença em «A aventura do Rei da Pradaria»."
+  },
+  "order": 31
+}

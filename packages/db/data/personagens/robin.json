@@ -1,0 +1,225 @@
+{
+  "id": "robin",
+  "type": "personagens",
+  "name": {
+    "en": "Robin",
+    "pt-BR": "Robin"
+  },
+  "nameVerified": false,
+  "marriageable": false,
+  "birthday": {
+    "season": "fall",
+    "day": 21
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "goat-cheese"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "peach"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "spaghetti"
+      },
+      {
+        "item": "woodys-secret"
+      }
+    ],
+    "likes": [
+      {
+        "item": "hardwood"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "item": "woodcutters-weekly"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "milk"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      }
+    ],
+    "dislikesOrHates": [
+      "holly",
+      "wild-horseradish"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "journey-of-the-prairie-king-the-motion-picture"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "mysterium",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "it-howls-in-the-rain",
+      "the-zuzu-city-express"
+    ],
+    "lovedSnacks": [
+      "salted-peanuts",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "fries",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "kale-smoothie",
+      "nachos",
+      "panzanella-salad",
+      "personal-pizza",
+      "personal-pizza",
+      "popcorn",
+      "salmon-burger",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

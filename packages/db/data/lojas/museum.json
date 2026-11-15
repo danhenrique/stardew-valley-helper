@@ -1,0 +1,40 @@
+{
+  "id": "museum",
+  "type": "lojas",
+  "name": {
+    "en": "Museum",
+    "pt-BR": "Museu"
+  },
+  "nameVerified": false,
+  "schedule": {
+    "hours": {
+      "open": "08:00",
+      "close": "18:00"
+    },
+    "closedDays": [],
+    "festivalClosure": "all"
+  },
+  "scheduleText": {
+    "open": {
+      "en": "8 AM – 6 PM",
+      "pt-BR": "8 AM – 6 PM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    }
+  },
+  "scheduleTextVerified": false
+}

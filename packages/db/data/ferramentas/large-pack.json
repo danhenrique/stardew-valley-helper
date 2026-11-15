@@ -1,0 +1,16 @@
+{
+  "id": "large-pack",
+  "type": "ferramentas",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Large Pack",
+    "pt-BR": "Mochila Grande"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 2000
+    }
+  ]
+}
