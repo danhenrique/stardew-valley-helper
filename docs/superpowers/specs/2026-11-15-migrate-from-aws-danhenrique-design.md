@@ -18,7 +18,7 @@ Move the whole Stardew Valley Helper (db, api, website, infra and the shared pie
 | # | Topic | Choice |
 |---|---|---|
 | 1 | Production resources | Same AWS account. Existing resources are kept: nothing is recreated, no player data or Cognito user is lost |
-| 2 | Code names | Rename everything to the new repository's scope |
+| 2 | Code names | Rename everything to the new repository's scope, keeping the domain names the generators derive from (`stardew-valley-api`, `stardew-valley-db`) |
 | 3 | Git history | Start fresh: projects are created by the plugin generators and the code is ported on top. History stays readable in `aws-danhenrique` |
 | 4 | Repository rules | Copy the old `.claude/CLAUDE.md` and the Nx block of the root `CLAUDE.md` |
 | 5 | Community scheduler | Copied to `.tmp/stardew-valley-scheduler`; `.tmp/` is git-ignored (third-party code) |
@@ -43,9 +43,9 @@ that `bootstrap-destroy` must not run while `aws-danhenrique` uses the same buck
 ```
 stardew-valley-helper/
 ├── packages/
-│   ├── db/              stardew_valley_helper.db        (py#project)        module stardew_valley_helper_db
+│   ├── db/              stardew_valley_helper.stardew_valley_db   (py#dynamodb)  module stardew_valley_db
 │   │   └── data/        versioned dataset + build-data.py
-│   ├── api/             stardew_valley_helper.api       (py#fast-api)       module stardew_valley_api
+│   ├── api/             stardew_valley_helper.stardew_valley_api  (py#fast-api)  module stardew_valley_api
 │   ├── website/         @stardew-valley-helper/website  (ts#react-website)  dev 4201, preview 4301
 │   ├── infra/           @stardew-valley-helper/infra    (terraform#project, with bootstrap)
 │   └── common/
@@ -63,8 +63,8 @@ stardew-valley-helper/
 
 | Source (`aws-danhenrique`) | Destination | New name |
 |---|---|---|
-| `packages/stardew-valley/db` (`aws_danhenrique.stardew_valley_db`, module `aws_danhenrique_stardew_valley_db`) | `packages/db` | `stardew_valley_helper.db`, module `stardew_valley_helper_db` |
-| `packages/stardew-valley/api` (`aws_danhenrique.stardew_valley_api`, module `stardew_valley_api`) | `packages/api` | `stardew_valley_helper.api`, module `stardew_valley_api` |
+| `packages/stardew-valley/db` (`aws_danhenrique.stardew_valley_db`, module `aws_danhenrique_stardew_valley_db`) | `packages/db` | `stardew_valley_helper.stardew_valley_db`, module `stardew_valley_db` |
+| `packages/stardew-valley/api` (`aws_danhenrique.stardew_valley_api`, module `stardew_valley_api`) | `packages/api` | `stardew_valley_helper.stardew_valley_api`, module `stardew_valley_api` |
 | `packages/stardew-valley/website` (`@aws-danhenrique/stardew-valley-helper-website`) | `packages/website` | `@stardew-valley-helper/website` |
 | `packages/stardew-valley/infra` (`@aws-danhenrique/stardew-valley-infra`) | `packages/infra` | `@stardew-valley-helper/infra` |
 | `packages/common/terraform` (modules the Stardew uses) | `packages/common/terraform` | `@stardew-valley-helper/terraform` |
@@ -78,9 +78,17 @@ The Python distribution names change from `aws-danhenrique-stardew-valley-*` to
 
 ### How projects are created
 
-1. `@aws/nx-plugin` generators create each project (`py#project`, `py#fast-api`, `ts#react-website`,
-   `terraform#project`) and the connections (`connection` website → api, website → user-identity,
-   api → db).
+1. `@aws/nx-plugin` generators create each project, as the old repository did: `py#dynamodb`
+   (`name=stardew-valley-db`, `moduleName=stardew_valley_db`), `py#fast-api` (`name=stardew-valley-api`,
+   `moduleName=stardew_valley_api`, `auth=iam`, `infra=rest-lambda`), `ts#react-website` (`name=website`,
+   `ux=none`, Tailwind, TanStack Router), `ts#react-website#auth`, `terraform#project` (`name=infra`), and
+   the `connection` generator for api → db (`py#dynamodb#fast-api-connection`) and website → api
+   (`py#fast-api#react-connection`).
+
+   The generator `name` drives the Nx project name, the API class names (`StardewValleyApi`), the
+   website hook (`useStardewValleyApi`), `StardewValleyApiProvider`, `src/generated/stardew-valley-api`
+   and the `app/apis/stardew-valley-api` Terraform module. Keeping `stardew-valley-api` and
+   `stardew-valley-db` leaves the 81 website files that use those names unchanged.
 2. Each project's code is ported on top of the scaffold, with the renames.
 3. The generated `project.json` is diffed against the old one, and the old custom targets are
    re-applied: `import`, `openapi`, `dev` with DynamoDB Local, `generate:stardew-valley-api-client`,
