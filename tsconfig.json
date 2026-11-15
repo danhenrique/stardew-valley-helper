@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./packages/common/scripts"
+    },
+    {
+      "path": "./packages/website"
     }
   ]
 }

@@ -1,7 +1,7 @@
 locals {
   metric_id = "uksb-4wk0bqpg5s"
   metric_version = "1.0.4"
-  metric_tags    = ["g52", "g2", "g3", "g53"]
+  metric_tags    = ["g52", "g2", "g3", "g53", "g5", "g7", "g6", "g4"]
 }
 
 resource "random_string" "suffix" {

@@ -25,6 +25,9 @@
     "paths": {
       "@stardew-valley-helper/scripts": [
         "./packages/common/scripts/src/index.ts"
+      ],
+      "@stardew-valley-helper/website": [
+        "./packages/website/src/index.ts"
       ]
     }
   }

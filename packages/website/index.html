@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full bg-white dark:bg-gray-900">
+  <head>
+    <meta charset="utf-8" />
+    <title>Stardew Helper</title>
+    <base href="/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script>
+      // Apply the dark theme before React mounts (next-themes storage key).
+      try {
+        var theme = localStorage.getItem('theme');
+        var dark =
+          theme === 'dark' ||
+          ((!theme || theme === 'system') &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="h-full">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

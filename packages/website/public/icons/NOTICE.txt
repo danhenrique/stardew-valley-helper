@@ -1,0 +1,2 @@
+Stardew Valley sprites © ConcernedApe LLC. Copied from the stardew-valley-scheduler project
+(public/icons) for non-commercial fan use. Not covered by this repository's license.

@@ -13,7 +13,8 @@
       "dependsOn": [
         "stardew_valley_helper.stardew_valley_db:assemble",
         "stardew_valley_helper.stardew_valley_api:assemble",
-        "generate:stardew-valley-api-operations"
+        "generate:stardew-valley-api-operations",
+        "@stardew-valley-helper/website:assemble"
       ]
     },
     "build": {
@@ -23,7 +24,8 @@
         "test",
         "stardew_valley_helper.stardew_valley_db:build",
         "stardew_valley_helper.stardew_valley_api:build",
-        "generate:stardew-valley-api-operations"
+        "generate:stardew-valley-api-operations",
+        "@stardew-valley-helper/website:build"
       ],
       "outputs": []
     },
