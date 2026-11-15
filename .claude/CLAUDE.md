@@ -3,7 +3,7 @@
 ## Instruções
 
 - Sempre utilize o tailwind para criação e edição dos websites
-- No caminho @/home/danhenrique/projects/.tailwind estão baixados diversos recursos do tailwind plus. Sempre procure neste diretório por componentes ja existentes. Se não encontrar o que precisa, pergunte ao usuário como seguir
+- No caminho @/home/danhenrique/projects/.tailwind estão baixados diversos recursos do tailwind plus. Sempre procure neste diretório por componentes ja existentes. Se não encontrar o que precisa, construa o componente com classes utilitárias do Tailwind, seguindo o padrão visual dos componentes já adaptados
 - Sempre utilize os icones recomendados pelo tailwind, principalmente do heroicons
 - Todo website já deve nascer com opção de escolher tema escuro ou claro
 

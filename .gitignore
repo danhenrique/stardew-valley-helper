@@ -54,3 +54,6 @@ runtime-config.json
 
 # Superpowers plan workspaces
 .superpowers/
+
+# Windows download metadata (WSL copies)
+*:Zone.Identifier

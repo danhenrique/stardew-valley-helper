@@ -131,6 +131,13 @@ run "should_keep_aws_danhenrique_physical_names_when_planning_prod" {
       account_id = "test-account"
     }
   }
+  override_resource {
+    target          = module.website.module.static_website.random_id.bucket_suffix
+    override_during = plan
+    values = {
+      hex = "cafe"
+    }
+  }
 
   assert {
     condition     = module.table.table_name == "aws-danhenrique-stardew-valley-db-abc123"
@@ -139,5 +146,9 @@ run "should_keep_aws_danhenrique_physical_names_when_planning_prod" {
   assert {
     condition     = module.user_identity.user_pool_domain == "danhenrique-stardew-valley-helper-website-test-account-beef"
     error_message = "the Cognito domain prefix must stay danhenrique-stardew-valley-helper-website"
+  }
+  assert {
+    condition     = module.website.website_bucket_name == "stardew-helper-website-cafe"
+    error_message = "the website name must stay stardew-helper (it names the website buckets)"
   }
 }
