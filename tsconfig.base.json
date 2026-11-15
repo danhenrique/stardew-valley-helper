@@ -22,6 +22,10 @@
       "@stardew-valley-helper/source"
     ],
     "rootDir": ".",
-    "paths": {}
+    "paths": {
+      "@stardew-valley-helper/scripts": [
+        "./packages/common/scripts/src/index.ts"
+      ]
+    }
   }
 }
