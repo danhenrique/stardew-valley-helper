@@ -1,4 +1,11 @@
 locals {
+  # Required on every resource (projects/.claude/rules/terraform.md). Applied as default_tags by
+  # both AWS providers, so it must stay static (a provider cannot depend on data sources).
+  default_tags = {
+    ManagedBy  = "terraform"
+    Repository = "danhenrique/stardew-valley-helper"
+  }
+
   account_id     = data.aws_caller_identity.current.account_id
   aws_region     = data.aws_region.current.region
   website_domain = "stardew.${var.domain_name}"

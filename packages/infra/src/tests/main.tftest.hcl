@@ -152,3 +152,14 @@ run "should_keep_aws_danhenrique_physical_names_when_planning_prod" {
     error_message = "the website name must stay stardew-helper (it names the website buckets)"
   }
 }
+
+# projects/.claude/rules/terraform.md: every resource carries ManagedBy and Repository. Both AWS
+# providers apply local.default_tags as default_tags.
+run "should_tag_every_resource_with_managed_by_and_repository_when_planning_prod" {
+  command = plan
+
+  assert {
+    condition     = local.default_tags == { ManagedBy = "terraform", Repository = "danhenrique/stardew-valley-helper" }
+    error_message = "default tags must be ManagedBy=terraform and Repository=danhenrique/stardew-valley-helper"
+  }
+}
