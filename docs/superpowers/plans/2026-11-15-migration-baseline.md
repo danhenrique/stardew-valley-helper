@@ -37,5 +37,28 @@ byte-identical file.
 
 ## Production plan
 
-Not measured yet: no AWS credentials were available. It runs before the state cutover (Task 8), and
-`No changes.` is required there.
+`pnpm nx run @aws-danhenrique/stardew-valley-infra:plan` (profile `danhenrique-prod`), measured the
+same day:
+
+```
+Plan: 14 to add, 23 to change, 14 to destroy.
+```
+
+The plan is never empty. It only shows three patterns that come back on every plan, and no real
+resource is created, destroyed or replaced:
+
+- **Runtime config redeploy.** These are replaced on every apply:
+  - `null_resource.aggregate_namespace` (4 entries + 1 in the website)
+  - `aws_appconfig_hosted_configuration_version.namespace` (4)
+  - `aws_appconfig_deployment.namespace` (4)
+  - `null_resource.cloudfront_invalidation`
+
+  This also updates `runtime-config.json` in place.
+- **AWS normalization.**
+  - `aws_api_gateway_rest_api_policy.api_policy`: `execute-api:/*` vs the full ARN.
+  - `cors_4xx` / `cors_5xx`: the `response_templates` default.
+- **Lambda zip rebuilt locally.** `aws_s3_object.lambda_zip` gets a new etag, so the 18
+  `aws_lambda_function.api_lambda[*]` are updated in place.
+
+No website bundle object changes: the built bundle equals the deployed one. The 44 action lines are
+the gate for the state cutover (plan Task 8, Step 4).

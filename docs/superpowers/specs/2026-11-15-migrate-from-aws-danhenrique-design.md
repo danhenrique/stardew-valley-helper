@@ -187,6 +187,10 @@ Port db, api, website, scripts, Terraform modules, the dataset and the docs, wit
 
 ### Phase 3: State cutover
 
+> Updated during execution: the Phase 4 lock is written **before** the copy, so the old state cannot
+> change after it was copied. The gate is equivalence with OLD's own prod plan, which is never empty
+> (see `docs/superpowers/plans/2026-11-15-migration-baseline.md`), not `No changes`.
+
 1. Copy `s3://<account>-tf-state-sa-east-1/aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate`
    to `.../stardew-valley-helper-infra/prod/terraform.tfstate`.
 2. Run `pnpm nx run @stardew-valley-helper/infra:plan`.

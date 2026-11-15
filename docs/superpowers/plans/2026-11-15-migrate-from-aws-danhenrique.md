@@ -42,7 +42,7 @@
 1. **Lambda bundle drift.** The renamed distribution in `uv export --package ...` can drop `stardew_valley_db` from the bundle. Tests pass locally, but the Lambdas fail at import in production. Task 4 imports the app from the built bundle.
 2. **Physical-name drift.** A generator default replaces a literal, and the plan shows a replace on the table, Cognito, a bucket or a Lambda. Task 6 asserts the frozen names in `main.tftest.hcl`. Task 8 rejects any replace.
 3. **Dataset path.** The importer runs from another cwd, or `*:Zone.Identifier` files leak into git. Task 3 tests that `DEFAULT_DATA_DIR` resolves to `packages/db/data` with `_meta/index.json`, and that no versioned file name contains `:`.
-4. **Stale old writer.** Someone runs `plan` or `apply` from OLD after the cutover. Task 9 proves that OLD's `plan` fails with a lock error.
+4. **Stale old writer.** Someone runs `plan` or `apply` from OLD after the cutover. Task 8 (Steps 1–2) locks the old key before the copy and proves that OLD's `plan` fails with a lock error.
 5. **Local dev wiring.** The `connection.json` path (`dist/packages/common/terraform/runtime-config/connection.json`) and the DynamoDB Local port 8000 / API port 8001 change. Login silently stops being mocked or the API cannot reach the table. Task 5 runs `dev` and loads the Hoje page against the local API.
 
 ---
@@ -270,36 +270,55 @@
 
 ---
 
-### Task 8: State cutover (with the user)
+### Task 8: Freeze the old state, then cut over (with the user)
 
-- [ ] **Step 1:** After the user's go-ahead, copy the state:
-  ```bash
-  aws s3 cp s3://<account>-tf-state-sa-east-1/aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate \
-            s3://<account>-tf-state-sa-east-1/stardew-valley-helper-infra/prod/terraform.tfstate
-  ```
-- [ ] **Step 2:** Run `pnpm nx run @stardew-valley-helper/infra:plan`.
-  - Expected: `No changes.`, or only in-place updates to Lambda code hashes and website objects.
-  - Any `must be replaced`, `destroy` or `create` means: do not apply. Fix the code and re-plan.
-- [ ] **Step 3:** Show the plan summary to the user and wait for approval.
-- [ ] **Step 4:** Run `pnpm nx run @stardew-valley-helper/infra:apply`.
-- [ ] **Step 5:** Smoke test on `https://stardew.danhenrique.com.br` with the user:
-  - log in
-  - list plantings
-  - add, edit and remove a planting and a machine
-  - the fish page
-  - toggle the rain of the day
-- [ ] **Step 6:** Run the plan again. Expected: `No changes.`
+The lock goes on the old key **before** the copy, so nothing can change the old state after it was
+copied.
 
----
+The gate is equivalence with OLD, not `No changes.`. OLD's own prod plan (Task 0, Step 5) is never
+empty, because of three patterns:
+- the plugin redeploys the runtime config on every apply (`null_resource` triggers, AppConfig hosted
+  versions and deployments, `runtime-config.json`, the CloudFront invalidation);
+- AWS normalizes the API policy and the CORS `response_templates`;
+- the Lambda zip is rebuilt on the deploying machine.
 
-### Task 9: Freeze the old state (with the user)
+Its 44 action lines are saved in
+`.superpowers/sdd/2026-11-15-migrate-from-aws-danhenrique/t0-oldplan-actions.txt`.
 
-- [ ] **Step 1:** After the user's go-ahead, write the lock object:
+- [ ] **Step 1:** After the user's go-ahead, write the lock object on the old key:
   ```bash
   echo '{"ID":"migrated","Info":"State moved to stardew-valley-helper (stardew-valley-helper-infra/prod)"}' \
     | aws s3 cp - s3://<account>-tf-state-sa-east-1/aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate.tflock
   ```
 - [ ] **Step 2:** In OLD, run `pnpm nx run @aws-danhenrique/stardew-valley-infra:plan`. Expected: it fails with a state-lock error.
+- [ ] **Step 3:** Copy the state:
+  ```bash
+  aws s3 cp s3://<account>-tf-state-sa-east-1/aws-danhenrique-stardew-valley-infra/prod/terraform.tfstate \
+            s3://<account>-tf-state-sa-east-1/stardew-valley-helper-infra/prod/terraform.tfstate
+  ```
+- [ ] **Step 4:** Run `pnpm nx run @stardew-valley-helper/infra:plan`.
+  - Expected: the sorted `# ... will be|must be ...` lines equal `t0-oldplan-actions.txt`, and the `Plan:` line equals `14 to add, 23 to change, 14 to destroy`.
+  - Expected: no `must be replaced` outside `null_resource.*`, `aws_appconfig_hosted_configuration_version.*` and `aws_appconfig_deployment.*`.
+  - Expected: no `will be created` or `will be destroyed`.
+  - Any other line means: do not apply. Fix the code and re-plan.
+- [ ] **Step 5:** Run `pnpm nx test stardew_valley_helper.stardew_valley_api -- -rs`. Expected: `test_bundle` ran (not skipped).
+- [ ] **Step 6:** Show the plan comparison to the user and wait for approval.
+- [ ] **Step 7:** Run `pnpm nx run @stardew-valley-helper/infra:apply`.
+- [ ] **Step 8:** Smoke test on `https://stardew.danhenrique.com.br` with the user:
+  - log in
+  - list plantings
+  - add, edit and remove a planting and a machine
+  - the fish page
+  - toggle the rain of the day
+- [ ] **Step 9:** Run the plan again. Expected: only the same perpetual patterns (no create, destroy or replace of real resources).
+
+Rollback before Step 7: delete the `.tflock` object and the new key. After Step 7: delete the `.tflock` object and redeploy from OLD.
+
+---
+
+### Task 9: (merged into Task 8)
+
+The lock now happens in Task 8, Steps 1–2.
 
 ---
 

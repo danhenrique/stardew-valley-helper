@@ -185,6 +185,7 @@
     },
     "test": {
       "executor": "@nxlv/python:run-commands",
+      "dependsOn": ["^build", "bundle-x86"],
       "outputs": [
         "{workspaceRoot}/reports/{projectRoot}/unittests",
         "{workspaceRoot}/coverage/{projectRoot}"

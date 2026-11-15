@@ -2,7 +2,7 @@
  * Runs `terraform init` against the remote S3 backend, resolving the
  * backend config (bucket + region + per-env state key) from the AWS
  * SDK credential chain. Pass the environment name via the `TF_ENV`
- * env var (defaults to `dev`).
+ * env var (defaults to `prod`, the only environment).
  */
 import { execFileSync } from 'node:child_process';
 import { join, resolve } from 'node:path';
@@ -21,7 +21,7 @@ const srcDir = join(resolve(process.cwd(), projectRootRel), 'src');
 
 const main = async () => {
   const { accountId, region } = await resolveAwsConfig();
-  const env = process.env.TF_ENV ?? 'dev';
+  const env = process.env.TF_ENV ?? 'prod';
   const bucket = `${accountId}-tf-state-${region}`;
   const key = `${STATE_KEY_PREFIX}/${env}/terraform.tfstate`;
 
