@@ -14,7 +14,10 @@ export type ValueFertilizer =
   | 'deluxe-speed-gro'
   | 'hyper-speed-gro';
 
-export type SeedSort = 'goldPerDay' | 'goldTotal' | 'name';
+export type SeedSort = 'goldPerDay' | 'bestPerDay' | 'goldTotal' | 'name';
+
+/** Where the harvest goes: sold as is, in a preserves jar or in a keg. */
+export type Destination = 'raw' | 'jar' | 'keg';
 
 export type SeedRow = {
   plantable: PlantableOut;
@@ -66,6 +69,7 @@ export const FERTILIZER_OPTIONS: {
 
 export const SORT_OPTIONS: { value: SeedSort; label: string }[] = [
   { value: 'goldPerDay', label: 'Ouro/dia' },
+  { value: 'bestPerDay', label: 'Melhor g/dia' },
   { value: 'goldTotal', label: 'Ouro no período' },
   { value: 'name', label: 'Nome' },
 ];
@@ -82,9 +86,38 @@ const group = (row: SeedRow): number => {
   return row.value?.goldTotal != null ? 0 : 2;
 };
 
-const gold = (row: SeedRow, sort: SeedSort): number =>
-  (sort === 'goldTotal' ? row.value?.goldTotal : row.value?.goldPerDayTenths) ??
-  0;
+const perDay = (value: SeedValueOut): Record<Destination, number | null> => ({
+  raw: value.goldPerDayTenths ?? null,
+  jar: value.jarGoldPerDayTenths ?? null,
+  keg: value.kegGoldPerDayTenths ?? null,
+});
+
+/** The destination with the most gold per day; raw, then jar, then keg on ties. */
+export const bestDestination = (value: SeedValueOut): Destination | null => {
+  let best: Destination | null = null;
+  let bestGold = -1;
+  for (const [destination, gold] of Object.entries(perDay(value)) as [
+    Destination,
+    number | null,
+  ][]) {
+    if (gold != null && gold > bestGold) {
+      best = destination;
+      bestGold = gold;
+    }
+  }
+  return best;
+};
+
+const gold = (row: SeedRow, sort: SeedSort): number => {
+  const { value } = row;
+  if (!value) return 0;
+  if (sort === 'goldTotal') return value.goldTotal ?? 0;
+  if (sort === 'bestPerDay') {
+    const best = bestDestination(value);
+    return best ? (perDay(value)[best] ?? 0) : 0;
+  }
+  return value.goldPerDayTenths ?? 0;
+};
 
 /** Joins the plantables with their values and orders them: valued, not mature, without value. */
 export const buildSeedRows = (
