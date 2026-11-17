@@ -144,11 +144,17 @@ def list_plantables(season: Season | None = None, location: Location = "farm") -
 CROP_KINDS: dict[str, CropKind] = {"frutas": "fruit", "vegetais": "vegetable"}
 
 
-def _sell_prices(produce_ids: set[str]) -> dict[str, tuple[int, CropKind]]:
-    """Sell price and crop kind of each produce item that exists and has a price (one batch read)."""
+def _artisan_prices(item: Item) -> dict[str, int]:
+    """Dataset keg/jar prices of a produce item (``{"kegPrice": .., "jarPrice": ..}``), when present."""
+    stored = item.artisan.as_dict() if item.artisan is not None else {}
+    return {key: int(stored[key]) for key in ("kegPrice", "jarPrice") if stored.get(key) is not None}
+
+
+def _sell_prices(produce_ids: set[str]) -> dict[str, tuple[int, CropKind, dict[str, int]]]:
+    """Sell price, crop kind and artisan prices of each produce item that has a price (one batch read)."""
     keys = [(f"ITEM#{produce}", "ITEM") for produce in sorted(produce_ids)]
     return {
-        item.entity_id: (int(item.sell_price), CROP_KINDS.get(str(item.item_type), "other"))
+        item.entity_id: (int(item.sell_price), CROP_KINDS.get(str(item.item_type), "other"), _artisan_prices(item))
         for item in Item.batch_get(keys)
         if isinstance(item, Item) and item.sell_price is not None
     }
@@ -174,7 +180,7 @@ def list_seed_values(
     for seed in seeds:
         assert seed.crop is not None
         produce = str(seed.crop.produce) if seed.crop.produce else None
-        price, kind = prices.get(produce, (None, "other")) if produce else (None, "other")
+        price, kind, artisan_prices = prices.get(produce, (None, "other", {})) if produce else (None, "other", {})
         value = seed_value(
             crop_spec(seed),
             price,
@@ -186,6 +192,7 @@ def list_seed_values(
             produce_id=produce,
             kind=kind,
             artisan=artisan,
+            artisan_prices=artisan_prices,
         )
         values.append(
             SeedValueOut(

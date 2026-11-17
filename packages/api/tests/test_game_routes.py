@@ -142,6 +142,19 @@ def test_should_make_jelly_and_wine_when_produce_is_a_fruit(client):
     assert seed["prices"]["iridium"] == 240
 
 
+def test_should_use_the_dataset_artisan_prices_when_the_produce_has_them(client, monkeypatch):
+    import stardew_valley_api.routes.game as game
+
+    real = game._sell_prices
+
+    def patched(ids):
+        return {k: (p, kind, {"kegPrice": 999, "jarPrice": 555}) for k, (p, kind, _) in real(ids).items()}
+
+    monkeypatch.setattr(game, "_sell_prices", patched)
+    seed = _seed_values(client)["test-seed"]
+    assert (seed["jar"]["price"], seed["keg"]["price"]) == (555, 999)
+
+
 def test_should_raise_jar_and_keg_values_when_artisan(client):
     seed = _seed_values(client, artisan="true")["test-flat-seed"]
     assert (seed["jar"]["price"], seed["keg"]["price"]) == (294, 252)

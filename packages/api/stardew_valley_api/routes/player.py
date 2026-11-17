@@ -50,7 +50,8 @@ def _profile_out(profile: PlayerProfile) -> ProfileOut:
         key_to_town=bool(profile.key_to_town),
         boat_repaired=bool(profile.boat_repaired),
         rain_today=bool(profile.rain_today),
-        artisan=bool(profile.artisan),
+        # A record with both professions (edited by hand) keeps Agriculturist instead of breaking /me.
+        artisan=bool(profile.artisan) and not profile.agriculturist,
     )
 
 

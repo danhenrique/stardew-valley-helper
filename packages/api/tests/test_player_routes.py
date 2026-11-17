@@ -270,3 +270,14 @@ def test_should_return_false_artisan_when_stored_profile_predates_it(client_as):
     pk, sk = raw.pop("pk")["S"], raw.pop("sk")["S"]
     PlayerProfile._get_connection().put_item(pk, sk, attributes=raw)
     assert client_as("p2").get("/me").json()["profile"]["artisan"] is False
+
+
+def test_should_keep_me_working_when_a_stored_profile_has_both_professions(client_as):
+    profile = PlayerProfile.get_or_default("p3")
+    profile.agriculturist = True
+    profile.artisan = True
+    profile.save()
+    response = client_as("p3").get("/me")
+    assert response.status_code == 200, response.text
+    flags = response.json()["profile"]
+    assert (flags["agriculturist"], flags["artisan"]) == (True, False)

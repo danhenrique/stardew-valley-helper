@@ -341,4 +341,21 @@ describe('SeedCatalog', () => {
       screen.getByRole('button', { name: /^Ordenar por/ }),
     ).toHaveTextContent('Melhor g/dia');
   });
+
+  it('should name green tea from the keg', () => {
+    mocks.useSeedValues.mockReturnValue({
+      ...loaded,
+      data: [
+        {
+          ...SEED_VALUES[0],
+          prices: { normal: 50, silver: 62, gold: 75, iridium: 100 },
+          keg: { item: 'green-tea', price: 100 },
+          kegGoldPerDayTenths: 10,
+        },
+        SEED_VALUES[1],
+      ],
+    });
+    renderCatalog();
+    expect(screen.getByText('Barril · Chá Verde 100g')).toBeInTheDocument();
+  });
 });

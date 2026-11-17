@@ -122,10 +122,19 @@ def test_should_have_no_product_when_crop_is_not_fruit_nor_vegetable():
     assert keg_product("tulip", "other", 30, False) is None
 
 
-def test_should_have_no_product_when_crop_rule_is_unverified():
-    for produce in ("tea-leaves", "unmilled-rice"):
-        assert jar_product(produce, "vegetable", 50, False) is None
-        assert keg_product(produce, "vegetable", 50, False) is None
+def test_should_make_pickles_from_hops_and_wheat_in_the_jar():
+    assert jar_product("hops", "vegetable", 25, False) == ArtisanProduct("pickles", 100)
+    assert jar_product("wheat", "vegetable", 25, False) == ArtisanProduct("pickles", 100)
+
+
+def test_should_make_green_tea_from_tea_leaves_and_juice_from_rice():
+    assert keg_product("tea-leaves", "vegetable", 50, False, dataset_price=100) == ArtisanProduct("green-tea", 100)
+    assert keg_product("unmilled-rice", "vegetable", 30, False) == ArtisanProduct("juice", 67)
+
+
+def test_should_prefer_the_dataset_price_over_the_formula():
+    assert keg_product("starfruit", "fruit", 750, False, dataset_price=2000) == ArtisanProduct("wine", 2000)
+    assert jar_product("starfruit", "fruit", 750, True, dataset_price=1000) == ArtisanProduct("jelly", 1400)
 
 
 def test_should_count_extra_yield_when_valuing_jar_and_keg_per_day():
