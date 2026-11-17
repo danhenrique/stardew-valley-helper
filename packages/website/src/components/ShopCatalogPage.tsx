@@ -59,9 +59,11 @@ const Catalog = ({
       : {},
   );
   const statusText =
-    status.status === 'open'
-      ? `Aberta · ${status.hours.join(', ')}`
-      : `Fechada · ${status.reason}`;
+    status.status === 'always'
+      ? ['Sem horário fixo', shop.access].filter(Boolean).join(' · ')
+      : status.status === 'open'
+        ? `Aberta · ${status.hours.join(', ')}`
+        : `Fechada · ${status.reason}`;
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-x-3">

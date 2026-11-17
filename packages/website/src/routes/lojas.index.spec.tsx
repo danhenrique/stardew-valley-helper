@@ -117,10 +117,10 @@ describe('/lojas page', () => {
     expect(within(row).queryByText(/^Fecha:/)).not.toBeInTheDocument();
   });
 
-  it('should not list a shop without a schedule', async () => {
+  it('should list a shop without a schedule', async () => {
     renderPage();
     await screen.findByRole('heading', { name: 'Lojas' });
-    expect(screen.queryByText('Sem Horário')).not.toBeInTheDocument();
+    expect(screen.getByText('Sem Horário')).toBeInTheDocument();
   });
 
   it('should show a loading notice', async () => {
