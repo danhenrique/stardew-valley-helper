@@ -23,6 +23,39 @@ const openEditor = async () => {
   return screen.findByRole('dialog', { name: 'Dia e progresso' });
 };
 
+describe('GameDayNav profession', () => {
+  it('should choose one level-10 farming profession', async () => {
+    const onSave = vi.fn();
+    render(
+      <GameDayNav profile={profile(1, 'spring', 1, true)} onSave={onSave} />,
+    );
+    const panel = await openEditor();
+    const group = within(panel).getByRole('group', {
+      name: 'Profissão (nível 10 de Lavrador)',
+    });
+    expect(
+      within(group)
+        .getAllByRole('button')
+        .map((b) => b.textContent),
+    ).toEqual(['Nenhuma', 'Agricultor', 'Artesão']);
+    expect(
+      within(group).getByRole('button', { name: 'Agricultor' }),
+    ).toHaveAttribute('aria-pressed', 'true');
+    expect(
+      within(panel).queryByRole('checkbox', { name: 'Profissão Agricultor' }),
+    ).not.toBeInTheDocument();
+    await userEvent.click(
+      within(group).getByRole('button', { name: 'Artesão' }),
+    );
+    await userEvent.click(
+      within(panel).getByRole('button', { name: 'Salvar' }),
+    );
+    expect(onSave).toHaveBeenCalledWith(
+      expect.objectContaining({ agriculturist: false, artisan: true }),
+    );
+  });
+});
+
 describe('GameDayNav', () => {
   it('should show the current date', () => {
     render(<GameDayNav profile={profile(2, 'spring', 12)} onSave={vi.fn()} />);
@@ -91,13 +124,14 @@ describe('GameDayNav', () => {
     await userEvent.clear(day);
     await userEvent.type(day, '13');
     await userEvent.click(
-      within(panel).getByRole('checkbox', { name: 'Profissão Agricultor' }),
+      within(panel).getByRole('button', { name: 'Agricultor' }),
     );
     await userEvent.click(
       within(panel).getByRole('button', { name: 'Salvar' }),
     );
     expect(onSave).toHaveBeenCalledWith({
       ...profile(1, 'spring', 13, true),
+      artisan: false,
       communityCenterRestored: false,
       keyToTown: false,
       boatRepaired: false,
@@ -125,6 +159,7 @@ describe('GameDayNav', () => {
     );
     expect(onSave).toHaveBeenCalledWith({
       ...profile(1, 'spring', 1, true),
+      artisan: false,
       communityCenterRestored: true,
       keyToTown: true,
       boatRepaired: false,

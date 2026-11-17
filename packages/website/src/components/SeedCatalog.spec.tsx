@@ -20,6 +20,7 @@ const renderCatalog = (
       currentSeason="spring"
       currentDay={10}
       agriculturist={false}
+      artisan={false}
       {...props}
     />,
   );
@@ -117,6 +118,7 @@ describe('SeedCatalog', () => {
       fertilizer: 'none',
       farmingLevel: 0,
       agriculturist: false,
+      artisan: false,
     });
     expect(
       screen.getByRole('button', { name: 'A partir de hoje' }),
@@ -148,6 +150,11 @@ describe('SeedCatalog', () => {
       screen.getByRole('button', { name: 'Estação inteira' }),
     );
     expect(lastRequest()).toMatchObject({ fromDay: 1 });
+  });
+
+  it('should pass the artisan profession when the profile has it', () => {
+    renderCatalog({ artisan: true });
+    expect(lastRequest()).toMatchObject({ artisan: true });
   });
 
   it('should pass the agriculturist profession when the profile has it', () => {

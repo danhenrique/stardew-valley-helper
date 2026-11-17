@@ -9,7 +9,16 @@ import { useState } from 'react';
 import type { ProfileIn } from '../generated/stardew-valley-api/types.gen';
 import { canShiftDay, sameDate, shiftDay } from '../lib/gameDate';
 import { SEASON_LABELS } from '../lib/i18n';
+import {
+  type Profession,
+  professionFlags,
+  professionOf,
+} from '../lib/profession';
 import { GameDateFields } from './form/GameDateFields';
+import {
+  SegmentedButtons,
+  type SegmentedOption,
+} from './form/SegmentedButtons';
 import { Toggle } from './form/Toggle';
 
 // Adapted from Tailwind Plus application-ui-v4/react/elements/button-groups/02-icon-only.jsx
@@ -117,11 +126,17 @@ export const GameDayNav = ({ profile, onSave }: GameDayNavProps) => {
   );
 };
 
+const PROFESSION_OPTIONS: SegmentedOption<Profession>[] = [
+  { value: 'none', label: 'Nenhuma' },
+  { value: 'agriculturist', label: 'Agricultor' },
+  { value: 'artisan', label: 'Artesão' },
+];
+
 /** Draft of the date and progress flags; mounted fresh each time the popover opens. */
 const DayEditor = ({ profile, onSave }: GameDayNavProps) => {
   const [currentDate, setCurrentDate] = useState(profile.currentDate);
-  const [agriculturist, setAgriculturist] = useState(
-    Boolean(profile.agriculturist),
+  const [profession, setProfession] = useState<Profession>(
+    professionOf(profile),
   );
   const [communityCenterRestored, setCommunityCenterRestored] = useState(
     Boolean(profile.communityCenterRestored),
@@ -138,12 +153,18 @@ const DayEditor = ({ profile, onSave }: GameDayNavProps) => {
         value={currentDate}
         onChange={setCurrentDate}
       />
-      <Toggle
-        label="Profissão Agricultor"
-        description="+10% de velocidade de crescimento"
-        checked={agriculturist}
-        onChange={setAgriculturist}
-      />
+      <div>
+        <SegmentedButtons
+          label="Profissão (nível 10 de Lavrador)"
+          options={PROFESSION_OPTIONS}
+          value={profession}
+          onChange={setProfession}
+        />
+        <p className="mt-2 text-sm/6 text-gray-500 dark:text-gray-400">
+          Agricultor: +10% de velocidade de crescimento. Artesão: +40% no valor
+          dos artesanais.
+        </p>
+      </div>
       <Toggle
         label="Centro Comunitário restaurado"
         description="Pierre abre às quartas e a Joja fecha"
@@ -169,7 +190,7 @@ const DayEditor = ({ profile, onSave }: GameDayNavProps) => {
             onSave({
               ...profile,
               currentDate,
-              agriculturist,
+              ...professionFlags(profession),
               communityCenterRestored,
               keyToTown,
               boatRepaired,

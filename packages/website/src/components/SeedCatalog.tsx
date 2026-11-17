@@ -44,6 +44,7 @@ type SeedCatalogProps = {
   currentSeason: Season;
   currentDay: number;
   agriculturist: boolean;
+  artisan: boolean;
 };
 
 const SeedValue = ({
@@ -79,6 +80,7 @@ export const SeedCatalog = ({
   currentSeason,
   currentDay,
   agriculturist,
+  artisan,
 }: SeedCatalogProps) => {
   const [season, setSeason] = useState<Season>(initialSeason);
   const [period, setPeriod] = useState<Period>('today');
@@ -92,6 +94,7 @@ export const SeedCatalog = ({
     fertilizer: prefs.fertilizer,
     farmingLevel: prefs.farmingLevel,
     agriculturist,
+    artisan,
   });
 
   const updatePrefs = (change: Partial<SeedPrefs>) => {

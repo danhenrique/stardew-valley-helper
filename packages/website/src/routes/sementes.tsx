@@ -31,6 +31,7 @@ function SeedsPage() {
           currentSeason={season}
           currentDay={me.data?.profile.currentDate.day ?? 1}
           agriculturist={me.data?.profile.agriculturist ?? false}
+          artisan={me.data?.profile.artisan ?? false}
         />
       )}
     </div>
