@@ -281,3 +281,18 @@ def test_should_keep_me_working_when_a_stored_profile_has_both_professions(clien
     assert response.status_code == 200, response.text
     flags = response.json()["profile"]
     assert (flags["agriculturist"], flags["artisan"]) == (True, False)
+
+
+def test_should_keep_artisan_when_an_older_client_saves_without_it(client_as):
+    client = client_as("p4")
+    client.put("/me/profile", json={"currentDate": SPRING_1, "artisan": True})
+    client.put("/me/profile", json={"currentDate": SPRING_1, "keyToTown": True})
+    profile = client.get("/me").json()["profile"]
+    assert (profile["artisan"], profile["keyToTown"]) == (True, True)
+
+
+def test_should_drop_artisan_when_an_older_client_chooses_agriculturist(client_as):
+    client = client_as("p5")
+    client.put("/me/profile", json={"currentDate": SPRING_1, "artisan": True})
+    saved = client.put("/me/profile", json={"currentDate": SPRING_1, "agriculturist": True}).json()
+    assert (saved["agriculturist"], saved["artisan"]) == (True, False)

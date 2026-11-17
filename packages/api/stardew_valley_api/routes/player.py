@@ -184,7 +184,8 @@ def update_profile(player: PlayerId, body: ProfileIn) -> ProfileOut:
     profile.current_date = _date_attr(body.current_date)
     profile.rain_today = False if date_changed else body.rain_today
     profile.agriculturist = body.agriculturist
-    profile.artisan = body.artisan
+    # An older client omits artisan: keep it, unless it chose Agriculturist (they are exclusive).
+    profile.artisan = body.artisan if body.artisan is not None else bool(profile.artisan) and not body.agriculturist
     profile.community_center_restored = body.community_center_restored
     profile.key_to_town = body.key_to_town
     profile.boat_repaired = body.boat_repaired

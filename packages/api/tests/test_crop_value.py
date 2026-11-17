@@ -161,3 +161,8 @@ def test_should_leave_comparison_empty_when_produce_has_no_price():
 def test_should_give_zero_per_day_when_the_seed_does_not_mature():
     v = seed_value(CAULIFLOWER, 175, 0, 20, "none", 0, False, produce_id="cauliflower", kind="vegetable")
     assert (v.jar_gold_per_day_tenths, v.keg_gold_per_day_tenths) == (0, 0)
+
+
+def test_should_brew_coffee_from_coffee_beans_at_the_price_per_bean():
+    assert keg_product("coffee-bean", "other", 15, False, dataset_price=30) == ArtisanProduct("coffee", 30)
+    assert jar_product("coffee-bean", "other", 15, False) is None
