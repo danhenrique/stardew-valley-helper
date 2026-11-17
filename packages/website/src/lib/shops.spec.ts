@@ -128,13 +128,40 @@ const festival = (
 const none: ShopProgress = {};
 
 describe('shops', () => {
-  it('should drop shops without schedule and keep data order', () => {
+  it('should keep shops without schedule and keep data order', () => {
     const shops = buildShops([
       entity('test-b', { hours: { open: '09:00', close: '17:00' } }),
       entity('test-casino'),
       entity('test-a', { hours: { open: '09:00', close: '17:00' } }),
     ]);
-    expect(shops.map((s) => s.id)).toEqual(['test-b', 'test-a']);
+    expect(shops.map((s) => s.id)).toEqual(['test-b', 'test-casino', 'test-a']);
+  });
+
+  it('should read the access requirement of a shop', () => {
+    const krobus = shopOf({
+      type: 'lojas',
+      id: 'test-krobus',
+      name: text('test-krobus'),
+      attributes: {
+        access: {
+          en: 'Requires the Rusty Key',
+          ptBr: 'Requer Chave Enferrujada',
+        },
+      },
+    });
+    expect(krobus.schedule).toBeUndefined();
+    expect(krobus.access).toBe('Requer Chave Enferrujada');
+  });
+
+  it('should mark a shop without schedule as always available', () => {
+    const casino = shopOf(entity('test-casino'));
+    expect(shopStatusToday(casino, date('spring', 3), [], none)).toEqual({
+      status: 'always',
+      hours: [],
+      notes: [],
+    });
+    expect(fixedClosedDays(casino.schedule, none)).toEqual([]);
+    expect(closedToday([casino], date('spring', 3), [], none)).toEqual([]);
   });
 
   it('should close Pierre on Wednesdays until the Community Center is restored', () => {

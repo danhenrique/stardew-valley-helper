@@ -70,6 +70,9 @@ describe('ShopCatalogModal', () => {
     await renderModal();
     expect(screen.getByText('monday-item')).toBeInTheDocument();
     expect(screen.queryByText('tuesday-item')).not.toBeInTheDocument();
+    expect(
+      screen.queryByLabelText('Quantidade de monday-item'),
+    ).not.toBeInTheDocument();
   });
 
   it('should show the loading and error states', async () => {

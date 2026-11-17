@@ -6,6 +6,10 @@
     "pt-BR": "Sala de Nozes de Qi"
   },
   "nameVerified": false,
+  "access": {
+    "en": "Requires 100 Golden Walnuts",
+    "pt-BR": "Requer 100 nozes douradas"
+  },
   "offers": [
     {
       "item": "junimo-chest",

@@ -61,8 +61,12 @@ const renderPage = () =>
     pages: [{ path: '/lojas', component: Page }],
   });
 
-const rowOf = (name: string) =>
-  screen.getByRole('row', { name: new RegExp(name) });
+const cardOf = (name: string) =>
+  screen.getByText(name).closest('li') as HTMLElement;
+const findCard = async (name: string) => {
+  await screen.findByText(name);
+  return cardOf(name);
+};
 
 beforeEach(() => {
   vi.clearAllMocks();
@@ -83,44 +87,42 @@ describe('/lojas page', () => {
   it('should show the shop closed on a Wednesday with the reason', async () => {
     renderPage();
     await screen.findByRole('heading', { name: 'Lojas' });
-    const row = rowOf('Armazém Teste');
-    expect(within(row).getByText('Fechada')).toBeInTheDocument();
-    expect(within(row).getByText('Fecha às quartas')).toBeInTheDocument();
-    expect(within(row).getByText('Fecha: qua')).toBeInTheDocument();
-    expect(within(row).getByText('qua')).toBeInTheDocument();
+    const card = cardOf('Armazém Teste');
+    expect(within(card).getByText('Fechada')).toBeInTheDocument();
+    expect(within(card).getByText('Fecha às quartas')).toBeInTheDocument();
+    expect(within(card).getByText('Fecha: qua')).toBeInTheDocument();
   });
 
   it('should show the shop open once the Community Center is restored', async () => {
     mockMe({ communityCenterRestored: true });
     renderPage();
-    const row = await screen.findByRole('row', { name: /Armazém Teste/ });
-    expect(within(row).getByText('Aberta')).toBeInTheDocument();
-    expect(within(row).getByText('9:00–17:00')).toBeInTheDocument();
+    const card = await findCard('Armazém Teste');
+    expect(within(card).getByText('Aberta')).toBeInTheDocument();
+    expect(within(card).getByText('9:00–17:00')).toBeInTheDocument();
   });
 
   it('should list the fixed closed weekdays', async () => {
     renderPage();
-    const row = await screen.findByRole('row', { name: /Loja Fixa/ });
-    expect(within(row).getByText('Fecha: sáb, dom')).toBeInTheDocument();
-    expect(within(row).getByText('sáb, dom')).toBeInTheDocument();
+    const card = await findCard('Loja Fixa');
+    expect(within(card).getByText('Fecha: sáb, dom')).toBeInTheDocument();
   });
 
   it('should show the schedule note in the observations', async () => {
     renderPage();
-    const row = await screen.findByRole('row', { name: /Loja Nota/ });
-    expect(within(row).getAllByText('Nota teste')).toHaveLength(2);
+    const card = await findCard('Loja Nota');
+    expect(within(card).getByText('Nota teste')).toBeInTheDocument();
   });
 
-  it('should show no mobile closed-days line when there are no fixed closed days', async () => {
+  it('should show no closed-days line when there are no fixed closed days', async () => {
     renderPage();
-    const row = await screen.findByRole('row', { name: /Loja Nota/ });
-    expect(within(row).queryByText(/^Fecha:/)).not.toBeInTheDocument();
+    const card = await findCard('Loja Nota');
+    expect(within(card).queryByText(/^Fecha:/)).not.toBeInTheDocument();
   });
 
-  it('should not list a shop without a schedule', async () => {
+  it('should list a shop without a schedule', async () => {
     renderPage();
     await screen.findByRole('heading', { name: 'Lojas' });
-    expect(screen.queryByText('Sem Horário')).not.toBeInTheDocument();
+    expect(screen.getByText('Sem Horário')).toBeInTheDocument();
   });
 
   it('should show a loading notice', async () => {
@@ -148,17 +150,18 @@ describe('/lojas page', () => {
       isError: false,
     });
     renderPage();
-    const row = await screen.findByRole('row', { name: /Armazém do Pierre/ });
-    expect(row.querySelector('img')).toHaveAttribute('src', iconUrl('pierre'));
+    const card = await findCard('Armazém do Pierre');
+    expect(card.querySelector('img')).toHaveAttribute('src', iconUrl('pierre'));
   });
 });
 
 describe('/lojas page links', () => {
   it('should link each shop name to its catalog page', async () => {
     renderPage();
-    const row = await screen.findByRole('row', { name: /Loja Fixa/ });
-    expect(
-      within(row).getByRole('link', { name: /Loja Fixa/ }),
-    ).toHaveAttribute('href', '/lojas/test-fixed');
+    const card = await findCard('Loja Fixa');
+    expect(within(card).getByRole('link')).toHaveAttribute(
+      'href',
+      '/lojas/test-fixed',
+    );
   });
 });

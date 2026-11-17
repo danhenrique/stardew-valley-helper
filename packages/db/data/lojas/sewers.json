@@ -3,9 +3,13 @@
   "type": "lojas",
   "name": {
     "en": "Sewers (Krobus)",
-    "pt-BR": "Esgoto"
+    "pt-BR": "Krobus (Esgoto)"
   },
   "nameVerified": false,
+  "access": {
+    "en": "Requires the Rusty Key",
+    "pt-BR": "Requer Chave Enferrujada"
+  },
   "offers": [
     {
       "item": "void-egg",

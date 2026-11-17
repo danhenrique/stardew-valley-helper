@@ -9,8 +9,9 @@ import {
 } from '../hooks/useGameData';
 import { sameDate } from '../lib/gameDate';
 import { localizedName } from '../lib/i18n';
-import { offersOn } from '../lib/shopCatalog';
+import { cartTotals, offersOn } from '../lib/shopCatalog';
 import { type Shop, shopStatusToday } from '../lib/shops';
+import { CartFooter } from './CartFooter';
 import { GameDatePicker } from './GameDatePicker';
 import { GameIcon } from './GameIcon';
 import { ShopCatalog } from './ShopCatalog';
@@ -44,6 +45,21 @@ const Catalog = ({
   const me = useMe();
   const events = useFixedEvents();
   const { status: offersStatus, offers } = useShopOffers(shop.id, true);
+  // A purchase belongs to the offers of one date: when the date changes (picked here or
+  // moved on by the game day), the quantities saved for another date no longer apply.
+  const dateKey = `${date.year}-${date.season}-${date.day}`;
+  const [cart, setCart] = useState<{ dateKey: string; quantities: number[] }>({
+    dateKey,
+    quantities: [],
+  });
+  const quantities = cart.dateKey === dateKey ? cart.quantities : [];
+  const visible = offersOn(offers, date);
+  const setQuantity = (index: number, qty: number) => {
+    const next = [...quantities];
+    next[index] = qty;
+    setCart({ dateKey, quantities: next });
+  };
+  const clearCart = () => setCart({ dateKey, quantities: [] });
   const profile = me.data?.profile;
   // Rain is known only for the current game day, not for other dates picked here.
   const status = shopStatusToday(
@@ -59,9 +75,11 @@ const Catalog = ({
       : {},
   );
   const statusText =
-    status.status === 'open'
-      ? `Aberta · ${status.hours.join(', ')}`
-      : `Fechada · ${status.reason}`;
+    status.status === 'always'
+      ? ['Sem horário fixo', shop.access].filter(Boolean).join(' · ')
+      : status.status === 'open'
+        ? `Aberta · ${status.hours.join(', ')}`
+        : `Fechada · ${status.reason}`;
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-x-3">
@@ -82,9 +100,20 @@ const Catalog = ({
         ) : offersStatus === 'error' ? (
           <Notice error>Não foi possível carregar o catálogo.</Notice>
         ) : (
-          <ShopCatalog offers={offersOn(offers, date)} date={date} />
+          <ShopCatalog
+            offers={visible}
+            date={date}
+            quantities={quantities}
+            onQuantityChange={setQuantity}
+          />
         )}
       </section>
+      {offersStatus === 'success' && (
+        <CartFooter
+          totals={cartTotals(visible, quantities, date.year)}
+          onClear={clearCart}
+        />
+      )}
       <Link to="/lojas" className={LINK}>
         Ver todas as lojas
       </Link>

@@ -41,12 +41,15 @@ export type ShopSchedule = {
 export type Shop = {
   id: string;
   name: LocalizedName;
-  schedule: ShopSchedule;
+  /** Undefined for shops with no fixed opening hours (Krobus, Casino, ...). */
+  schedule?: ShopSchedule;
+  /** What the player needs to reach the shop, in pt-BR. */
+  access?: string;
   notes: { festival?: string; note?: string };
 };
 
 export type ShopStatus = {
-  status: 'open' | 'closed';
+  status: 'open' | 'closed' | 'always';
   hours: string[];
   reason?: string;
   notes: string[];
@@ -65,15 +68,16 @@ const ptBrText = (value: unknown): string | undefined => {
 const toShop = (entity: GameEntityOut): Shop[] => {
   const attrs = entity.attributes ?? {};
   const schedule = attrs['schedule'];
-  if (!isRecord(schedule)) return [];
   const text = isRecord(attrs['scheduleText']) ? attrs['scheduleText'] : {};
   const festival = ptBrText(text['festival']);
   const note = ptBrText(text['note']);
+  const access = ptBrText(attrs['access']);
   return [
     {
       id: entity.id,
       name: entity.name,
-      schedule: schedule as ShopSchedule,
+      ...(isRecord(schedule) ? { schedule: schedule as ShopSchedule } : {}),
+      ...(access ? { access } : {}),
       notes: {
         ...(festival ? { festival } : {}),
         ...(note ? { note } : {}),
@@ -112,9 +116,10 @@ const scheduledHours = (
 
 /** Weekdays on which the shop is closed regardless of rain, in Monday to Sunday order. */
 export const fixedClosedDays = (
-  schedule: ShopSchedule,
+  schedule: ShopSchedule | undefined,
   progress: ShopProgress,
 ): Weekday[] => {
+  if (!schedule) return [];
   const days = new Set<Weekday>([
     ...(schedule.closedDays ?? []),
     ...((progress.communityCenterRestored === true
@@ -126,7 +131,7 @@ export const fixedClosedDays = (
 };
 
 const closedReason = (
-  shop: Shop,
+  shop: Shop & { schedule: ShopSchedule },
   today: GameDateIn,
   events: FixedEvent[],
   progress: ShopProgress,
@@ -159,6 +164,7 @@ export const shopStatusToday = (
   progress: ShopProgress,
 ): ShopStatus => {
   const { schedule } = shop;
+  if (!schedule) return { status: 'always', hours: [], notes: [] };
   const weekday = weekdayOf(today.day);
   const notes: string[] = [];
   if (!progress.rainToday) {
@@ -179,7 +185,7 @@ export const shopStatusToday = (
       );
   const reason = override
     ? undefined
-    : closedReason(shop, today, events, progress);
+    : closedReason({ ...shop, schedule }, today, events, progress);
   if (reason) return { status: 'closed', hours: [], reason, notes };
 
   const ranges = override

@@ -1,5 +1,6 @@
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { useState } from 'react';
 import type { GameEntityOut } from '../generated/stardew-valley-api/types.gen';
 import { buildShops } from '../lib/shops';
 import { expectLoading } from './expectLoading';
@@ -149,5 +150,89 @@ describe('ShopCatalogPage', () => {
     mocks.useShopOffers.mockReturnValue({ status: 'pending', offers: [] });
     await renderPage();
     expectLoading(screen.getByText('Carregando catálogo...'));
+  });
+
+  it('should add up the purchase in the footer', async () => {
+    mocks.useShopOffers.mockReturnValue({
+      status: 'success',
+      offers: [
+        { itemId: 'a-item', price: 50 },
+        { itemId: 'b-item', price: 30 },
+        { itemId: 'gem-item', price: 0, currency: { qiGems: 2 } },
+        {
+          itemId: 'wood-item',
+          price: 0,
+          materials: [{ item: 'wood', qty: 10 }],
+        },
+      ],
+    });
+    await renderPage();
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
+    const more = (item: string) =>
+      userEvent.click(screen.getByLabelText(`Aumentar Quantidade de ${item}`));
+    await more('a-item');
+    await more('a-item');
+    await more('b-item');
+    expect(screen.getByText('Total: 130g')).toBeInTheDocument();
+    await more('gem-item');
+    await more('gem-item');
+    await more('gem-item');
+    expect(screen.getByText('6 gemas Qi')).toBeInTheDocument();
+    await more('wood-item');
+    await more('wood-item');
+    expect(screen.getByText('20× wood')).toBeInTheDocument();
+  });
+
+  it('should clear the purchase', async () => {
+    await renderPage();
+    await userEvent.click(
+      screen.getByLabelText('Aumentar Quantidade de every-day-item'),
+    );
+    const clear = screen.getByRole('button', { name: 'Limpar compra' });
+    expect(clear).toHaveAttribute('title', 'Limpar compra');
+    await userEvent.click(clear);
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
+    expect(screen.getByLabelText('Quantidade de every-day-item')).toHaveValue(
+      0,
+    );
+  });
+
+  it('should clear the purchase when the date changes', async () => {
+    await renderPage();
+    await userEvent.click(
+      screen.getByLabelText('Aumentar Quantidade de every-day-item'),
+    );
+    expect(screen.getByText('Total: 10g')).toBeInTheDocument();
+    await userEvent.selectOptions(screen.getByLabelText('Dia'), '2');
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
+  });
+
+  it('should clear the purchase when the game day moves on', async () => {
+    // Re-renders the page on demand, as a profile refetch would.
+    const Harness = () => {
+      const [, setTick] = useState(0);
+      return (
+        <>
+          <button type="button" onClick={() => setTick((t) => t + 1)}>
+            refetch
+          </button>
+          <ShopCatalogPage shopId="test-store" />
+        </>
+      );
+    };
+    renderWithRouter(<Harness />);
+    await screen.findByRole('heading', { level: 1 });
+    await userEvent.click(
+      screen.getByLabelText('Aumentar Quantidade de every-day-item'),
+    );
+    expect(screen.getByText('Total: 10g')).toBeInTheDocument();
+    mocks.useMe.mockReturnValue({
+      data: { profile: { currentDate: { ...MONDAY, day: 2 } } },
+      isPending: false,
+      isError: false,
+    });
+    await userEvent.click(screen.getByRole('button', { name: 'refetch' }));
+    expect(await screen.findByText('tuesday-item')).toBeInTheDocument();
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
   });
 });

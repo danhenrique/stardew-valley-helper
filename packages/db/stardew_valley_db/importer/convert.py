@@ -210,6 +210,7 @@ def _shop(builder: _Builder, _folder: str, doc: dict) -> None:
             schedule=localize(doc.get("schedule")),
             schedule_text=localize(doc.get("scheduleText")),
             schedule_text_verified=doc.get("scheduleTextVerified"),
+            access=localize(doc.get("access")),
         )
     )
     for index, offer in enumerate(doc.get("offers") or []):

@@ -4,8 +4,10 @@ import type {
 } from '../generated/stardew-valley-api/types.gen';
 import {
   buildOffers,
+  cartTotals,
   formatCost,
   hasRotatingStock,
+  isPurchasable,
   offerCosts,
   offersOn,
   offerTags,
@@ -198,5 +200,104 @@ describe('buildOffers', () => {
       }),
     ]);
     expect(bad).toEqual({ itemId: 'a' });
+  });
+});
+
+describe('cartTotals', () => {
+  it('should sum gold prices times quantities', () => {
+    const offers = [
+      offer({ itemId: 'a', price: 50 }),
+      offer({ itemId: 'b', price: 30 }),
+    ];
+    expect(cartTotals(offers, [2, 1], 1)).toEqual({
+      gold: 130,
+      currencies: {},
+      materials: [],
+    });
+  });
+
+  it('should use the price of the current year', () => {
+    const offers = [offer({ priceByYear: { year1: 50, year2plus: 75 } })];
+    expect(cartTotals(offers, [2], 1).gold).toBe(100);
+    expect(cartTotals(offers, [2], 2).gold).toBe(150);
+  });
+
+  it('should add gold and currency of the same offer', () => {
+    const totals = cartTotals(
+      [offer({ price: 500, currency: { qiGems: 2 } })],
+      [3],
+      1,
+    );
+    expect(totals.gold).toBe(1500);
+    expect(totals.currencies.qiGems).toBe(6);
+  });
+
+  it('should merge materials of barter offers and add no gold', () => {
+    const totals = cartTotals(
+      [
+        offer({
+          itemId: 'a',
+          price: 0,
+          materials: [{ item: 'wood', qty: 10 }],
+        }),
+        offer({ itemId: 'b', price: 0, materials: [{ item: 'wood', qty: 5 }] }),
+      ],
+      [1, 2],
+      1,
+    );
+    expect(totals.gold).toBe(0);
+    expect(totals.materials).toEqual([{ item: 'wood', qty: 20 }]);
+  });
+
+  it('should sum cinder shards', () => {
+    const totals = cartTotals(
+      [offer({ price: 0, currency: { cinderShards: 25 } })],
+      [2],
+      1,
+    );
+    expect(totals.currencies.cinderShards).toBe(50);
+  });
+
+  it('should ignore zero quantities', () => {
+    const totals = cartTotals(
+      [offer({ price: 50, materials: [{ item: 'wood', qty: 1 }] })],
+      [0],
+      1,
+    );
+    expect(totals).toEqual({ gold: 0, currencies: {}, materials: [] });
+  });
+});
+
+describe('isPurchasable', () => {
+  it('should be false for an offer with no cost and no materials', () => {
+    expect(isPurchasable(offer({ special: 's' }), 1)).toBe(false);
+  });
+
+  it('should be false for a free offer', () => {
+    expect(isPurchasable(offer({ price: 0 }), 1)).toBe(false);
+  });
+
+  it('should be true for priced and barter offers', () => {
+    expect(isPurchasable(offer({ price: 10 }), 1)).toBe(true);
+    expect(
+      isPurchasable(offer({ price: 0, materials: [{ item: 'w', qty: 1 }] }), 1),
+    ).toBe(true);
+  });
+});
+
+describe('cinder shards', () => {
+  it('should keep cinder shard costs when building offers', () => {
+    const [built] = buildOffers([
+      {
+        kind: 'ShopOffer',
+        pk: 'SHOP#test',
+        sk: 'OFFER#ITEM#a#00',
+        attributes: { itemId: 'a', price: 0, currency: { cinderShards: 25 } },
+      },
+    ]);
+    expect(built.currency).toEqual({ cinderShards: 25 });
+    expect(formatCost({ amount: 25, unit: 'cinderShards' })).toBe(
+      '25 fragmentos de cinza',
+    );
   });
 });

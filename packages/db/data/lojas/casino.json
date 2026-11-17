@@ -6,6 +6,10 @@
     "pt-BR": "Cassino"
   },
   "nameVerified": false,
+  "access": {
+    "en": "Requires the Club Card",
+    "pt-BR": "Requer Cartão do Clube"
+  },
   "offers": [
     {
       "item": "primal-motion",

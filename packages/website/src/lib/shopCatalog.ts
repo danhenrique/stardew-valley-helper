@@ -6,7 +6,7 @@ import type {
 import { isRecord } from './events';
 import { WEEKDAYS, type Weekday, weekdayOf } from './gameDate';
 
-export type Currency = 'qiCoins' | 'qiGems' | 'goldenWalnuts';
+export type Currency = 'qiCoins' | 'qiGems' | 'goldenWalnuts' | 'cinderShards';
 
 export type ShopOffer = {
   itemId: string;
@@ -35,9 +35,15 @@ export const COST_LABELS: Record<OfferCost['unit'], string> = {
   qiCoins: 'fichas Qi',
   qiGems: 'gemas Qi',
   goldenWalnuts: 'nozes douradas',
+  cinderShards: 'fragmentos de cinza',
 };
 
-const CURRENCIES: readonly Currency[] = ['qiCoins', 'qiGems', 'goldenWalnuts'];
+const CURRENCIES: readonly Currency[] = [
+  'qiCoins',
+  'qiGems',
+  'goldenWalnuts',
+  'cinderShards',
+];
 const SEASONS: readonly Season[] = ['spring', 'summer', 'fall', 'winter'];
 const AVAILABILITIES: readonly string[] = [...WEEKDAYS, 'evenDays', 'oddDays'];
 
@@ -160,6 +166,42 @@ export const offerCosts = (offer: ShopOffer, year: number): OfferCost[] => {
       return amount === undefined ? [] : [{ amount, unit }];
     }),
   ];
+};
+
+/** Whether the offer has something to pay: gold, another currency or materials. */
+export const isPurchasable = (offer: ShopOffer, year: number): boolean =>
+  offerCosts(offer, year).some((cost) => cost.amount > 0) ||
+  offer.materials !== undefined;
+
+export type CartTotals = {
+  gold: number;
+  currencies: Partial<Record<Currency, number>>;
+  materials: { item: string; qty: number }[];
+};
+
+/** Totals of a purchase; `quantities[i]` is how many of `offers[i]` the player buys. */
+export const cartTotals = (
+  offers: readonly ShopOffer[],
+  quantities: readonly number[],
+  year: number,
+): CartTotals => {
+  const totals: CartTotals = { gold: 0, currencies: {}, materials: [] };
+  offers.forEach((offer, index) => {
+    const qty = quantities[index] ?? 0;
+    if (qty <= 0) return;
+    for (const { amount, unit } of offerCosts(offer, year)) {
+      if (unit === 'gold') totals.gold += amount * qty;
+      else
+        totals.currencies[unit] = (totals.currencies[unit] ?? 0) + amount * qty;
+    }
+    for (const material of offer.materials ?? []) {
+      const found = totals.materials.find((m) => m.item === material.item);
+      if (found) found.qty += material.qty * qty;
+      else
+        totals.materials.push({ item: material.item, qty: material.qty * qty });
+    }
+  });
+  return totals;
 };
 
 export const formatCost = ({ amount, unit }: OfferCost): string =>
