@@ -108,6 +108,14 @@ class ProfileIn(CamelModel):
     key_to_town: bool = False
     boat_repaired: bool = False
     rain_today: bool = False
+    artisan: bool = False
+
+    @model_validator(mode="after")
+    def _one_profession(self) -> ProfileIn:
+        # Agriculturist and Artisan are the two level-10 Tiller professions: only one can be chosen.
+        if self.agriculturist and self.artisan:
+            raise ValueError("Escolha só uma profissão")
+        return self
 
 
 ProfileOut = ProfileIn

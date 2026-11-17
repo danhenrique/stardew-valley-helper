@@ -50,6 +50,7 @@ def _profile_out(profile: PlayerProfile) -> ProfileOut:
         key_to_town=bool(profile.key_to_town),
         boat_repaired=bool(profile.boat_repaired),
         rain_today=bool(profile.rain_today),
+        artisan=bool(profile.artisan),
     )
 
 
@@ -182,6 +183,7 @@ def update_profile(player: PlayerId, body: ProfileIn) -> ProfileOut:
     profile.current_date = _date_attr(body.current_date)
     profile.rain_today = False if date_changed else body.rain_today
     profile.agriculturist = body.agriculturist
+    profile.artisan = body.artisan
     profile.community_center_restored = body.community_center_restored
     profile.key_to_town = body.key_to_town
     profile.boat_repaired = body.boat_repaired
