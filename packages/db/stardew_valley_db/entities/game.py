@@ -77,6 +77,7 @@ class Shop(GameEntity, discriminator="Shop"):
     schedule = MapAttribute(null=True)
     schedule_text = MapAttribute(null=True, attr_name="scheduleText")
     schedule_text_verified = BooleanAttribute(null=True, attr_name="scheduleTextVerified")
+    access = MapAttribute(null=True)
 
 
 class Building(GameEntity, discriminator="Building"):

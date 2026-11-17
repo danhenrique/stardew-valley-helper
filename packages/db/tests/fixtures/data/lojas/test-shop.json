@@ -43,5 +43,9 @@
     "qiGems": 2
    }
   }
- ]
+ ],
+ "access": {
+  "en": "Requires the Rusty Key",
+  "pt-BR": "Requer Chave Enferrujada"
+ }
 }

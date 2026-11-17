@@ -221,3 +221,8 @@ def test_should_convert_reminders_when_folder_is_lembretes(result):
     reminder = by_key(result, "REMINDER#test-reminder", "REMINDER")
     assert isinstance(reminder, Reminder)
     assert reminder.suppress_on_festival is True and reminder.trigger.as_dict()["weekdays"] == ["fri"]
+
+
+def test_should_store_access_text_when_converting_shop(result):
+    shop = by_key(result, "SHOP#test-shop", "SHOP")
+    assert shop.access.as_dict() == {"en": "Requires the Rusty Key", "ptBr": "Requer Chave Enferrujada"}
