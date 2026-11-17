@@ -1,0 +1,61 @@
+{
+  "id": "dwarf",
+  "type": "lojas",
+  "name": {
+    "en": "Dwarf",
+    "pt-BR": "Anão"
+  },
+  "nameVerified": false,
+  "access": {
+    "en": "Requires a Steel Pickaxe (or a Cherry Bomb) to reach it and the Dwarvish Translation Guide to buy",
+    "pt-BR": "Requer Picareta de Aço (ou Bombinha) para chegar e o Guia da Linguagem Anã para comprar"
+  },
+  "offers": [
+    {
+      "item": "dwarvish-safety-manual",
+      "price": 4000
+    },
+    {
+      "item": "big-stone-chest",
+      "price": 5000,
+      "recipe": true
+    },
+    {
+      "item": "life-elixir",
+      "price": 2000
+    },
+    {
+      "item": "oil-of-garlic",
+      "price": 3000
+    },
+    {
+      "item": "cherry-bomb",
+      "price": 450
+    },
+    {
+      "item": "bomb",
+      "price": 1000
+    },
+    {
+      "item": "mega-bomb",
+      "price": 1600
+    },
+    {
+      "item": "miners-treat",
+      "price": 1000
+    },
+    {
+      "item": "rarecrow-6",
+      "price": 2500
+    },
+    {
+      "item": "stone-cairn",
+      "price": 200
+    },
+    {
+      "item": "weathered-floor",
+      "price": 500,
+      "recipe": true
+    }
+  ]
+}

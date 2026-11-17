@@ -1,0 +1,9 @@
+{
+  "id": "big-stone-chest",
+  "type": "fabricaveis",
+  "name": {
+    "en": "Big Stone Chest",
+    "pt-BR": "Baú Grande de Pedra"
+  },
+  "nameVerified": false
+}
