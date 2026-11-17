@@ -1,7 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { ShopTable } from '../components/ShopTable';
+import { ShopGrid } from '../components/ShopGrid';
 import { SkeletonPage } from '../components/Skeleton';
-import { CARD } from '../components/styles';
 import { useFixedEvents, useMe, useShops } from '../hooks/useGameData';
 
 export const Route = createFileRoute('/lojas/')({
@@ -36,14 +35,12 @@ function ShopsPage() {
       <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
         Lojas
       </h1>
-      <section className={CARD}>
-        <ShopTable
-          shops={shops.data}
-          today={profile.currentDate}
-          events={events.data ?? []}
-          progress={profile}
-        />
-      </section>
+      <ShopGrid
+        shops={shops.data}
+        today={profile.currentDate}
+        events={events.data ?? []}
+        progress={profile}
+      />
     </div>
   );
 }

@@ -143,7 +143,10 @@ describe('shops', () => {
       id: 'test-krobus',
       name: text('test-krobus'),
       attributes: {
-        access: { en: 'Requires the Rusty Key', ptBr: 'Requer Chave Enferrujada' },
+        access: {
+          en: 'Requires the Rusty Key',
+          ptBr: 'Requer Chave Enferrujada',
+        },
       },
     });
     expect(krobus.schedule).toBeUndefined();

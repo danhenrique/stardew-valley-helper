@@ -6,11 +6,7 @@ import type {
 import { isRecord } from './events';
 import { WEEKDAYS, type Weekday, weekdayOf } from './gameDate';
 
-export type Currency =
-  | 'qiCoins'
-  | 'qiGems'
-  | 'goldenWalnuts'
-  | 'cinderShards';
+export type Currency = 'qiCoins' | 'qiGems' | 'goldenWalnuts' | 'cinderShards';
 
 export type ShopOffer = {
   itemId: string;
@@ -195,12 +191,14 @@ export const cartTotals = (
     if (qty <= 0) return;
     for (const { amount, unit } of offerCosts(offer, year)) {
       if (unit === 'gold') totals.gold += amount * qty;
-      else totals.currencies[unit] = (totals.currencies[unit] ?? 0) + amount * qty;
+      else
+        totals.currencies[unit] = (totals.currencies[unit] ?? 0) + amount * qty;
     }
     for (const material of offer.materials ?? []) {
       const found = totals.materials.find((m) => m.item === material.item);
       if (found) found.qty += material.qty * qty;
-      else totals.materials.push({ item: material.item, qty: material.qty * qty });
+      else
+        totals.materials.push({ item: material.item, qty: material.qty * qty });
     }
   });
   return totals;

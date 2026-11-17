@@ -36,7 +36,12 @@ const SHOPS = buildShops([
   }),
   shop('museum', 'Museu', { hours: HOURS }),
   shop('traveling-cart', 'Carroça', { hours: HOURS }),
-  { type: 'lojas', id: 'test-no-schedule', name: text('Sem Horário'), attributes: {} },
+  {
+    type: 'lojas',
+    id: 'test-no-schedule',
+    name: text('Sem Horário'),
+    attributes: {},
+  },
 ]);
 // Day 3 is a Wednesday.
 const WEDNESDAY = { year: 1, season: 'spring', day: 3 } as const;

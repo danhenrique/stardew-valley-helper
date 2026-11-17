@@ -235,7 +235,11 @@ describe('cartTotals', () => {
   it('should merge materials of barter offers and add no gold', () => {
     const totals = cartTotals(
       [
-        offer({ itemId: 'a', price: 0, materials: [{ item: 'wood', qty: 10 }] }),
+        offer({
+          itemId: 'a',
+          price: 0,
+          materials: [{ item: 'wood', qty: 10 }],
+        }),
         offer({ itemId: 'b', price: 0, materials: [{ item: 'wood', qty: 5 }] }),
       ],
       [1, 2],
