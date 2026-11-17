@@ -135,7 +135,7 @@ describe('EventDetail', () => {
     await renderDetail({ event: foraging, details: {} });
     expect(
       screen.getByRole('link', { name: /Voltar para eventos/ }),
-    ).toHaveAttribute('href', '/eventos');
+    ).toHaveAttribute('href', '/calendario?aba=eventos');
   });
 
   it('should show the range for a multi-day foraging window', async () => {

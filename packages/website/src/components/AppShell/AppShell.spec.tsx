@@ -10,7 +10,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { AppShell } from '.';
 
-const renderShell = async (onSignOut = vi.fn()) => {
+const renderShell = async (onSignOut = vi.fn(), initialPath = '/') => {
   const rootRoute = createRootRoute({
     component: () => (
       <AppShell
@@ -22,7 +22,7 @@ const renderShell = async (onSignOut = vi.fn()) => {
       </AppShell>
     ),
   });
-  const routes = ['/', '/sementes'].map((path) =>
+  const routes = ['/', '/sementes', '/producao'].map((path) =>
     createRoute({
       getParentRoute: () => rootRoute,
       path,
@@ -31,10 +31,10 @@ const renderShell = async (onSignOut = vi.fn()) => {
   );
   const router = createRouter({
     routeTree: rootRoute.addChildren(routes),
-    history: createMemoryHistory({ initialEntries: ['/'] }),
+    history: createMemoryHistory({ initialEntries: [initialPath] }),
   });
   render(<RouterProvider router={router} />);
-  await screen.findByText('page /');
+  await screen.findByText(`page ${initialPath.split('?')[0]}`);
   return onSignOut;
 };
 
@@ -43,31 +43,34 @@ describe('AppShell', () => {
     await renderShell();
     const desktop = screen
       .getAllByRole('link')
-      .slice(0, 8)
+      .slice(0, 6)
       .map((link) => link.textContent);
     expect(desktop).toEqual([
       'Hoje',
-      'Plantios',
-      'Máquinas',
+      'Produção',
       'Sementes',
       'Peixes',
       'Calendário',
-      'Eventos',
       'Lojas',
     ]);
+    expect(screen.queryByRole('link', { name: 'Eventos' })).toBeNull();
     expect(screen.getAllByRole('link', { name: 'Hoje' })[0]).toHaveAttribute(
       'href',
       '/',
     );
     expect(
-      screen.getAllByRole('link', { name: 'Plantios' })[0],
-    ).toHaveAttribute('href', '/plantios');
-    expect(
-      screen.getAllByRole('link', { name: 'Máquinas' })[0],
-    ).toHaveAttribute('href', '/maquinas');
+      screen.getAllByRole('link', { name: 'Produção' })[0],
+    ).toHaveAttribute('href', '/producao');
     expect(
       screen.getAllByRole('link', { name: 'Sementes' })[0],
     ).toHaveAttribute('href', '/sementes');
+  });
+
+  it('should mark Produção as current on any of its tabs', async () => {
+    await renderShell(vi.fn(), '/producao?aba=maquinas');
+    expect(
+      screen.getAllByRole('link', { name: 'Produção' })[0],
+    ).toHaveAttribute('aria-current', 'page');
   });
 
   it('should mark the current page when route matches', async () => {

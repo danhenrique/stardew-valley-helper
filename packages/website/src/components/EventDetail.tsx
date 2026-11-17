@@ -36,7 +36,8 @@ const Row = ({ label, children }: { label: string; children: ReactNode }) => (
 
 export const BackToEvents = () => (
   <Link
-    to="/eventos"
+    to="/calendario"
+    search={{ aba: 'eventos' }}
     className="inline-flex items-center gap-1 text-sm font-medium text-green-700 hover:text-green-600 dark:text-green-400 dark:hover:text-green-300"
   >
     <ArrowLeftIcon aria-hidden="true" className="size-4" />

@@ -73,7 +73,7 @@ describe('EventDetailPage', () => {
     ).toBeInTheDocument();
     expect(
       screen.getByRole('link', { name: /Voltar para eventos/ }),
-    ).toHaveAttribute('href', '/eventos');
+    ).toHaveAttribute('href', '/calendario?aba=eventos');
   });
 
   it('should resolve an id that contains colons', async () => {

@@ -1,51 +1,50 @@
-import { createFileRoute } from '@tanstack/react-router';
-import { EventCalendar } from '../components/EventCalendar';
-import { machineCatalogStatus } from '../components/MachineCatalogNotice';
-import { SkeletonCalendar } from '../components/Skeleton';
 import {
-  useFixedEvents,
-  useMachines,
-  useMe,
-  usePlantables,
-} from '../hooks/useGameData';
-import { localizedName } from '../lib/i18n';
+  createFileRoute,
+  useNavigate,
+  useSearch,
+} from '@tanstack/react-router';
+import { CalendarTab } from '../components/CalendarTab';
+import { EventsTab } from '../components/EventsTab';
+import { type UnderlineTab, UnderlineTabs } from '../components/UnderlineTabs';
+
+export type CalendarTabId = 'calendario' | 'eventos';
+
+const TABS: readonly UnderlineTab<CalendarTabId>[] = [
+  { id: 'calendario', label: 'Calendário' },
+  { id: 'eventos', label: 'Eventos' },
+];
+
+/** The `aba` search param; a missing or unknown tab opens the calendar. */
+export const parseCalendarSearch = (
+  search: Record<string, unknown>,
+): { aba: CalendarTabId } => ({
+  aba: search['aba'] === 'eventos' ? 'eventos' : 'calendario',
+});
 
 export const Route = createFileRoute('/calendario')({
+  validateSearch: parseCalendarSearch,
   component: CalendarPage,
 });
 
 function CalendarPage() {
-  const events = useFixedEvents();
-  const me = useMe();
-  const plantables = usePlantables();
-  const machines = useMachines();
-
-  const names = Object.fromEntries(
-    (plantables.data ?? []).map((p) => [p.id, localizedName(p.name)]),
-  );
+  const { aba } = parseCalendarSearch(useSearch({ strict: false }));
+  const navigate = useNavigate();
 
   return (
     <div className="space-y-8">
       <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
         Calendário
       </h1>
-      {events.isPending || me.isPending ? (
-        <SkeletonCalendar label="Carregando calendário..." days={28} />
-      ) : events.isError || me.isError || !events.data || !me.data ? (
-        <p className="text-sm text-red-700 dark:text-red-400">
-          Não foi possível carregar o calendário. Recarregue a página.
-        </p>
-      ) : (
-        <EventCalendar
-          events={events.data}
-          plantings={me.data.plantings}
-          names={names}
-          today={me.data.profile.currentDate}
-          machines={me.data.machines ?? []}
-          machineCatalog={machines.data ?? []}
-          machineCatalogStatus={machineCatalogStatus(machines)}
-        />
-      )}
+      <UnderlineTabs
+        tabs={TABS}
+        value={aba}
+        onChange={(tab) =>
+          navigate({ to: '/calendario', search: { aba: tab }, replace: true })
+        }
+        navLabel="Seções do calendário"
+        selectLabel="Escolha uma seção do calendário"
+      />
+      {aba === 'eventos' ? <EventsTab /> : <CalendarTab />}
     </div>
   );
 }

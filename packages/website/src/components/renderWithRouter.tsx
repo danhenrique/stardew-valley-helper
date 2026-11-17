@@ -9,7 +9,12 @@ import {
 import { render } from '@testing-library/react';
 import type { ReactElement } from 'react';
 
-type PageRoute = { path: string; component: () => ReactElement };
+type PageRoute = {
+  path: string;
+  component?: () => ReactElement;
+  /** Runs before the page renders, e.g. to throw a `redirect`. */
+  beforeLoad?: () => void;
+};
 
 /**
  * Renders `ui` inside a memory router that knows the events routes, so TanStack `Link`s
@@ -31,8 +36,8 @@ export const renderWithRouter = (
     '/eventos/$id',
     '/lojas',
     '/lojas/$id',
-    '/plantios',
-    '/maquinas',
+    '/producao',
+    '/calendario',
   ]
     .filter((path) => !pages.some((page) => page.path === path))
     .map((path) =>

@@ -14,6 +14,7 @@ import { Route as CalendarioRouteImport } from './routes/calendario'
 import { Route as MaquinasRouteImport } from './routes/maquinas'
 import { Route as PeixesRouteImport } from './routes/peixes'
 import { Route as PlantiosRouteImport } from './routes/plantios'
+import { Route as ProducaoRouteImport } from './routes/producao'
 import { Route as SementesRouteImport } from './routes/sementes'
 import { Route as EventosIndexRouteImport } from './routes/eventos.index'
 import { Route as EventosIdRouteImport } from './routes/eventos.$id'
@@ -43,6 +44,11 @@ const PeixesRoute = PeixesRouteImport.update({
 const PlantiosRoute = PlantiosRouteImport.update({
   id: '/plantios',
   path: '/plantios',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProducaoRoute = ProducaoRouteImport.update({
+  id: '/producao',
+  path: '/producao',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SementesRoute = SementesRouteImport.update({
@@ -77,6 +83,7 @@ export interface FileRoutesByFullPath {
   '/maquinas': typeof MaquinasRoute
   '/peixes': typeof PeixesRoute
   '/plantios': typeof PlantiosRoute
+  '/producao': typeof ProducaoRoute
   '/sementes': typeof SementesRoute
   '/eventos/$id': typeof EventosIdRoute
   '/lojas/$id': typeof LojasIdRoute
@@ -89,6 +96,7 @@ export interface FileRoutesByTo {
   '/maquinas': typeof MaquinasRoute
   '/peixes': typeof PeixesRoute
   '/plantios': typeof PlantiosRoute
+  '/producao': typeof ProducaoRoute
   '/sementes': typeof SementesRoute
   '/eventos/$id': typeof EventosIdRoute
   '/lojas/$id': typeof LojasIdRoute
@@ -102,6 +110,7 @@ export interface FileRoutesById {
   '/maquinas': typeof MaquinasRoute
   '/peixes': typeof PeixesRoute
   '/plantios': typeof PlantiosRoute
+  '/producao': typeof ProducaoRoute
   '/sementes': typeof SementesRoute
   '/eventos/$id': typeof EventosIdRoute
   '/lojas/$id': typeof LojasIdRoute
@@ -116,6 +125,7 @@ export interface FileRouteTypes {
     | '/maquinas'
     | '/peixes'
     | '/plantios'
+    | '/producao'
     | '/sementes'
     | '/eventos/$id'
     | '/lojas/$id'
@@ -128,6 +138,7 @@ export interface FileRouteTypes {
     | '/maquinas'
     | '/peixes'
     | '/plantios'
+    | '/producao'
     | '/sementes'
     | '/eventos/$id'
     | '/lojas/$id'
@@ -140,6 +151,7 @@ export interface FileRouteTypes {
     | '/maquinas'
     | '/peixes'
     | '/plantios'
+    | '/producao'
     | '/sementes'
     | '/eventos/$id'
     | '/lojas/$id'
@@ -153,6 +165,7 @@ export interface RootRouteChildren {
   MaquinasRoute: typeof MaquinasRoute
   PeixesRoute: typeof PeixesRoute
   PlantiosRoute: typeof PlantiosRoute
+  ProducaoRoute: typeof ProducaoRoute
   SementesRoute: typeof SementesRoute
   EventosIdRoute: typeof EventosIdRoute
   LojasIdRoute: typeof LojasIdRoute
@@ -195,6 +208,13 @@ declare module '@tanstack/react-router' {
       path: '/plantios'
       fullPath: '/plantios'
       preLoaderRoute: typeof PlantiosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/producao': {
+      id: '/producao'
+      path: '/producao'
+      fullPath: '/producao'
+      preLoaderRoute: typeof ProducaoRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sementes': {
@@ -241,6 +261,7 @@ const rootRouteChildren: RootRouteChildren = {
   MaquinasRoute: MaquinasRoute,
   PeixesRoute: PeixesRoute,
   PlantiosRoute: PlantiosRoute,
+  ProducaoRoute: ProducaoRoute,
   SementesRoute: SementesRoute,
   EventosIdRoute: EventosIdRoute,
   LojasIdRoute: LojasIdRoute,
