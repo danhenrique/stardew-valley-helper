@@ -8,8 +8,8 @@ import {
   offerTags,
   type ShopOffer,
 } from '../lib/shopCatalog';
-import { GameIcon } from './GameIcon';
 import { NumberStepper } from './form/NumberStepper';
+import { GameIcon } from './GameIcon';
 import { BADGE } from './styles';
 
 // Adapted from Tailwind Plus lists/stacked-lists/01-simple.jsx (rows) and
@@ -100,9 +100,13 @@ const OfferRow = ({
           </div>
         )}
         <div className="order-1 flex flex-col items-end text-sm font-medium text-gray-900 sm:order-2 dark:text-white">
-          {offerCosts(offer, year).map((cost) => (
-            <span key={cost.unit}>{formatCost(cost)}</span>
-          ))}
+          {offer.price === 0 && !isPurchasable(offer, year) ? (
+            <span>Grátis</span>
+          ) : (
+            offerCosts(offer, year).map((cost) => (
+              <span key={cost.unit}>{formatCost(cost)}</span>
+            ))
+          )}
         </div>
       </div>
     </li>

@@ -292,3 +292,13 @@ describe('Máquinas tab', () => {
     expectLoading(await screen.findByText('Carregando máquinas...'));
   });
 });
+
+describe('Produção tab history', () => {
+  it('should switch tabs without adding history entries', async () => {
+    const router = await renderPlantings();
+    const before = router.history.length;
+    await userEvent.click(screen.getByRole('button', { name: 'Máquinas' }));
+    await screen.findByRole('button', { name: 'Adicionar máquina' });
+    expect(router.history.length).toBe(before);
+  });
+});

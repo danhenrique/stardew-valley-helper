@@ -66,6 +66,16 @@ describe('AppShell', () => {
     ).toHaveAttribute('href', '/sementes');
   });
 
+  it('should keep the open tab in the link of the current page', async () => {
+    await renderShell(vi.fn(), '/producao?aba=maquinas');
+    expect(
+      screen.getAllByRole('link', { name: 'Produção' })[0],
+    ).toHaveAttribute('href', '/producao?aba=maquinas');
+    expect(
+      screen.getAllByRole('link', { name: 'Sementes' })[0],
+    ).toHaveAttribute('href', '/sementes');
+  });
+
   it('should mark Produção as current on any of its tabs', async () => {
     await renderShell(vi.fn(), '/producao?aba=maquinas');
     expect(

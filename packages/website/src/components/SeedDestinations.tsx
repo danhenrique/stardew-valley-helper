@@ -19,6 +19,7 @@ const PRODUCT_NAMES: Record<string, string> = {
   'pale-ale': 'Pale Ale',
   beer: 'Cerveja',
   'green-tea': 'Chá Verde',
+  coffee: 'Café',
 };
 
 const QUALITIES = [

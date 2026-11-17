@@ -51,20 +51,44 @@ const deferred = () => {
   return { promise, resolve, reject };
 };
 
+describe('useUpdateProfile artisan', () => {
+  it('should keep the stored Artisan when the saved profile omits it', async () => {
+    const request = deferred();
+    const { queryClient, result } = setup(() => request.promise);
+    queryClient.setQueryData(ME_KEY, {
+      ...ME,
+      profile: { ...ME.profile, artisan: true },
+    });
+    act(() => result.current.mutate(NEXT));
+    await waitFor(() =>
+      expect(
+        queryClient.getQueryData<MeOut>(ME_KEY)?.profile.currentDate.day,
+      ).toBe(2),
+    );
+    expect(queryClient.getQueryData<MeOut>(ME_KEY)?.profile.artisan).toBe(true);
+  });
+});
+
 describe('useUpdateProfile', () => {
   it('should show the new profile before the API answers and refetch after', async () => {
     const request = deferred();
     const { queryClient, invalidate, result } = setup(() => request.promise);
     act(() => result.current.mutate(NEXT));
     await waitFor(() =>
-      expect(queryClient.getQueryData<MeOut>(ME_KEY)?.profile).toEqual(NEXT),
+      expect(queryClient.getQueryData<MeOut>(ME_KEY)?.profile).toEqual({
+        ...NEXT,
+        artisan: false,
+      }),
     );
     expect(invalidate).not.toHaveBeenCalled();
     await act(async () => request.resolve(NEXT));
     await waitFor(() =>
       expect(invalidate).toHaveBeenCalledWith({ queryKey: ME_KEY }),
     );
-    expect(queryClient.getQueryData<MeOut>(ME_KEY)?.profile).toEqual(NEXT);
+    expect(queryClient.getQueryData<MeOut>(ME_KEY)?.profile).toEqual({
+      ...NEXT,
+      artisan: false,
+    });
   });
 
   it('should roll back to the previous profile when the API fails', async () => {
@@ -72,7 +96,10 @@ describe('useUpdateProfile', () => {
     const { queryClient, result } = setup(() => request.promise);
     act(() => result.current.mutate(NEXT));
     await waitFor(() =>
-      expect(queryClient.getQueryData<MeOut>(ME_KEY)?.profile).toEqual(NEXT),
+      expect(queryClient.getQueryData<MeOut>(ME_KEY)?.profile).toEqual({
+        ...NEXT,
+        artisan: false,
+      }),
     );
     await act(async () => request.reject(new Error('boom')));
     await waitFor(() =>

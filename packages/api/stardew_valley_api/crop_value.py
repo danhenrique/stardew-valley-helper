@@ -22,6 +22,8 @@ KEG_SPECIAL: dict[str, tuple[str, int]] = {
     "hops": ("pale-ale", 300),
     "wheat": ("beer", 200),
     "tea-leaves": ("green-tea", 100),
+    # 5 beans make one Coffee (150g): the value is per bean, like every other per-unit price here.
+    "coffee-bean": ("coffee", 30),
 }
 
 

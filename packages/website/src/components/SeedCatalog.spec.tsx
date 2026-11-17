@@ -358,4 +358,21 @@ describe('SeedCatalog', () => {
     renderCatalog();
     expect(screen.getByText('Barril · Chá Verde 100g')).toBeInTheDocument();
   });
+
+  it('should name coffee from the keg', () => {
+    mocks.useSeedValues.mockReturnValue({
+      ...loaded,
+      data: [
+        {
+          ...SEED_VALUES[0],
+          prices: { normal: 15, silver: 18, gold: 22, iridium: 30 },
+          keg: { item: 'coffee', price: 30 },
+          kegGoldPerDayTenths: 10,
+        },
+        SEED_VALUES[1],
+      ],
+    });
+    renderCatalog();
+    expect(screen.getByText('Barril · Café 30g')).toBeInTheDocument();
+  });
 });

@@ -125,7 +125,8 @@ class ProfileIn(CamelModel):
     key_to_town: bool = False
     boat_repaired: bool = False
     rain_today: bool = False
-    artisan: bool = False
+    # None (an older website build that does not know the field) keeps the stored value.
+    artisan: bool | None = None
 
     @model_validator(mode="after")
     def _one_profession(self) -> ProfileIn:
@@ -135,7 +136,8 @@ class ProfileIn(CamelModel):
         return self
 
 
-ProfileOut = ProfileIn
+class ProfileOut(ProfileIn):
+    artisan: bool = False
 
 
 class PlantingIn(CamelModel):
