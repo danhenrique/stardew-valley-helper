@@ -1,10 +1,15 @@
 from pytest import approx
 
 from stardew_valley_api.crop_value import (
+    ArtisanProduct,
     QualityChances,
+    QualityPrices,
     gold_per_harvest,
     harvest_days,
+    jar_product,
+    keg_product,
     quality_chances,
+    quality_prices,
     seed_value,
 )
 from stardew_valley_api.schedule import CropSpec
@@ -83,3 +88,67 @@ def test_should_not_mature_when_window_is_one_day():
 def test_should_keep_harvests_without_gold_when_produce_has_no_price():
     v = seed_value(PARSNIP, None, 0, 1, "none", 0, False)
     assert (v.harvests, v.gold_total, v.gold_per_day_tenths) == (6, None, None)
+
+
+def test_should_floor_silver_and_gold_and_double_iridium_when_pricing_qualities():
+    assert quality_prices(750) == QualityPrices(750, 937, 1125, 1500)
+
+
+def test_should_make_jelly_from_fruit_in_the_jar():
+    assert jar_product("starfruit", "fruit", 750, False) == ArtisanProduct("jelly", 1550)
+
+
+def test_should_raise_artisan_goods_by_40_percent_when_artisan():
+    assert jar_product("starfruit", "fruit", 750, True) == ArtisanProduct("jelly", 2170)
+    assert keg_product("hops", "vegetable", 25, True) == ArtisanProduct("pale-ale", 420)
+
+
+def test_should_make_wine_from_fruit_in_the_keg():
+    assert keg_product("starfruit", "fruit", 750, False) == ArtisanProduct("wine", 2250)
+
+
+def test_should_make_juice_and_pickles_from_vegetables():
+    assert keg_product("cauliflower", "vegetable", 175, False) == ArtisanProduct("juice", 393)
+    assert jar_product("cauliflower", "vegetable", 175, False) == ArtisanProduct("pickles", 400)
+
+
+def test_should_make_pale_ale_from_hops_and_beer_from_wheat():
+    assert keg_product("hops", "vegetable", 25, False) == ArtisanProduct("pale-ale", 300)
+    assert keg_product("wheat", "vegetable", 25, False) == ArtisanProduct("beer", 200)
+
+
+def test_should_have_no_product_when_crop_is_not_fruit_nor_vegetable():
+    assert jar_product("tulip", "other", 30, False) is None
+    assert keg_product("tulip", "other", 30, False) is None
+
+
+def test_should_have_no_product_when_crop_rule_is_unverified():
+    for produce in ("tea-leaves", "unmilled-rice"):
+        assert jar_product(produce, "vegetable", 50, False) is None
+        assert keg_product(produce, "vegetable", 50, False) is None
+
+
+def test_should_count_extra_yield_when_valuing_jar_and_keg_per_day():
+    v = seed_value(CAULIFLOWER, 750, 0.2, 1, "none", 0, False, produce_id="starfruit", kind="fruit")
+    assert v.harvests == 2
+    assert v.prices == QualityPrices(750, 937, 1125, 1500)
+    assert v.jar == ArtisanProduct("jelly", 1550)
+    assert v.keg == ArtisanProduct("wine", 2250)
+    assert v.jar_gold_per_day_tenths == round(10 * 2 * 1.2 * 1550 / 28)
+    assert v.keg_gold_per_day_tenths == round(10 * 2 * 1.2 * 2250 / 28)
+
+
+def test_should_leave_comparison_empty_when_produce_has_no_price():
+    v = seed_value(PARSNIP, None, 0, 1, "none", 0, False, produce_id="parsnip", kind="vegetable")
+    assert (v.prices, v.jar, v.keg, v.jar_gold_per_day_tenths, v.keg_gold_per_day_tenths) == (
+        None,
+        None,
+        None,
+        None,
+        None,
+    )
+
+
+def test_should_give_zero_per_day_when_the_seed_does_not_mature():
+    v = seed_value(CAULIFLOWER, 175, 0, 20, "none", 0, False, produce_id="cauliflower", kind="vegetable")
+    assert (v.jar_gold_per_day_tenths, v.keg_gold_per_day_tenths) == (0, 0)
