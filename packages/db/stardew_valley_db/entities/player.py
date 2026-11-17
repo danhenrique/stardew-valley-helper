@@ -30,6 +30,7 @@ class GameDateAttribute(MapAttribute):
 
 class PlayerProfile(BaseModel, discriminator="PlayerProfile"):
     agriculturist = BooleanAttribute(default=False)
+    artisan = BooleanAttribute(default=False)
     community_center_restored = BooleanAttribute(default=False, attr_name="communityCenterRestored")
     key_to_town = BooleanAttribute(default=False, attr_name="keyToTown")
     boat_repaired = BooleanAttribute(default=False, attr_name="boatRepaired")
@@ -46,6 +47,7 @@ class PlayerProfile(BaseModel, discriminator="PlayerProfile"):
                 pk=player_pk(player_id),
                 sk=PROFILE_SK,
                 agriculturist=False,
+                artisan=False,
                 community_center_restored=False,
                 key_to_town=False,
                 boat_repaired=False,

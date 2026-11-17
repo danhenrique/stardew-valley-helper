@@ -20,6 +20,7 @@ const renderCatalog = (
       currentSeason="spring"
       currentDay={10}
       agriculturist={false}
+      artisan={false}
       {...props}
     />,
   );
@@ -117,6 +118,7 @@ describe('SeedCatalog', () => {
       fertilizer: 'none',
       farmingLevel: 0,
       agriculturist: false,
+      artisan: false,
     });
     expect(
       screen.getByRole('button', { name: 'A partir de hoje' }),
@@ -148,6 +150,11 @@ describe('SeedCatalog', () => {
       screen.getByRole('button', { name: 'Estação inteira' }),
     );
     expect(lastRequest()).toMatchObject({ fromDay: 1 });
+  });
+
+  it('should pass the artisan profession when the profile has it', () => {
+    renderCatalog({ artisan: true });
+    expect(lastRequest()).toMatchObject({ artisan: true });
   });
 
   it('should pass the agriculturist profession when the profile has it', () => {
@@ -235,5 +242,120 @@ describe('SeedCatalog', () => {
       'Muda Teste',
       'Sementes de Fruta',
     ]);
+  });
+
+  it('should compare selling raw, the jar and the keg on each card', () => {
+    mocks.useSeedValues.mockReturnValue({
+      ...loaded,
+      data: [
+        {
+          ...SEED_VALUES[0],
+          prices: { normal: 120, silver: 150, gold: 180, iridium: 240 },
+          jar: { item: 'jelly', price: 290 },
+          keg: { item: 'wine', price: 360 },
+          jarGoldPerDayTenths: 414,
+          kegGoldPerDayTenths: 514,
+        },
+        SEED_VALUES[1],
+      ],
+    });
+    renderCatalog();
+    const card = screen
+      .getByText('Sementes de Fruta')
+      .closest('li') as HTMLElement;
+    expect(within(card).getByText('Base 120g')).toBeInTheDocument();
+    expect(within(card).getByText('Prata 150g')).toBeInTheDocument();
+    expect(within(card).getByText('Ouro 180g')).toBeInTheDocument();
+    expect(within(card).getByText('Irídio 240g')).toBeInTheDocument();
+    expect(within(card).getByText('Jarra · Geleia 290g')).toBeInTheDocument();
+    const keg = within(card).getByText('Barril · Vinho 360g');
+    expect(keg.closest('div')).toHaveClass('text-green-700');
+    expect(within(card).getByText('51,4 g/dia')).toBeInTheDocument();
+    expect(within(card).getByText('41,4 g/dia')).toBeInTheDocument();
+  });
+
+  it('should show a dash on jar and keg when the seed has no product', () => {
+    mocks.useSeedValues.mockReturnValue({
+      ...loaded,
+      data: [
+        {
+          ...SEED_VALUES[0],
+          prices: { normal: 30, silver: 37, gold: 45, iridium: 60 },
+          jar: null,
+          keg: null,
+          jarGoldPerDayTenths: null,
+          kegGoldPerDayTenths: null,
+        },
+        SEED_VALUES[1],
+      ],
+    });
+    renderCatalog();
+    const card = screen
+      .getByText('Sementes de Fruta')
+      .closest('li') as HTMLElement;
+    expect(within(card).getByText('Jarra · —')).toBeInTheDocument();
+    expect(within(card).getByText('Barril · —')).toBeInTheDocument();
+  });
+
+  it('should reveal the quality prices on mobile behind an icon button', async () => {
+    mocks.useSeedValues.mockReturnValue({
+      ...loaded,
+      data: [
+        {
+          ...SEED_VALUES[0],
+          prices: { normal: 120, silver: 150, gold: 180, iridium: 240 },
+        },
+        SEED_VALUES[1],
+      ],
+    });
+    renderCatalog();
+    const card = screen
+      .getByText('Sementes de Fruta')
+      .closest('li') as HTMLElement;
+    const toggle = within(card).getByRole('button', { name: 'Ver preços' });
+    expect(toggle).toHaveAttribute('title', 'Ver preços');
+    expect(toggle).toHaveAttribute('aria-expanded', 'false');
+    expect(within(card).getByText('Base 120g').parentElement).toHaveClass(
+      'hidden',
+    );
+    await userEvent.click(toggle);
+    expect(toggle).toHaveAttribute('aria-expanded', 'true');
+    expect(within(card).getByText('Base 120g').parentElement).not.toHaveClass(
+      'hidden',
+    );
+  });
+
+  it('should say jar and keg assume enough machines', () => {
+    renderCatalog();
+    expect(
+      screen.getByText(
+        'Jarra e barril supõem máquinas suficientes para toda a colheita.',
+      ),
+    ).toBeInTheDocument();
+  });
+
+  it('should sort by the best gold per day when chosen', async () => {
+    renderCatalog();
+    await choose('Ordenar por', 'Melhor g/dia');
+    expect(
+      screen.getByRole('button', { name: /^Ordenar por/ }),
+    ).toHaveTextContent('Melhor g/dia');
+  });
+
+  it('should name green tea from the keg', () => {
+    mocks.useSeedValues.mockReturnValue({
+      ...loaded,
+      data: [
+        {
+          ...SEED_VALUES[0],
+          prices: { normal: 50, silver: 62, gold: 75, iridium: 100 },
+          keg: { item: 'green-tea', price: 100 },
+          kegGoldPerDayTenths: 10,
+        },
+        SEED_VALUES[1],
+      ],
+    });
+    renderCatalog();
+    expect(screen.getByText('Barril · Chá Verde 100g')).toBeInTheDocument();
   });
 });

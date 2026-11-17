@@ -120,6 +120,12 @@ def test_should_value_flat_seed_when_planting_on_day_1(client):
         "goldPerDayTenths": 58,
         "willNotMature": False,
         "approximate": False,
+        "prices": {"normal": 80, "silver": 100, "gold": 120, "iridium": 160},
+        # 2 harvests × 210 / 28 days; 2 × 180 / 28
+        "jar": {"item": "pickles", "price": 210},
+        "keg": {"item": "juice", "price": 180},
+        "jarGoldPerDayTenths": 150,
+        "kegGoldPerDayTenths": 129,
     }
 
 
@@ -129,9 +135,36 @@ def test_should_count_regrowth_and_extra_yield_when_seed_regrows(client):
     assert (seed["harvests"], seed["goldTotal"], seed["goldPerDayTenths"]) == (5, 618, 221)
 
 
+def test_should_make_jelly_and_wine_when_produce_is_a_fruit(client):
+    seed = _seed_values(client)["test-seed"]
+    assert seed["jar"] == {"item": "jelly", "price": 290}
+    assert seed["keg"] == {"item": "wine", "price": 360}
+    assert seed["prices"]["iridium"] == 240
+
+
+def test_should_use_the_dataset_artisan_prices_when_the_produce_has_them(client, monkeypatch):
+    import stardew_valley_api.routes.game as game
+
+    real = game._sell_prices
+
+    def patched(ids):
+        return {k: (p, kind, {"kegPrice": 999, "jarPrice": 555}) for k, (p, kind, _) in real(ids).items()}
+
+    monkeypatch.setattr(game, "_sell_prices", patched)
+    seed = _seed_values(client)["test-seed"]
+    assert (seed["jar"]["price"], seed["keg"]["price"]) == (555, 999)
+
+
+def test_should_raise_jar_and_keg_values_when_artisan(client):
+    seed = _seed_values(client, artisan="true")["test-flat-seed"]
+    assert (seed["jar"]["price"], seed["keg"]["price"]) == (294, 252)
+    assert seed["goldTotal"] == 162
+
+
 def test_should_have_no_value_when_produce_item_is_missing(client):
     ghost = _seed_values(client)["test-ghost-seed"]
     assert (ghost["harvests"], ghost["goldTotal"], ghost["goldPerDayTenths"]) == (6, None, None)
+    assert (ghost["prices"], ghost["jar"], ghost["keg"]) == (None, None, None)
 
 
 def test_should_use_from_day_and_fertilizer_when_given(client):

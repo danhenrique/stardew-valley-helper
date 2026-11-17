@@ -3,6 +3,7 @@ import type {
   SeedValueOut,
 } from '../generated/stardew-valley-api/types.gen';
 import {
+  bestDestination,
   buildSeedRows,
   DEFAULT_SEED_PREFS,
   formatGoldPerDay,
@@ -157,5 +158,43 @@ describe('seed prefs', () => {
     });
     expect(() => saveSeedPrefs(DEFAULT_SEED_PREFS)).not.toThrow();
     expect(loadSeedPrefs()).toEqual(DEFAULT_SEED_PREFS);
+  });
+});
+
+const compared = (
+  id: string,
+  raw: number,
+  jar: number | null,
+  keg: number | null,
+): SeedValueOut => ({
+  ...value(id, raw * 10, raw),
+  jarGoldPerDayTenths: jar,
+  kegGoldPerDayTenths: keg,
+});
+
+describe('bestPerDay sort', () => {
+  it('should order by the best of raw, jar and keg gold per day', () => {
+    const rows = buildSeedRows(
+      PLANTABLES.slice(0, 3),
+      [
+        compared('wheat', 100, 120, 900),
+        compared('kale', 300, 200, null),
+        compared('melon', 50, 500, 400),
+      ],
+      'bestPerDay',
+    );
+    expect(ids(rows)).toEqual(['wheat', 'melon', 'kale']);
+  });
+});
+
+describe('bestDestination', () => {
+  it('should pick the destination with the most gold per day, raw first on ties', () => {
+    expect(bestDestination(compared('a', 100, 300, 300))).toBe('jar');
+    expect(bestDestination(compared('a', 300, 300, 100))).toBe('raw');
+    expect(bestDestination(compared('a', 100, null, 200))).toBe('keg');
+  });
+
+  it('should be null when no destination has a value', () => {
+    expect(bestDestination(value('a', null, null))).toBeNull();
   });
 });

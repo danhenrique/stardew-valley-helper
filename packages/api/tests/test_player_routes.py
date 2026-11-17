@@ -19,6 +19,7 @@ def test_should_return_default_profile_and_no_plantings_when_player_is_new(clien
         "keyToTown": False,
         "boatRepaired": False,
         "rainToday": False,
+        "artisan": False,
     }
     assert body["plantings"] == []
 
@@ -131,6 +132,7 @@ def test_should_recompute_status_when_profile_date_changes(client_as):
         "keyToTown": False,
         "boatRepaired": False,
         "rainToday": False,
+        "artisan": False,
     }
     assert client_as("p1").put("/me/profile", json=profile).json() == profile
     planting = client_as("p1").get("/me").json()["plantings"][0]
@@ -206,6 +208,7 @@ def test_should_round_trip_progress_flags_when_updating_profile(client_as):
         "keyToTown": True,
         "boatRepaired": False,
         "rainToday": False,
+        "artisan": False,
     }
     assert client_as("p1").put("/me/profile", json=profile).json() == profile
     assert client_as("p1").get("/me").json()["profile"] == profile
@@ -244,3 +247,37 @@ def test_should_read_rain_as_false_when_stored_profile_predates_it(client_as):
     pk, sk = raw.pop("pk")["S"], raw.pop("sk")["S"]
     PlayerProfile._get_connection().put_item(pk, sk, attributes=raw)
     assert client_as("p1").get("/me").json()["profile"]["rainToday"] is False
+
+
+def test_should_round_trip_artisan_when_updating_profile(client_as):
+    profile = {"currentDate": SPRING_1, "artisan": True}
+    assert client_as("p1").put("/me/profile", json=profile).json()["artisan"] is True
+    assert client_as("p1").get("/me").json()["profile"]["artisan"] is True
+
+
+def test_should_return_422_when_both_level_10_professions_are_chosen(client_as):
+    response = client_as("p1").put(
+        "/me/profile", json={"currentDate": SPRING_1, "agriculturist": True, "artisan": True}
+    )
+    assert response.status_code == 422
+    assert "Escolha só uma profissão" in response.text
+
+
+def test_should_return_false_artisan_when_stored_profile_predates_it(client_as):
+    profile = PlayerProfile.get_or_default("p2")
+    raw = profile.serialize()
+    raw.pop("artisan", None)
+    pk, sk = raw.pop("pk")["S"], raw.pop("sk")["S"]
+    PlayerProfile._get_connection().put_item(pk, sk, attributes=raw)
+    assert client_as("p2").get("/me").json()["profile"]["artisan"] is False
+
+
+def test_should_keep_me_working_when_a_stored_profile_has_both_professions(client_as):
+    profile = PlayerProfile.get_or_default("p3")
+    profile.agriculturist = True
+    profile.artisan = True
+    profile.save()
+    response = client_as("p3").get("/me")
+    assert response.status_code == 200, response.text
+    flags = response.json()["profile"]
+    assert (flags["agriculturist"], flags["artisan"]) == (True, False)

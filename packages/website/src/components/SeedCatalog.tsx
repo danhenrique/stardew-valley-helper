@@ -23,6 +23,7 @@ import { SegmentedButtons } from './form/SegmentedButtons';
 import { SelectMenu } from './form/SelectMenu';
 import { GameIcon } from './GameIcon';
 import { SeasonTabs } from './SeasonTabs';
+import { SeedDestinations } from './SeedDestinations';
 import { SkeletonBar } from './Skeleton';
 
 // Cards adapted from Tailwind Plus lists/grid-lists/03-simple-cards.jsx
@@ -44,6 +45,7 @@ type SeedCatalogProps = {
   currentSeason: Season;
   currentDay: number;
   agriculturist: boolean;
+  artisan: boolean;
 };
 
 const SeedValue = ({
@@ -79,6 +81,7 @@ export const SeedCatalog = ({
   currentSeason,
   currentDay,
   agriculturist,
+  artisan,
 }: SeedCatalogProps) => {
   const [season, setSeason] = useState<Season>(initialSeason);
   const [period, setPeriod] = useState<Period>('today');
@@ -92,6 +95,7 @@ export const SeedCatalog = ({
     fertilizer: prefs.fertilizer,
     farmingLevel: prefs.farmingLevel,
     agriculturist,
+    artisan,
   });
 
   const updatePrefs = (change: Partial<SeedPrefs>) => {
@@ -146,6 +150,9 @@ export const SeedCatalog = ({
           onChange={(sort) => updatePrefs({ sort })}
         />
       </div>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        Jarra e barril supõem máquinas suficientes para toda a colheita.
+      </p>
       {values.isError && (
         <p role="alert" className="text-sm text-red-700 dark:text-red-400">
           Não foi possível calcular os valores.
@@ -171,18 +178,23 @@ export const SeedCatalog = ({
                 initials(name)
               )}
             </div>
-            <div className="flex flex-1 items-center justify-between truncate rounded-r-md border-t border-r border-b border-gray-200 bg-white dark:border-white/10 dark:bg-gray-800/50">
-              <div className="flex-1 truncate px-4 py-2 text-sm">
-                <p className="font-medium text-gray-900 dark:text-white">
-                  {name}
-                </p>
-                <p className="text-gray-500 dark:text-gray-400">
-                  {describePlantable(plantable)}
-                </p>
+            <div className="flex min-w-0 flex-1 flex-col rounded-r-md border-t border-r border-b border-gray-200 bg-white dark:border-white/10 dark:bg-gray-800/50">
+              <div className="flex flex-1 items-center justify-between truncate">
+                <div className="flex-1 truncate px-4 py-2 text-sm">
+                  <p className="font-medium text-gray-900 dark:text-white">
+                    {name}
+                  </p>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {describePlantable(plantable)}
+                  </p>
+                </div>
+                <div className="shrink-0 px-4 py-2 text-right text-sm">
+                  <SeedValue value={value} loading={values.isPending} />
+                </div>
               </div>
-              <div className="shrink-0 px-4 py-2 text-right text-sm">
-                <SeedValue value={value} loading={values.isPending} />
-              </div>
+              {value && !value.willNotMature && (
+                <SeedDestinations value={value} />
+              )}
             </div>
           </li>
         ))}

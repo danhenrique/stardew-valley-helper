@@ -77,6 +77,18 @@ class PlantableOut(CamelModel):
     last_planting_day: int | None = None
 
 
+class QualityPricesOut(CamelModel):
+    normal: int
+    silver: int
+    gold: int
+    iridium: int
+
+
+class ArtisanProductOut(CamelModel):
+    item: str
+    price: int
+
+
 class SeedValueOut(CamelModel):
     """Expected gold of a seed over a season window; money values are integers (tenths for per day)."""
 
@@ -87,6 +99,11 @@ class SeedValueOut(CamelModel):
     gold_per_day_tenths: int | None = None
     will_not_mature: bool
     approximate: bool
+    prices: QualityPricesOut | None = None
+    jar: ArtisanProductOut | None = None
+    keg: ArtisanProductOut | None = None
+    jar_gold_per_day_tenths: int | None = None
+    keg_gold_per_day_tenths: int | None = None
 
 
 class GameDateIn(CamelModel):
@@ -108,6 +125,14 @@ class ProfileIn(CamelModel):
     key_to_town: bool = False
     boat_repaired: bool = False
     rain_today: bool = False
+    artisan: bool = False
+
+    @model_validator(mode="after")
+    def _one_profession(self) -> ProfileIn:
+        # Agriculturist and Artisan are the two level-10 Tiller professions: only one can be chosen.
+        if self.agriculturist and self.artisan:
+            raise ValueError("Escolha só uma profissão")
+        return self
 
 
 ProfileOut = ProfileIn

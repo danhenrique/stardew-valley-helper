@@ -100,3 +100,7 @@ def test_should_return_profile_plantings_and_machines_when_reading_player_record
 def test_should_return_no_machines_when_player_has_none(table):
     _planting("p1").save()
     assert player_records("p1").machines == []
+
+
+def test_should_default_artisan_to_false_when_player_has_none(table):
+    assert PlayerProfile.get_or_default("p-artisan").artisan is False

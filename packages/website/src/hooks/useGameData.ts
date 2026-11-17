@@ -39,6 +39,7 @@ export type SeedValueParams = {
   fertilizer: ValueFertilizer;
   farmingLevel: number;
   agriculturist: boolean;
+  artisan: boolean;
 };
 
 /** Expected gold of each seed over a season window; static per parameter set. */

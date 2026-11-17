@@ -1,12 +1,13 @@
 """Read-only game catalog endpoints."""
 
+from dataclasses import asdict
 from typing import Annotated, Any, cast
 
 from fastapi import HTTPException, Query
 from stardew_valley_db.entities import BaseModel, GameEntity, Item
 from stardew_valley_db.entities.keys import ITEM_FOLDERS
 
-from ..crop_value import ValueFertilizer, seed_value
+from ..crop_value import CropKind, ValueFertilizer, seed_value
 from ..game_data import (
     COMMON_ATTRIBUTES,
     KEY_ATTRIBUTES,
@@ -20,10 +21,12 @@ from ..game_data import (
 from ..init import app, tracer
 from ..models import (
     NOT_FOUND_RESPONSE,
+    ArtisanProductOut,
     GameEntityDetailOut,
     GameEntityOut,
     LocalizedTextOut,
     PlantableOut,
+    QualityPricesOut,
     RelationOut,
     SeedValueOut,
 )
@@ -138,11 +141,20 @@ def list_plantables(season: Season | None = None, location: Location = "farm") -
     return plantables
 
 
-def _sell_prices(produce_ids: set[str]) -> dict[str, int]:
-    """Sell price of each produce item that exists and has one (one batch read)."""
+CROP_KINDS: dict[str, CropKind] = {"frutas": "fruit", "vegetais": "vegetable"}
+
+
+def _artisan_prices(item: Item) -> dict[str, int]:
+    """Dataset keg/jar prices of a produce item (``{"kegPrice": .., "jarPrice": ..}``), when present."""
+    stored = item.artisan.as_dict() if item.artisan is not None else {}
+    return {key: int(stored[key]) for key in ("kegPrice", "jarPrice") if stored.get(key) is not None}
+
+
+def _sell_prices(produce_ids: set[str]) -> dict[str, tuple[int, CropKind, dict[str, int]]]:
+    """Sell price, crop kind and artisan prices of each produce item that has a price (one batch read)."""
     keys = [(f"ITEM#{produce}", "ITEM") for produce in sorted(produce_ids)]
     return {
-        item.entity_id: int(item.sell_price)
+        item.entity_id: (int(item.sell_price), CROP_KINDS.get(str(item.item_type), "other"), _artisan_prices(item))
         for item in Item.batch_get(keys)
         if isinstance(item, Item) and item.sell_price is not None
     }
@@ -156,6 +168,7 @@ def list_seed_values(
     fertilizer: ValueFertilizer = "none",
     farming_level: Annotated[int, Query(alias="farmingLevel", ge=0, le=10)] = 0,
     agriculturist: bool = False,
+    artisan: bool = False,
 ) -> list[SeedValueOut]:
     seeds = [
         model
@@ -166,15 +179,20 @@ def list_seed_values(
     values = []
     for seed in seeds:
         assert seed.crop is not None
-        produce = seed.crop.produce
+        produce = str(seed.crop.produce) if seed.crop.produce else None
+        price, kind, artisan_prices = prices.get(produce, (None, "other", {})) if produce else (None, "other", {})
         value = seed_value(
             crop_spec(seed),
-            prices.get(str(produce)) if produce else None,
+            price,
             float(seed.crop.average_extra_yield or 0),
             from_day,
             fertilizer,
             farming_level,
             agriculturist,
+            produce_id=produce,
+            kind=kind,
+            artisan=artisan,
+            artisan_prices=artisan_prices,
         )
         values.append(
             SeedValueOut(
@@ -185,6 +203,11 @@ def list_seed_values(
                 gold_per_day_tenths=value.gold_per_day_tenths,
                 will_not_mature=value.will_not_mature,
                 approximate=value.approximate,
+                prices=QualityPricesOut(**asdict(value.prices)) if value.prices else None,
+                jar=ArtisanProductOut(**asdict(value.jar)) if value.jar else None,
+                keg=ArtisanProductOut(**asdict(value.keg)) if value.keg else None,
+                jar_gold_per_day_tenths=value.jar_gold_per_day_tenths,
+                keg_gold_per_day_tenths=value.keg_gold_per_day_tenths,
             )
         )
     return values

@@ -31,6 +31,7 @@ describe('Sementes route', () => {
         profile: {
           currentDate: { year: 1, season: 'summer', day: 5 },
           agriculturist: true,
+          artisan: false,
         },
       },
       isPending: false,
@@ -52,6 +53,7 @@ describe('Sementes route', () => {
         season: 'summer',
         fromDay: 5,
         agriculturist: true,
+        artisan: false,
       }),
     );
   });
