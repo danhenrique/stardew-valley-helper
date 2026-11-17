@@ -1,4 +1,5 @@
 import { screen, within } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import { expectLoading } from '../components/expectLoading';
 import { renderWithRouter } from '../components/renderWithRouter';
 import {
@@ -11,7 +12,8 @@ import {
   TEST_FESTIVAL,
 } from '../components/testData';
 import { buildEvents } from '../lib/events';
-import { Route } from './calendario';
+import { parseCalendarSearch, Route } from './calendario';
+import { Route as EventsRoute } from './eventos.index';
 
 const mocks = vi.hoisted(() => ({
   useMe: vi.fn(),
@@ -60,8 +62,13 @@ beforeEach(() => {
   });
 });
 
+const renderAt = (path = '/calendario') =>
+  renderWithRouter(null, {
+    initialPath: path,
+    pages: [{ path: '/calendario', component: Page }],
+  });
 const renderCalendar = async () => {
-  renderWithRouter(<Page />);
+  renderAt();
   await screen.findByRole('heading', { name: 'Primavera, Ano 1' });
 };
 
@@ -111,8 +118,80 @@ describe('Calendar route', () => {
       isPending: true,
       isError: false,
     });
-    renderWithRouter(<Page />);
+    renderAt();
     expectLoading(await screen.findByText('Carregando calendário...'));
     expect(screen.getAllByTestId('skeleton-day')).toHaveLength(28);
+  });
+});
+
+describe('Calendar tabs', () => {
+  it('should open on the calendar tab under the page title', async () => {
+    await renderCalendar();
+    expect(
+      screen.getByRole('heading', { level: 1, name: 'Calendário' }),
+    ).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Calendário' })).toHaveAttribute(
+      'aria-current',
+      'page',
+    );
+  });
+
+  it('should open the events tab from the search', async () => {
+    renderAt('/calendario?aba=eventos');
+    expect(
+      await screen.findByRole('heading', { level: 2, name: 'Primavera' }),
+    ).toBeInTheDocument();
+    expect(
+      screen.queryByRole('heading', { name: 'Primavera, Ano 1' }),
+    ).not.toBeInTheDocument();
+  });
+
+  it('should fall back to the calendar tab on an unknown tab', async () => {
+    renderAt('/calendario?aba=xyz');
+    expect(
+      await screen.findByRole('heading', { name: 'Primavera, Ano 1' }),
+    ).toBeInTheDocument();
+  });
+
+  it('should switch to the events tab and keep it in the URL', async () => {
+    const router = renderAt();
+    await screen.findByRole('heading', { name: 'Primavera, Ano 1' });
+    await userEvent.click(screen.getByRole('button', { name: 'Eventos' }));
+    expect(
+      await screen.findByRole('heading', { level: 2, name: 'Primavera' }),
+    ).toBeInTheDocument();
+    expect(router.state.location.search).toEqual({ aba: 'eventos' });
+  });
+
+  it('should show a skeleton while the events of the events tab load', async () => {
+    mocks.useFixedEvents.mockReturnValue({
+      data: undefined,
+      isPending: true,
+      isError: false,
+    });
+    renderAt('/calendario?aba=eventos');
+    expectLoading(await screen.findByText('Carregando eventos...'));
+  });
+
+  it('should redirect the old events page to the events tab', async () => {
+    const router = renderWithRouter(null, {
+      initialPath: '/eventos',
+      pages: [
+        { path: '/calendario', component: Page },
+        {
+          path: '/eventos/',
+          beforeLoad: EventsRoute.options.beforeLoad as () => void,
+        },
+      ],
+    });
+    await screen.findByRole('heading', { level: 2, name: 'Primavera' });
+    expect(router.state.location.pathname).toBe('/calendario');
+    expect(router.state.location.search).toEqual({ aba: 'eventos' });
+  });
+
+  it('should parse the tab of the search', () => {
+    expect(parseCalendarSearch({})).toEqual({ aba: 'calendario' });
+    expect(parseCalendarSearch({ aba: 'eventos' })).toEqual({ aba: 'eventos' });
+    expect(parseCalendarSearch({ aba: 1 })).toEqual({ aba: 'calendario' });
   });
 });
