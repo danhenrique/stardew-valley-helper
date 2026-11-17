@@ -96,7 +96,8 @@ export const UpcomingDays = ({
     }
     return (
       <Link
-        to={target.kind === 'harvest' ? '/plantios' : '/maquinas'}
+        to="/producao"
+        search={{ aba: target.kind === 'harvest' ? 'plantios' : 'maquinas' }}
         className={MARKER_ACTION}
       >
         {content}

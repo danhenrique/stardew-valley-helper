@@ -36,8 +36,8 @@ export const renderWithRouter = (
     '/eventos/$id',
     '/lojas',
     '/lojas/$id',
-    '/plantios',
-    '/maquinas',
+    '/producao',
+    '/calendario',
   ]
     .filter((path) => !pages.some((page) => page.path === path))
     .map((path) =>

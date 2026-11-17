@@ -21,12 +21,10 @@ import { ThemeToggle } from '../ThemeToggle';
 // Adapted from Tailwind Plus application-ui-v4/react/application-shells/stacked/01-with-bottom-border.jsx
 const NAVIGATION = [
   { name: 'Hoje', to: '/' },
-  { name: 'Plantios', to: '/plantios' },
-  { name: 'Máquinas', to: '/maquinas' },
+  { name: 'Produção', to: '/producao' },
   { name: 'Sementes', to: '/sementes' },
   { name: 'Peixes', to: '/peixes' },
   { name: 'Calendário', to: '/calendario' },
-  { name: 'Eventos', to: '/eventos' },
   { name: 'Lojas', to: '/lojas' },
 ] as const;
 

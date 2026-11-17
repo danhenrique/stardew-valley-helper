@@ -111,13 +111,13 @@ describe('UpcomingDays', () => {
     const [harvest] = screen.getAllByRole('link', {
       name: /Sementes de Fruta/,
     });
-    expect(harvest).toHaveAttribute('href', '/plantios');
+    expect(harvest).toHaveAttribute('href', '/producao?aba=plantios');
   });
 
   it('should link a machine date to the machines page', async () => {
     await renderDays();
     const machine = within(cells()[1]).getByRole('link');
-    expect(machine).toHaveAttribute('href', '/maquinas');
+    expect(machine).toHaveAttribute('href', '/producao?aba=maquinas');
   });
 
   it('should keep events and warn when the machine catalog fails', async () => {
