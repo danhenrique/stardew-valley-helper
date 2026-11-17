@@ -150,4 +150,59 @@ describe('ShopCatalogPage', () => {
     await renderPage();
     expectLoading(screen.getByText('Carregando catálogo...'));
   });
+
+  it('should add up the purchase in the footer', async () => {
+    mocks.useShopOffers.mockReturnValue({
+      status: 'success',
+      offers: [
+        { itemId: 'a-item', price: 50 },
+        { itemId: 'b-item', price: 30 },
+        { itemId: 'gem-item', price: 0, currency: { qiGems: 2 } },
+        {
+          itemId: 'wood-item',
+          price: 0,
+          materials: [{ item: 'wood', qty: 10 }],
+        },
+      ],
+    });
+    await renderPage();
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
+    const more = (item: string) =>
+      userEvent.click(screen.getByLabelText(`Aumentar Quantidade de ${item}`));
+    await more('a-item');
+    await more('a-item');
+    await more('b-item');
+    expect(screen.getByText('Total: 130g')).toBeInTheDocument();
+    await more('gem-item');
+    await more('gem-item');
+    await more('gem-item');
+    expect(screen.getByText('6 gemas Qi')).toBeInTheDocument();
+    await more('wood-item');
+    await more('wood-item');
+    expect(screen.getByText('20× wood')).toBeInTheDocument();
+  });
+
+  it('should clear the purchase', async () => {
+    await renderPage();
+    await userEvent.click(
+      screen.getByLabelText('Aumentar Quantidade de every-day-item'),
+    );
+    const clear = screen.getByRole('button', { name: 'Limpar compra' });
+    expect(clear).toHaveAttribute('title', 'Limpar compra');
+    await userEvent.click(clear);
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
+    expect(screen.getByLabelText('Quantidade de every-day-item')).toHaveValue(
+      0,
+    );
+  });
+
+  it('should clear the purchase when the date changes', async () => {
+    await renderPage();
+    await userEvent.click(
+      screen.getByLabelText('Aumentar Quantidade de every-day-item'),
+    );
+    expect(screen.getByText('Total: 10g')).toBeInTheDocument();
+    await userEvent.selectOptions(screen.getByLabelText('Dia'), '2');
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
+  });
 });

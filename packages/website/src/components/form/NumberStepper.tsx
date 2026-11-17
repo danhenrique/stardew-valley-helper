@@ -8,6 +8,8 @@ type NumberStepperProps = {
   min: number;
   max: number;
   onChange: (value: number) => void;
+  /** Keeps the label for screen readers only, for compact rows. */
+  hideLabel?: boolean;
 };
 
 const buttonClasses =
@@ -19,6 +21,7 @@ export const NumberStepper = ({
   min,
   max,
   onChange,
+  hideLabel = false,
 }: NumberStepperProps) => {
   const id = useId();
   const [text, setText] = useState(String(value));
@@ -69,11 +72,15 @@ export const NumberStepper = ({
     <div>
       <label
         htmlFor={id}
-        className="block text-sm/6 font-medium text-gray-900 dark:text-white"
+        className={
+          hideLabel
+            ? 'sr-only'
+            : 'block text-sm/6 font-medium text-gray-900 dark:text-white'
+        }
       >
         {label}
       </label>
-      <div className="mt-2 grid grid-cols-2 sm:flex">
+      <div className={`${hideLabel ? '' : 'mt-2 '}grid grid-cols-2 sm:flex`}>
         <button
           type="button"
           aria-label={`Diminuir ${label}`}

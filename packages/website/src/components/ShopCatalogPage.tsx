@@ -9,8 +9,9 @@ import {
 } from '../hooks/useGameData';
 import { sameDate } from '../lib/gameDate';
 import { localizedName } from '../lib/i18n';
-import { offersOn } from '../lib/shopCatalog';
+import { cartTotals, offersOn } from '../lib/shopCatalog';
 import { type Shop, shopStatusToday } from '../lib/shops';
+import { CartFooter } from './CartFooter';
 import { GameDatePicker } from './GameDatePicker';
 import { GameIcon } from './GameIcon';
 import { ShopCatalog } from './ShopCatalog';
@@ -44,6 +45,19 @@ const Catalog = ({
   const me = useMe();
   const events = useFixedEvents();
   const { status: offersStatus, offers } = useShopOffers(shop.id, true);
+  // A purchase belongs to the offers of one date, so changing the date clears it.
+  const [quantities, setQuantities] = useState<number[]>([]);
+  const changeDate = (next: GameDateIn) => {
+    setQuantities([]);
+    onDateChange(next);
+  };
+  const visible = offersOn(offers, date);
+  const setQuantity = (index: number, qty: number) =>
+    setQuantities((current) => {
+      const next = [...current];
+      next[index] = qty;
+      return next;
+    });
   const profile = me.data?.profile;
   // Rain is known only for the current game day, not for other dates picked here.
   const status = shopStatusToday(
@@ -77,16 +91,27 @@ const Catalog = ({
           </p>
         </div>
       </div>
-      <GameDatePicker value={date} onChange={onDateChange} />
+      <GameDatePicker value={date} onChange={changeDate} />
       <section className={CARD}>
         {offersStatus === 'pending' ? (
           <SkeletonList label="Carregando catálogo..." rows={6} />
         ) : offersStatus === 'error' ? (
           <Notice error>Não foi possível carregar o catálogo.</Notice>
         ) : (
-          <ShopCatalog offers={offersOn(offers, date)} date={date} />
+          <ShopCatalog
+            offers={visible}
+            date={date}
+            quantities={quantities}
+            onQuantityChange={setQuantity}
+          />
         )}
       </section>
+      {offersStatus === 'success' && (
+        <CartFooter
+          totals={cartTotals(visible, quantities, date.year)}
+          onClear={() => setQuantities([])}
+        />
+      )}
       <Link to="/lojas" className={LINK}>
         Ver todas as lojas
       </Link>

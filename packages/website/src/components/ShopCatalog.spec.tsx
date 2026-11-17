@@ -72,3 +72,35 @@ describe('ShopCatalog', () => {
     expect(screen.getByText('Nada à venda neste dia.')).toBeInTheDocument();
   });
 });
+
+describe('ShopCatalog quantities', () => {
+  it('should show a quantity stepper only on offers that cost something', () => {
+    render(
+      <ShopCatalog
+        offers={[
+          { itemId: 'test-seed', price: 20 },
+          {
+            itemId: 'test-gift',
+            special: 'onlyOneAtMaxKrobusFriendshipWhileSingle',
+          },
+        ]}
+        date={DATE}
+        quantities={[0, 0]}
+        onQuantityChange={() => {}}
+      />,
+    );
+    expect(
+      screen.getByLabelText('Quantidade de Semente Teste'),
+    ).toHaveAttribute('max', '999');
+    expect(
+      screen.queryByLabelText('Quantidade de test-gift'),
+    ).not.toBeInTheDocument();
+  });
+
+  it('should show no stepper without quantities', () => {
+    renderCatalog([{ itemId: 'test-seed', price: 20 }]);
+    expect(
+      screen.queryByLabelText('Quantidade de Semente Teste'),
+    ).not.toBeInTheDocument();
+  });
+});

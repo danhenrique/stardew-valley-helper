@@ -3,11 +3,13 @@ import { useGameNames } from '../hooks/useGameNames';
 import {
   formatCost,
   hasRotatingStock,
+  isPurchasable,
   offerCosts,
   offerTags,
   type ShopOffer,
 } from '../lib/shopCatalog';
 import { GameIcon } from './GameIcon';
+import { NumberStepper } from './form/NumberStepper';
 import { BADGE } from './styles';
 
 // Adapted from Tailwind Plus lists/stacked-lists/01-simple.jsx (rows) and
@@ -34,7 +36,17 @@ const groupBySection = (offers: readonly ShopOffer[]): Group[] => {
   return [...groups].map(([section, items]) => ({ section, offers: items }));
 };
 
-const OfferRow = ({ offer, year }: { offer: ShopOffer; year: number }) => {
+type Quantity = { value: number; onChange: (qty: number) => void };
+
+const OfferRow = ({
+  offer,
+  year,
+  quantity,
+}: {
+  offer: ShopOffer;
+  year: number;
+  quantity?: Quantity;
+}) => {
   const { nameOf } = useGameNames();
   const name = nameOf(offer.itemId);
   const tags = offerTags(offer, nameOf);
@@ -74,10 +86,24 @@ const OfferRow = ({ offer, year }: { offer: ShopOffer; year: number }) => {
           )}
         </div>
       </div>
-      <div className="flex flex-none flex-col items-end text-sm font-medium text-gray-900 dark:text-white">
-        {offerCosts(offer, year).map((cost) => (
-          <span key={cost.unit}>{formatCost(cost)}</span>
-        ))}
+      <div className="flex flex-none flex-col items-end gap-y-2 sm:flex-row sm:items-center sm:gap-x-4">
+        {quantity && isPurchasable(offer, year) && (
+          <div className="order-2 w-28 sm:order-1">
+            <NumberStepper
+              label={`Quantidade de ${name}`}
+              hideLabel
+              value={quantity.value}
+              min={0}
+              max={999}
+              onChange={quantity.onChange}
+            />
+          </div>
+        )}
+        <div className="order-1 flex flex-col items-end text-sm font-medium text-gray-900 sm:order-2 dark:text-white">
+          {offerCosts(offer, year).map((cost) => (
+            <span key={cost.unit}>{formatCost(cost)}</span>
+          ))}
+        </div>
       </div>
     </li>
   );
@@ -87,10 +113,23 @@ const OfferRow = ({ offer, year }: { offer: ShopOffer; year: number }) => {
 export const ShopCatalog = ({
   offers,
   date,
+  quantities,
+  onQuantityChange,
 }: {
   offers: readonly ShopOffer[];
   date: GameDateIn;
+  /** With `onQuantityChange`, shows a quantity stepper per offer; `quantities[i]` is for `offers[i]`. */
+  quantities?: readonly number[];
+  onQuantityChange?: (index: number, qty: number) => void;
 }) => {
+  const quantityOf = (offer: ShopOffer): Quantity | undefined => {
+    if (!quantities || !onQuantityChange) return undefined;
+    const index = offers.indexOf(offer);
+    return {
+      value: quantities[index] ?? 0,
+      onChange: (qty) => onQuantityChange(index, qty),
+    };
+  };
   if (offers.length === 0) {
     return (
       <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -118,6 +157,7 @@ export const ShopCatalog = ({
                 key={`${offer.itemId}-${index}`}
                 offer={offer}
                 year={date.year}
+                quantity={quantityOf(offer)}
               />
             ))}
           </ul>
