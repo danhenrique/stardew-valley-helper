@@ -21,7 +21,6 @@ CropKind = Literal["fruit", "vegetable", "other"]
 KEG_SPECIAL: dict[str, tuple[str, int]] = {"hops": ("pale-ale", 300), "wheat": ("beer", 200)}
 # Crops whose jar/keg products could not be checked against an official source: no comparison.
 ARTISAN_UNVERIFIED = frozenset({"tea-leaves", "unmilled-rice"})
-ARTISAN_BONUS = 1.4
 
 
 @dataclass(frozen=True)
@@ -83,11 +82,13 @@ def gold_per_harvest(sell_price: int, extra_yield: float, chances: QualityChance
 
 
 def quality_prices(sell_price: int) -> QualityPrices:
-    return QualityPrices(sell_price, math.floor(sell_price * 1.25), math.floor(sell_price * 1.5), sell_price * 2)
+    # Integer math: floats would floor 1.25 × p or 1.5 × p one gold low for some prices.
+    return QualityPrices(sell_price, sell_price * 5 // 4, sell_price * 3 // 2, sell_price * 2)
 
 
 def _artisan(item: str, price: int, artisan: bool) -> ArtisanProduct:
-    return ArtisanProduct(item, math.floor(price * ARTISAN_BONUS) if artisan else price)
+    # Artisan: +40%, floored; integer math avoids 180 × 1.4 = 251.999…
+    return ArtisanProduct(item, price * 14 // 10 if artisan else price)
 
 
 def jar_product(produce_id: str, kind: CropKind, sell_price: int, artisan: bool) -> ArtisanProduct | None:
@@ -106,7 +107,7 @@ def keg_product(produce_id: str, kind: CropKind, sell_price: int, artisan: bool)
         return None
     if kind == "fruit":
         return _artisan("wine", 3 * sell_price, artisan)
-    return _artisan("juice", math.floor(2.25 * sell_price), artisan)
+    return _artisan("juice", sell_price * 9 // 4, artisan)
 
 
 def harvest_days(crop: CropSpec, from_day: int, speed: Fertilizer, agriculturist: bool) -> tuple[list[int], bool]:
