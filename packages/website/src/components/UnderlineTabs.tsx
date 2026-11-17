@@ -8,7 +8,8 @@ export type UnderlineTab<T extends string> = { id: T; label: string };
 type UnderlineTabsProps<T extends string> = {
   tabs: readonly UnderlineTab<T>[];
   value: T;
-  counts: Record<T, number>;
+  /** Count badge of each tab; without it the tabs show only their labels. */
+  counts?: Record<T, number>;
   onChange: (tab: T) => void;
   /** Accessible names of the tab bar (desktop) and of the select (mobile). */
   navLabel: string;
@@ -34,7 +35,7 @@ export function UnderlineTabs<T extends string>({
         >
           {tabs.map((tab) => (
             <option key={tab.id} value={tab.id}>
-              {tab.label} ({counts[tab.id]})
+              {counts ? `${tab.label} (${counts[tab.id]})` : tab.label}
             </option>
           ))}
         </select>
@@ -61,17 +62,20 @@ export function UnderlineTabs<T extends string>({
                     'flex border-b-2 px-1 py-4 text-sm font-medium whitespace-nowrap',
                   )}
                 >
-                  {tab.label}{' '}
-                  <span
-                    className={clsx(
-                      current
-                        ? 'bg-green-100 text-green-600 dark:bg-green-500/20 dark:text-green-400'
-                        : 'bg-gray-100 text-gray-900 dark:bg-white/10 dark:text-gray-300',
-                      'ml-3 rounded-full px-2.5 py-0.5 text-xs font-medium',
-                    )}
-                  >
-                    {counts[tab.id]}
-                  </span>
+                  {tab.label}
+                  {counts && ' '}
+                  {counts && (
+                    <span
+                      className={clsx(
+                        current
+                          ? 'bg-green-100 text-green-600 dark:bg-green-500/20 dark:text-green-400'
+                          : 'bg-gray-100 text-gray-900 dark:bg-white/10 dark:text-gray-300',
+                        'ml-3 rounded-full px-2.5 py-0.5 text-xs font-medium',
+                      )}
+                    >
+                      {counts[tab.id]}
+                    </span>
+                  )}
                 </button>
               );
             })}
