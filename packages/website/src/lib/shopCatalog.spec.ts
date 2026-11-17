@@ -301,3 +301,18 @@ describe('cinder shards', () => {
     );
   });
 });
+
+describe('empty materials', () => {
+  it('should drop an empty material list so the offer is not purchasable', () => {
+    const [built] = buildOffers([
+      {
+        kind: 'ShopOffer',
+        pk: 'SHOP#test',
+        sk: 'OFFER#ITEM#a#00',
+        attributes: { itemId: 'a', price: 0, materials: [] },
+      },
+    ]);
+    expect(built.materials).toBeUndefined();
+    expect(isPurchasable(built, 1)).toBe(false);
+  });
+});

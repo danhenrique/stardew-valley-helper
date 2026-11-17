@@ -104,3 +104,11 @@ describe('ShopCatalog quantities', () => {
     ).not.toBeInTheDocument();
   });
 });
+
+describe('ShopCatalog free offers', () => {
+  it('should say a free offer is free instead of 0g', () => {
+    renderCatalog([{ itemId: 'test-seed', price: 0 }]);
+    expect(screen.getByText('Grátis')).toBeInTheDocument();
+    expect(screen.queryByText('0g')).not.toBeInTheDocument();
+  });
+});

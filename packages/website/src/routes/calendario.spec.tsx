@@ -1,3 +1,4 @@
+import { createRouter } from '@tanstack/react-router';
 import { screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { expectLoading } from '../components/expectLoading';
@@ -12,6 +13,7 @@ import {
   TEST_FESTIVAL,
 } from '../components/testData';
 import { buildEvents } from '../lib/events';
+import { routeTree } from '../routeTree.gen';
 import { parseCalendarSearch, Route } from './calendario';
 import { Route as EventsRoute } from './eventos.index';
 
@@ -193,5 +195,26 @@ describe('Calendar tabs', () => {
     expect(parseCalendarSearch({})).toEqual({ aba: 'calendario' });
     expect(parseCalendarSearch({ aba: 'eventos' })).toEqual({ aba: 'eventos' });
     expect(parseCalendarSearch({ aba: 1 })).toEqual({ aba: 'calendario' });
+  });
+});
+
+describe('Calendar tab history', () => {
+  it('should switch tabs without adding history entries', async () => {
+    const router = renderAt();
+    await screen.findByRole('heading', { name: 'Primavera, Ano 1' });
+    const before = router.history.length;
+    await userEvent.click(screen.getByRole('button', { name: 'Eventos' }));
+    await screen.findByRole('heading', { level: 2, name: 'Primavera' });
+    expect(router.history.length).toBe(before);
+  });
+});
+
+describe('Events routes in the app route tree', () => {
+  it('should match an event id to the detail page and the bare path to the redirect', () => {
+    const router = createRouter({ routeTree });
+    expect(router.matchRoutes('/eventos/festival:egg')?.at(-1)?.routeId).toBe(
+      '/eventos/$id',
+    );
+    expect(router.matchRoutes('/eventos')?.at(-1)?.routeId).toBe('/eventos/');
   });
 });

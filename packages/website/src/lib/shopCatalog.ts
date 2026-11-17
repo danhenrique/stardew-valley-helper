@@ -61,6 +61,7 @@ const isString = (value: unknown): value is string =>
 
 const parseMaterials = (value: unknown): ShopOffer['materials'] =>
   Array.isArray(value) &&
+  value.length > 0 &&
   value.every((m) => isRecord(m) && isString(m['item']) && isNumber(m['qty']))
     ? value.map((m) => ({ item: m['item'] as string, qty: m['qty'] as number }))
     : undefined;

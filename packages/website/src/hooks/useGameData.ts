@@ -159,7 +159,14 @@ export const useUpdateProfile = () => {
       await queryClient.cancelQueries({ queryKey });
       const previous = queryClient.getQueryData<MeOut>(queryKey);
       if (previous) {
-        queryClient.setQueryData<MeOut>(queryKey, { ...previous, profile });
+        queryClient.setQueryData<MeOut>(queryKey, {
+          ...previous,
+          // Mirrors the API: a save without artisan keeps the stored value.
+          profile: {
+            ...profile,
+            artisan: profile.artisan ?? previous.profile.artisan ?? false,
+          },
+        });
       }
       return { previous };
     },

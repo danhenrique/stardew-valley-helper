@@ -63,6 +63,8 @@ export const AppShell = ({
                   <Link
                     key={item.name}
                     to={item.to}
+                    // The current page keeps its search (the open tab); others open fresh.
+                    search={isCurrent(item.to) ? true : undefined}
                     aria-current={isCurrent(item.to) ? 'page' : undefined}
                     className={clsx(
                       isCurrent(item.to)
@@ -142,6 +144,7 @@ export const AppShell = ({
                 key={item.name}
                 as={Link}
                 to={item.to}
+                search={isCurrent(item.to) ? true : undefined}
                 aria-current={isCurrent(item.to) ? 'page' : undefined}
                 className={clsx(
                   isCurrent(item.to)
