@@ -1,5 +1,6 @@
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { useState } from 'react';
 import type { GameEntityOut } from '../generated/stardew-valley-api/types.gen';
 import { buildShops } from '../lib/shops';
 import { expectLoading } from './expectLoading';
@@ -203,6 +204,35 @@ describe('ShopCatalogPage', () => {
     );
     expect(screen.getByText('Total: 10g')).toBeInTheDocument();
     await userEvent.selectOptions(screen.getByLabelText('Dia'), '2');
+    expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
+  });
+
+  it('should clear the purchase when the game day moves on', async () => {
+    // Re-renders the page on demand, as a profile refetch would.
+    const Harness = () => {
+      const [, setTick] = useState(0);
+      return (
+        <>
+          <button type="button" onClick={() => setTick((t) => t + 1)}>
+            refetch
+          </button>
+          <ShopCatalogPage shopId="test-store" />
+        </>
+      );
+    };
+    renderWithRouter(<Harness />);
+    await screen.findByRole('heading', { level: 1 });
+    await userEvent.click(
+      screen.getByLabelText('Aumentar Quantidade de every-day-item'),
+    );
+    expect(screen.getByText('Total: 10g')).toBeInTheDocument();
+    mocks.useMe.mockReturnValue({
+      data: { profile: { currentDate: { ...MONDAY, day: 2 } } },
+      isPending: false,
+      isError: false,
+    });
+    await userEvent.click(screen.getByRole('button', { name: 'refetch' }));
+    expect(await screen.findByText('tuesday-item')).toBeInTheDocument();
     expect(screen.queryByText(/^Total:/)).not.toBeInTheDocument();
   });
 });

@@ -45,19 +45,21 @@ const Catalog = ({
   const me = useMe();
   const events = useFixedEvents();
   const { status: offersStatus, offers } = useShopOffers(shop.id, true);
-  // A purchase belongs to the offers of one date, so changing the date clears it.
-  const [quantities, setQuantities] = useState<number[]>([]);
-  const changeDate = (next: GameDateIn) => {
-    setQuantities([]);
-    onDateChange(next);
-  };
+  // A purchase belongs to the offers of one date: when the date changes (picked here or
+  // moved on by the game day), the quantities saved for another date no longer apply.
+  const dateKey = `${date.year}-${date.season}-${date.day}`;
+  const [cart, setCart] = useState<{ dateKey: string; quantities: number[] }>({
+    dateKey,
+    quantities: [],
+  });
+  const quantities = cart.dateKey === dateKey ? cart.quantities : [];
   const visible = offersOn(offers, date);
-  const setQuantity = (index: number, qty: number) =>
-    setQuantities((current) => {
-      const next = [...current];
-      next[index] = qty;
-      return next;
-    });
+  const setQuantity = (index: number, qty: number) => {
+    const next = [...quantities];
+    next[index] = qty;
+    setCart({ dateKey, quantities: next });
+  };
+  const clearCart = () => setCart({ dateKey, quantities: [] });
   const profile = me.data?.profile;
   // Rain is known only for the current game day, not for other dates picked here.
   const status = shopStatusToday(
@@ -91,7 +93,7 @@ const Catalog = ({
           </p>
         </div>
       </div>
-      <GameDatePicker value={date} onChange={changeDate} />
+      <GameDatePicker value={date} onChange={onDateChange} />
       <section className={CARD}>
         {offersStatus === 'pending' ? (
           <SkeletonList label="Carregando catálogo..." rows={6} />
@@ -109,7 +111,7 @@ const Catalog = ({
       {offersStatus === 'success' && (
         <CartFooter
           totals={cartTotals(visible, quantities, date.year)}
-          onClear={() => setQuantities([])}
+          onClear={clearCart}
         />
       )}
       <Link to="/lojas" className={LINK}>
