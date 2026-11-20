@@ -112,19 +112,6 @@ function TodayPage() {
         today={profile.currentDate}
         status={machineCatalogStatus(reminders)}
       />
-      <OpenShops
-        shops={shops.data ?? []}
-        today={profile.currentDate}
-        events={events.data ?? []}
-        progress={{
-          communityCenterRestored: profile.communityCenterRestored,
-          keyToTown: profile.keyToTown,
-          boatRepaired: profile.boatRepaired,
-          rainToday: profile.rainToday,
-        }}
-        status={machineCatalogStatus(shops)}
-        eventsStatus={machineCatalogStatus(events)}
-      />
       {events.isError ? (
         <p className="text-sm text-red-700 dark:text-red-400">
           Não foi possível carregar os eventos.
@@ -140,6 +127,19 @@ function TodayPage() {
           machineCatalogStatus={machineCatalogStatus(machines)}
         />
       )}
+      <OpenShops
+        shops={shops.data ?? []}
+        today={profile.currentDate}
+        events={events.data ?? []}
+        progress={{
+          communityCenterRestored: profile.communityCenterRestored,
+          keyToTown: profile.keyToTown,
+          boatRepaired: profile.boatRepaired,
+          rainToday: profile.rainToday,
+        }}
+        status={machineCatalogStatus(shops)}
+        eventsStatus={machineCatalogStatus(events)}
+      />
       <PlantingDrawer
         open={drawerOpen}
         editing={null}

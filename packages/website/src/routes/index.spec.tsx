@@ -190,7 +190,7 @@ describe('Home route', () => {
       screen
         .getAllByRole('heading', { level: 2 })
         .map((heading) => heading.textContent),
-    ).toEqual(['Hoje', 'Lembretes', 'Lojas abertas hoje', 'Próximos dias']);
+    ).toEqual(['Hoje', 'Lembretes', 'Próximos dias', 'Lojas abertas hoje']);
   });
 
   it('should show the add buttons only in the Hoje card', async () => {
