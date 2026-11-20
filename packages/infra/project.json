@@ -18,7 +18,7 @@
       },
       "configurations": {
         "prod": {
-          "command": "terraform apply ../../../dist/{projectRoot}/terraform/prod.tfplan"
+          "command": "terraform apply -parallelism=1 ../../../dist/{projectRoot}/terraform/prod.tfplan"
         }
       }
     },
