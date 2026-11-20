@@ -10,7 +10,7 @@
 ### Implementações
 
 - Toda nova implementação deve ser criada em uma branch nova chamada `feature/...` gerada a partir da `main`.
-- Ao final, sempre commit, push e abra um PR para `main` e volte o local para `main`.
+- Ao final, sempre commit, push e abra um PR para `main`.
 
 ## Referencias
 
