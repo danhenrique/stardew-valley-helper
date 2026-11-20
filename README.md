@@ -75,7 +75,9 @@ aws sso login --profile danhenrique-prod   # when the SSO session has expired
 
 ### Steps
 
-`apply` re-runs `plan` and applies it without asking. Review the plan first.
+`apply` re-runs `plan` and applies it without asking. Review the plan first. It runs with
+`-parallelism=1` because AppConfig accepts one deployment at a time per environment; parallel
+deployments fail with `BadRequestException: Internal error`.
 
 1. Plan and review:
    ```bash
