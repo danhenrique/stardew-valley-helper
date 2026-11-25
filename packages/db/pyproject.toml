@@ -32,6 +32,10 @@ indent-width = 4
   fixable = [ "ALL" ]
   unfixable = [ ]
 
+[tool.ty.src]
+# Dataset build script copied verbatim from aws-danhenrique; not part of the package
+exclude = [ "scripts" ]
+
 [project]
 name = "stardew-valley-helper-stardew-valley-db"
 version = "1.0.0"
@@ -40,9 +44,9 @@ requires-python = ">=3.14"
 readme = "README.md"
 dependencies = [
   "pynamodb==6.1.0",
-  "boto3==1.43.103",
-  "aws-lambda-powertools==3.35.0",
-  "python-ulid>=4.1.0",
+  "boto3==1.44.9",
+  "aws-lambda-powertools==3.41.0",
+  "python-ulid>=4.1.0"
 ]
 
 [build-system]
@@ -50,11 +54,4 @@ requires = [ "hatchling" ]
 build-backend = "hatchling.build"
 
 [dependency-groups]
-dev = [
-    "moto[dynamodb]>=5.2.5",
-    "pillow>=13.0.0",
-]
-
-[tool.ty.src]
-# Dataset build script copied verbatim from aws-danhenrique; not part of the package
-exclude = [ "scripts" ]
+dev = [ "moto[dynamodb]>=5.2.5", "pillow>=13.0.0" ]

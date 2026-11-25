@@ -60,3 +60,4 @@ runtime-config.json
 
 # Local design specs and plans (kept out of the public repository)
 docs/superpowers/
+.vitest

@@ -2,7 +2,7 @@ import os
 
 from pynamodb.attributes import DiscriminatorAttribute, UnicodeAttribute
 from pynamodb.indexes import AllProjection, GlobalSecondaryIndex
-from pynamodb.models import Model
+from pynamodb.models import MetaProtocol, Model
 
 from ..client import _local_dev, get_table_name, is_local
 
@@ -38,12 +38,14 @@ class BaseModel(Model):
     See https://pynamodb.readthedocs.io/en/stable/polymorphism.html
     """
 
-    class Meta:
+    class _Meta(MetaProtocol):
         table_name: str
-        region = os.environ.get("AWS_REGION", "us-east-1")
+        region: str | None = os.environ.get("AWS_REGION", "us-east-1")
         host = f"http://localhost:{_local_dev()['port']}" if is_local() else None
         aws_access_key_id = "UNUSED" if is_local() else None
         aws_secret_access_key = "UNUSED" if is_local() else None
+
+    Meta: MetaProtocol = _Meta
 
     entity_type = DiscriminatorAttribute(attr_name="entityType")
 

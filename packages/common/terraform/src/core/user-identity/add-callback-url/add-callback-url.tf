@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "6.66.0"
+      version = "6.73.0"
     }
     null = {
       source  = "hashicorp/null"
@@ -63,7 +63,7 @@ resource "null_resource" "add_callback_url" {
 
   provisioner "local-exec" {
     command = <<-EOT
-      uv run --with boto3==1.43.103 python -c "
+      uv run --with boto3==1.44.9 python -c "
 import boto3
 import os
 import sys

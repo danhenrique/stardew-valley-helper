@@ -2,6 +2,7 @@
 import tailwindcss from '@tailwindcss/vite';
 import { tanstackRouter } from '@tanstack/router-plugin/vite';
 import react from '@vitejs/plugin-react';
+import { nxReadySignal } from '@nx/vite/plugins/nx-ready-signal.plugin';
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
 
@@ -22,6 +23,7 @@ export default defineConfig(() => ({
       generatedRouteTree: resolve(import.meta.dirname, 'src/routeTree.gen.ts'),
     }),
     react(),
+    nxReadySignal(),
     tailwindcss(),
   ],
   // Uncomment this if you are using workers.

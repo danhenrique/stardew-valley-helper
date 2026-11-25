@@ -10,7 +10,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "6.66.0"
+      version = "6.73.0"
     }
   }
 }
@@ -41,7 +41,7 @@ resource "terraform_data" "account" {
   triggers_replace = [aws_iam_role.cloudwatch.arn]
 
   provisioner "local-exec" {
-    command = "uv run --with boto3==1.43.103 python -c \"$SCRIPT\""
+    command = "uv run --with boto3==1.44.9 python -c \"$SCRIPT\""
     environment = {
       ROLE_ARN = aws_iam_role.cloudwatch.arn
       REGION   = data.aws_region.current.region
