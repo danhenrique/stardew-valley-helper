@@ -17,8 +17,13 @@
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/tests/**/*"
     ],
-    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"],
-    "biome": ["default", "{workspaceRoot}/biome.json"]
+    "sharedGlobals": [
+      "{workspaceRoot}/.github/workflows/ci.yml"
+    ],
+    "biome": [
+      "default",
+      "{workspaceRoot}/biome.json"
+    ]
   },
   "plugins": [
     {
@@ -68,20 +73,32 @@
   "targetDefaults": {
     "compile": {
       "cache": true,
-      "syncGenerators": ["@nx/js:typescript-sync", "@aws/nx-plugin:ts#sync"],
-      "inputs": ["default"]
+      "syncGenerators": [
+        "@nx/js:typescript-sync",
+        "@aws/nx-plugin:ts#sync"
+      ],
+      "inputs": [
+        "default"
+      ]
     },
     "test": [
       {
-        "dependsOn": ["^build"],
-        "inputs": ["default"]
+        "dependsOn": [
+          "^build"
+        ],
+        "inputs": [
+          "default"
+        ]
       },
       {
         "filter": {
           "plugin": "@nx/vitest"
         },
         "cache": true,
-        "inputs": ["default", "^production"],
+        "inputs": [
+          "default",
+          "^production"
+        ],
         "configurations": {
           "update-snapshot": {
             "args": "--update"
@@ -91,7 +108,9 @@
     ],
     "build": {
       "cache": true,
-      "inputs": ["default"]
+      "inputs": [
+        "default"
+      ]
     }
   },
   "generators": {
@@ -110,5 +129,8 @@
         "linter": "none"
       }
     }
+  },
+  "affected": {
+    "legacy": true
   }
 }
