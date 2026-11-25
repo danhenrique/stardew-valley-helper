@@ -14,20 +14,20 @@ onlyBuiltDependencies:
   - sharp
 catalogMode: strict
 catalog:
-  '@aws/nx-plugin': 1.0.4
-  nx: 23.2.1
-  '@nx/js': 23.2.1
-  '@nx/workspace': 23.2.1
+  '@aws/nx-plugin': 1.8.0
+  nx: 24.0.6
+  '@nx/js': 24.0.6
+  '@nx/workspace': 24.0.6
   typescript: ~6.0.3
   '@biomejs/biome': 2.5.14
   '@aws/nx-plugin-mcp': ^1.0.4
   husky: 9.1.7
   '@types/node': 26.6.3
   vite: 8.3.8
-  vitest: 4.1.12
-  '@vitest/coverage-v8': 4.1.12
+  vitest: 5.1.1
+  '@vitest/coverage-v8': 5.1.1
   jsdom: 29.1.1
-  '@nx/vitest': 23.2.1
+  '@nx/vitest': 24.0.6
   react: 19.3.0
   react-dom: 19.3.0
   class-variance-authority: 0.7.1
@@ -45,8 +45,8 @@ catalog:
   '@smithy/node-config-provider': 4.6.2
   tailwindcss: 4.3.3
   '@tanstack/react-router': 1.170.39
-  '@nx/react': 23.2.1
-  '@vitest/ui': 4.1.12
+  '@nx/react': 24.0.6
+  '@vitest/ui': 5.1.1
   '@tailwindcss/vite': 4.3.3
   '@tanstack/router-plugin': 1.168.40
   '@tanstack/router-generator': 1.167.38
@@ -69,17 +69,3 @@ catalog:
   '@testing-library/user-event': 14.6.1
   '@testing-library/react': 16.3.0
   use-intl: ^4.15.1
-# Security fixes for transitive dependencies that nx@23.2.1 and @aws/nx-plugin@1.0.4 pin to exact,
-# vulnerable versions. Same major only. Remove each entry once the parent ships the fix
-# (nx 24 / @aws/nx-plugin 1.8 already do for most of them).
-overrides:
-  vite: 8.3.8
-  vitest: 4.1.12
-  axios: 1.21.1
-  smol-toml: 1.9.1
-  follow-redirects: 1.16.3
-  brace-expansion@>=5.0.0 <5.0.12: 5.1.0
-  zod@>=4.0.0 <4.6.6: 4.6.7
-  '@modelcontextprotocol/sdk': 1.32.2
-  # mocha is a stray runtime dependency of hcl2-json-parser and never runs here.
-  mocha>serialize-javascript: 7.1.4
