@@ -40,7 +40,7 @@ class BaseModel(Model):
 
     class _Meta(MetaProtocol):
         table_name: str
-        region = os.environ.get("AWS_REGION", "us-east-1")
+        region: str | None = os.environ.get("AWS_REGION", "us-east-1")
         host = f"http://localhost:{_local_dev()['port']}" if is_local() else None
         aws_access_key_id = "UNUSED" if is_local() else None
         aws_secret_access_key = "UNUSED" if is_local() else None
