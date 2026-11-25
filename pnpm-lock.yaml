@@ -52,8 +52,8 @@ catalogs:
       specifier: 24.0.6
       version: 24.0.6
     '@nxlv/python':
-      specifier: 23.1.1
-      version: 23.1.1
+      specifier: 23.5.0
+      version: 23.5.0
     '@smithy/config-resolver':
       specifier: 4.7.2
       version: 4.7.2
@@ -157,6 +157,9 @@ catalogs:
       specifier: 5.1.1
       version: 5.1.1
 
+overrides:
+  mocha>serialize-javascript: 7.1.4
+
 importers:
 
   .:
@@ -203,7 +206,7 @@ importers:
         version: 24.0.6
       '@nxlv/python':
         specifier: 'catalog:'
-        version: 23.1.1(@nx/devkit@23.2.1(nx@24.0.6))
+        version: 23.5.0(@nx/devkit@23.2.1(nx@24.0.6))
       '@smithy/config-resolver':
         specifier: 'catalog:'
         version: 4.7.2
@@ -1840,12 +1843,6 @@ packages:
 
   '@nx/workspace@24.0.6':
     resolution: {integrity: sha512-kOANsH9ks4A+s4iD7IgHpYhdk2tX5PPUxrQg5fuSWOdc/t9LmQjp/2e9HnKbzszp1i+vjl/1E/sPcLRU5U/Ztg==}
-
-  '@nxlv/python@23.1.1':
-    resolution: {integrity: sha512-M1a4LmcBHE9kbNTbjlcW3Y4bhqhVCQARGspAC9WGdyvAVr6gBrTC+U8b52jqAfc4jItSio896OIPIAcjjImo7w==}
-    engines: {node: '>=20.19.0'}
-    peerDependencies:
-      '@nx/devkit': '>=22.0.0'
 
   '@nxlv/python@23.5.0':
     resolution: {integrity: sha512-AOScETGyxn1vQOmPaT7ji2RF59R/HNCbwyYovHJSKPvKrynaZ7EojxDKwzU1ou9RpCVjCxRat0YqIOvWpCnsWQ==}
@@ -4385,9 +4382,6 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  randombytes@2.1.0:
-    resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
-
   range-parser@1.3.0:
     resolution: {integrity: sha512-hek2mFQpPuI4E1BBKrSto+BU3e3x4xuarsbiwr3+lf7p44juvFMV0XFWQAP3xUyqXA4RrXLIoaSUGbSt056ZMw==}
     engines: {node: '>= 0.6'}
@@ -4589,8 +4583,9 @@ packages:
     resolution: {integrity: sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ==}
     engines: {node: '>= 18'}
 
-  serialize-javascript@6.0.2:
-    resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
+  serialize-javascript@7.1.4:
+    resolution: {integrity: sha512-FqlEuoTq/zRmA4Lg6aOqyH3lCHbUtCB0bmHCeFniX2GBdDqMJM3FwdvEhlE5Pim1dlt2FfBdVPmUNNiGhhKqpw==}
+    engines: {node: '>=20.0.0'}
 
   seroval-plugins@1.6.12:
     resolution: {integrity: sha512-+reiwp/lYxiyctSrdvX7OQ1YLrcbWYgBiZrhSFL+V43b0/DGRLNVSDyZINbQe+tWplPOI2fw2dPrdv6hcc09kQ==}
@@ -5053,11 +5048,6 @@ packages:
 
   uuid@11.1.1:
     resolution: {integrity: sha512-vIYxrBCC/N/K+Js3qSN88go7kIfNPssr/hHCesKCQNAjmgvYS2oqr69kIufEG+O4+PfezOH4EbIeHCfFov8ZgQ==}
-    hasBin: true
-
-  uuid@9.0.1:
-    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
-    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validate-npm-package-license@3.0.4:
@@ -7151,7 +7141,7 @@ snapshots:
       - '@swc-node/register'
       - '@swc/core'
 
-  '@nxlv/python@23.1.1(@nx/devkit@23.2.1(nx@24.0.6))':
+  '@nxlv/python@23.5.0(@nx/devkit@23.2.1(nx@24.0.6))':
     dependencies:
       '@iarna/toml': 2.2.5
       '@nx/devkit': 23.2.1(nx@24.0.6)
@@ -7163,13 +7153,12 @@ snapshots:
       cross-spawn: 7.0.6
       file-uri-to-path: 2.0.0
       fs-extra: 11.4.1
-      glob: 10.5.0
       lodash: 4.18.1
-      minimatch: 10.2.6
-      semver: 7.8.5
+      minimatch: 11.0.9
+      semver: 7.8.6
       tree-sitter-wasms: 0.1.13
       tslib: 2.8.1
-      uuid: 9.0.1
+      uuid: 11.1.1
       web-tree-sitter: 0.20.8
     transitivePeerDependencies:
       - bare-abort-controller
@@ -7190,7 +7179,7 @@ snapshots:
       fs-extra: 11.4.1
       lodash: 4.18.1
       minimatch: 11.0.9
-      semver: 7.8.5
+      semver: 7.8.6
       tree-sitter-wasms: 0.1.13
       tslib: 2.8.1
       uuid: 11.1.1
@@ -9595,7 +9584,7 @@ snapshots:
       log-symbols: 4.1.0
       minimatch: 5.1.9
       ms: 2.1.3
-      serialize-javascript: 6.0.2
+      serialize-javascript: 7.1.4
       strip-json-comments: 3.1.1
       supports-color: 8.1.1
       workerpool: 6.5.1
@@ -9922,10 +9911,6 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  randombytes@2.1.0:
-    dependencies:
-      safe-buffer: 5.2.1
-
   range-parser@1.3.0: {}
 
   raw-body@3.0.2:
@@ -10209,9 +10194,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serialize-javascript@6.0.2:
-    dependencies:
-      randombytes: 2.1.0
+  serialize-javascript@7.1.4: {}
 
   seroval-plugins@1.6.12(seroval@1.6.12):
     dependencies:
@@ -10664,8 +10647,6 @@ snapshots:
   util-deprecate@1.0.2: {}
 
   uuid@11.1.1: {}
-
-  uuid@9.0.1: {}
 
   validate-npm-package-license@3.0.4:
     dependencies:
