@@ -1,0 +1,18 @@
+{
+  "id": "pineapple",
+  "type": "fruits",
+  "name": {
+    "en": "Pineapple",
+    "pt-BR": "Abacaxi"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 300,
+  "artisan": {
+    "kegPrice": 900,
+    "jarPrice": 650
+  },
+  "growsFrom": "pineapple-seeds"
+}

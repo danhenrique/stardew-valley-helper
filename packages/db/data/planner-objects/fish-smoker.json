@@ -1,0 +1,18 @@
+{
+  "id": "fish-smoker",
+  "type": "planner-objects",
+  "name": {
+    "en": "Fish Smoker",
+    "pt-BR": "Defumador de Peixes"
+  },
+  "nameVerified": true,
+  "item": "fish-smoker",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

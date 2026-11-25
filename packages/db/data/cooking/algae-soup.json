@@ -1,0 +1,26 @@
+{
+  "id": "algae-soup",
+  "type": "cooking",
+  "name": {
+    "en": "Algae Soup",
+    "pt-BR": "Sopa de Alga"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "kent",
+      "penny"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "green-algae",
+        "qty": 4
+      }
+    ]
+  }
+}

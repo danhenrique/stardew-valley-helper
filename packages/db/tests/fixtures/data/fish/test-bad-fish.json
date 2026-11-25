@@ -1,0 +1,27 @@
+{
+ "id": "test-bad-fish",
+ "type": "fish",
+ "name": {
+  "en": "Bad Fish",
+  "pt-BR": "Peixe Ruim"
+ },
+ "nameVerified": true,
+ "catch": {
+  "tool": "rod",
+  "seasons": [
+   "spring"
+  ],
+  "weather": "any",
+  "timeWindows": [
+   {
+    "from": "25:99",
+    "to": "19:00"
+   }
+  ],
+  "location": {
+   "en": "River",
+   "pt-BR": "Rio"
+  },
+  "locationVerified": false
+ }
+}

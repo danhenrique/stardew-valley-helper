@@ -1,0 +1,16 @@
+{
+  "id": "jade-ring",
+  "type": "equipment",
+  "subtype": "ring",
+  "name": {
+    "en": "Jade Ring",
+    "pt-BR": "Anel de Jade"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 2500
+    }
+  ]
+}

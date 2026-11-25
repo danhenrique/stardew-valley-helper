@@ -1,0 +1,18 @@
+{
+  "id": "tilled-soil",
+  "type": "planner-objects",
+  "name": {
+    "en": "Tilled Soil",
+    "pt-BR": "Terra arada"
+  },
+  "nameVerified": false,
+  "icon": null,
+  "category": "planting",
+  "placement": "diggable",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "spangle-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Spangle Seeds",
+    "pt-BR": "Sementes de Miçanga"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 8,
+    "regrowDays": null,
+    "lastPlantingDay": 20,
+    "averageExtraYield": 0,
+    "produce": "summer-spangle"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 50,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 62,
+      "season": "summer"
+    }
+  ]
+}

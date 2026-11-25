@@ -1,0 +1,39 @@
+{
+  "id": "salad",
+  "type": "cooking",
+  "name": {
+    "en": "Salad",
+    "pt-BR": "Salada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 220
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "leek",
+        "qty": 1
+      },
+      {
+        "item": "dandelion",
+        "qty": 1
+      },
+      {
+        "item": "vinegar",
+        "qty": 1
+      }
+    ]
+  }
+}

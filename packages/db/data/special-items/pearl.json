@@ -1,0 +1,47 @@
+{
+  "id": "pearl",
+  "type": "special-items",
+  "name": {
+    "en": "Pearl",
+    "pt-BR": "Pérola"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ]
+  }
+}

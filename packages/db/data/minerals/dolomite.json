@@ -1,0 +1,14 @@
+{
+  "id": "dolomite",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Dolomite",
+    "pt-BR": "Dolomita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

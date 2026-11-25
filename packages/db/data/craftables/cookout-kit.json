@@ -1,0 +1,25 @@
+{
+  "id": "cookout-kit",
+  "type": "craftables",
+  "name": {
+    "en": "Cookout Kit",
+    "pt-BR": "Cozinha Portátil"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 15
+      },
+      {
+        "item": "fiber",
+        "qty": 10
+      },
+      {
+        "item": "coal",
+        "qty": 3
+      }
+    ]
+  }
+}

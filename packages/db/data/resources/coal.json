@@ -1,0 +1,23 @@
+{
+  "id": "coal",
+  "type": "resources",
+  "name": {
+    "en": "Coal",
+    "pt-BR": "Carvão"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 150
+    }
+  ],
+  "giftTastes": {
+    "neutral": [
+      "clint"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "fried-mushroom",
+  "type": "cooking",
+  "name": {
+    "en": "Fried Mushroom",
+    "pt-BR": "Cogumelo Frito"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 400
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "george"
+    ],
+    "dislikesOrHates": [
+      "harvey"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "common-mushroom",
+        "qty": 1
+      },
+      {
+        "item": "morel",
+        "qty": 1
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      }
+    ]
+  }
+}

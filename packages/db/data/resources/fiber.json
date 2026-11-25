@@ -1,0 +1,22 @@
+{
+  "id": "fiber",
+  "type": "resources",
+  "name": {
+    "en": "Fiber",
+    "pt-BR": "Fibra"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 5
+        }
+      ],
+      "availability": "tue"
+    }
+  ]
+}

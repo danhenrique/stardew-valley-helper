@@ -1,0 +1,18 @@
+{
+  "id": "powdermelon",
+  "type": "fruits",
+  "name": {
+    "en": "Powdermelon",
+    "pt-BR": "Melão-Poeiro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 60,
+  "artisan": {
+    "kegPrice": 180,
+    "jarPrice": 170
+  },
+  "growsFrom": "powdermelon-seeds"
+}

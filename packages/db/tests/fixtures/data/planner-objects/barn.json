@@ -1,0 +1,30 @@
+{
+ "id": "barn",
+ "type": "planner-objects",
+ "name": {
+  "en": "Test Barn",
+  "pt-BR": "Celeiro Teste"
+ },
+ "nameVerified": true,
+ "item": "barn",
+ "category": "building",
+ "placement": "buildable",
+ "size": {
+  "w": 7,
+  "h": 4
+ },
+ "range": null,
+ "humanDoor": {
+  "x": 3,
+  "y": 4
+ },
+ "animalDoor": {
+  "x": 5,
+  "y": 3,
+  "w": 1,
+  "h": 1
+ },
+ "paint": false,
+ "removable": true,
+ "icon": null
+}

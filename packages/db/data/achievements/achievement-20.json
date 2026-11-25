@@ -1,0 +1,14 @@
+{
+  "id": "achievement-20",
+  "type": "achievements",
+  "name": {
+    "en": "Craft Master",
+    "pt-BR": "Mestre da Fabricação"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Craft every item.",
+    "pt-BR": "Crie todos os itens."
+  },
+  "order": 20
+}

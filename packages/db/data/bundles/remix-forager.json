@@ -1,0 +1,41 @@
+{
+  "id": "remix-forager",
+  "type": "bundles",
+  "name": {
+    "en": "Forager's Bundle",
+    "pt-BR": "Conjunto do Coletor"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "salmonberry",
+      "qty": 50,
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "blackberry",
+      "qty": 50,
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "wild-plum",
+      "qty": 20,
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

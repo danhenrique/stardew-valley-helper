@@ -1,0 +1,36 @@
+{
+  "id": "pepper-poppers",
+  "type": "cooking",
+  "name": {
+    "en": "Pepper Poppers",
+    "pt-BR": "Enroladinhos de Pimenta"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 400
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "maru",
+      "shane"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "hot-pepper",
+        "qty": 1
+      },
+      {
+        "item": "cheese",
+        "qty": 1
+      }
+    ]
+  }
+}

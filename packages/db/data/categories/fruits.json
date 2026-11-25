@@ -1,0 +1,32 @@
+{
+  "id": "fruits",
+  "type": "categories",
+  "name": {
+    "en": "All fruit",
+    "pt-BR": "Todas as frutas"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "ancient-fruit",
+    "blackberry",
+    "blueberry",
+    "cactus-fruit",
+    "coconut",
+    "cranberries",
+    "crystal-fruit",
+    "grape",
+    "hot-pepper",
+    "melon",
+    "rhubarb",
+    "spice-berry",
+    "starfruit",
+    "strawberry",
+    "wild-plum",
+    "pineapple",
+    "mango",
+    "banana",
+    "powdermelon",
+    "qi-fruit"
+  ]
+}

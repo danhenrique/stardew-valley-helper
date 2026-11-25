@@ -1,0 +1,16 @@
+{
+  "id": "foraged-minerals",
+  "type": "categories",
+  "name": {
+    "en": "All foraged minerals",
+    "pt-BR": "Todos os minerais coletados"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "quartz",
+    "earth-crystal",
+    "frozen-tear",
+    "fire-quartz"
+  ]
+}

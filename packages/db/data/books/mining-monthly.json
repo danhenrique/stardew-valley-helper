@@ -1,0 +1,17 @@
+{
+  "id": "mining-monthly",
+  "type": "books",
+  "name": {
+    "en": "Mining Monthly",
+    "pt-BR": "Periódico Mensal de Mineração"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "likes": [
+      "clint"
+    ]
+  }
+}

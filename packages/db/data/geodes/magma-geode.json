@@ -1,0 +1,15 @@
+{
+  "id": "magma-geode",
+  "type": "geodes",
+  "name": {
+    "en": "Magma Geode",
+    "pt-BR": "Geodo de Magma"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25
+    }
+  ]
+}

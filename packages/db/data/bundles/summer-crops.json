@@ -1,0 +1,44 @@
+{
+  "id": "summer-crops",
+  "type": "bundles",
+  "name": {
+    "en": "Summer Crops Bundle",
+    "pt-BR": "Conjunto Plantações de Verão"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "tomato",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "hot-pepper",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "blueberry",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "melon",
+      "seasons": [
+        "summer"
+      ]
+    }
+  ]
+}

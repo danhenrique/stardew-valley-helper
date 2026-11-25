@@ -1,0 +1,17 @@
+{
+  "id": "red-mushroom",
+  "type": "mushrooms",
+  "name": {
+    "en": "Red Mushroom",
+    "pt-BR": "Cogumelo Vermelho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "mushrooms"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "penny"
+    ]
+  }
+}

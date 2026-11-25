@@ -1,0 +1,14 @@
+{
+  "id": "achievement-8",
+  "type": "achievements",
+  "name": {
+    "en": "Best Friends",
+    "pt-BR": "Melhores Amigos"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Reach a 10-heart friend level with someone.",
+    "pt-BR": "Alcance amizade nível 10 com alguém."
+  },
+  "order": 8
+}

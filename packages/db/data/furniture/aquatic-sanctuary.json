@@ -1,0 +1,18 @@
+{
+  "id": "aquatic-sanctuary",
+  "type": "furniture",
+  "name": {
+    "en": "Aquatic Sanctuary",
+    "pt-BR": "Santuário Aquático"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    }
+  ]
+}

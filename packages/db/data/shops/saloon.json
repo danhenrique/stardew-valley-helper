@@ -1,0 +1,332 @@
+{
+  "id": "saloon",
+  "type": "shops",
+  "name": {
+    "en": "Stardrop Saloon",
+    "pt-BR": "Saloon Fruta Estrelar"
+  },
+  "nameVerified": true,
+  "schedule": {
+    "hours": {
+      "open": "12:00",
+      "close": "00:00 (+1d)"
+    },
+    "closedDays": [],
+    "festivalClosure": "all",
+    "dateHours": [
+      {
+        "date": {
+          "season": "fall",
+          "day": 4
+        },
+        "hours": {
+          "open": "16:30",
+          "close": "00:00 (+1d)"
+        }
+      }
+    ]
+  },
+  "scheduleText": {
+    "open": {
+      "en": "12 PM – 12 AM",
+      "pt-BR": "12 PM – 12 AM"
+    },
+    "key": {
+      "en": "No change",
+      "pt-BR": "Sem alterações"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "Fall 4",
+      "pt-BR": "Outono 4"
+    },
+    "note": {
+      "en": "On Fall 4 (Gus's checkup) opens at 12 PM but usable only after Gus returns at 4:30 PM.",
+      "pt-BR": "Em 4 de outono, abre a partir das 16:30."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "beer",
+      "price": 400
+    },
+    {
+      "item": "salad",
+      "price": 220
+    },
+    {
+      "item": "bread",
+      "price": 120
+    },
+    {
+      "item": "spaghetti",
+      "price": 240
+    },
+    {
+      "item": "pizza",
+      "price": 600
+    },
+    {
+      "item": "coffee",
+      "price": 300
+    },
+    {
+      "item": "hashbrowns",
+      "recipe": true,
+      "price": 50
+    },
+    {
+      "item": "omelet",
+      "recipe": true,
+      "price": 100
+    },
+    {
+      "item": "pancakes",
+      "recipe": true,
+      "price": 100
+    },
+    {
+      "item": "bread",
+      "recipe": true,
+      "price": 100
+    },
+    {
+      "item": "tortilla",
+      "recipe": true,
+      "price": 100
+    },
+    {
+      "item": "pizza",
+      "recipe": true,
+      "price": 150
+    },
+    {
+      "item": "maki-roll",
+      "recipe": true,
+      "price": 300
+    },
+    {
+      "item": "triple-shot-espresso",
+      "recipe": true,
+      "price": 5000
+    },
+    {
+      "item": "cookie",
+      "recipe": true,
+      "price": 300
+    },
+    {
+      "item": "autumns-bounty",
+      "price": 700,
+      "rotating": true
+    },
+    {
+      "item": "baked-fish",
+      "price": 200,
+      "rotating": true
+    },
+    {
+      "item": "bean-hotpot",
+      "price": 200,
+      "rotating": true
+    },
+    {
+      "item": "blueberry-tart",
+      "price": 300,
+      "rotating": true
+    },
+    {
+      "item": "carp-surprise",
+      "price": 300,
+      "rotating": true
+    },
+    {
+      "item": "cheese-cauliflower",
+      "price": 600,
+      "rotating": true
+    },
+    {
+      "item": "chocolate-cake",
+      "price": 400,
+      "rotating": true
+    },
+    {
+      "item": "complete-breakfast",
+      "price": 700,
+      "rotating": true
+    },
+    {
+      "item": "cookie",
+      "price": 280,
+      "rotating": true
+    },
+    {
+      "item": "cranberry-sauce",
+      "price": 240,
+      "rotating": true
+    },
+    {
+      "item": "crispy-bass",
+      "price": 300,
+      "rotating": true
+    },
+    {
+      "item": "eggplant-parmesan",
+      "price": 400,
+      "rotating": true
+    },
+    {
+      "item": "fish-taco",
+      "price": 1000,
+      "rotating": true
+    },
+    {
+      "item": "fried-calamari",
+      "price": 300,
+      "rotating": true
+    },
+    {
+      "item": "fried-eel",
+      "price": 240,
+      "rotating": true
+    },
+    {
+      "item": "fried-egg",
+      "price": 70,
+      "rotating": true
+    },
+    {
+      "item": "fried-mushroom",
+      "price": 400,
+      "rotating": true
+    },
+    {
+      "item": "glazed-yams",
+      "price": 400,
+      "rotating": true
+    },
+    {
+      "item": "hashbrowns",
+      "price": 240,
+      "rotating": true
+    },
+    {
+      "item": "ice-cream",
+      "price": 240,
+      "rotating": true
+    },
+    {
+      "item": "lucky-lunch",
+      "price": 500,
+      "rotating": true
+    },
+    {
+      "item": "maki-roll",
+      "price": 440,
+      "rotating": true
+    },
+    {
+      "item": "omelet",
+      "price": 250,
+      "rotating": true
+    },
+    {
+      "item": "pancakes",
+      "price": 160,
+      "rotating": true
+    },
+    {
+      "item": "parsnip-soup",
+      "price": 240,
+      "rotating": true
+    },
+    {
+      "item": "pepper-poppers",
+      "price": 400,
+      "rotating": true
+    },
+    {
+      "item": "pink-cake",
+      "price": 960,
+      "rotating": true
+    },
+    {
+      "item": "pumpkin-soup",
+      "price": 600,
+      "rotating": true
+    },
+    {
+      "item": "red-plate",
+      "price": 800,
+      "rotating": true
+    },
+    {
+      "item": "rhubarb-pie",
+      "price": 800,
+      "rotating": true
+    },
+    {
+      "item": "rice-pudding",
+      "price": 520,
+      "rotating": true
+    },
+    {
+      "item": "salmon-dinner",
+      "price": 600,
+      "rotating": true
+    },
+    {
+      "item": "sashimi",
+      "price": 150,
+      "rotating": true
+    },
+    {
+      "item": "spicy-eel",
+      "price": 350,
+      "rotating": true
+    },
+    {
+      "item": "strange-bun",
+      "price": 450,
+      "rotating": true
+    },
+    {
+      "item": "stuffing",
+      "price": 330,
+      "rotating": true
+    },
+    {
+      "item": "super-meal",
+      "price": 440,
+      "rotating": true
+    },
+    {
+      "item": "tom-kha-soup",
+      "price": 500,
+      "rotating": true
+    },
+    {
+      "item": "tortilla",
+      "price": 100,
+      "rotating": true
+    },
+    {
+      "item": "trout-soup",
+      "price": 200,
+      "rotating": true
+    },
+    {
+      "item": "vegetable-medley",
+      "price": 240,
+      "rotating": true
+    }
+  ]
+}

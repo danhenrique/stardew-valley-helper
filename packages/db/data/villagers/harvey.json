@@ -1,0 +1,240 @@
+{
+  "id": "harvey",
+  "type": "villagers",
+  "name": {
+    "en": "Harvey",
+    "pt-BR": "Harvey"
+  },
+  "nameVerified": true,
+  "marriageable": true,
+  "birthday": {
+    "season": "winter",
+    "day": 14
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "coffee"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "pickles"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "super-meal"
+      },
+      {
+        "item": "truffle-oil"
+      },
+      {
+        "item": "wine"
+      }
+    ],
+    "likes": [
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "duck-egg"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "goat-milk"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "holly"
+      },
+      {
+        "item": "large-goat-milk"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "spring-onion"
+      },
+      {
+        "item": "wild-horseradish"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "category": "fruits",
+        "except": [
+          "spice-berry"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "clam"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "large-milk"
+      },
+      {
+        "item": "milk"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "eggs"
+      }
+    ],
+    "dislikesOrHates": [
+      "blueberry-tart",
+      "bread",
+      "cheese",
+      "chocolate-cake",
+      "cookie",
+      "coral",
+      "cranberry-sauce",
+      "fried-mushroom",
+      "glazed-yams",
+      "goat-cheese",
+      "hashbrowns",
+      "ice-cream",
+      "nautilus-shell",
+      "pancakes",
+      "pink-cake",
+      "pizza",
+      "rainbow-shell",
+      "rhubarb-pie",
+      "rice-pudding",
+      "salmonberry",
+      "spice-berry"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "the-miracle-at-coldstar-ranch",
+      "the-zuzu-city-express"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus"
+    ],
+    "lovedSnacks": [
+      "apple-slices",
+      "jasmine-tea",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "cappuccino-mousse-cake",
+      "hummus-snack-pack",
+      "jasmine-tea",
+      "kale-smoothie",
+      "panzanella-salad",
+      "salmon-burger",
+      "sour-slimes",
+      "truffle-popcorn"
+    ]
+  }
+}

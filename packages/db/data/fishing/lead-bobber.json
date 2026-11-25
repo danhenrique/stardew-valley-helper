@@ -1,0 +1,16 @@
+{
+  "id": "lead-bobber",
+  "type": "fishing",
+  "name": {
+    "en": "Lead Bobber",
+    "pt-BR": "Boia de Chumbo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 200,
+      "fishingLevel": 6
+    }
+  ]
+}

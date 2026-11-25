@@ -1,0 +1,13 @@
+{
+  "id": "golden-relic",
+  "type": "artifacts",
+  "name": {
+    "en": "Golden Relic",
+    "pt-BR": "Relíquia Dourada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

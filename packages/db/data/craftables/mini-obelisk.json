@@ -1,0 +1,25 @@
+{
+  "id": "mini-obelisk",
+  "type": "craftables",
+  "name": {
+    "en": "Mini-Obelisk",
+    "pt-BR": "Mini Obelisco"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 30
+      },
+      {
+        "item": "solar-essence",
+        "qty": 20
+      },
+      {
+        "item": "gold-bar",
+        "qty": 3
+      }
+    ]
+  }
+}

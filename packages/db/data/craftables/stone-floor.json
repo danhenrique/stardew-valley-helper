@@ -1,0 +1,17 @@
+{
+  "id": "stone-floor",
+  "type": "craftables",
+  "name": {
+    "en": "Stone Floor",
+    "pt-BR": "Piso de Pedra"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 1
+      }
+    ]
+  }
+}

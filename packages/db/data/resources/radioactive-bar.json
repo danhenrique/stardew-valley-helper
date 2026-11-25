@@ -1,0 +1,14 @@
+{
+  "id": "radioactive-bar",
+  "type": "resources",
+  "name": {
+    "en": "Radioactive Bar",
+    "pt-BR": "Barra Radioativa"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "loves": [
+      "maru"
+    ]
+  }
+}

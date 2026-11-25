@@ -1,0 +1,9 @@
+{
+  "id": "jawbreaker",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Jawbreaker",
+    "pt-BR": "Jawbreaker"
+  },
+  "nameVerified": true
+}

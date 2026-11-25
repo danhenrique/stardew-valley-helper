@@ -1,0 +1,31 @@
+{
+  "id": "bean-hotpot",
+  "type": "cooking",
+  "name": {
+    "en": "Bean Hotpot",
+    "pt-BR": "Sopa de Vagens"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 200
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "demetrius"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "green-bean",
+        "qty": 2
+      }
+    ]
+  }
+}

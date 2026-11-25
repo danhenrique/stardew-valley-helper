@@ -1,0 +1,18 @@
+{
+  "id": "charcoal-kiln",
+  "type": "planner-objects",
+  "name": {
+    "en": "Charcoal Kiln",
+    "pt-BR": "Carvoaria"
+  },
+  "nameVerified": false,
+  "item": "charcoal-kiln",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

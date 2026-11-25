@@ -1,0 +1,32 @@
+{
+  "id": "construction",
+  "type": "bundles",
+  "name": {
+    "en": "Construction Bundle",
+    "pt-BR": "Conjunto de Construção"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "wood",
+      "qty": 99
+    },
+    {
+      "item": "stone",
+      "qty": 99
+    },
+    {
+      "item": "hardwood",
+      "qty": 10
+    }
+  ]
+}

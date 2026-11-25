@@ -1,0 +1,22 @@
+{
+  "id": "spice-berry",
+  "type": "fruits",
+  "name": {
+    "en": "Spice Berry",
+    "pt-BR": "Café de Jardim"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "evelyn",
+      "harvey",
+      "jodi"
+    ],
+    "likes": [
+      "leo"
+    ]
+  }
+}

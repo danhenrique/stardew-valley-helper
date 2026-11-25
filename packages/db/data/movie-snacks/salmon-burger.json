@@ -1,0 +1,9 @@
+{
+  "id": "salmon-burger",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Salmon Burger",
+    "pt-BR": "Hamburguer de Salmão"
+  },
+  "nameVerified": true
+}

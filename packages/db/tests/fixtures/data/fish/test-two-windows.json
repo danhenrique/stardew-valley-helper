@@ -1,0 +1,32 @@
+{
+ "id": "test-two-windows",
+ "type": "fish",
+ "subtype": "night-market",
+ "name": {
+  "en": "Two Windows",
+  "pt-BR": "Duas Janelas"
+ },
+ "nameVerified": true,
+ "catch": {
+  "tool": "rod",
+  "seasons": [
+   "winter"
+  ],
+  "weather": "sun",
+  "timeWindows": [
+   {
+    "from": "06:00",
+    "to": "11:00"
+   },
+   {
+    "from": "18:00",
+    "to": "02:00 (+1d)"
+   }
+  ],
+  "location": {
+   "en": "Submarine",
+   "pt-BR": "Submarino"
+  },
+  "locationVerified": false
+ }
+}

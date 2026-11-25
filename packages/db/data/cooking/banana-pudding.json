@@ -1,0 +1,33 @@
+{
+  "id": "banana-pudding",
+  "type": "cooking",
+  "name": {
+    "en": "Banana Pudding",
+    "pt-BR": "Pudim de Banana "
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "banana",
+        "qty": 1
+      },
+      {
+        "category": "milk",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

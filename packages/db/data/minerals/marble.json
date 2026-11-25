@@ -1,0 +1,14 @@
+{
+  "id": "marble",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Marble",
+    "pt-BR": "Mármore"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

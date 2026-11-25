@@ -1,0 +1,15 @@
+{
+  "id": "templars-blade",
+  "type": "weapons",
+  "name": {
+    "en": "Templar's Blade",
+    "pt-BR": "Espada do Templário"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 4000
+    }
+  ]
+}

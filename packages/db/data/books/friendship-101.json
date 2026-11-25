@@ -1,0 +1,12 @@
+{
+  "id": "friendship-101",
+  "type": "books",
+  "name": {
+    "en": "Friendship 101",
+    "pt-BR": "Os Básicos da Amizade"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

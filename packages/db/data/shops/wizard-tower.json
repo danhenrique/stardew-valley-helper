@@ -1,0 +1,175 @@
+{
+  "id": "wizard-tower",
+  "type": "shops",
+  "name": {
+    "en": "Wizard's Tower",
+    "pt-BR": "Torre do Feiticeiro"
+  },
+  "nameVerified": true,
+  "schedule": {
+    "hours": {
+      "open": "06:00",
+      "close": "23:00"
+    },
+    "hoursWithKeyToTown": [
+      {
+        "open": "06:00",
+        "close": "02:00 (+1d)"
+      }
+    ],
+    "closedDays": [],
+    "festivalClosure": "some"
+  },
+  "scheduleText": {
+    "open": {
+      "en": "6 AM – 11 PM",
+      "pt-BR": "6 AM – 11 PM"
+    },
+    "key": {
+      "en": "6 AM – 2 AM",
+      "pt-BR": "6 AM – 2 AM"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "Spring 24 (Flower Dance), Winter 8 (Festival of Ice)",
+      "pt-BR": "Primavera 24 (Dança das Flores), Inverno 8 (Festival do Gelo)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "note": {
+      "en": "Accessible after 11 PM via the Witch's Hut.",
+      "pt-BR": "Acessível após 23h pela Cabana da Bruxa."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "earth-obelisk",
+      "price": 500000,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 10
+        },
+        {
+          "item": "earth-crystal",
+          "qty": 10
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "water-obelisk",
+      "price": 500000,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 5
+        },
+        {
+          "item": "clam",
+          "qty": 10
+        },
+        {
+          "item": "coral",
+          "qty": 10
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "desert-obelisk",
+      "price": 1000000,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 20
+        },
+        {
+          "item": "coconut",
+          "qty": 10
+        },
+        {
+          "item": "cactus-fruit",
+          "qty": 10
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "island-obelisk",
+      "price": 1000000,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 10
+        },
+        {
+          "item": "dragon-tooth",
+          "qty": 10
+        },
+        {
+          "item": "banana",
+          "qty": 10
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "junimo-hut",
+      "price": 20000,
+      "materials": [
+        {
+          "item": "stone",
+          "qty": 200
+        },
+        {
+          "item": "starfruit",
+          "qty": 9
+        },
+        {
+          "item": "fiber",
+          "qty": 100
+        }
+      ],
+      "section": "building"
+    },
+    {
+      "item": "gold-clock",
+      "price": 10000000,
+      "section": "building"
+    },
+    {
+      "item": "crystal-path",
+      "recipe": true,
+      "price": 500,
+      "section": "magic"
+    },
+    {
+      "item": "wicked-statue",
+      "recipe": true,
+      "price": 1000,
+      "section": "magic"
+    },
+    {
+      "item": "butterfly-powder",
+      "price": 20000,
+      "section": "magic"
+    },
+    {
+      "item": "wizard-catalogue",
+      "price": 150000,
+      "section": "magic"
+    },
+    {
+      "item": "return-scepter",
+      "price": 2000000,
+      "section": "magic"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mayonnaise-machine",
+  "type": "planner-objects",
+  "name": {
+    "en": "Mayonnaise Machine",
+    "pt-BR": "Máquina de Maionese"
+  },
+  "nameVerified": false,
+  "item": "mayonnaise-machine",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

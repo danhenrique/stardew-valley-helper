@@ -1,0 +1,25 @@
+{
+ "id": "test-flat-seed",
+ "type": "seeds",
+ "name": {
+  "en": "Flat Seed",
+  "pt-BR": "Semente Plana"
+ },
+ "nameVerified": true,
+ "crop": {
+  "seasons": [
+   "spring"
+  ],
+  "growthDays": 12,
+  "phases": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "regrowDays": null,
+  "lastPlantingDay": 16,
+  "averageExtraYield": 0,
+  "produce": "test-veg"
+ }
+}

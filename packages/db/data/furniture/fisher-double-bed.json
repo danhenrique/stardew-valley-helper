@@ -1,0 +1,16 @@
+{
+  "id": "fisher-double-bed",
+  "type": "furniture",
+  "name": {
+    "en": "Fisher Double Bed",
+    "pt-BR": "Cama de Casal de Pescador"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 25000,
+      "fishingLevel": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dressed-spinner",
+  "type": "fishing",
+  "name": {
+    "en": "Dressed Spinner",
+    "pt-BR": "Isca Artificial"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 1000,
+      "fishingLevel": 8
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 2
+      },
+      {
+        "item": "cloth",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "greenhouse",
+  "type": "planner-objects",
+  "name": {
+    "en": "Greenhouse",
+    "pt-BR": "Estufa"
+  },
+  "nameVerified": true,
+  "icon": null,
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 7,
+    "h": 6
+  },
+  "humanDoor": {
+    "x": 3,
+    "y": 5
+  },
+  "removable": false,
+  "paint": false
+}

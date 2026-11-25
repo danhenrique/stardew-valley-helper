@@ -1,0 +1,15 @@
+{
+  "id": "sign-of-the-vessel",
+  "type": "furniture",
+  "name": {
+    "en": "Sign Of The Vessel",
+    "pt-BR": "Sinal da Embarcação"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 350
+    }
+  ]
+}

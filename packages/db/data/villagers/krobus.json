@@ -1,0 +1,208 @@
+{
+  "id": "krobus",
+  "type": "villagers",
+  "name": {
+    "en": "Krobus",
+    "pt-BR": "Krobus"
+  },
+  "nameVerified": true,
+  "marriageable": false,
+  "birthday": {
+    "season": "winter",
+    "day": 1
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "diamond"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "iridium-bar"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "monster-compendium"
+      },
+      {
+        "item": "monster-musk"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "pumpkin"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "void-egg"
+      },
+      {
+        "item": "void-mayonnaise"
+      },
+      {
+        "item": "wild-horseradish"
+      }
+    ],
+    "likes": [
+      {
+        "item": "gold-bar"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "item": "seafoam-pudding"
+      },
+      {
+        "item": "strange-bun"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "daffodil",
+      "dandelion",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "leek",
+      "life-elixir",
+      "salmonberry",
+      "snow-yam",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [],
+    "likedMovies": [
+      "mysterium"
+    ],
+    "lovedSnacks": [
+      "black-licorice"
+    ],
+    "likedSnacks": [
+      "fries",
+      "hummus-snack-pack",
+      "jasmine-tea",
+      "kale-smoothie",
+      "nachos",
+      "panzanella-salad",
+      "personal-pizza",
+      "popcorn",
+      "salmon-burger",
+      "salted-peanuts",
+      "sour-slimes",
+      "truffle-popcorn"
+    ]
+  }
+}

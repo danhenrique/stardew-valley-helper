@@ -1,0 +1,12 @@
+{
+  "id": "dinosaur-mayonnaise",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Dinosaur Mayonnaise",
+    "pt-BR": "Maionese de Dinossauro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "eggplant-parmesan",
+  "type": "cooking",
+  "name": {
+    "en": "Eggplant Parmesan",
+    "pt-BR": "Berinjela à Parmegiana"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 400
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "jodi"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "eggplant",
+        "qty": 1
+      },
+      {
+        "item": "tomato",
+        "qty": 1
+      }
+    ]
+  }
+}

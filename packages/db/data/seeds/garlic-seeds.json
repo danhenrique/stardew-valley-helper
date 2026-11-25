@@ -1,0 +1,32 @@
+{
+  "id": "garlic-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Garlic Seeds",
+    "pt-BR": "Sementes de Alho"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 4,
+    "phases": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 24,
+    "averageExtraYield": 0,
+    "produce": "garlic"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 40,
+      "season": "spring"
+    }
+  ]
+}

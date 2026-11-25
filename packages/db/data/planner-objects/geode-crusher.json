@@ -1,0 +1,18 @@
+{
+  "id": "geode-crusher",
+  "type": "planner-objects",
+  "name": {
+    "en": "Geode Crusher",
+    "pt-BR": "Esmagador de Geodos"
+  },
+  "nameVerified": false,
+  "item": "geode-crusher",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ice-rod",
+  "type": "trinkets",
+  "name": {
+    "en": "Ice Rod",
+    "pt-BR": "Varinha de Gelo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ]
+}

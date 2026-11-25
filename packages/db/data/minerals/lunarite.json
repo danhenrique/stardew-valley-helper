@@ -1,0 +1,14 @@
+{
+  "id": "lunarite",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Lunarite",
+    "pt-BR": "Lunarita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

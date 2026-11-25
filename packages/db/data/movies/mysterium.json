@@ -1,0 +1,9 @@
+{
+  "id": "mysterium",
+  "type": "movies",
+  "name": {
+    "en": "Mysterium",
+    "pt-BR": "Mysterium"
+  },
+  "nameVerified": true
+}

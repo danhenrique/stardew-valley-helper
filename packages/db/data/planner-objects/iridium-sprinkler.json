@@ -1,0 +1,22 @@
+{
+  "id": "iridium-sprinkler",
+  "type": "planner-objects",
+  "name": {
+    "en": "Iridium Sprinkler",
+    "pt-BR": "Aspersor de Irídio"
+  },
+  "nameVerified": true,
+  "item": "iridium-sprinkler",
+  "category": "planting",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "range": {
+    "shape": "square",
+    "radius": 2
+  },
+  "paint": false,
+  "removable": true
+}

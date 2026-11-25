@@ -1,0 +1,25 @@
+{
+  "id": "seed-maker",
+  "type": "craftables",
+  "name": {
+    "en": "Seed Maker",
+    "pt-BR": "Gerador de Sementes"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 25
+      },
+      {
+        "item": "coal",
+        "qty": 10
+      },
+      {
+        "item": "gold-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "egg-festival",
+  "type": "festivals",
+  "name": {
+    "en": "Egg Festival",
+    "pt-BR": "Festival do Ovo"
+  },
+  "nameVerified": true,
+  "season": "spring",
+  "startDay": 13,
+  "endDay": 13,
+  "shopsClosed": true
+}

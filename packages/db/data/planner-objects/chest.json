@@ -1,0 +1,18 @@
+{
+  "id": "chest",
+  "type": "planner-objects",
+  "name": {
+    "en": "Chest",
+    "pt-BR": "Baú"
+  },
+  "nameVerified": false,
+  "item": "chest",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

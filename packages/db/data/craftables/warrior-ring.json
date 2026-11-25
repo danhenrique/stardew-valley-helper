@@ -1,0 +1,25 @@
+{
+  "id": "warrior-ring",
+  "type": "craftables",
+  "name": {
+    "en": "Warrior Ring",
+    "pt-BR": "Anel de Guerreiro"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 10
+      },
+      {
+        "item": "coal",
+        "qty": 25
+      },
+      {
+        "item": "frozen-tear",
+        "qty": 10
+      }
+    ]
+  }
+}

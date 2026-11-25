@@ -1,0 +1,32 @@
+{
+  "id": "quality-retaining-soil",
+  "type": "fertilizers",
+  "name": {
+    "en": "Quality Retaining Soil",
+    "pt-BR": "Solo Retentor de Qualidade"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 150
+    },
+    {
+      "shop": "oasis",
+      "price": 200,
+      "availability": "sat"
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 3
+      },
+      {
+        "item": "clay",
+        "qty": 1
+      }
+    ]
+  }
+}

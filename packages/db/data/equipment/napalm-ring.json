@@ -1,0 +1,16 @@
+{
+  "id": "napalm-ring",
+  "type": "equipment",
+  "subtype": "ring",
+  "name": {
+    "en": "Napalm Ring",
+    "pt-BR": "Anel Napalm"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 30000
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "achievement-5",
+  "type": "achievements",
+  "name": {
+    "en": "Legend (10mil)",
+    "pt-BR": "Lenda (10 milhões)"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Earn 10,000,000g",
+    "pt-BR": "Ganhe 10.000.000 ouros."
+  },
+  "order": 5
+}

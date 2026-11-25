@@ -1,0 +1,14 @@
+{
+  "id": "achievement-7",
+  "type": "achievements",
+  "name": {
+    "en": "A New Friend",
+    "pt-BR": "Um Novo Amigo"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Reach a 5-heart friend level with someone.",
+    "pt-BR": "Alcance amizade nível 5 com alguém."
+  },
+  "order": 7
+}

@@ -1,0 +1,13 @@
+{
+  "id": "feast-of-winter-star",
+  "type": "festivals",
+  "name": {
+    "en": "Feast of the Winter Star",
+    "pt-BR": "Festival da Estrela Invernal"
+  },
+  "nameVerified": true,
+  "season": "winter",
+  "startDay": 25,
+  "endDay": 25,
+  "shopsClosed": true
+}

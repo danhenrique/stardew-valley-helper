@@ -1,0 +1,18 @@
+{
+  "id": "bee-house",
+  "type": "planner-objects",
+  "name": {
+    "en": "Bee House",
+    "pt-BR": "Apiário"
+  },
+  "nameVerified": false,
+  "item": "bee-house",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

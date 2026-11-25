@@ -1,0 +1,18 @@
+{
+  "id": "island-obelisk",
+  "type": "planner-objects",
+  "name": {
+    "en": "Island Obelisk",
+    "pt-BR": "Obelisco da Ilha"
+  },
+  "nameVerified": true,
+  "item": "island-obelisk",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 2
+  },
+  "removable": true,
+  "paint": false
+}

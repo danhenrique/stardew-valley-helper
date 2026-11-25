@@ -1,0 +1,19 @@
+{
+ "id": "standard",
+ "type": "farms",
+ "name": {
+  "en": "Test Farm",
+  "pt-BR": "Fazenda Teste"
+ },
+ "nameVerified": true,
+ "width": 12,
+ "height": 10,
+ "tiles": "13x3d4f3w2x3d4f3w2x10f2x2f8b2x2f8b2x2f8b2x2f8b2x2f8b13x",
+ "fixed": [
+  {
+   "t": "farmhouse",
+   "x": 4,
+   "y": 1
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pina-colada",
+  "type": "consumables",
+  "name": {
+    "en": "Piña Colada",
+    "pt-BR": "Piña Colada"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "jas",
+      "kent",
+      "leo",
+      "penny",
+      "sebastian",
+      "vincent"
+    ],
+    "loves": [
+      "pam"
+    ]
+  }
+}

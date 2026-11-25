@@ -1,0 +1,35 @@
+{
+  "id": "remix-brewer",
+  "type": "bundles",
+  "name": {
+    "en": "Brewer's Bundle",
+    "pt-BR": "Conjunto Cervejeiro"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 5,
+  "items": [
+    {
+      "item": "mead"
+    },
+    {
+      "item": "pale-ale"
+    },
+    {
+      "item": "wine"
+    },
+    {
+      "item": "juice"
+    },
+    {
+      "item": "green-tea"
+    }
+  ]
+}

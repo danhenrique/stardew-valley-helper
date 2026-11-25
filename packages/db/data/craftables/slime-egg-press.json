@@ -1,0 +1,25 @@
+{
+  "id": "slime-egg-press",
+  "type": "craftables",
+  "name": {
+    "en": "Slime Egg-Press",
+    "pt-BR": "Prensa de Gosmas"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "coal",
+        "qty": 25
+      },
+      {
+        "item": "fire-quartz",
+        "qty": 1
+      },
+      {
+        "item": "battery-pack",
+        "qty": 1
+      }
+    ]
+  }
+}

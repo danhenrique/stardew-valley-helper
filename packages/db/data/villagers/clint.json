@@ -1,0 +1,256 @@
+{
+  "id": "clint",
+  "type": "villagers",
+  "name": {
+    "en": "Clint",
+    "pt-BR": "Clint"
+  },
+  "nameVerified": true,
+  "marriageable": false,
+  "birthday": {
+    "season": "winter",
+    "day": 26
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "amethyst"
+      },
+      {
+        "item": "aquamarine"
+      },
+      {
+        "item": "artichoke-dip"
+      },
+      {
+        "item": "emerald"
+      },
+      {
+        "item": "fiddlehead-risotto"
+      },
+      {
+        "item": "gold-bar"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "iridium-bar"
+      },
+      {
+        "item": "jade"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "omni-geode"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "ruby"
+      },
+      {
+        "item": "topaz"
+      }
+    ],
+    "likes": [
+      {
+        "item": "copper-bar"
+      },
+      {
+        "item": "iron-bar"
+      },
+      {
+        "item": "mining-monthly"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coal"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "gold-ore"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "iridium-ore"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "refined-quartz"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "holly",
+      "quartz",
+      "salmonberry",
+      "wild-horseradish"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "mysterium",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "it-howls-in-the-rain"
+    ],
+    "lovedSnacks": [
+      "fries",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "ice-cream-sandwich",
+      "jawbreaker",
+      "nachos",
+      "personal-pizza",
+      "popcorn",
+      "rock-candy",
+      "salmon-burger",
+      "salted-peanuts",
+      "sour-slimes",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

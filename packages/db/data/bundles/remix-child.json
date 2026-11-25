@@ -1,0 +1,39 @@
+{
+  "id": "remix-child",
+  "type": "bundles",
+  "name": {
+    "en": "Children's Bundle",
+    "pt-BR": "Conjunto das Crianças"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "salmonberry",
+      "qty": 10,
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "cookie"
+    },
+    {
+      "item": "ancient-doll"
+    },
+    {
+      "item": "ice-cream",
+      "seasons": [
+        "summer"
+      ]
+    }
+  ]
+}

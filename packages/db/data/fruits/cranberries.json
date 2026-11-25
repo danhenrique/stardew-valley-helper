@@ -1,0 +1,18 @@
+{
+  "id": "cranberries",
+  "type": "fruits",
+  "name": {
+    "en": "Cranberries",
+    "pt-BR": "Oxicoco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 75,
+  "artisan": {
+    "kegPrice": 225,
+    "jarPrice": 200
+  },
+  "growsFrom": "cranberry-seeds"
+}

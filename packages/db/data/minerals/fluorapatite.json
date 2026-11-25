@@ -1,0 +1,14 @@
+{
+  "id": "fluorapatite",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Fluorapatite",
+    "pt-BR": "Fluorapatita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

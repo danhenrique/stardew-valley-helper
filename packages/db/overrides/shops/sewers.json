@@ -1,0 +1,11 @@
+{
+  "id": "sewers",
+  "type": "shops",
+  "name": {
+    "pt-BR": "Krobus (Esgoto)"
+  },
+  "access": {
+    "en": "Requires the Rusty Key",
+    "pt-BR": "Requer Chave Enferrujada"
+  }
+}

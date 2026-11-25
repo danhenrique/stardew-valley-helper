@@ -1,0 +1,31 @@
+{
+  "id": "walleye",
+  "type": "fish",
+  "name": {
+    "en": "Walleye",
+    "pt-BR": "Picão-verde"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "weather": "rain",
+    "timeWindows": [
+      {
+        "from": "12:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest), Forest pond, Mountain Lake",
+      "pt-BR": "Rio (cidade + floresta), lago da floresta, Lago da montanha"
+    },
+    "locationVerified": false
+  }
+}

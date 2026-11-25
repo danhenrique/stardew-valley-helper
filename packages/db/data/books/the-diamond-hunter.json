@@ -1,0 +1,12 @@
+{
+  "id": "the-diamond-hunter",
+  "type": "books",
+  "name": {
+    "en": "The Diamond Hunter",
+    "pt-BR": "Caçador de Diamantes"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

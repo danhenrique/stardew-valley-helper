@@ -1,0 +1,17 @@
+{
+  "id": "gate",
+  "type": "craftables",
+  "name": {
+    "en": "Gate",
+    "pt-BR": "Portão"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 10
+      }
+    ]
+  }
+}

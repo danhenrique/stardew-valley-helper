@@ -1,0 +1,49 @@
+{
+  "id": "summer-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Summer Seeds",
+    "pt-BR": "Sementes de Verão"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 7,
+    "regrowDays": null,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 0,
+    "produce": "seasonal-forage"
+  },
+  "averageForageValue": 70,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "fall-seeds",
+          "qty": 2
+        }
+      ],
+      "availability": "sat"
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "spice-berry",
+        "qty": 1
+      },
+      {
+        "item": "grape",
+        "qty": 1
+      },
+      {
+        "item": "sweet-pea",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "strange-doll-yellow",
+  "type": "artifacts",
+  "name": {
+    "en": "Strange Doll (yellow)",
+    "pt-BR": "Boneco Estranho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "giftTastes": {
+    "loves": [
+      "jas"
+    ]
+  },
+  "museumDonation": true
+}

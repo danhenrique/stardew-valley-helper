@@ -1,0 +1,24 @@
+{
+  "id": "lobster-bisque",
+  "type": "cooking",
+  "name": {
+    "en": "Lobster Bisque",
+    "pt-BR": "Bisque de Lagosta"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "lobster",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "casino",
+  "type": "shops",
+  "name": {
+    "en": "Casino",
+    "pt-BR": "Cassino"
+  },
+  "nameVerified": false,
+  "access": {
+    "en": "Requires the Club Card",
+    "pt-BR": "Requer Cartão do Clube"
+  },
+  "offers": [
+    {
+      "item": "primal-motion",
+      "price": 0,
+      "currency": {
+        "qiCoins": 5000
+      }
+    },
+    {
+      "item": "burnt-offering",
+      "price": 0,
+      "currency": {
+        "qiCoins": 4000
+      }
+    },
+    {
+      "item": "highway-89",
+      "price": 0,
+      "currency": {
+        "qiCoins": 4000
+      }
+    },
+    {
+      "item": "spires",
+      "price": 0,
+      "currency": {
+        "qiCoins": 3000
+      }
+    },
+    {
+      "item": "top-hat",
+      "price": 0,
+      "currency": {
+        "qiCoins": 8000
+      }
+    },
+    {
+      "item": "rarecrow-3",
+      "price": 0,
+      "currency": {
+        "qiCoins": 10000
+      }
+    },
+    {
+      "item": "hardwood-fence",
+      "price": 0,
+      "currency": {
+        "qiCoins": 100
+      }
+    },
+    {
+      "item": "magnet",
+      "price": 0,
+      "currency": {
+        "qiCoins": 1000
+      }
+    },
+    {
+      "item": "warp-totem-farm",
+      "price": 0,
+      "currency": {
+        "qiCoins": 500
+      }
+    },
+    {
+      "item": "modern-double-bed",
+      "price": 0,
+      "currency": {
+        "qiCoins": 8000
+      }
+    }
+  ]
+}

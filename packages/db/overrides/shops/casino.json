@@ -1,0 +1,8 @@
+{
+  "id": "casino",
+  "type": "shops",
+  "access": {
+    "en": "Requires the Club Card",
+    "pt-BR": "Requer Cartão do Clube"
+  }
+}

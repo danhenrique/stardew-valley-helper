@@ -1,0 +1,34 @@
+{
+  "id": "wilderness",
+  "type": "farms",
+  "name": {
+    "en": "Wilderness Farm",
+    "pt-BR": "Fazenda Remota"
+  },
+  "nameVerified": true,
+  "width": 80,
+  "height": 65,
+  "tiles": "40x2c78x1f1c78x1b1c78x1b1c78x1b1c78x1b1c72x1f5x1b1c5x1f1x1f64x1f5x1b1c4x1c1b1f5b1c29x3c3f2c10x10c5f3c1b5c8b1c14x4f10x2c6b3c6x1c11b5d17b1c14x4f10x1c9b7c7b5c2f3d17b15c4f5c5x24b7c21b14c4f5c5x24b7c22b13c4f5c5x24b7c23b12c4f5c5x25b6c24b20c5x26b5c24b13c2f7c3x55b13c1b1f7c4x54b12c2b8f5x70b5c6x66b4c11x65b2c16x61b3c22x55b3c25x52b3c28x22b7x21b2c30x19b9x20b2c30x18b2x7w3x17b3c30x17b2x9w3x16b3c30x17b1x12w1x17b2c30x15b3x12w2x16b2c30x15b1x15w3x13b3c30x15b1x17w1x13b3c30x15b1x17w1x13b3c30x15b1x17w1x13b3c11x7c10x1c16b1x14w4x14b2c10x1c6b3c6x2c18b1x13w1x17b2c9x1c9b8c20b1x12w1x17b2c9x39b4x7w1x18b2c9x41b3x2w4x19b2c9x42b5x20b4c9x65b6c9x65b4c17x59b2c12x6w8x52b2c10x15w5x48b2c10x19w4x45b2c10x22w3x43b2c10x24w2x42b2c10x25w2x41b2c10x26w1x40b3c10x26w2x39b3c10x27w1x39b3c10x27w1x39b3c10x27w1x35b7c10x27w1x33b9c10x27w2x3b4c13b15c16x28w1x2b7c11b13c18x28w1x1b9c10b2c5x2c22x28w1x1b9c10b2c29x28w1x11c9b2c29x28w1x11c1b10c29x28w1x11c1b10c29x27w13x1b1c38x27w13x1b1c38x26w14x1b1c38x",
+  "fixed": [
+    {
+      "t": "farmhouse",
+      "x": 59,
+      "y": 12
+    },
+    {
+      "t": "greenhouse",
+      "x": 25,
+      "y": 10
+    },
+    {
+      "t": "shipping-bin",
+      "x": 71,
+      "y": 14
+    },
+    {
+      "t": "pet-bowl",
+      "x": 53,
+      "y": 7
+    }
+  ]
+}

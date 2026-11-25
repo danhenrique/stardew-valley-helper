@@ -1,0 +1,14 @@
+{
+  "id": "achievement-46",
+  "type": "achievements",
+  "name": {
+    "en": "Good Neighbors",
+    "pt-BR": "Boa Vizinhança"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Help your forest neighbors grow their family.",
+    "pt-BR": "Ajude seus vizinhos da floresta a aumentarem sua família."
+  },
+  "order": 46
+}

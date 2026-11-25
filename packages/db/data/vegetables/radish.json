@@ -1,0 +1,18 @@
+{
+  "id": "radish",
+  "type": "vegetables",
+  "name": {
+    "en": "Radish",
+    "pt-BR": "Rabanete"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 90,
+  "artisan": {
+    "kegPrice": 202,
+    "jarPrice": 230
+  },
+  "growsFrom": "radish-seeds"
+}

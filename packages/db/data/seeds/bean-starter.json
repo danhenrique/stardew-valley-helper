@@ -1,0 +1,38 @@
+{
+  "id": "bean-starter",
+  "type": "seeds",
+  "name": {
+    "en": "Bean Starter",
+    "pt-BR": "Mudas de Vagem"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 10,
+    "phases": [
+      1,
+      1,
+      1,
+      3,
+      4
+    ],
+    "regrowDays": 3,
+    "lastPlantingDay": 18,
+    "averageExtraYield": 0,
+    "produce": "green-bean"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 60,
+      "season": "spring"
+    },
+    {
+      "shop": "joja",
+      "price": 75,
+      "season": "spring"
+    }
+  ]
+}

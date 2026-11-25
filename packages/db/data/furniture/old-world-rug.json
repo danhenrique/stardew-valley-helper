@@ -1,0 +1,16 @@
+{
+  "id": "old-world-rug",
+  "type": "furniture",
+  "name": {
+    "en": "Old World Rug",
+    "pt-BR": "Tapete Rústico"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 2500,
+      "availability": "thu"
+    }
+  ]
+}

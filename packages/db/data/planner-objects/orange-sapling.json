@@ -1,0 +1,18 @@
+{
+  "id": "orange-sapling",
+  "type": "planner-objects",
+  "name": {
+    "en": "Orange Sapling",
+    "pt-BR": "Muda de Laranjeira"
+  },
+  "nameVerified": true,
+  "item": "orange-sapling",
+  "category": "planting",
+  "placement": "diggable",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

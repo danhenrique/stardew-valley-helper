@@ -1,0 +1,12 @@
+{
+  "id": "skeletons",
+  "type": "monster-goals",
+  "name": {
+    "en": "Skeletons",
+    "pt-BR": "Esqueletos"
+  },
+  "nameVerified": true,
+  "killsRequired": 50,
+  "reward": "skeleton-mask",
+  "location": "adventurers-guild"
+}

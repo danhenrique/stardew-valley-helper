@@ -1,0 +1,19 @@
+{
+  "id": "goat-milk",
+  "type": "animal-products",
+  "subtype": "milk",
+  "name": {
+    "en": "Goat Milk",
+    "pt-BR": "Leite de Cabra"
+  },
+  "nameVerified": true,
+  "tags": [
+    "milk"
+  ],
+  "giftTastes": {
+    "likes": [
+      "harvey",
+      "sandy"
+    ]
+  }
+}

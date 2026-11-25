@@ -1,0 +1,42 @@
+# Paths that run code on a maintainer's machine, in CI or in AWS, or that steer AI coding tools.
+# Every pull request touching them needs the maintainer's review.
+# Keep this list in sync with PROTECTED in .github/workflows/protected-paths.yml.
+
+# AI coding tools and editors (MCP servers run commands when the repository is opened)
+/.claude/           @danhenrique
+/.mcp.json          @danhenrique
+/.cursor/           @danhenrique
+/.codex/            @danhenrique
+/.gemini/           @danhenrique
+/.kiro/             @danhenrique
+/.vscode/           @danhenrique
+CLAUDE.md           @danhenrique
+
+# Git hooks and secret scanning
+/.husky/            @danhenrique
+/.git-secrets/      @danhenrique
+/.gitallowed        @danhenrique
+/.gitignore         @danhenrique
+
+# CI, repository settings and this file
+/.github/           @danhenrique
+
+# Infrastructure and deploy
+/packages/infra/              @danhenrique
+/packages/common/terraform/   @danhenrique
+
+# Build tooling, dependencies and scripts
+package.json        @danhenrique
+project.json        @danhenrique
+pyproject.toml      @danhenrique
+/pnpm-lock.yaml     @danhenrique
+/pnpm-workspace.yaml @danhenrique
+/uv.lock            @danhenrique
+/nx.json            @danhenrique
+scripts/            @danhenrique
+*.sh                @danhenrique
+
+# Licensing and security policy
+/LICENSE            @danhenrique
+/SECURITY.md        @danhenrique
+NOTICE.txt          @danhenrique

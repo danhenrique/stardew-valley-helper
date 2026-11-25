@@ -1,0 +1,30 @@
+{
+  "id": "coconut",
+  "type": "fruits",
+  "name": {
+    "en": "Coconut",
+    "pt-BR": "Coco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 200,
+      "availability": "mon"
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "haley",
+      "linus"
+    ],
+    "likes": [
+      "jas",
+      "lewis",
+      "vincent"
+    ]
+  }
+}

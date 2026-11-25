@@ -1,0 +1,17 @@
+{
+  "id": "wood-fence",
+  "type": "craftables",
+  "name": {
+    "en": "Wood Fence",
+    "pt-BR": "Cerca de Madeira"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ancient-sword",
+  "type": "artifacts",
+  "name": {
+    "en": "Ancient Sword",
+    "pt-BR": "Espada Antiga"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "giftTastes": {
+    "likes": [
+      "abigail"
+    ]
+  },
+  "museumDonation": true
+}

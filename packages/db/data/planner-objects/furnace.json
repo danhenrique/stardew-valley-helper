@@ -1,0 +1,18 @@
+{
+  "id": "furnace",
+  "type": "planner-objects",
+  "name": {
+    "en": "Furnace",
+    "pt-BR": "Fornalha"
+  },
+  "nameVerified": false,
+  "item": "furnace",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

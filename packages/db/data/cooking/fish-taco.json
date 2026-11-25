@@ -1,0 +1,47 @@
+{
+  "id": "fish-taco",
+  "type": "cooking",
+  "name": {
+    "en": "Fish Taco",
+    "pt-BR": "Taco de Peixe"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 1000
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "caroline",
+      "gus"
+    ],
+    "dislikesOrHates": [
+      "emily"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "tuna",
+        "qty": 1
+      },
+      {
+        "item": "tortilla",
+        "qty": 1
+      },
+      {
+        "item": "red-cabbage",
+        "qty": 1
+      },
+      {
+        "item": "mayonnaise",
+        "qty": 1
+      }
+    ]
+  }
+}

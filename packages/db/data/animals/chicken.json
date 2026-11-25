@@ -1,0 +1,14 @@
+{
+  "id": "chicken",
+  "type": "animals",
+  "name": {
+    "en": "White Chicken",
+    "pt-BR": "Galinha"
+  },
+  "nameVerified": true,
+  "purchase": {
+    "shop": "ranch",
+    "price": 800
+  },
+  "housing": "coop"
+}

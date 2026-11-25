@@ -1,0 +1,18 @@
+{
+  "id": "rustic-plank-floor",
+  "type": "planner-objects",
+  "name": {
+    "en": "Rustic Plank Floor",
+    "pt-BR": "Piso Rústico de Tábuas"
+  },
+  "nameVerified": false,
+  "item": "rustic-plank-floor",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

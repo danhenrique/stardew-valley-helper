@@ -1,0 +1,17 @@
+{
+  "id": "common-mushroom",
+  "type": "mushrooms",
+  "name": {
+    "en": "Common Mushroom",
+    "pt-BR": "Cogumelo Comum"
+  },
+  "nameVerified": true,
+  "tags": [
+    "mushrooms"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "maru"
+    ]
+  }
+}

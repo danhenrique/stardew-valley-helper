@@ -1,0 +1,15 @@
+{
+  "id": "return-scepter",
+  "type": "tools",
+  "name": {
+    "en": "Return Scepter",
+    "pt-BR": "Cetro do Retorno"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "wizard-tower",
+      "price": 2000000
+    }
+  ]
+}

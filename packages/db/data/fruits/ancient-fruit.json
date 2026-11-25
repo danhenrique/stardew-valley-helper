@@ -1,0 +1,18 @@
+{
+  "id": "ancient-fruit",
+  "type": "fruits",
+  "name": {
+    "en": "Ancient Fruit",
+    "pt-BR": "Fruta Antiga"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 550,
+  "artisan": {
+    "kegPrice": 1650,
+    "jarPrice": 1150
+  },
+  "growsFrom": "ancient-seeds"
+}

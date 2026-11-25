@@ -1,0 +1,38 @@
+{
+  "id": "remix-adventurer",
+  "type": "bundles",
+  "name": {
+    "en": "Adventurer's Bundle",
+    "pt-BR": "Conjunto de Aventureiro"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "boiler-room",
+    "name": {
+      "en": "Boiler Room",
+      "pt-BR": "Sala da Caldeira"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 2,
+  "items": [
+    {
+      "item": "slime",
+      "qty": 99
+    },
+    {
+      "item": "bat-wing",
+      "qty": 10
+    },
+    {
+      "item": "solar-essence"
+    },
+    {
+      "item": "void-essence"
+    },
+    {
+      "item": "bone-fragment",
+      "qty": 10
+    }
+  ]
+}

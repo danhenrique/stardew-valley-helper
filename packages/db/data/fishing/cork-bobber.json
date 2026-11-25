@@ -1,0 +1,32 @@
+{
+  "id": "cork-bobber",
+  "type": "fishing",
+  "name": {
+    "en": "Cork Bobber",
+    "pt-BR": "Boia de Cortiça"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 750,
+      "fishingLevel": 7
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 10
+      },
+      {
+        "item": "hardwood",
+        "qty": 5
+      },
+      {
+        "item": "slime",
+        "qty": 10
+      }
+    ]
+  }
+}

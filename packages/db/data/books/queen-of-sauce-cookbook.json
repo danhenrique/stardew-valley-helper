@@ -1,0 +1,12 @@
+{
+  "id": "queen-of-sauce-cookbook",
+  "type": "books",
+  "name": {
+    "en": "Queen Of Sauce Cookbook",
+    "pt-BR": "Livro de Receitas da Rainha do Molho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

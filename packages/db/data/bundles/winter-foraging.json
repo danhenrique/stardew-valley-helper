@@ -1,0 +1,44 @@
+{
+  "id": "winter-foraging",
+  "type": "bundles",
+  "name": {
+    "en": "Winter Foraging Bundle",
+    "pt-BR": "Conjunto Recursos de Inverno"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "winter-root",
+      "seasons": [
+        "winter"
+      ]
+    },
+    {
+      "item": "crystal-fruit",
+      "seasons": [
+        "winter"
+      ]
+    },
+    {
+      "item": "snow-yam",
+      "seasons": [
+        "winter"
+      ]
+    },
+    {
+      "item": "crocus",
+      "seasons": [
+        "winter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cloth",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Cloth",
+    "pt-BR": "Tecido"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "aquamarine",
+          "qty": 3
+        }
+      ],
+      "availability": "wed"
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "emily"
+    ]
+  }
+}

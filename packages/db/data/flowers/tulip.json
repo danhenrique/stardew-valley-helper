@@ -1,0 +1,20 @@
+{
+  "id": "tulip",
+  "type": "flowers",
+  "name": {
+    "en": "Tulip",
+    "pt-BR": "Tulipa"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "sellPrice": 30,
+  "artisan": {},
+  "growsFrom": "tulip-bulb",
+  "giftTastes": {
+    "loves": [
+      "evelyn"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "stone",
+  "type": "resources",
+  "name": {
+    "en": "Stone",
+    "pt-BR": "Pedra"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "carpenter",
+      "price": 20
+    }
+  ]
+}

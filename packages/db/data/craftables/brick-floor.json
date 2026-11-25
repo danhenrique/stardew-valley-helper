@@ -1,0 +1,21 @@
+{
+  "id": "brick-floor",
+  "type": "craftables",
+  "name": {
+    "en": "Brick Floor",
+    "pt-BR": "Piso de Tijolo"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "clay",
+        "qty": 2
+      },
+      {
+        "item": "stone",
+        "qty": 5
+      }
+    ]
+  }
+}

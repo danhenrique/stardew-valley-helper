@@ -1,0 +1,20 @@
+{
+  "id": "poppy",
+  "type": "flowers",
+  "name": {
+    "en": "Poppy",
+    "pt-BR": "Papoula"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "sellPrice": 140,
+  "artisan": {},
+  "growsFrom": "poppy-seeds",
+  "giftTastes": {
+    "loves": [
+      "penny"
+    ]
+  }
+}

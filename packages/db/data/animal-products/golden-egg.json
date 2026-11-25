@@ -1,0 +1,22 @@
+{
+  "id": "golden-egg",
+  "type": "animal-products",
+  "subtype": "egg",
+  "name": {
+    "en": "Golden Egg",
+    "pt-BR": "Ovo Dourado"
+  },
+  "nameVerified": true,
+  "tags": [
+    "eggs"
+  ],
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 100
+      }
+    }
+  ]
+}

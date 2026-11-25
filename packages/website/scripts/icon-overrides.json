@@ -1,0 +1,22 @@
+{
+  "banana-sapling": "fruitTrees/saplings/banana.png",
+  "cabin": "buildings/logCabin.png",
+  "chicken": "costMaterials/White_Chicken.png",
+  "cow": "costMaterials/White_Cow.png",
+  "deluxe-pack": "costMaterials/36_Backpack.png",
+  "farmhouse-upgrade-1": "buildings/farmhouse1.png",
+  "farmhouse-upgrade-2": "buildings/farmhouse2.png",
+  "farmhouse-upgrade-3": "buildings/farmhouse3.png",
+  "flooring": "costMaterials/Flooring_01_Icon.png",
+  "large-pack": "costMaterials/Backpack.png",
+  "mango-sapling": "fruitTrees/saplings/mango.png",
+  "marlons-phone-number": "shops/adventurersGuild.png",
+  "mr-qis-hat": "costMaterials/Mr_Qi_Hat.png",
+  "seasonal-plant": "costMaterials/Seasonal_Plant_4_Spring.png",
+  "tool-upgrade-copper": "costMaterials/Copper_Hoe.png",
+  "tool-upgrade-gold": "costMaterials/Gold_Hoe.png",
+  "tool-upgrade-iridium": "costMaterials/Iridium_Hoe.png",
+  "tool-upgrade-steel": "costMaterials/Steel_Hoe.png",
+  "wallpaper": "costMaterials/Wallpaper_001_Icon.png",
+  "wallpaper-joja": "costMaterials/Wallpaper_022_Icon.png"
+}

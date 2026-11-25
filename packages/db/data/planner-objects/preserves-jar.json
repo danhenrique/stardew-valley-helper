@@ -1,0 +1,18 @@
+{
+  "id": "preserves-jar",
+  "type": "planner-objects",
+  "name": {
+    "en": "Preserves Jar",
+    "pt-BR": "Jarra de Conserva"
+  },
+  "nameVerified": false,
+  "item": "preserves-jar",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

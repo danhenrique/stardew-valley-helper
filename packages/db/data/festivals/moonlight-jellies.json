@@ -1,0 +1,13 @@
+{
+  "id": "moonlight-jellies",
+  "type": "festivals",
+  "name": {
+    "en": "Dance of the Moonlight Jellies",
+    "pt-BR": "Dança das Medusas-da-Lua"
+  },
+  "nameVerified": true,
+  "season": "summer",
+  "startDay": 28,
+  "endDay": 28,
+  "shopsClosed": false
+}

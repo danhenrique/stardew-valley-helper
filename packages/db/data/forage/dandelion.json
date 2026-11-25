@@ -1,0 +1,51 @@
+{
+  "id": "dandelion",
+  "type": "forage",
+  "name": {
+    "en": "Dandelion",
+    "pt-BR": "Dente-de-leão"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "clint",
+      "demetrius",
+      "emily",
+      "evelyn",
+      "gus",
+      "kent",
+      "lewis",
+      "marnie",
+      "maru",
+      "pam",
+      "robin",
+      "sandy"
+    ],
+    "dislikesOrHates": [
+      "caroline",
+      "dwarf",
+      "elliott",
+      "george",
+      "haley",
+      "jas",
+      "jodi",
+      "krobus",
+      "leo",
+      "sam",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "harvey",
+      "leah",
+      "linus",
+      "penny",
+      "pierre"
+    ]
+  }
+}

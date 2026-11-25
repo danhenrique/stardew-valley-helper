@@ -1,0 +1,18 @@
+{
+  "id": "horse-flute",
+  "type": "tools",
+  "name": {
+    "en": "Horse Flute",
+    "pt-BR": "Flauta de Cavalo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 50
+      }
+    }
+  ]
+}

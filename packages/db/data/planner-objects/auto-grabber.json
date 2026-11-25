@@ -1,0 +1,18 @@
+{
+  "id": "auto-grabber",
+  "type": "planner-objects",
+  "name": {
+    "en": "Auto-Grabber",
+    "pt-BR": "Auto-Recolhedora"
+  },
+  "nameVerified": true,
+  "item": "auto-grabber",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "straw-floor",
+  "type": "planner-objects",
+  "name": {
+    "en": "Straw Floor",
+    "pt-BR": "Piso de Palha"
+  },
+  "nameVerified": false,
+  "item": "straw-floor",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "gate",
+  "type": "planner-objects",
+  "name": {
+    "en": "Gate",
+    "pt-BR": "Portão"
+  },
+  "nameVerified": false,
+  "item": "gate",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

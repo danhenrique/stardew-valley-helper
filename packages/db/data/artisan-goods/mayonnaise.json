@@ -1,0 +1,18 @@
+{
+  "id": "mayonnaise",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Mayonnaise",
+    "pt-BR": "Maionese"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "caroline",
+      "sam"
+    ]
+  }
+}

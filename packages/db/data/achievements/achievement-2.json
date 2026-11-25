@@ -1,0 +1,14 @@
+{
+  "id": "achievement-2",
+  "type": "achievements",
+  "name": {
+    "en": "Cowpoke (50k)",
+    "pt-BR": "Vaqueiro (50 mil)"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Earn 50,000g",
+    "pt-BR": "Ganhe 50.000 ouros."
+  },
+  "order": 2
+}

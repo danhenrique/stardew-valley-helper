@@ -1,0 +1,17 @@
+{
+  "id": "bug-steak",
+  "type": "craftables",
+  "name": {
+    "en": "Bug Steak",
+    "pt-BR": "Filé de Inseto"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bug-meat",
+        "qty": 10
+      }
+    ]
+  }
+}

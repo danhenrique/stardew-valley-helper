@@ -1,0 +1,14 @@
+{
+  "id": "cave-carrot",
+  "type": "forage",
+  "name": {
+    "en": "Cave Carrot",
+    "pt-BR": "Cenoura Subterrânea"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "dwarf"
+    ]
+  }
+}

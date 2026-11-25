@@ -1,0 +1,18 @@
+{
+  "id": "dwarf-gadget",
+  "type": "artifacts",
+  "name": {
+    "en": "Dwarf Gadget",
+    "pt-BR": "Dispositivo de Anão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "giftTastes": {
+    "loves": [
+      "maru"
+    ]
+  },
+  "museumDonation": true
+}

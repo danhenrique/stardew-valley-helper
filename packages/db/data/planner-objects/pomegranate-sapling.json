@@ -1,0 +1,18 @@
+{
+  "id": "pomegranate-sapling",
+  "type": "planner-objects",
+  "name": {
+    "en": "Pomegranate Sapling",
+    "pt-BR": "Muda de Romanzeira"
+  },
+  "nameVerified": true,
+  "item": "pomegranate-sapling",
+  "category": "planting",
+  "placement": "diggable",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

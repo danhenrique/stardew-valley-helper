@@ -1,0 +1,25 @@
+{
+  "id": "roasted-hazelnuts",
+  "type": "cooking",
+  "name": {
+    "en": "Roasted Hazelnuts",
+    "pt-BR": "Avelãs Torradas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "kent"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "hazelnut",
+        "qty": 3
+      }
+    ]
+  }
+}

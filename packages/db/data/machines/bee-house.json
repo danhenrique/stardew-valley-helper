@@ -1,0 +1,88 @@
+{
+  "id": "bee-house",
+  "type": "machines",
+  "name": {
+    "en": "Bee House",
+    "pt-BR": "Apiário"
+  },
+  "nameVerified": true,
+  "category": "artisan",
+  "processing": [
+    {
+      "days": 4,
+      "output": "honey",
+      "label": {
+        "en": "Honey",
+        "pt-BR": "Mel"
+      }
+    },
+    {
+      "days": 56,
+      "output": "wine",
+      "label": {
+        "en": "Wine (fruit)",
+        "pt-BR": "Vinho (fruta)"
+      }
+    },
+    {
+      "days": 34,
+      "output": "pale-ale",
+      "label": {
+        "en": "Pale Ale (hops)",
+        "pt-BR": "Pale Ale (lúpulo)"
+      }
+    },
+    {
+      "days": 28,
+      "output": "beer",
+      "label": {
+        "en": "Beer (wheat)",
+        "pt-BR": "Cerveja (trigo)"
+      }
+    },
+    {
+      "days": 28,
+      "output": "mead",
+      "label": {
+        "en": "Mead",
+        "pt-BR": "Hidromel"
+      }
+    },
+    {
+      "days": 14,
+      "output": "cheese",
+      "label": {
+        "en": "Cheese",
+        "pt-BR": "Queijo"
+      }
+    },
+    {
+      "days": 14,
+      "output": "goat-cheese",
+      "label": {
+        "en": "Goat Cheese",
+        "pt-BR": "Queijo de Cabra"
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 40
+      },
+      {
+        "item": "coal",
+        "qty": 8
+      },
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "maple-syrup",
+        "qty": 1
+      }
+    ]
+  }
+}

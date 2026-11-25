@@ -1,0 +1,18 @@
+{
+  "id": "junimo-chest",
+  "type": "special-items",
+  "name": {
+    "en": "Junimo Chest",
+    "pt-BR": "Baú de Junimo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 30
+      }
+    }
+  ]
+}

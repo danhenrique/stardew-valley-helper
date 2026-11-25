@@ -1,0 +1,25 @@
+{
+  "id": "pumpkin",
+  "type": "vegetables",
+  "name": {
+    "en": "Pumpkin",
+    "pt-BR": "Abóbora"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 320,
+  "artisan": {
+    "kegPrice": 720,
+    "jarPrice": 690
+  },
+  "growsFrom": "pumpkin-seeds",
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "krobus",
+      "willy"
+    ]
+  }
+}

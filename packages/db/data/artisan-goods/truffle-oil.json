@@ -1,0 +1,17 @@
+{
+  "id": "truffle-oil",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Truffle Oil",
+    "pt-BR": "Óleo de Trufas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "loves": [
+      "harvey"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "diamond",
+  "type": "minerals",
+  "subtype": "gem",
+  "name": {
+    "en": "Diamond",
+    "pt-BR": "Diamante"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "evelyn",
+      "gus",
+      "jodi",
+      "krobus",
+      "marnie",
+      "maru",
+      "penny",
+      "willy"
+    ]
+  },
+  "museumDonation": true
+}

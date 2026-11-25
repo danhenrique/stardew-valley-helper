@@ -1,0 +1,49 @@
+{
+  "id": "rabbits-foot",
+  "type": "animal-products",
+  "name": {
+    "en": "Rabbit's Foot",
+    "pt-BR": "Pé de Coelho"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "dislikesOrHates": [
+      "penny"
+    ]
+  }
+}

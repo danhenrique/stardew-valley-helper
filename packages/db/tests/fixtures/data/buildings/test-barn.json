@@ -1,0 +1,21 @@
+{
+ "id": "test-barn",
+ "type": "buildings",
+ "name": {
+  "en": "Test Barn",
+  "pt-BR": "Celeiro Teste"
+ },
+ "nameVerified": true,
+ "category": "animal",
+ "construction": {
+  "price": 6000,
+  "materials": [
+   {
+    "item": "test-wood",
+    "qty": 350
+   }
+  ],
+  "buildDays": 3,
+  "builtBy": "test-villager"
+ }
+}

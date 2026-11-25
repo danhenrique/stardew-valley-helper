@@ -1,0 +1,34 @@
+{
+  "id": "standard",
+  "type": "farms",
+  "name": {
+    "en": "Standard Farm",
+    "pt-BR": "Fazenda Padrão"
+  },
+  "nameVerified": true,
+  "width": 80,
+  "height": 65,
+  "tiles": "40x2c78x1f1c78x1b1c78x1b1c78x1b1c78x1b1c72x1f5x1b1c5x1f1x1f64x1f5x1b1c4x1c1b1f5b1c29x3c3f30c1b5c8b1c14x4f10x2c49b1c14x4f10x1c23b7c21b14c4f5c5x24b6c1f21b14c4f5c5x24b6c1f22b13c4f5c5x24b6c1f23b12c4f5c5x25b6c24b20c5x26b5c24b13c2f7c3x55b13c1b1f7c3x55b12c2b8f3x75b1c1b3x73b1c6x73b1c6x73b1c6x73b1c10x69b1c10x69b1c10x69b1c10x69b1c10x69b1c10x63b5x1b1c10x63b6x1c10x63b1x4w1x1c10x63b1x4w1x1c10x63b2x1w3x1c10x64b4x1b1c8x1c70b1c7x1c71b1c6x1c72b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x73b1c6x33b7x33b1c6x32b9x32b1c6x31b2x7w3x30b1c6x30b2x9w3x29b1c6x30b1x12w1x29b1c6x30b2x11w1x29b1c6x31b1x10w2x29b1c6x31b4x6w2x27b10x33b3x2w4x28b10x34b5x31b10x66b14x66b14x66b51x2b78x2b78x2b38x",
+  "fixed": [
+    {
+      "t": "farmhouse",
+      "x": 59,
+      "y": 12
+    },
+    {
+      "t": "greenhouse",
+      "x": 25,
+      "y": 10
+    },
+    {
+      "t": "shipping-bin",
+      "x": 71,
+      "y": 14
+    },
+    {
+      "t": "pet-bowl",
+      "x": 53,
+      "y": 7
+    }
+  ]
+}

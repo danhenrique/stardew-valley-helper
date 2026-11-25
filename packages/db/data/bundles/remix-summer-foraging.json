@@ -1,0 +1,38 @@
+{
+  "id": "remix-summer-foraging",
+  "type": "bundles",
+  "name": {
+    "en": "Summer Foraging Bundle",
+    "pt-BR": "Conjunto Recursos de Verão"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "grape",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "spice-berry",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "sweet-pea",
+      "seasons": [
+        "summer"
+      ]
+    }
+  ]
+}

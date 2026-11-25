@@ -1,0 +1,22 @@
+{
+  "id": "quality-sprinkler",
+  "type": "planner-objects",
+  "name": {
+    "en": "Quality Sprinkler",
+    "pt-BR": "Aspersor de Qualidade"
+  },
+  "nameVerified": false,
+  "item": "quality-sprinkler",
+  "category": "planting",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "range": {
+    "shape": "square",
+    "radius": 1
+  },
+  "paint": false,
+  "removable": true
+}

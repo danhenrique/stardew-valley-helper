@@ -1,0 +1,14 @@
+{
+  "id": "achievement-17",
+  "type": "achievements",
+  "name": {
+    "en": "Living Large",
+    "pt-BR": "Vivendo Bem"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Upgrade your house to the maximum size.",
+    "pt-BR": "Aumente o tamanho de sua casa para o nível máximo."
+  },
+  "order": 17
+}

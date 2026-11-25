@@ -1,0 +1,29 @@
+{
+  "id": "roots-platter",
+  "type": "cooking",
+  "name": {
+    "en": "Roots Platter",
+    "pt-BR": "Prato de Raízes"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "penny"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "cave-carrot",
+        "qty": 1
+      },
+      {
+        "item": "winter-root",
+        "qty": 1
+      }
+    ]
+  }
+}

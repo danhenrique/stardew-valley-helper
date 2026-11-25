@@ -1,0 +1,33 @@
+{
+  "id": "ghostfish",
+  "type": "fish",
+  "name": {
+    "en": "Ghostfish",
+    "pt-BR": "Peixe-fantasma"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Mines (floors 20, 60), Ghost drop",
+      "pt-BR": "Minas (andares 20, 60), drop de Fantasma"
+    },
+    "locationVerified": false
+  }
+}

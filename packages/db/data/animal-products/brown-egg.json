@@ -1,0 +1,13 @@
+{
+  "id": "brown-egg",
+  "type": "animal-products",
+  "subtype": "egg",
+  "name": {
+    "en": "Brown Egg",
+    "pt-BR": "Ovo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "eggs"
+  ]
+}

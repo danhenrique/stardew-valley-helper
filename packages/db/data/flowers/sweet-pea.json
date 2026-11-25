@@ -1,0 +1,17 @@
+{
+  "id": "sweet-pea",
+  "type": "flowers",
+  "name": {
+    "en": "Sweet Pea",
+    "pt-BR": "Ervilha-de-cheiro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "giftTastes": {
+    "loves": [
+      "sandy"
+    ]
+  }
+}

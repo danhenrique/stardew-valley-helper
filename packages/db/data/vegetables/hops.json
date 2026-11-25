@@ -1,0 +1,58 @@
+{
+  "id": "hops",
+  "type": "vegetables",
+  "name": {
+    "en": "Hops",
+    "pt-BR": "Lúpulo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 25,
+  "artisan": {
+    "kegPrice": 300,
+    "jarPrice": 100
+  },
+  "growsFrom": "hops-starter",
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "dislikesOrHates": [
+      "leo",
+      "penny"
+    ]
+  }
+}

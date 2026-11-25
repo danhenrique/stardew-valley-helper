@@ -1,0 +1,58 @@
+{
+  "id": "tea-leaves",
+  "type": "vegetables",
+  "name": {
+    "en": "Tea Leaves",
+    "pt-BR": "Folhas de Chá"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 50,
+  "artisan": {
+    "kegPrice": 100,
+    "jarPrice": 150
+  },
+  "growsFrom": "tea-sapling",
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "caroline"
+    ]
+  }
+}

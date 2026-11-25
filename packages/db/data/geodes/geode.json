@@ -1,0 +1,15 @@
+{
+  "id": "geode",
+  "type": "geodes",
+  "name": {
+    "en": "Geode",
+    "pt-BR": "Geodo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25
+    }
+  ]
+}

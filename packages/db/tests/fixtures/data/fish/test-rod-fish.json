@@ -1,0 +1,28 @@
+{
+ "id": "test-rod-fish",
+ "type": "fish",
+ "name": {
+  "en": "Test Fish",
+  "pt-BR": "Peixe Teste"
+ },
+ "nameVerified": true,
+ "catch": {
+  "tool": "rod",
+  "seasons": [
+   "spring",
+   "summer"
+  ],
+  "weather": "any",
+  "timeWindows": [
+   {
+    "from": "06:00",
+    "to": "19:00"
+   }
+  ],
+  "location": {
+   "en": "River",
+   "pt-BR": "Rio"
+  },
+  "locationVerified": false
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "farmhouse",
+ "type": "planner-objects",
+ "name": {
+  "en": "Test Farmhouse",
+  "pt-BR": "Casa Teste"
+ },
+ "nameVerified": true,
+ "item": null,
+ "category": "building",
+ "placement": "buildable",
+ "size": {
+  "w": 4,
+  "h": 2
+ },
+ "range": null,
+ "humanDoor": {
+  "x": 1,
+  "y": 2
+ },
+ "animalDoor": null,
+ "paint": false,
+ "removable": false,
+ "icon": null
+}

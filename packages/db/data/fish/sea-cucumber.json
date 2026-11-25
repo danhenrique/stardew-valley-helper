@@ -1,0 +1,39 @@
+{
+  "id": "sea-cucumber",
+  "type": "fish",
+  "name": {
+    "en": "Sea Cucumber",
+    "pt-BR": "Pepino-do-mar"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "elliott"
+    ],
+    "loves": [
+      "willy"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "19:00"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

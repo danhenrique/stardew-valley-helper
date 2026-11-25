@@ -1,0 +1,14 @@
+{
+  "id": "dragon-tooth",
+  "type": "resources",
+  "name": {
+    "en": "Dragon Tooth",
+    "pt-BR": "Dente de Dragão"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "leo"
+    ]
+  }
+}

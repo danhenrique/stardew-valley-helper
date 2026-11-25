@@ -1,0 +1,18 @@
+{
+  "id": "gravel-path",
+  "type": "planner-objects",
+  "name": {
+    "en": "Gravel Path",
+    "pt-BR": "Caminho de Cascalho"
+  },
+  "nameVerified": false,
+  "item": "gravel-path",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

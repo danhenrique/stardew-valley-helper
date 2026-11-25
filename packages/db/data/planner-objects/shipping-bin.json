@@ -1,0 +1,18 @@
+{
+  "id": "shipping-bin",
+  "type": "planner-objects",
+  "name": {
+    "en": "ShippingBox",
+    "pt-BR": "Caixa de Remessas"
+  },
+  "nameVerified": true,
+  "item": "shipping-bin",
+  "category": "building",
+  "placement": "any",
+  "size": {
+    "w": 2,
+    "h": 1
+  },
+  "removable": false,
+  "paint": false
+}

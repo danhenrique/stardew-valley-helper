@@ -1,0 +1,18 @@
+{
+  "id": "wood-floor",
+  "type": "planner-objects",
+  "name": {
+    "en": "Wood Floor",
+    "pt-BR": "Piso de Madeira"
+  },
+  "nameVerified": false,
+  "item": "wood-floor",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

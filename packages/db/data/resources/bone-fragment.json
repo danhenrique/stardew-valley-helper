@@ -1,0 +1,14 @@
+{
+  "id": "bone-fragment",
+  "type": "resources",
+  "name": {
+    "en": "Bone Fragment",
+    "pt-BR": "Fragmento de Osso"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "sam"
+    ]
+  }
+}

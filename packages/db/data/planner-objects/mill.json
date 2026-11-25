@@ -1,0 +1,18 @@
+{
+  "id": "mill",
+  "type": "planner-objects",
+  "name": {
+    "en": "Mill",
+    "pt-BR": "Moinho"
+  },
+  "nameVerified": true,
+  "item": "mill",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 4,
+    "h": 2
+  },
+  "removable": true,
+  "paint": false
+}

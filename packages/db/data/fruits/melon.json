@@ -1,0 +1,23 @@
+{
+  "id": "melon",
+  "type": "fruits",
+  "name": {
+    "en": "Melon",
+    "pt-BR": "Melão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 250,
+  "artisan": {
+    "kegPrice": 750,
+    "jarPrice": 550
+  },
+  "growsFrom": "melon-seeds",
+  "giftTastes": {
+    "loves": [
+      "penny"
+    ]
+  }
+}

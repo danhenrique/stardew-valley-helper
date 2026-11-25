@@ -1,0 +1,29 @@
+{
+  "id": "fish-pond",
+  "type": "buildings",
+  "name": {
+    "en": "Fish Pond",
+    "pt-BR": "Lago de Peixes"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 5000,
+    "materials": [
+      {
+        "item": "stone",
+        "qty": 200
+      },
+      {
+        "item": "seaweed",
+        "qty": 5
+      },
+      {
+        "item": "green-algae",
+        "qty": 5
+      }
+    ],
+    "buildDays": 2,
+    "builtBy": "carpenter"
+  }
+}

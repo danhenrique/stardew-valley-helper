@@ -1,0 +1,44 @@
+{
+  "id": "corn-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Corn Seeds",
+    "pt-BR": "Sementes de Milho"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "growthDays": 14,
+    "phases": [
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "regrowDays": 4,
+    "lastPlantingDay": null,
+    "averageExtraYield": 0,
+    "produce": "corn"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 150,
+      "season": "summer"
+    },
+    {
+      "shop": "pierre",
+      "price": 150,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 187,
+      "season": "fall"
+    }
+  ]
+}

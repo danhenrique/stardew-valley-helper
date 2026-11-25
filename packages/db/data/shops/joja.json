@@ -1,0 +1,224 @@
+{
+  "id": "joja",
+  "type": "shops",
+  "name": {
+    "en": "JojaMart",
+    "pt-BR": "Mercado Joja"
+  },
+  "nameVerified": true,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "23:00"
+    },
+    "hoursWithKeyToTown": [
+      {
+        "open": "06:00",
+        "close": "02:00 (+1d)"
+      }
+    ],
+    "closedDays": [],
+    "festivalClosure": "all",
+    "closesPermanentlyAfterCommunityCenter": true
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 11 PM",
+      "pt-BR": "9 AM – 11 PM"
+    },
+    "key": {
+      "en": "6 AM – 2 AM",
+      "pt-BR": "6 AM – 2 AM"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "note": {
+      "en": "Permanently closes after Community Center bundles are completed.",
+      "pt-BR": "Fecha permanentemente após concluir os pacotes do Centro Comunitário."
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "joja-cola",
+      "price": 75
+    },
+    {
+      "item": "wallpaper-joja",
+      "price": 20
+    },
+    {
+      "item": "j-cola-light",
+      "price": 500
+    },
+    {
+      "item": "grass-starter",
+      "price": 125
+    },
+    {
+      "item": "sugar",
+      "price": 125
+    },
+    {
+      "item": "wheat-flour",
+      "price": 125
+    },
+    {
+      "item": "rice",
+      "price": 250
+    },
+    {
+      "item": "wallpaper",
+      "price": 250
+    },
+    {
+      "item": "flooring",
+      "price": 250
+    },
+    {
+      "item": "parsnip-seeds",
+      "price": 25,
+      "season": "spring"
+    },
+    {
+      "item": "bean-starter",
+      "price": 75,
+      "season": "spring"
+    },
+    {
+      "item": "cauliflower-seeds",
+      "price": 100,
+      "season": "spring"
+    },
+    {
+      "item": "potato-seeds",
+      "price": 62,
+      "season": "spring"
+    },
+    {
+      "item": "tulip-bulb",
+      "price": 25,
+      "season": "spring"
+    },
+    {
+      "item": "kale-seeds",
+      "price": 87,
+      "season": "spring"
+    },
+    {
+      "item": "jazz-seeds",
+      "price": 37,
+      "season": "spring"
+    },
+    {
+      "item": "tomato-seeds",
+      "price": 62,
+      "season": "summer"
+    },
+    {
+      "item": "pepper-seeds",
+      "price": 50,
+      "season": "summer"
+    },
+    {
+      "item": "wheat-seeds",
+      "price": 12,
+      "season": "summer"
+    },
+    {
+      "item": "radish-seeds",
+      "price": 50,
+      "season": "summer"
+    },
+    {
+      "item": "melon-seeds",
+      "price": 100,
+      "season": "summer"
+    },
+    {
+      "item": "hops-starter",
+      "price": 75,
+      "season": "summer"
+    },
+    {
+      "item": "poppy-seeds",
+      "price": 125,
+      "season": "summer"
+    },
+    {
+      "item": "spangle-seeds",
+      "price": 62,
+      "season": "summer"
+    },
+    {
+      "item": "sunflower-seeds",
+      "price": 125,
+      "season": "summer"
+    },
+    {
+      "item": "corn-seeds",
+      "price": 187,
+      "season": "fall"
+    },
+    {
+      "item": "eggplant-seeds",
+      "price": 25,
+      "season": "fall"
+    },
+    {
+      "item": "pumpkin-seeds",
+      "price": 125,
+      "season": "fall"
+    },
+    {
+      "item": "amaranth-seeds",
+      "price": 87,
+      "season": "fall"
+    },
+    {
+      "item": "grape-starter",
+      "price": 75,
+      "season": "fall"
+    },
+    {
+      "item": "yam-seeds",
+      "price": 75,
+      "season": "fall"
+    },
+    {
+      "item": "bok-choy-seeds",
+      "price": 62,
+      "season": "fall"
+    },
+    {
+      "item": "cranberry-seeds",
+      "price": 300,
+      "season": "fall"
+    },
+    {
+      "item": "sunflower-seeds",
+      "price": 125,
+      "season": "fall"
+    },
+    {
+      "item": "fairy-seeds",
+      "price": 250,
+      "season": "fall"
+    },
+    {
+      "item": "wheat-seeds",
+      "price": 12,
+      "season": "fall"
+    }
+  ]
+}

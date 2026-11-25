@@ -1,0 +1,17 @@
+{
+  "id": "the-alleyway-buffet",
+  "type": "books",
+  "name": {
+    "en": "The Alleyway Buffet",
+    "pt-BR": "O Bufê do Beco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "loves": [
+      "linus"
+    ]
+  }
+}

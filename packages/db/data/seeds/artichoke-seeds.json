@@ -1,0 +1,33 @@
+{
+  "id": "artichoke-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Artichoke Seeds",
+    "pt-BR": "Sementes de Alcachofra"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 8,
+    "phases": [
+      2,
+      2,
+      1,
+      2,
+      1
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 20,
+    "averageExtraYield": 0,
+    "produce": "artichoke"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 30,
+      "season": "fall"
+    }
+  ]
+}

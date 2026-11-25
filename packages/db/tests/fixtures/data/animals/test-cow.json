@@ -1,0 +1,14 @@
+{
+ "id": "test-cow",
+ "type": "animals",
+ "name": {
+  "en": "Test Cow",
+  "pt-BR": "Vaca Teste"
+ },
+ "nameVerified": true,
+ "housing": "test-barn",
+ "purchase": {
+  "shop": "test-shop",
+  "price": 1500
+ }
+}

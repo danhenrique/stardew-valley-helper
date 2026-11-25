@@ -1,0 +1,18 @@
+{
+  "id": "wood-path",
+  "type": "planner-objects",
+  "name": {
+    "en": "Wood Path",
+    "pt-BR": "Caminho de Madeira"
+  },
+  "nameVerified": false,
+  "item": "wood-path",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

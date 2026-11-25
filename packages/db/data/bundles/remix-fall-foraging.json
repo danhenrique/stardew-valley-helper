@@ -1,0 +1,44 @@
+{
+  "id": "remix-fall-foraging",
+  "type": "bundles",
+  "name": {
+    "en": "Fall Foraging Bundle",
+    "pt-BR": "Conjunto Recursos de Outono"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "common-mushroom",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "wild-plum",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "hazelnut",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "blackberry",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

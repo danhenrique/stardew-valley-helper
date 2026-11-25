@@ -1,0 +1,9 @@
+{
+  "id": "chocolate-popcorn",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Chocolate Popcorn",
+    "pt-BR": "Pipoca de Chocolate"
+  },
+  "nameVerified": true
+}

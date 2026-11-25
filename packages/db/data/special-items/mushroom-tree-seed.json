@@ -1,0 +1,18 @@
+{
+  "id": "mushroom-tree-seed",
+  "type": "special-items",
+  "name": {
+    "en": "Mushroom Tree Seed",
+    "pt-BR": "Semente de Árvore de Cogumelo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "combat-boots",
+  "type": "equipment",
+  "subtype": "boots",
+  "name": {
+    "en": "Combat Boots",
+    "pt-BR": "Botas de Combate"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 1250
+    }
+  ]
+}

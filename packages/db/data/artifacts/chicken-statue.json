@@ -1,0 +1,13 @@
+{
+  "id": "chicken-statue",
+  "type": "artifacts",
+  "name": {
+    "en": "Chicken Statue",
+    "pt-BR": "Estátua de Galinha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

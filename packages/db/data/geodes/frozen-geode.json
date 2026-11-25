@@ -1,0 +1,15 @@
+{
+  "id": "frozen-geode",
+  "type": "geodes",
+  "name": {
+    "en": "Frozen Geode",
+    "pt-BR": "Geodo Congelado"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25
+    }
+  ]
+}

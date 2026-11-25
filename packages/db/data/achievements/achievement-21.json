@@ -1,0 +1,14 @@
+{
+  "id": "achievement-21",
+  "type": "achievements",
+  "name": {
+    "en": "Fisherman",
+    "pt-BR": "Pescador"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Catch 10 different fish.",
+    "pt-BR": "Pegue 10 peixes diferentes."
+  },
+  "order": 21
+}

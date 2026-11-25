@@ -1,0 +1,34 @@
+{
+  "id": "four-corners",
+  "type": "farms",
+  "name": {
+    "en": "Four Corners Farm",
+    "pt-BR": "Fazenda Quatro Cantos"
+  },
+  "nameVerified": true,
+  "width": 80,
+  "height": 80,
+  "tiles": "8x1c27x1c3x2c46x1c27x1c3x1f1c39x2c37x1b1c78x1b1c78x1b1c78x1b1c78x1b1c78x1b18c25x3c3f26c4x18b1c10x4f10x2c30b1c4x18b1c10x4f10x1c31b1c4x18b11c4f5c5x32b1c4x18b11c4f5c5x32b1c4x18b11c4f5c5x32b1c4x18b11c4f5c5x32b5c18b20c5x32b5c18b13c2f7c3x32b1c5x17b13c1b1f7c3x32b1c5x17b12c2b8f3x32b1c5x37b1c1b3x32b1c6x35b6x32b1c7x33b1c6x32b1c7x33b1c6x32b1c4x2c1x33b1c6x32b1c4x2c1x33b1c6x32b1c1x1c5x33b1c6x32b1c7x33b1c6x32b1c7x33b1c6x32b1c7x33b1c6x22b4x6b1c7x33b1c6x22b2x1w1x6b10c31b1c6x1c21b4x11b5c31b1c6x6c13b11x5b7c2b4x21b4x1c6x6c12b12x5b7c2b6x19b2x1w1x1c6x7c10b13x5b7c2b7x18b4x1c7x6c9b14x6b6c2b6x1b2x20b1c14x2b6x1b13x14b23x2b19x2b17x1f2x14b23x2b19x2b17x1f2x14b23x2b19x2f16x3f15b1c22x2f19x2c16x19b1f2c19x2c19x2c16x21b1c19x2c19x2c16x22b19x2c19x2c16x22b19x2c11x26c22b26c6x31b3x6b4x29b1c3x2c1x31b6x2b6x28b1c3x2c1x30b1c6x2f6x28b1c3x2c1x30b1c6x2f6x28b1c3x2c1x30b1c6x2f6x28b1c6x30b1c6x2f6x28b1c6x30b1c5x1c2b1c5x28b1c6x30b3c1x3c2b3c3x28b1c6x32b1c1x8c1x1c29b1c6x32b1c1x7c2x30b1c6x32b1c1x7c2x30b1c6x32b1c1x7c2x30b1c6x32b1c3x3c4x30b1c6x32b5c1b5c30b1c6x32b1c1x7c1x31b1c6x32b1c1x7c1x31b1c6x32b1x8c2x30b7x31b1x8c4x29b7x30b7x2c6x20b4x3b1c7x29b8x1b1c6x20b2x1w1x1b10x29b8x2c6x20b4x1b10x29b1x1c14x24b1c10x11b7x10b19x13f5b18x7b9x7b21x13f28x1b2x7w3x1b25x13f30x9w28x13f29x12w26x13f29x12w68x12w68x12w68x11w1x1w67x10w70x9w70x9w220x",
+  "fixed": [
+    {
+      "t": "farmhouse",
+      "x": 59,
+      "y": 12
+    },
+    {
+      "t": "greenhouse",
+      "x": 36,
+      "y": 29
+    },
+    {
+      "t": "shipping-bin",
+      "x": 71,
+      "y": 14
+    },
+    {
+      "t": "pet-bowl",
+      "x": 49,
+      "y": 40
+    }
+  ]
+}

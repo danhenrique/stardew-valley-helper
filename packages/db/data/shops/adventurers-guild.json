@@ -1,0 +1,231 @@
+{
+  "id": "adventurers-guild",
+  "type": "shops",
+  "name": {
+    "en": "Adventurer's Guild",
+    "pt-BR": "Guilda dos Aventureiros"
+  },
+  "nameVerified": true,
+  "schedule": {
+    "hours": {
+      "open": "14:00",
+      "close": "22:00"
+    },
+    "hoursWithKeyToTown": [
+      {
+        "open": "06:00",
+        "close": "14:00"
+      }
+    ],
+    "closedDays": [],
+    "festivalClosure": "all"
+  },
+  "scheduleText": {
+    "open": {
+      "en": "2 PM – 10 PM",
+      "pt-BR": "2 PM – 10 PM"
+    },
+    "key": {
+      "en": "6 AM – 2 PM",
+      "pt-BR": "6 AM – 2 PM"
+    },
+    "closed": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "None",
+      "pt-BR": "Nenhum"
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "wooden-blade",
+      "price": 250
+    },
+    {
+      "item": "iron-dirk",
+      "price": 500
+    },
+    {
+      "item": "silver-saber",
+      "price": 750
+    },
+    {
+      "item": "pirates-sword",
+      "price": 850
+    },
+    {
+      "item": "cutlass",
+      "price": 1500
+    },
+    {
+      "item": "wood-mallet",
+      "price": 2000
+    },
+    {
+      "item": "claymore",
+      "price": 2000
+    },
+    {
+      "item": "templars-blade",
+      "price": 4000
+    },
+    {
+      "item": "bone-sword",
+      "price": 6000
+    },
+    {
+      "item": "steel-falchion",
+      "price": 9000
+    },
+    {
+      "item": "lava-katana",
+      "price": 25000
+    },
+    {
+      "item": "galaxy-sword",
+      "price": 50000
+    },
+    {
+      "item": "galaxy-dagger",
+      "price": 35000
+    },
+    {
+      "item": "galaxy-hammer",
+      "price": 75000
+    },
+    {
+      "item": "sneakers",
+      "price": 500
+    },
+    {
+      "item": "leather-boots",
+      "price": 500
+    },
+    {
+      "item": "tundra-boots",
+      "price": 750
+    },
+    {
+      "item": "combat-boots",
+      "price": 1250
+    },
+    {
+      "item": "firewalker-boots",
+      "price": 2000
+    },
+    {
+      "item": "dark-boots",
+      "price": 2500
+    },
+    {
+      "item": "space-boots",
+      "price": 5000
+    },
+    {
+      "item": "amethyst-ring",
+      "price": 1000
+    },
+    {
+      "item": "topaz-ring",
+      "price": 1000
+    },
+    {
+      "item": "aquamarine-ring",
+      "price": 2500
+    },
+    {
+      "item": "jade-ring",
+      "price": 2500
+    },
+    {
+      "item": "emerald-ring",
+      "price": 5000
+    },
+    {
+      "item": "ruby-ring",
+      "price": 5000
+    },
+    {
+      "item": "slingshot",
+      "price": 500
+    },
+    {
+      "item": "master-slingshot",
+      "price": 1000
+    },
+    {
+      "item": "explosive-ammo",
+      "price": 300
+    },
+    {
+      "item": "slime-charmer-ring",
+      "price": 25000,
+      "requiresMonsterGoal": "slimes"
+    },
+    {
+      "item": "savage-ring",
+      "price": 25000,
+      "requiresMonsterGoal": "void-spirits"
+    },
+    {
+      "item": "burglars-ring",
+      "price": 20000,
+      "requiresMonsterGoal": "dust-sprites"
+    },
+    {
+      "item": "vampire-ring",
+      "price": 15000,
+      "requiresMonsterGoal": "bats"
+    },
+    {
+      "item": "crabshell-ring",
+      "price": 15000,
+      "requiresMonsterGoal": "rock-crabs"
+    },
+    {
+      "item": "napalm-ring",
+      "price": 30000,
+      "requiresMonsterGoal": "serpents"
+    },
+    {
+      "item": "insect-head",
+      "price": 10000,
+      "requiresMonsterGoal": "cave-insects"
+    },
+    {
+      "item": "wall-sword",
+      "price": 2000
+    },
+    {
+      "item": "decorative-sword",
+      "price": 10000
+    },
+    {
+      "item": "skeleton-mask",
+      "price": 20000,
+      "requiresMonsterGoal": "skeletons"
+    },
+    {
+      "item": "hard-hat",
+      "price": 20000,
+      "requiresMonsterGoal": "duggies"
+    },
+    {
+      "item": "arcane-hat",
+      "price": 20000,
+      "requiresMonsterGoal": "mummies"
+    },
+    {
+      "item": "knights-helmet",
+      "price": 20000,
+      "requiresMonsterGoal": "pepper-rex"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "stone-fence",
+  "type": "planner-objects",
+  "name": {
+    "en": "Stone Fence",
+    "pt-BR": "Cerca de Pedra"
+  },
+  "nameVerified": false,
+  "item": "stone-fence",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

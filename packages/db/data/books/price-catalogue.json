@@ -1,0 +1,17 @@
+{
+  "id": "price-catalogue",
+  "type": "books",
+  "name": {
+    "en": "Price Catalogue",
+    "pt-BR": "Catálogo de Preço"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "loves": [
+      "pierre"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "magic-turban",
+  "type": "equipment",
+  "subtype": "hat",
+  "name": {
+    "en": "Magic Turban",
+    "pt-BR": "Turbante Mágico"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "omni-geode",
+          "qty": 333
+        }
+      ],
+      "availability": "evenDays"
+    }
+  ]
+}

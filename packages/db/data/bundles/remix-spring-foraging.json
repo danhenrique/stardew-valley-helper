@@ -1,0 +1,50 @@
+{
+  "id": "remix-spring-foraging",
+  "type": "bundles",
+  "name": {
+    "en": "Spring Foraging Bundle",
+    "pt-BR": "Conjunto Recursos de Primavera"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "wild-horseradish",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "daffodil",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "leek",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "dandelion",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "spring-onion",
+      "seasons": [
+        "spring"
+      ]
+    }
+  ]
+}

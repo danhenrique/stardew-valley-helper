@@ -1,0 +1,36 @@
+{
+  "id": "remix-construction",
+  "type": "bundles",
+  "name": {
+    "en": "Construction Bundle",
+    "pt-BR": "Conjunto de Construção"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "wood",
+      "qty": 99
+    },
+    {
+      "item": "wood",
+      "qty": 99
+    },
+    {
+      "item": "stone",
+      "qty": 99
+    },
+    {
+      "item": "hardwood",
+      "qty": 10
+    }
+  ]
+}

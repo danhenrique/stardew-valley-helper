@@ -1,0 +1,34 @@
+{
+  "id": "meadowlands",
+  "type": "farms",
+  "name": {
+    "en": "Meadowlands Farm",
+    "pt-BR": "Fazenda dos Prados"
+  },
+  "nameVerified": true,
+  "width": 100,
+  "height": 75,
+  "tiles": "63x1b1c98x1b1c98x1b1c43x1w54x1b1c98x2c98x2c98x2c6x1f88x5c6x1f16x4f29x9c30x3c1b2c5x1f16x4f19x1c9x12c21x9c2b1c5x1c14x1c5f19x2c3f17c19x11c2b1c3x4c14x5f16x2w1x26c12x14c2b1c3x4c11x7c16x2w1x1b26c12x2b4c2b5c3b3c2x2c6x13c16x2w2x21c14x2w1x10b5c3b1c3x20c17x2w1x1b17c1b3x5w7x2w1x11b32c2b16x1w2x1b16c2x3w3x3w4x3w1x13b30c2b16x2w1x2b15c1x3w1x3c2x6w2x15b31c17x1w2x2b7x1b6c1x2w1x6c6x1c1b3c12b4c1b26c17x2w4x5w3x3c3x1w1x13c2b3c12b33c15x7w3x3w2x1w2x3w1x14c1b3c12b27c1f3c16x5w3x3c2x2w1x1w1x3w2x14c15b27c1b1f2c16x4w2x8c3x1w4x16c15b27c1b1f10c7x3w2x39c10b11c17b11f6x3w1x61c22b1c1b5c6x3w1x32c1b28c21b13x3w1x29c2b1c1b29c21b13x3w1x30c3b29c21b13x3w1x62c21b13x3w2x3c4b54c21b13x4w1x3c7b51c21b13x4w1x3c10b48c21b14x3w1x16b45c21b14x3w1x18b43c21b14x3w1x19b21c1b20c21b14x3w2x20b3c2b7c4b3c4b20c1b1c1b15c14x4w1x45b36c14x4w1x17b2c26b36c14x4w1x17b2c26b36c15x3w2x45b35c15x4w1x45b35c15x4w1x45b35c15x4w1x22b5x18b35c15x4w1x20b3x3w3x15b36c15x4w1x19b2x7w2x14b35c15x5w1x4b7c8b1x9w3x14b33c15x5w1x3b9c6b2x11w2x14b32c15x4w1x3b10c6b1x13w2x13b31c15x5w1x3b10c6b1x14w1x15b27c14x8w1x3b10c6b1x14w1x18b16c2b6c13x8w1x5b9c7b2x11w2x20b3c2b4c8b3c15x7w2x7b6c10b4x5w2x40b2c15x7w2x27b5x37b3c3b1c15x4w5x1c68b3c3b1c15x1w8x3c66b3c3b1c2x1f21x3c70b3c24x3c56b6x8b3c2x1f21x3c54b3x4w2x7b10c17x2c28b3c23b2x7w1x7b5c1b4c17x2c27b4c23b1x8w1x6b11c17x1c5b4x19b4c10b3c10b2x7w1x6b10c18x5b2x2w3x16b4c11b3c12b2x4w1x7b7c21x5b1x5w1x16b4c6b8c14b5x6b7c22x1c4b2x3w1x4b3c10b3c5b10c24b8c22x2c5b4x4b3c18b13c21b8c22x2c13b3c17b14c21b7c23x3c16b4c12b14c19b9c23x3c14b9c9b7c2b6c18b9c23x6c5b4c2b10c2b11c4b7c17b8c66x2b98x1b1c98x1b1c98x1b1c98x2b98x2b98x2b46x",
+  "fixed": [
+    {
+      "t": "farmhouse",
+      "x": 76,
+      "y": 16
+    },
+    {
+      "t": "greenhouse",
+      "x": 37,
+      "y": 19
+    },
+    {
+      "t": "shipping-bin",
+      "x": 88,
+      "y": 18
+    },
+    {
+      "t": "pet-bowl",
+      "x": 91,
+      "y": 14
+    }
+  ]
+}

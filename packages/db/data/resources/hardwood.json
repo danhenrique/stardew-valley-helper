@@ -1,0 +1,14 @@
+{
+  "id": "hardwood",
+  "type": "resources",
+  "name": {
+    "en": "Hardwood",
+    "pt-BR": "Madeira de Lei"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "robin"
+    ]
+  }
+}

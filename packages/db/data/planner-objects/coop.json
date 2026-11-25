@@ -1,0 +1,28 @@
+{
+  "id": "coop",
+  "type": "planner-objects",
+  "name": {
+    "en": "Coop",
+    "pt-BR": "Galinheiro"
+  },
+  "nameVerified": true,
+  "item": "coop",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 6,
+    "h": 3
+  },
+  "humanDoor": {
+    "x": 1,
+    "y": 2
+  },
+  "animalDoor": {
+    "x": 2,
+    "y": 2,
+    "w": 1,
+    "h": 1
+  },
+  "removable": true,
+  "paint": false
+}

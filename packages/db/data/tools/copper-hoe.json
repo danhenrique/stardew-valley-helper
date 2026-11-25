@@ -1,0 +1,9 @@
+{
+  "id": "copper-hoe",
+  "type": "tools",
+  "name": {
+    "en": "Copper Hoe",
+    "pt-BR": "Enxada de Cobre"
+  },
+  "nameVerified": true
+}

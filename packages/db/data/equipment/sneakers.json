@@ -1,0 +1,16 @@
+{
+  "id": "sneakers",
+  "type": "equipment",
+  "subtype": "boots",
+  "name": {
+    "en": "Sneakers",
+    "pt-BR": "Tênis"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 500
+    }
+  ]
+}

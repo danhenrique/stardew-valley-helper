@@ -1,0 +1,18 @@
+{
+  "id": "eggplant",
+  "type": "vegetables",
+  "name": {
+    "en": "Eggplant",
+    "pt-BR": "Berinjela"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 60,
+  "artisan": {
+    "kegPrice": 135,
+    "jarPrice": 170
+  },
+  "growsFrom": "eggplant-seeds"
+}

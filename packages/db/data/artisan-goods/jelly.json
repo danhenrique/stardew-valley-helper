@@ -1,0 +1,12 @@
+{
+  "id": "jelly",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Jelly",
+    "pt-BR": "Geléia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ]
+}

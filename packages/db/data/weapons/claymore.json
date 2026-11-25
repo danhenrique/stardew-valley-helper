@@ -1,0 +1,15 @@
+{
+  "id": "claymore",
+  "type": "weapons",
+  "name": {
+    "en": "Claymore",
+    "pt-BR": "Espada Escocesa"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 2000
+    }
+  ]
+}

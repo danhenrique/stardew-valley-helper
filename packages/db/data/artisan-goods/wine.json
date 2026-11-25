@@ -1,0 +1,22 @@
+{
+  "id": "wine",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Wine",
+    "pt-BR": "Vinho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "loves": [
+      "harvey",
+      "leah"
+    ],
+    "dislikesOrHates": [
+      "leo",
+      "penny"
+    ]
+  }
+}

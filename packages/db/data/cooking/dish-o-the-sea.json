@@ -1,0 +1,32 @@
+{
+  "id": "dish-o-the-sea",
+  "type": "cooking",
+  "name": {
+    "en": "Dish O' The Sea",
+    "pt-BR": "Prato do Mar"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "linus"
+    ],
+    "neutral": [
+      "willy"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "sardine",
+        "qty": 2
+      },
+      {
+        "item": "hashbrowns",
+        "qty": 1
+      }
+    ]
+  }
+}

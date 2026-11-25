@@ -1,0 +1,18 @@
+{
+  "id": "highway-89",
+  "type": "furniture",
+  "name": {
+    "en": "'Highway 89'",
+    "pt-BR": "\"Rodovia 89\""
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "casino",
+      "price": 0,
+      "currency": {
+        "qiCoins": 4000
+      }
+    }
+  ]
+}

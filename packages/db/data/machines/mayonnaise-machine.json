@@ -1,0 +1,29 @@
+{
+  "id": "mayonnaise-machine",
+  "type": "machines",
+  "name": {
+    "en": "Mayonnaise Machine",
+    "pt-BR": "Máquina de Maionese"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 15
+      },
+      {
+        "item": "stone",
+        "qty": 15
+      },
+      {
+        "item": "earth-crystal",
+        "qty": 1
+      },
+      {
+        "item": "copper-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

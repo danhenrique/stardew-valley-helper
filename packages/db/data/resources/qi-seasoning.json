@@ -1,0 +1,18 @@
+{
+  "id": "qi-seasoning",
+  "type": "resources",
+  "name": {
+    "en": "Qi Seasoning",
+    "pt-BR": "Tempero Qi"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 10
+      }
+    }
+  ]
+}

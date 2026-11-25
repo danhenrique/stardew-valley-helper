@@ -1,0 +1,29 @@
+{
+  "id": "mill",
+  "type": "buildings",
+  "name": {
+    "en": "Mill",
+    "pt-BR": "Moinho"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 2500,
+    "materials": [
+      {
+        "item": "stone",
+        "qty": 50
+      },
+      {
+        "item": "wood",
+        "qty": 150
+      },
+      {
+        "item": "cloth",
+        "qty": 4
+      }
+    ],
+    "buildDays": 2,
+    "builtBy": "carpenter"
+  }
+}

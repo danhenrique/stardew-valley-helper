@@ -1,0 +1,38 @@
+{
+  "id": "melon-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Melon Seeds",
+    "pt-BR": "Sementes de Melão"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      3,
+      3
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 16,
+    "averageExtraYield": 0,
+    "produce": "melon"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 80,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 100,
+      "season": "summer"
+    }
+  ]
+}

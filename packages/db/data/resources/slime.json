@@ -1,0 +1,21 @@
+{
+  "id": "slime",
+  "type": "resources",
+  "name": {
+    "en": "Slime",
+    "pt-BR": "Gosma"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 10,
+      "availability": "mon"
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "wizard"
+    ]
+  }
+}

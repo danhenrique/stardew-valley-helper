@@ -1,0 +1,22 @@
+{
+  "id": "slime-hutch",
+  "type": "planner-objects",
+  "name": {
+    "en": "Slime Hutch",
+    "pt-BR": "Casa de Gosmas"
+  },
+  "nameVerified": true,
+  "item": "slime-hutch",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 7,
+    "h": 4
+  },
+  "humanDoor": {
+    "x": 3,
+    "y": 3
+  },
+  "removable": true,
+  "paint": false
+}

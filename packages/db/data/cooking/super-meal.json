@@ -1,0 +1,39 @@
+{
+  "id": "super-meal",
+  "type": "cooking",
+  "name": {
+    "en": "Super Meal",
+    "pt-BR": "Super-prato"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 440
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "harvey"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "bok-choy",
+        "qty": 1
+      },
+      {
+        "item": "cranberries",
+        "qty": 1
+      },
+      {
+        "item": "artichoke",
+        "qty": 1
+      }
+    ]
+  }
+}

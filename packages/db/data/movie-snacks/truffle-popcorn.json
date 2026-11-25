@@ -1,0 +1,9 @@
+{
+  "id": "truffle-popcorn",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Truffle Popcorn",
+    "pt-BR": "Pipoca de Trufa"
+  },
+  "nameVerified": true
+}

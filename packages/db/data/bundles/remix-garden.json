@@ -1,0 +1,51 @@
+{
+  "id": "remix-garden",
+  "type": "bundles",
+  "name": {
+    "en": "Garden Bundle",
+    "pt-BR": "Conjunto Jardim"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "tulip",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "blue-jazz",
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "summer-spangle",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "sunflower",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "fairy-rose",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "slime-hutch",
+  "type": "buildings",
+  "name": {
+    "en": "Slime Hutch",
+    "pt-BR": "Casa de Gosmas"
+  },
+  "nameVerified": true,
+  "category": "other",
+  "construction": {
+    "price": 10000,
+    "materials": [
+      {
+        "item": "stone",
+        "qty": 500
+      },
+      {
+        "item": "refined-quartz",
+        "qty": 10
+      },
+      {
+        "item": "iridium-bar",
+        "qty": 1
+      }
+    ],
+    "buildDays": 2,
+    "builtBy": "carpenter"
+  }
+}

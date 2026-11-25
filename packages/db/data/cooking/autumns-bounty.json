@@ -1,0 +1,35 @@
+{
+  "id": "autumns-bounty",
+  "type": "cooking",
+  "name": {
+    "en": "Autumn's Bounty",
+    "pt-BR": "Prato de Outono"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 700
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "lewis"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "yam",
+        "qty": 1
+      },
+      {
+        "item": "pumpkin",
+        "qty": 1
+      }
+    ]
+  }
+}

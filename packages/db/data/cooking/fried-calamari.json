@@ -1,0 +1,39 @@
+{
+  "id": "fried-calamari",
+  "type": "cooking",
+  "name": {
+    "en": "Fried Calamari",
+    "pt-BR": "Lula Frita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 300
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "pierre"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "squid",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "oil",
+        "qty": 1
+      }
+    ]
+  }
+}

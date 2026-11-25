@@ -1,0 +1,21 @@
+{
+  "id": "tree-fertilizer",
+  "type": "fertilizers",
+  "name": {
+    "en": "Tree Fertilizer",
+    "pt-BR": "Fertilizante de Árvore"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "fiber",
+        "qty": 5
+      },
+      {
+        "item": "stone",
+        "qty": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gravel-path",
+  "type": "craftables",
+  "name": {
+    "en": "Gravel Path",
+    "pt-BR": "Caminho de Cascalho"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+ "id": "test-fruit",
+ "type": "fruits",
+ "name": {
+  "en": "Test Fruit",
+  "pt-BR": "Fruta Teste"
+ },
+ "nameVerified": true,
+ "tags": [
+  "fruits"
+ ],
+ "sellPrice": 120,
+ "artisan": {
+  "kegPrice": 360,
+  "jarPrice": 290
+ },
+ "growsFrom": "test-seed",
+ "giftTastes": {
+  "loves": [
+   "test-villager",
+   "ghost-villager"
+  ]
+ }
+}

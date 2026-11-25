@@ -1,0 +1,14 @@
+{
+  "id": "achievement-49",
+  "type": "achievements",
+  "name": {
+    "en": "Perfection",
+    "pt-BR": "Perfeição"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Reach the summit.",
+    "pt-BR": "Alcance o pico."
+  },
+  "order": 49
+}

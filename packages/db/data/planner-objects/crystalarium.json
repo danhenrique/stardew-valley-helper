@@ -1,0 +1,18 @@
+{
+  "id": "crystalarium",
+  "type": "planner-objects",
+  "name": {
+    "en": "Crystalarium",
+    "pt-BR": "Cristalário"
+  },
+  "nameVerified": false,
+  "item": "crystalarium",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

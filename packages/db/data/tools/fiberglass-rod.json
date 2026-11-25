@@ -1,0 +1,16 @@
+{
+  "id": "fiberglass-rod",
+  "type": "tools",
+  "name": {
+    "en": "Fiberglass Rod",
+    "pt-BR": "Vara de Fibra de Vidro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 1800,
+      "fishingLevel": 2
+    }
+  ]
+}

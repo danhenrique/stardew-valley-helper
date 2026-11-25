@@ -1,0 +1,9 @@
+{
+  "id": "hummus-snack-pack",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Hummus Snack Pack",
+    "pt-BR": "Pacote de Lanchinhos de Homus"
+  },
+  "nameVerified": true
+}

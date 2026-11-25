@@ -1,0 +1,26 @@
+{
+  "id": "big-barn",
+  "type": "buildings",
+  "name": {
+    "en": "Big Barn",
+    "pt-BR": "Celeiro Grande"
+  },
+  "nameVerified": true,
+  "category": "animal",
+  "construction": {
+    "price": 12000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 450
+      },
+      {
+        "item": "stone",
+        "qty": 200
+      }
+    ],
+    "buildDays": 3,
+    "upgradeFrom": "barn",
+    "builtBy": "carpenter"
+  }
+}

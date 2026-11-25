@@ -1,0 +1,25 @@
+{
+  "id": "fiber-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Fiber Seeds",
+    "pt-BR": "Sementes de Fibra"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "mixed-seeds",
+        "qty": 1
+      },
+      {
+        "item": "sap",
+        "qty": 5
+      },
+      {
+        "item": "clay",
+        "qty": 1
+      }
+    ]
+  }
+}

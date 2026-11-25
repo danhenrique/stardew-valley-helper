@@ -1,0 +1,17 @@
+{
+  "id": "fairy-box",
+  "type": "trinkets",
+  "name": {
+    "en": "Fairy Box",
+    "pt-BR": "Caixa de Fada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ],
+  "giftTastes": {
+    "loves": [
+      "jas"
+    ]
+  }
+}

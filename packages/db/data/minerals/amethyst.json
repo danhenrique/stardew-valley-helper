@@ -1,0 +1,22 @@
+{
+  "id": "amethyst",
+  "type": "minerals",
+  "subtype": "gem",
+  "name": {
+    "en": "Amethyst",
+    "pt-BR": "Ametista"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "clint",
+      "dwarf",
+      "emily"
+    ]
+  },
+  "museumDonation": true
+}

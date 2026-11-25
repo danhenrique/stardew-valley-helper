@@ -1,0 +1,18 @@
+{
+  "id": "rarecrow-3",
+  "type": "furniture",
+  "name": {
+    "en": "Rarecrow 3",
+    "pt-BR": "Espantalho Raro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "casino",
+      "price": 0,
+      "currency": {
+        "qiCoins": 10000
+      }
+    }
+  ]
+}

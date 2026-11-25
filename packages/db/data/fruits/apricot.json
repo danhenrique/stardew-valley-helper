@@ -1,0 +1,14 @@
+{
+  "id": "apricot",
+  "type": "fruits",
+  "subtype": "tree-fruit",
+  "name": {
+    "en": "Apricot",
+    "pt-BR": "Damasco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "treeFruit"
+  ],
+  "growsFrom": "apricot-sapling"
+}

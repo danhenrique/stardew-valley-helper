@@ -1,0 +1,31 @@
+{
+  "id": "omni-geode",
+  "type": "geodes",
+  "name": {
+    "en": "Omni Geode",
+    "pt-BR": "Omnigeodo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 25
+    },
+    {
+      "shop": "sewers",
+      "price": 300,
+      "availability": "tue"
+    },
+    {
+      "shop": "oasis",
+      "price": 1000,
+      "availability": "wed"
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "dwarf"
+    ]
+  }
+}

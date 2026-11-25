@@ -1,0 +1,17 @@
+{
+  "id": "bait-and-bobber",
+  "type": "books",
+  "name": {
+    "en": "Bait And Bobber",
+    "pt-BR": "Isca e o Anzol"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "likes": [
+      "willy"
+    ]
+  }
+}

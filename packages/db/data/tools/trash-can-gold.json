@@ -1,0 +1,22 @@
+{
+  "id": "trash-can-gold",
+  "type": "tools",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Trash Can Gold",
+    "pt-BR": "Lixeira de Ouro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 5000,
+      "materials": [
+        {
+          "item": "gold-bar",
+          "qty": 5
+        }
+      ]
+    }
+  ]
+}

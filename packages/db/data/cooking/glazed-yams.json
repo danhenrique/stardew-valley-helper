@@ -1,0 +1,39 @@
+{
+  "id": "glazed-yams",
+  "type": "cooking",
+  "name": {
+    "en": "Glazed Yams",
+    "pt-BR": "Inhames com Cobertura"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 400
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey"
+    ],
+    "loves": [
+      "lewis",
+      "pam"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "yam",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

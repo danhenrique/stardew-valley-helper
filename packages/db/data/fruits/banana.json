@@ -1,0 +1,13 @@
+{
+  "id": "banana",
+  "type": "fruits",
+  "name": {
+    "en": "Banana",
+    "pt-BR": "Banana"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "growsFrom": "banana-sapling"
+}

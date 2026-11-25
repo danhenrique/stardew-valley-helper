@@ -1,0 +1,197 @@
+{
+  "id": "george",
+  "type": "villagers",
+  "name": {
+    "en": "George",
+    "pt-BR": "George"
+  },
+  "nameVerified": true,
+  "marriageable": false,
+  "birthday": {
+    "season": "fall",
+    "day": 24
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "fried-mushroom"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      }
+    ],
+    "likes": [
+      {
+        "item": "daffodil"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "clay",
+      "dandelion",
+      "holly",
+      "quartz",
+      "salmonberry",
+      "wild-horseradish"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "the-zuzu-city-express"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus"
+    ],
+    "lovedSnacks": [
+      "black-licorice",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "fries",
+      "nachos",
+      "personal-pizza",
+      "popcorn",
+      "salmon-burger",
+      "salted-peanuts",
+      "sour-slimes",
+      "truffle-popcorn"
+    ]
+  }
+}

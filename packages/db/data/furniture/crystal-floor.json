@@ -1,0 +1,17 @@
+{
+  "id": "crystal-floor",
+  "type": "furniture",
+  "name": {
+    "en": "Crystal Floor",
+    "pt-BR": "Piso de Cristal"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "refined-quartz",
+        "qty": 1
+      }
+    ]
+  }
+}

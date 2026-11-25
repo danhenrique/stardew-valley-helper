@@ -1,0 +1,9 @@
+{
+  "id": "popcorn",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Popcorn",
+    "pt-BR": "Pipoca"
+  },
+  "nameVerified": true
+}

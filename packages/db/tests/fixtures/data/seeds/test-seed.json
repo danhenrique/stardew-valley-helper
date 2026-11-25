@@ -1,0 +1,36 @@
+{
+ "id": "test-seed",
+ "type": "seeds",
+ "name": {
+  "en": "Test Seed",
+  "pt-BR": null
+ },
+ "nameVerified": false,
+ "crop": {
+  "seasons": [
+   "spring"
+  ],
+  "growthDays": 8,
+  "phases": [
+   1,
+   1,
+   2,
+   2,
+   2
+  ],
+  "regrowDays": 4,
+  "lastPlantingDay": 20,
+  "averageExtraYield": 0.02,
+  "produce": "test-fruit"
+ },
+ "soldAt": [
+  {
+   "shop": "test-shop",
+   "price": 100
+  },
+  {
+   "shop": "other-shop",
+   "price": 120
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "sunfish",
+  "type": "fish",
+  "name": {
+    "en": "Sunfish",
+    "pt-BR": "Peixe-sol"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "weather": "sun",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "19:00"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest), Forest Farm",
+      "pt-BR": "Rio (cidade + floresta), Fazenda da Floresta"
+    },
+    "locationVerified": false
+  }
+}

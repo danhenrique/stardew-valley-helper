@@ -1,0 +1,21 @@
+{
+  "id": "dark-sign",
+  "type": "craftables",
+  "name": {
+    "en": "Dark Sign",
+    "pt-BR": "Placa Negra"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bat-wing",
+        "qty": 5
+      },
+      {
+        "item": "bone-fragment",
+        "qty": 5
+      }
+    ]
+  }
+}

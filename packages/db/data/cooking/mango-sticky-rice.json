@@ -1,0 +1,33 @@
+{
+  "id": "mango-sticky-rice",
+  "type": "cooking",
+  "name": {
+    "en": "Mango Sticky Rice",
+    "pt-BR": "Arroz Doce de Manga"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "sandy"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "mango",
+        "qty": 1
+      },
+      {
+        "item": "coconut",
+        "qty": 1
+      },
+      {
+        "item": "rice",
+        "qty": 1
+      }
+    ]
+  }
+}

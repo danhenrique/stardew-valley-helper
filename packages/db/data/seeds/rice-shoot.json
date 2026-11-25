@@ -1,0 +1,26 @@
+{
+  "id": "rice-shoot",
+  "type": "seeds",
+  "name": {
+    "en": "Rice Shoot",
+    "pt-BR": "Brotos de Arroz"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 8,
+    "regrowDays": null,
+    "lastPlantingDay": 20,
+    "averageExtraYield": 0.11,
+    "produce": "unmilled-rice"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 40,
+      "season": "spring"
+    }
+  ]
+}

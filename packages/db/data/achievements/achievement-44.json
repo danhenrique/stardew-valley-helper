@@ -1,0 +1,14 @@
+{
+  "id": "achievement-44",
+  "type": "achievements",
+  "name": {
+    "en": "Blue Ribbon",
+    "pt-BR": "Fita Azul"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Get 1st place in the Stardew Valley Fair competition.",
+    "pt-BR": "Consiga o primeiro lugar na competição da Feira do Vale do Orvalho."
+  },
+  "order": 44
+}

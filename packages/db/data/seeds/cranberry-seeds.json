@@ -1,0 +1,38 @@
+{
+  "id": "cranberry-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Cranberry Seeds",
+    "pt-BR": "Sementes de Oxicoco"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 7,
+    "phases": [
+      1,
+      2,
+      1,
+      1,
+      2
+    ],
+    "regrowDays": 5,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 1,
+    "produce": "cranberries"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 240,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 300,
+      "season": "fall"
+    }
+  ]
+}

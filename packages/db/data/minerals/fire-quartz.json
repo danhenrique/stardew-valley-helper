@@ -1,0 +1,14 @@
+{
+  "id": "fire-quartz",
+  "type": "minerals",
+  "subtype": "foraged-mineral",
+  "name": {
+    "en": "Fire Quartz",
+    "pt-BR": "Quartzo de Fogo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "foragedMinerals"
+  ],
+  "museumDonation": true
+}

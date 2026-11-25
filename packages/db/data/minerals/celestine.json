@@ -1,0 +1,14 @@
+{
+  "id": "celestine",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Celestine",
+    "pt-BR": "Celestina"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

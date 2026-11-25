@@ -1,0 +1,22 @@
+{
+  "id": "apricot-sapling",
+  "type": "fruit-trees",
+  "name": {
+    "en": "Apricot Sapling",
+    "pt-BR": "Muda de Damasqueiro"
+  },
+  "nameVerified": true,
+  "fruitTree": {
+    "fruit": "apricot",
+    "season": "spring",
+    "daysToMature": 28,
+    "fruitsPerDay": 1,
+    "maxFruitOnTree": 3
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 2000
+    }
+  ]
+}

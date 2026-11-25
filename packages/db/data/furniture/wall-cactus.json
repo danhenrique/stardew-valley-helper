@@ -1,0 +1,15 @@
+{
+  "id": "wall-cactus",
+  "type": "furniture",
+  "name": {
+    "en": "Wall Cactus",
+    "pt-BR": "Decalque de Cacto"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 700
+    }
+  ]
+}

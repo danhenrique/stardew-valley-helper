@@ -1,0 +1,32 @@
+{
+  "id": "barbed-hook",
+  "type": "fishing",
+  "name": {
+    "en": "Barbed Hook",
+    "pt-BR": "Anzol Farpado"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 1000,
+      "fishingLevel": 8
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 1
+      },
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "gold-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

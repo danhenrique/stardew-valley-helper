@@ -1,0 +1,26 @@
+{
+  "id": "strawberry-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Strawberry Seeds",
+    "pt-BR": "Sementes de Morango"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 8,
+    "phases": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "regrowDays": 4,
+    "lastPlantingDay": 20,
+    "averageExtraYield": 0.02,
+    "produce": "strawberry"
+  }
+}

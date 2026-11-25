@@ -1,0 +1,9 @@
+{
+  "id": "black-licorice",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Black Licorice",
+    "pt-BR": "Alcaçuz Preto"
+  },
+  "nameVerified": true
+}

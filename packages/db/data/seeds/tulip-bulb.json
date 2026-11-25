@@ -1,0 +1,37 @@
+{
+  "id": "tulip-bulb",
+  "type": "seeds",
+  "name": {
+    "en": "Tulip Bulb",
+    "pt-BR": "Bulbo de Tulipa"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring"
+    ],
+    "growthDays": 6,
+    "phases": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 22,
+    "averageExtraYield": 0,
+    "produce": "tulip"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 20,
+      "season": "spring"
+    },
+    {
+      "shop": "joja",
+      "price": 25,
+      "season": "spring"
+    }
+  ]
+}

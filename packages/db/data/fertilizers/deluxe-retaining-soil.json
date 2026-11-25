@@ -1,0 +1,25 @@
+{
+  "id": "deluxe-retaining-soil",
+  "type": "fertilizers",
+  "name": {
+    "en": "Deluxe Retaining Soil",
+    "pt-BR": "Solo Retentor Premium"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 5
+      },
+      {
+        "item": "fiber",
+        "qty": 3
+      },
+      {
+        "item": "clay",
+        "qty": 1
+      }
+    ]
+  }
+}

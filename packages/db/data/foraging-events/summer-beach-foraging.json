@@ -1,0 +1,13 @@
+{
+  "id": "summer-beach-foraging",
+  "type": "foraging-events",
+  "name": {
+    "en": "Extra foraging on the beach",
+    "pt-BR": "Coleta extra na praia"
+  },
+  "nameVerified": false,
+  "season": "summer",
+  "startDay": 12,
+  "endDay": 14,
+  "item": "clam"
+}

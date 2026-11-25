@@ -1,0 +1,12 @@
+{
+  "id": "magma-cap",
+  "type": "mushrooms",
+  "name": {
+    "en": "Magma Cap",
+    "pt-BR": "Cogumelo de Magma"
+  },
+  "nameVerified": true,
+  "tags": [
+    "mushrooms"
+  ]
+}

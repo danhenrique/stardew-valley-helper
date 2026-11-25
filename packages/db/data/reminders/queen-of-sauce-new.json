@@ -1,0 +1,20 @@
+{
+  "id": "queen-of-sauce-new",
+  "type": "reminders",
+  "name": {
+    "en": "Queen of Sauce (new episode)",
+    "pt-BR": "A Rainha do Molho (novo episódio)"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "Sunday - check the new cooking recipe on TV",
+    "pt-BR": "Domingo - veja a nova receita de culinária na TV"
+  },
+  "trigger": {
+    "kind": "weekly",
+    "weekdays": [
+      "sun"
+    ]
+  },
+  "order": 3
+}

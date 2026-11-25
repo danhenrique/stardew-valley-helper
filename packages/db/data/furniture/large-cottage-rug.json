@@ -1,0 +1,16 @@
+{
+  "id": "large-cottage-rug",
+  "type": "furniture",
+  "name": {
+    "en": "Large Cottage Rug",
+    "pt-BR": "Tapete Grande de Cabana"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 2000,
+      "availability": "mon"
+    }
+  ]
+}

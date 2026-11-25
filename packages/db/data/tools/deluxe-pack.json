@@ -1,0 +1,16 @@
+{
+  "id": "deluxe-pack",
+  "type": "tools",
+  "subtype": "upgrade",
+  "name": {
+    "en": "Deluxe Pack",
+    "pt-BR": "Mochila de Luxo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 10000
+    }
+  ]
+}

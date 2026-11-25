@@ -1,0 +1,14 @@
+{
+  "id": "driftwood",
+  "type": "forage",
+  "name": {
+    "en": "Driftwood",
+    "pt-BR": "Madeira Flutuante"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "leah"
+    ]
+  }
+}

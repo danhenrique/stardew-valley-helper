@@ -1,0 +1,38 @@
+{
+  "id": "remix-treasure-hunter",
+  "type": "bundles",
+  "name": {
+    "en": "Treasure Hunter's Bundle",
+    "pt-BR": "Conjunto Caçador de Tesouro"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "boiler-room",
+    "name": {
+      "en": "Boiler Room",
+      "pt-BR": "Sala da Caldeira"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "amethyst"
+    },
+    {
+      "item": "aquamarine"
+    },
+    {
+      "item": "diamond"
+    },
+    {
+      "item": "emerald"
+    },
+    {
+      "item": "ruby"
+    },
+    {
+      "item": "topaz"
+    }
+  ]
+}

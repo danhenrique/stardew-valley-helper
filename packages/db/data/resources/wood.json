@@ -1,0 +1,15 @@
+{
+  "id": "wood",
+  "type": "resources",
+  "name": {
+    "en": "Wood",
+    "pt-BR": "Madeira"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "carpenter",
+      "price": 10
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "treasure-chest",
+  "type": "geodes",
+  "name": {
+    "en": "Treasure Chest",
+    "pt-BR": "Baú do Tesouro"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "marnie"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ways-of-the-wild",
+  "type": "books",
+  "name": {
+    "en": "Ways Of The Wild",
+    "pt-BR": "Diário de Guaxinim"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

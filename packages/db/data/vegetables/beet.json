@@ -1,0 +1,23 @@
+{
+  "id": "beet",
+  "type": "vegetables",
+  "name": {
+    "en": "Beet",
+    "pt-BR": "Beterraba"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 100,
+  "artisan": {
+    "kegPrice": 225,
+    "jarPrice": 250
+  },
+  "growsFrom": "beet-seeds",
+  "giftTastes": {
+    "loves": [
+      "evelyn"
+    ]
+  }
+}

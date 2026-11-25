@@ -1,0 +1,17 @@
+{
+  "id": "wood-path",
+  "type": "craftables",
+  "name": {
+    "en": "Wood Path",
+    "pt-BR": "Caminho de Madeira"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ]
+  }
+}

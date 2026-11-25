@@ -1,0 +1,13 @@
+{
+  "id": "chewing-stick",
+  "type": "artifacts",
+  "name": {
+    "en": "Chewing Stick",
+    "pt-BR": "Palito para Mascar"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

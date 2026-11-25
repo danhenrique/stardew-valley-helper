@@ -1,0 +1,13 @@
+{
+  "id": "prehistoric-tibia",
+  "type": "artifacts",
+  "name": {
+    "en": "Prehistoric Tibia",
+    "pt-BR": "Tíbia Pré-histórica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

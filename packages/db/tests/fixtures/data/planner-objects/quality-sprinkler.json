@@ -1,0 +1,25 @@
+{
+ "id": "quality-sprinkler",
+ "type": "planner-objects",
+ "name": {
+  "en": "Test Sprinkler",
+  "pt-BR": "Irrigador Teste"
+ },
+ "nameVerified": true,
+ "item": null,
+ "category": "planting",
+ "placement": "any",
+ "size": {
+  "w": 1,
+  "h": 1
+ },
+ "range": {
+  "shape": "square",
+  "radius": 1
+ },
+ "humanDoor": null,
+ "animalDoor": null,
+ "paint": false,
+ "removable": true,
+ "icon": null
+}

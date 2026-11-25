@@ -1,0 +1,25 @@
+{
+  "id": "warp-totem-beach",
+  "type": "craftables",
+  "name": {
+    "en": "Warp Totem Beach",
+    "pt-BR": "Totem de Teletransporte: Praia"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 1
+      },
+      {
+        "item": "coral",
+        "qty": 2
+      },
+      {
+        "item": "fiber",
+        "qty": 10
+      }
+    ]
+  }
+}

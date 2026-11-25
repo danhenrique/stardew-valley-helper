@@ -1,0 +1,17 @@
+{
+  "id": "iron-fence",
+  "type": "craftables",
+  "name": {
+    "en": "Iron Fence",
+    "pt-BR": "Cerca de Ferro"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

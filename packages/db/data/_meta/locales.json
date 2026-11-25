@@ -1,0 +1,11 @@
+{
+  "default": "en",
+  "available": [
+    "en",
+    "pt-BR"
+  ],
+  "labels": {
+    "en": "English",
+    "pt-BR": "Português (Brasil)"
+  }
+}

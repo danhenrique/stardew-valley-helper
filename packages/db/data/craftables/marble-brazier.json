@@ -1,0 +1,25 @@
+{
+  "id": "marble-brazier",
+  "type": "craftables",
+  "name": {
+    "en": "Marble Brazier",
+    "pt-BR": "Braseiro de Mármore"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "marble",
+        "qty": 1
+      },
+      {
+        "item": "aquamarine",
+        "qty": 1
+      },
+      {
+        "item": "stone",
+        "qty": 100
+      }
+    ]
+  }
+}

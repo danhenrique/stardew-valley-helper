@@ -1,0 +1,9 @@
+{
+ "id": "test-movie",
+ "type": "movies",
+ "name": {
+  "en": "Test Movie",
+  "pt-BR": "Filme Teste"
+ },
+ "nameVerified": true
+}

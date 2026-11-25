@@ -1,0 +1,64 @@
+{
+  "id": "keg",
+  "type": "machines",
+  "name": {
+    "en": "Keg",
+    "pt-BR": "Barril"
+  },
+  "nameVerified": true,
+  "category": "artisan",
+  "processing": [
+    {
+      "days": 7,
+      "output": "wine",
+      "label": {
+        "en": "Wine (fruit)",
+        "pt-BR": "Vinho (fruta)"
+      }
+    },
+    {
+      "days": 4,
+      "output": "juice",
+      "label": {
+        "en": "Juice (veg)",
+        "pt-BR": "Suco (vegetal)"
+      }
+    },
+    {
+      "days": 2,
+      "output": "pale-ale",
+      "label": {
+        "en": "Pale Ale (hops)",
+        "pt-BR": "Pale Ale (lúpulo)"
+      }
+    },
+    {
+      "days": 2,
+      "output": "beer",
+      "label": {
+        "en": "Beer (wheat)",
+        "pt-BR": "Cerveja (trigo)"
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 30
+      },
+      {
+        "item": "copper-bar",
+        "qty": 1
+      },
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "oak-resin",
+        "qty": 1
+      }
+    ]
+  }
+}

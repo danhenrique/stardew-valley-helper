@@ -1,0 +1,18 @@
+{
+  "id": "deconstructor",
+  "type": "machines",
+  "name": {
+    "en": "Deconstructor",
+    "pt-BR": "Desconstrutor"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    }
+  ]
+}

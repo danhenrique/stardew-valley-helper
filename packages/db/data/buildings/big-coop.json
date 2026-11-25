@@ -1,0 +1,26 @@
+{
+  "id": "big-coop",
+  "type": "buildings",
+  "name": {
+    "en": "Big Coop",
+    "pt-BR": "Galinheiro Grande"
+  },
+  "nameVerified": true,
+  "category": "animal",
+  "construction": {
+    "price": 10000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 400
+      },
+      {
+        "item": "stone",
+        "qty": 150
+      }
+    ],
+    "buildDays": 3,
+    "upgradeFrom": "coop",
+    "builtBy": "carpenter"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "charcoal-kiln",
+  "type": "machines",
+  "name": {
+    "en": "Charcoal Kiln",
+    "pt-BR": "Carvoaria"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 20
+      },
+      {
+        "item": "copper-bar",
+        "qty": 2
+      }
+    ]
+  }
+}

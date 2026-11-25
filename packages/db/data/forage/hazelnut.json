@@ -1,0 +1,51 @@
+{
+  "id": "hazelnut",
+  "type": "forage",
+  "name": {
+    "en": "Hazelnut",
+    "pt-BR": "Avelã"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "clint",
+      "demetrius",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "kent",
+      "lewis",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "robin",
+      "sandy"
+    ],
+    "dislikesOrHates": [
+      "caroline",
+      "dwarf",
+      "elliott",
+      "haley",
+      "jas",
+      "jodi",
+      "krobus",
+      "leo",
+      "pierre",
+      "sam",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "harvey",
+      "leah",
+      "linus"
+    ]
+  }
+}

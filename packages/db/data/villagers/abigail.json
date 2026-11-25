@@ -1,0 +1,233 @@
+{
+  "id": "abigail",
+  "type": "villagers",
+  "name": {
+    "en": "Abigail",
+    "pt-BR": "Abigail"
+  },
+  "nameVerified": true,
+  "marriageable": true,
+  "birthday": {
+    "season": "fall",
+    "day": 13
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "amethyst"
+      },
+      {
+        "item": "banana-pudding"
+      },
+      {
+        "item": "blackberry-cobbler"
+      },
+      {
+        "item": "chocolate-cake"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "monster-compendium"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "pufferfish"
+      },
+      {
+        "item": "pumpkin"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "spicy-eel"
+      }
+    ],
+    "likes": [
+      {
+        "item": "ancient-sword"
+      },
+      {
+        "item": "basilisk-paw"
+      },
+      {
+        "item": "bone-flute"
+      },
+      {
+        "item": "combat-quarterly"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "clay",
+      "holly",
+      "sugar",
+      "wild-horseradish"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "mysterium",
+      "it-howls-in-the-rain"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus"
+    ],
+    "lovedSnacks": [
+      "rock-candy",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "fries",
+      "ice-cream-sandwich",
+      "jawbreaker",
+      "nachos",
+      "personal-pizza",
+      "popcorn",
+      "salmon-burger",
+      "salted-peanuts",
+      "sour-slimes",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

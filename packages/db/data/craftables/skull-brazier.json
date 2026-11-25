@@ -1,0 +1,18 @@
+{
+  "id": "skull-brazier",
+  "type": "craftables",
+  "name": {
+    "en": "Skull Brazier",
+    "pt-BR": "Braseiro de Crânio"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bone-fragment",
+        "qty": 10
+      }
+    ],
+    "note": "Before v1.5: Hardwood 10, Solar Essence 1, Coal 1"
+  }
+}

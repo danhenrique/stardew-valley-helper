@@ -1,0 +1,21 @@
+{
+  "id": "topaz",
+  "type": "minerals",
+  "subtype": "gem",
+  "name": {
+    "en": "Topaz",
+    "pt-BR": "Topázio"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "dwarf",
+      "emily"
+    ]
+  },
+  "museumDonation": true
+}

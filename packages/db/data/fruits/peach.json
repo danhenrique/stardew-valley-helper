@@ -1,0 +1,19 @@
+{
+  "id": "peach",
+  "type": "fruits",
+  "subtype": "tree-fruit",
+  "name": {
+    "en": "Peach",
+    "pt-BR": "Pêssego"
+  },
+  "nameVerified": true,
+  "tags": [
+    "treeFruit"
+  ],
+  "growsFrom": "peach-sapling",
+  "giftTastes": {
+    "loves": [
+      "robin"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "void-essence",
+  "type": "resources",
+  "name": {
+    "en": "Void Essence",
+    "pt-BR": "Essência Nula"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 100
+    }
+  ],
+  "giftTastes": {
+    "neutral": [
+      "dwarf"
+    ],
+    "loves": [
+      "wizard"
+    ]
+  }
+}

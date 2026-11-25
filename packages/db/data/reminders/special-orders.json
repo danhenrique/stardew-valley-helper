@@ -1,0 +1,20 @@
+{
+  "id": "special-orders",
+  "type": "reminders",
+  "name": {
+    "en": "Check Special Orders board",
+    "pt-BR": "Verificar o quadro de pedidos especiais"
+  },
+  "nameVerified": false,
+  "detail": {
+    "en": "Monday, accept new Special Orders at the town and Mr. Qi boards",
+    "pt-BR": "Segundas, aceite novos pedidos especiais nos quadros da cidade e do Mr. Qi"
+  },
+  "trigger": {
+    "kind": "weekly",
+    "weekdays": [
+      "mon"
+    ]
+  },
+  "order": 5
+}

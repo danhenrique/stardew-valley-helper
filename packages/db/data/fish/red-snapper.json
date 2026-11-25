@@ -1,0 +1,32 @@
+{
+  "id": "red-snapper",
+  "type": "fish",
+  "name": {
+    "en": "Red Snapper",
+    "pt-BR": "Cioba"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "rain",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "19:00"
+      }
+    ],
+    "location": {
+      "en": "Ocean",
+      "pt-BR": "Oceano"
+    },
+    "locationVerified": false
+  }
+}

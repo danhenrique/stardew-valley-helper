@@ -1,0 +1,38 @@
+{
+  "id": "lava-eel",
+  "type": "fish",
+  "name": {
+    "en": "Lava Eel",
+    "pt-BR": "Enguia de Lava"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "loves": [
+      "dwarf"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Mines floor 100 (Fishing level 7+), Volcano Caldera",
+      "pt-BR": "Minas andar 100 (nível de pesca 7+), Caldeira do Vulcão"
+    },
+    "locationVerified": false
+  }
+}

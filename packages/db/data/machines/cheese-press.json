@@ -1,0 +1,29 @@
+{
+  "id": "cheese-press",
+  "type": "machines",
+  "name": {
+    "en": "Cheese Press",
+    "pt-BR": "Prensa de Queijo"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 45
+      },
+      {
+        "item": "stone",
+        "qty": 45
+      },
+      {
+        "item": "hardwood",
+        "qty": 10
+      },
+      {
+        "item": "copper-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

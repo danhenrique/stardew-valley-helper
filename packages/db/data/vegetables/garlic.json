@@ -1,0 +1,25 @@
+{
+  "id": "garlic",
+  "type": "vegetables",
+  "name": {
+    "en": "Garlic",
+    "pt-BR": "Alho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 60,
+  "artisan": {
+    "kegPrice": 135,
+    "jarPrice": 170
+  },
+  "growsFrom": "garlic-seeds",
+  "giftTastes": {
+    "dislikesOrHates": [
+      "evelyn",
+      "jodi",
+      "pierre"
+    ]
+  }
+}

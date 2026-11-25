@@ -1,0 +1,14 @@
+{
+  "id": "cow",
+  "type": "animals",
+  "name": {
+    "en": "White Cow",
+    "pt-BR": "Vaca leiteira"
+  },
+  "nameVerified": true,
+  "purchase": {
+    "shop": "ranch",
+    "price": 1500
+  },
+  "housing": "barn"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "remix-spirits-eve",
+  "type": "bundles",
+  "name": {
+    "en": "Spirit's Eve Bundle",
+    "pt-BR": "Conjunto Véspera dos Espíritos"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "jack-o-lantern",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "corn",
+      "qty": 10,
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "bat-wing",
+      "qty": 10
+    }
+  ]
+}

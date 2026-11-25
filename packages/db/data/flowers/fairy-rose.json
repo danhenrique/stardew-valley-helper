@@ -1,0 +1,21 @@
+{
+  "id": "fairy-rose",
+  "type": "flowers",
+  "name": {
+    "en": "Fairy Rose",
+    "pt-BR": "Rosa-de-fada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "sellPrice": 290,
+  "artisan": {},
+  "growsFrom": "fairy-seeds",
+  "giftTastes": {
+    "loves": [
+      "evelyn",
+      "jas"
+    ]
+  }
+}

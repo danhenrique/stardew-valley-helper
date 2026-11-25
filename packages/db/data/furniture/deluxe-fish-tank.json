@@ -1,0 +1,16 @@
+{
+  "id": "deluxe-fish-tank",
+  "type": "furniture",
+  "name": {
+    "en": "Deluxe Fish Tank",
+    "pt-BR": "Aquário de Luxo"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 5000,
+      "fishingLevel": 0
+    }
+  ]
+}

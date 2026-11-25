@@ -1,0 +1,37 @@
+{
+  "id": "poppy-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Poppy Seeds",
+    "pt-BR": "Sementes de Papoula"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 7,
+    "phases": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 0,
+    "produce": "poppy"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100,
+      "season": "summer"
+    },
+    {
+      "shop": "joja",
+      "price": 125,
+      "season": "summer"
+    }
+  ]
+}

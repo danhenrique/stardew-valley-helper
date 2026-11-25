@@ -1,0 +1,216 @@
+{
+  "id": "gus",
+  "type": "villagers",
+  "name": {
+    "en": "Gus",
+    "pt-BR": "Gus"
+  },
+  "nameVerified": true,
+  "marriageable": false,
+  "birthday": {
+    "season": "summer",
+    "day": 8
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "diamond"
+      },
+      {
+        "item": "escargot"
+      },
+      {
+        "item": "fish-taco"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "orange"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "tropical-curry"
+      }
+    ],
+    "likes": [
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "coleslaw",
+      "holly",
+      "quartz",
+      "salmonberry",
+      "wild-horseradish"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "the-miracle-at-coldstar-ranch",
+      "wumbus"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "natural-wonders-exploring-our-vibrant-world",
+      "it-howls-in-the-rain",
+      "the-zuzu-city-express"
+    ],
+    "lovedSnacks": [
+      "cappuccino-mousse-cake",
+      "panzanella-salad",
+      "stardrop-sorbet",
+      "truffle-popcorn"
+    ],
+    "likedSnacks": [
+      "chocolate-popcorn",
+      "fries",
+      "ice-cream-sandwich",
+      "nachos",
+      "personal-pizza",
+      "popcorn",
+      "salmon-burger",
+      "salted-peanuts",
+      "star-cookie"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "rainbow-shell",
+  "type": "forage",
+  "name": {
+    "en": "Rainbow Shell",
+    "pt-BR": "Concha Arco-íris"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "leo",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "dislikesOrHates": [
+      "harvey"
+    ]
+  }
+}

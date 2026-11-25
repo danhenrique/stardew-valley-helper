@@ -1,0 +1,28 @@
+{
+  "id": "barn",
+  "type": "planner-objects",
+  "name": {
+    "en": "Barn",
+    "pt-BR": "Celeiro"
+  },
+  "nameVerified": true,
+  "item": "barn",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 7,
+    "h": 4
+  },
+  "humanDoor": {
+    "x": 1,
+    "y": 3
+  },
+  "animalDoor": {
+    "x": 3,
+    "y": 3,
+    "w": 2,
+    "h": 1
+  },
+  "removable": true,
+  "paint": false
+}

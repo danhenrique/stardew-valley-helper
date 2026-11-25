@@ -1,0 +1,38 @@
+{
+  "id": "grape-starter",
+  "type": "seeds",
+  "name": {
+    "en": "Grape Starter",
+    "pt-BR": "Mudas de Uva"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      2,
+      2
+    ],
+    "regrowDays": 3,
+    "lastPlantingDay": 18,
+    "averageExtraYield": 0,
+    "produce": "grape"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 60,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 75,
+      "season": "fall"
+    }
+  ]
+}

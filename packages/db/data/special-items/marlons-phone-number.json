@@ -1,0 +1,9 @@
+{
+  "id": "marlons-phone-number",
+  "type": "special-items",
+  "name": {
+    "en": "Marlon's Phone Number",
+    "pt-BR": "Número de telefone do Marlon"
+  },
+  "nameVerified": true
+}

@@ -1,0 +1,34 @@
+{
+  "id": "remix-rare-crops",
+  "type": "bundles",
+  "name": {
+    "en": "Rare Crops Bundle",
+    "pt-BR": "Conjunto Plantas Raras"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 2,
+  "items": [
+    {
+      "item": "ancient-fruit",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "sweet-gem-berry",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

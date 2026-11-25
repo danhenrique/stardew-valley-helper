@@ -1,0 +1,14 @@
+{
+  "id": "achievement-10",
+  "type": "achievements",
+  "name": {
+    "en": "Cliques",
+    "pt-BR": "Panelinha"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Reach a 5-heart friend level with 4 people.",
+    "pt-BR": "Alcance amizade nível 5 com 4 pessoas."
+  },
+  "order": 10
+}

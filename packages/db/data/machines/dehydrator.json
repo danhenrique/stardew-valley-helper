@@ -1,0 +1,9 @@
+{
+  "id": "dehydrator",
+  "type": "machines",
+  "name": {
+    "en": "Dehydrator",
+    "pt-BR": "Desidratador"
+  },
+  "nameVerified": true
+}

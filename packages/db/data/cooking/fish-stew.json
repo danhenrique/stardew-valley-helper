@@ -1,0 +1,32 @@
+{
+  "id": "fish-stew",
+  "type": "cooking",
+  "name": {
+    "en": "Fish Stew",
+    "pt-BR": "Guisado de Peixe"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "crayfish",
+        "qty": 1
+      },
+      {
+        "item": "mussel",
+        "qty": 1
+      },
+      {
+        "item": "periwinkle",
+        "qty": 1
+      },
+      {
+        "item": "tomato",
+        "qty": 1
+      }
+    ]
+  }
+}

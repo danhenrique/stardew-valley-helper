@@ -1,0 +1,795 @@
+{
+  "common": {
+    "close": "Close",
+    "undo": "Undo",
+    "edit": "Edit",
+    "save": "Save",
+    "season": "Season",
+    "seasons": "Seasons",
+    "chooseSeason": "Choose season",
+    "all": "All",
+    "day": "Day",
+    "year": "Year",
+    "previousDay": "Previous day",
+    "nextDay": "Next day",
+    "footer": {
+      "data": "Game data © ConcernedApe LLC and Stardew Valley Wiki (CC BY-NC-SA 3.0). Fan site, not for profit.",
+      "images": "Stardew Valley © ConcernedApe. Images used for non-commercial purposes."
+    },
+    "machineCatalog": {
+      "loading": "Loading machines...",
+      "error": "Could not load the machines. Reload the page."
+    },
+    "cancel": "Cancel",
+    "moreActions": "More actions",
+    "unavailable": "Unavailable",
+    "calculating": "Calculating...",
+    "location": "Location",
+    "locationTabs": {
+      "all": "All",
+      "nav": "Locations",
+      "choose": "Choose location"
+    },
+    "seasonCalendar": {
+      "title": "{season}, Year {year}",
+      "previous": "Previous season",
+      "next": "Next season"
+    },
+    "search": "Search...",
+    "stepper": {
+      "decrease": "Decrease {label}",
+      "increase": "Increase {label}"
+    }
+  },
+  "nav": {
+    "today": "Today",
+    "farming": "Farming",
+    "farm": "Farm",
+    "seeds": "Seeds",
+    "fish": "Fish",
+    "calendar": "Calendar",
+    "shops": "Shops",
+    "openUserMenu": "Open user menu",
+    "openMainMenu": "Open main menu",
+    "signOut": "Sign out",
+    "day": {
+      "group": "Game day",
+      "change": "Change day and progress",
+      "changeLabel": "{action}: {label}",
+      "panel": "Day and progress",
+      "current": "{season} {day} · Year {year}",
+      "raining": "Raining today",
+      "dry": "No rain today",
+      "legend": "Today in the game",
+      "profession": "Profession (Farming level 10)",
+      "professionNone": "None",
+      "professionAgriculturist": "Agriculturist",
+      "professionArtisan": "Artisan",
+      "professionHint": "Agriculturist: +10% crop growth speed. Artisan: +40% value of artisan goods.",
+      "communityCenter": "Community Center restored",
+      "communityCenterHint": "Pierre opens on Wednesdays and Joja closes",
+      "keyToTown": "Key To The Town",
+      "keyToTownHint": "Shops open earlier or close later",
+      "boat": "Boat to Ginger Island repaired",
+      "boatHint": "Willy's Fish Shop opens at 8:00",
+      "loading": "Loading the game date..."
+    }
+  },
+  "theme": {
+    "system": "Automatic theme (switch to light)",
+    "light": "Light theme (switch to dark)",
+    "dark": "Dark theme (switch to automatic)"
+  },
+  "language": {
+    "label": "Language",
+    "portuguese": "Português",
+    "english": "English"
+  },
+  "today": {
+    "title": "Today",
+    "addPlanting": "Add planting",
+    "addMachine": "Add machine",
+    "events": "Events",
+    "plantings": "Plantings",
+    "machines": "Machines",
+    "untilDay": "Until day {day}",
+    "nothingToCollect": "Nothing to collect today",
+    "addFirstSeed": "Add your first seed",
+    "nextUp": "Next: {name} in {days, plural, one {# day} other {# days}}",
+    "plantingReady": "{quantity, plural, one {# unit} other {# units}} · Ready to harvest",
+    "replant": "Replant",
+    "outOfSeasonHere": "Out of season at this location",
+    "remove": "Remove",
+    "empty": "Empty",
+    "takeOut": "Take out",
+    "refill": "Refill",
+    "changeProduct": "Change product",
+    "machineReady": "{quantity, plural, one {# machine} other {# machines}} · Ready to collect",
+    "machineQuality": "{quantity, plural, one {# machine} other {# machines}} · {quality} quality reached",
+    "eventsLoading": "Loading events...",
+    "eventsError": "Could not load the events.",
+    "loading": "Loading the day...",
+    "loadError": "Could not load your data. Reload the page.",
+    "rainAlert": "It is raining today",
+    "seeRainFish": "See rain fish",
+    "reminders": "Reminders",
+    "remindersLoading": "Loading reminders...",
+    "remindersError": "Could not load the reminders.",
+    "upcoming": "Upcoming days",
+    "openShops": "Shops open today",
+    "shopsLoading": "Loading shops...",
+    "shopsError": "Could not load the shops.",
+    "noShops": "No shops open today.",
+    "allShops": "See all shops",
+    "closesAt": "until {time}",
+    "randomStock": "Random stock",
+    "birthdayOf": "{name}'s Birthday",
+    "viewEvent": "View event",
+    "giftsLoading": "Loading gifts...",
+    "giftsError": "Could not load the gifts.",
+    "noGifts": "No gifts registered.",
+    "rainFish": "Rain fish",
+    "allFish": "See all fish",
+    "fishLoading": "Loading fish...",
+    "fishError": "Could not load the fish."
+  },
+  "farming": {
+    "title": "Farming",
+    "tabs": {
+      "plantings": "Plantings",
+      "machines": "Machines"
+    },
+    "sections": "Farming sections",
+    "chooseSection": "Choose a farming section",
+    "loadError": "Could not load your data. Reload the page.",
+    "form": {
+      "useToday": "Use today",
+      "otherDate": "Other date",
+      "today": "Today ({date})",
+      "moreOptions": "More options",
+      "nickname": "Nickname (optional)"
+    },
+    "drawer": {
+      "details": "See details",
+      "calculating": "Calculating forecast..."
+    }
+  },
+  "plantings": {
+    "replanted": "Planting replanted",
+    "removed": "Planting removed",
+    "add": "Add planting",
+    "edit": "Edit planting",
+    "loading": "Loading plantings...",
+    "mine": "My plantings",
+    "new": "New planting",
+    "list": "Plantings",
+    "replant": "Replant",
+    "remove": "Remove",
+    "empty": {
+      "title": "No plantings yet",
+      "description": "Add your first seed.",
+      "locationDescription": "Add a planting by choosing this location in the form.",
+      "farm": "No plantings on the Farm",
+      "greenhouse": "No plantings in the Greenhouse",
+      "ginger-island": "No plantings on Ginger Island"
+    },
+    "row": {
+      "units": "{quantity, plural, =1 {# unit} other {# units}}",
+      "planted": "Planted on {date}",
+      "harvested": "Harvested on {date}",
+      "readyToday": "Ready to harvest today",
+      "dead": "The plant died when the season changed",
+      "finished": "No more harvests",
+      "nextIn": "Next harvest in {days, plural, =1 {# day} other {# days}}"
+    },
+    "form": {
+      "seed": "Seed or sapling",
+      "showSeeds": "Show seeds",
+      "outOfSeason": "{description} · Out of season",
+      "plantedDate": "Planting date",
+      "harvestDate": "Harvest date",
+      "fertilizer": "Fertilizer",
+      "harvestOnly": "I only know the date of a harvest",
+      "harvestOnlyHint": "For regrowing crops",
+      "quantity": "Quantity"
+    },
+    "drawer": {
+      "firstHarvest": "First harvest",
+      "firstHarvestLabel": "First harvest:",
+      "choose": "Choose a seed to see the forecast"
+    },
+    "preview": {
+      "choose": "Choose a seed to see the forecast.",
+      "title": "Forecast",
+      "firstHarvest": "First harvest",
+      "harvests": "Harvests",
+      "continuous": "Continuous (next 10)",
+      "expectedYield": "Expected yield",
+      "regrowEvery": "Regrows every",
+      "regrowDays": "{days, plural, =1 {# day} other {# days}}",
+      "noRegrow": "Does not regrow",
+      "diesOn": "Dies on",
+      "neverDies": "Does not die when the season changes"
+    }
+  },
+  "machines": {
+    "recollected": "Machine refilled",
+    "emptied": "Machine emptied",
+    "add": "Add machine",
+    "edit": "Edit machine",
+    "loading": "Loading machines...",
+    "mine": "My machines",
+    "new": "New machine",
+    "list": "Machines",
+    "refill": "Refill",
+    "empty": "Empty",
+    "tabs": {
+      "all": "All",
+      "ready": "Ready",
+      "running": "In progress",
+      "nav": "Machine status",
+      "choose": "Choose a status"
+    },
+    "emptyState": {
+      "all": "No machines yet",
+      "ready": "No machines ready",
+      "running": "No machines in progress",
+      "firstDescription": "Add your first machine.",
+      "otherDescription": "Nothing here for now."
+    },
+    "row": {
+      "count": "{quantity, plural, =1 {# machine} other {# machines}}",
+      "started": "Started on {date}",
+      "ready": "Ready to collect",
+      "iridium": "Iridium quality reached",
+      "noForecast": "No forecast",
+      "nextQuality": "Next quality in {days, plural, =1 {# day} other {# days}}",
+      "nextCollection": "Next collection in {days, plural, =1 {# day} other {# days}}",
+      "readyIn": "Ready in {days, plural, =1 {# day} other {# days}}",
+      "withDate": "{relative} ({date})"
+    },
+    "form": {
+      "machine": "Machine",
+      "chooseMachine": "Choose a machine",
+      "product": "Product",
+      "chooseProduct": "Choose a product",
+      "chooseMachineFirst": "Choose the machine first",
+      "start": "Start",
+      "startQuality": "Starting quality",
+      "count": "Number of machines",
+      "days": "{days, plural, =1 {# day} other {# days}}",
+      "daysApproximate": "{days, plural, =1 {# day} other {# days}} · approx."
+    },
+    "drawer": {
+      "dates": "Forecast dates",
+      "approximate": "Approximate time for this product.",
+      "noDates": "No forecast dates.",
+      "dateLine": "{label}: {date}",
+      "chooseMachine": "Choose a machine to see the forecast",
+      "chooseProduct": "Choose a product to see the forecast",
+      "chooseMachineSentence": "Choose a machine to see the forecast.",
+      "chooseProductSentence": "Choose a product to see the forecast."
+    }
+  },
+  "farmPlanner": {
+    "category": {
+      "building": "Buildings",
+      "planting": "Planting",
+      "machine": "Machines",
+      "decoration": "Decoration"
+    },
+    "group": {
+      "soil": "Soil",
+      "sprinklers": "Sprinklers",
+      "scarecrows": "Scarecrows",
+      "fruitTrees": "Fruit trees",
+      "fences": "Fences",
+      "gates": "Gates",
+      "floors": "Floors and paths"
+    },
+    "issue": {
+      "overlap": "Overlaps {name}",
+      "otherObject": "another object",
+      "outside": "Outside the map",
+      "notBuildable": "Area is not buildable",
+      "notDiggable": "This ground cannot be tilled",
+      "blockedTile": "Blocked ground",
+      "treeSpace": "Fruit trees need a free 3×3 area around them",
+      "doorBlocked": "Door blocked",
+      "limit": "Limit of 8,000 objects reached"
+    },
+    "title": "Farm",
+    "list": {
+      "loading": "Loading plans...",
+      "loadError": "Could not load your plans. Reload the page.",
+      "limit": "Limit of {max} plans",
+      "new": "New plan",
+      "empty": "No plans yet",
+      "open": "Open {name}",
+      "updatedAt": "Updated on {date}",
+      "rename": "Rename {name}",
+      "duplicate": "Duplicate {name}",
+      "delete": "Delete {name}",
+      "copyName": "{name} (copy)",
+      "nameLabel": "Plan name",
+      "deleteTitle": "Delete plan",
+      "deleteConfirm": "Delete \"{name}\"? This cannot be undone.",
+      "deleteAction": "Delete"
+    },
+    "create": {
+      "title": "New plan",
+      "name": "Name",
+      "hint": "Up to {max} characters.",
+      "farm": "Farm",
+      "submit": "Create"
+    },
+    "conflict": {
+      "title": "Plan changed elsewhere",
+      "intro": "This plan was saved in another tab or device after you opened it.",
+      "help": "<reload>Reload</reload> discards your changes and opens the saved version. <overwrite>Overwrite</overwrite> saves your version over the other one.",
+      "reload": "Reload",
+      "overwrite": "Overwrite"
+    },
+    "leave": {
+      "title": "Leave without saving?",
+      "body": "You have unsaved changes.",
+      "leave": "Leave",
+      "stay": "Keep editing"
+    },
+    "save": {
+      "label": "Save status",
+      "saving": "Saving…",
+      "saved": "Saved",
+      "error": "Could not save",
+      "errorDetail": "Could not save: {detail}",
+      "conflict": "Save conflict"
+    },
+    "toolbar": {
+      "tools": "Tools",
+      "history": "History",
+      "zoom": "Zoom",
+      "panels": "Panels",
+      "place": "Place",
+      "select": "Select",
+      "erase": "Erase",
+      "redo": "Redo",
+      "coverage": "Coverage",
+      "zoomOut": "Zoom out",
+      "zoomIn": "Zoom in",
+      "fit": "Fit to screen",
+      "openObjects": "Open objects",
+      "openDetails": "Open details"
+    },
+    "coverage": {
+      "title": "Coverage",
+      "empty": "No tilled tiles yet",
+      "tilled": "Tilled tiles: {count}",
+      "watered": "Watered: {count} ({percent}%)",
+      "protected": "Protected: {count} ({percent}%)",
+      "dry": "{count, plural, one {# tile} other {# tiles}} unwatered",
+      "unprotected": "{count, plural, one {# tile} other {# tiles}} unprotected",
+      "legendWatered": "Watered",
+      "legendProtected": "Protected",
+      "legendDry": "Unwatered",
+      "legendUnprotected": "Unprotected"
+    },
+    "details": {
+      "label": "Details",
+      "selection": "Selection",
+      "none": "No object selected.",
+      "position": "Position {x}, {y}",
+      "many": "{count} objects selected",
+      "problems": "Problems",
+      "noProblems": "No problems.",
+      "more": "and {count} more",
+      "summary": "Summary",
+      "hint": "Drag the background or scroll to pan · Ctrl + wheel to zoom",
+      "dropped": "{count, plural, one {# object removed because it no longer exists} other {# objects removed because they no longer exist}}"
+    },
+    "notice": {
+      "notRemovable": "This object cannot be removed",
+      "moveRefused": "Cannot move it there"
+    },
+    "palette": {
+      "label": "Objects",
+      "search": "Search objects",
+      "empty": "No objects found."
+    },
+    "map": {
+      "label": "Farm map"
+    },
+    "page": {
+      "back": "Plans",
+      "notFound": "Plan not found",
+      "notFoundHint": "It may have been deleted or the address is wrong.",
+      "backToPlans": "Back to plans",
+      "loadError": "Could not load the plan.",
+      "retry": "Try again",
+      "loading": "Loading plan...",
+      "switch": "Switch plan",
+      "switchNamed": "Switch plan: {name}"
+    }
+  },
+  "seeds": {
+    "goldPerDay": "{gold}g/day",
+    "goldTotal": "{gold}g · {harvests, plural, =1 {# harvest} other {# harvests}}",
+    "goldPerHarvest": "{gold}g per harvest · {cycle, plural, =1 {every day} other {every # days}}",
+    "title": "Seeds",
+    "loading": "Loading seeds...",
+    "loadError": "Could not load the seeds. Reload the page.",
+    "period": "Period",
+    "periodSeason": "Whole season",
+    "periodToday": "From today",
+    "mode": "Calculation",
+    "fertilizer": "Fertilizer",
+    "farmingLevel": "Farming Level",
+    "sortBy": "Sort by",
+    "machinesNote": "Preserves Jar and Keg assume enough machines for the whole harvest.",
+    "calcError": "Could not calculate the values.",
+    "willNotMature": "Won't mature in time",
+    "pricesByQuality": "Prices by quality",
+    "showPrices": "Show prices",
+    "direct": "Direct {price}g",
+    "qualityPrice": "{quality} {price}g",
+    "baseQuality": "Normal",
+    "machineProduct": "{machine} · {product} {price}g",
+    "machineNoProduct": "{machine} · —",
+    "machine": {
+      "jar": "Preserves Jar",
+      "keg": "Keg"
+    },
+    "products": {
+      "jelly": "Jelly",
+      "pickles": "Pickles",
+      "wine": "Wine",
+      "juice": "Juice",
+      "pale-ale": "Pale Ale",
+      "beer": "Beer",
+      "green-tea": "Green Tea",
+      "coffee": "Coffee"
+    }
+  },
+  "fish": {
+    "title": "Fish",
+    "loading": "Loading fish...",
+    "loadError": "Could not load the fish. Reload the page.",
+    "weather": "Weather",
+    "kind": "Type",
+    "search": "Search fish",
+    "searchPlaceholder": "Fish name",
+    "unverified": "Locations not yet verified in the game.",
+    "empty": "No fish match these filters.",
+    "sectionTitle": "{title} ({count})",
+    "rainOnly": "Rain only",
+    "sunOnly": "Sun only",
+    "drawer": {
+      "type": "Type",
+      "hours": "Hours",
+      "typeValue": "{category} · {tool}",
+      "category": {
+        "regular": "Regular",
+        "night-market": "Night Market",
+        "legendary": "Legendary Fish",
+        "legendary-ii": "Legendary Fish II"
+      },
+      "tool": {
+        "rod": "Rod",
+        "crab-pot": "Crab Pot"
+      },
+      "weatherValue": {
+        "any": "Any weather",
+        "sun": "Sun only",
+        "rain": "Rain only"
+      }
+    }
+  },
+  "calendar": {
+    "title": "Calendar",
+    "tabs": {
+      "calendar": "Calendar",
+      "events": "Events",
+      "nav": "Calendar sections",
+      "choose": "Choose a calendar section"
+    },
+    "loading": "Loading calendar...",
+    "error": "Could not load the calendar. Reload the page.",
+    "markerKind": "{kind}: ",
+    "eventKinds": "Event types",
+    "noSeasonEvents": "No events this season.",
+    "dayButton": "Day {day}",
+    "dayEvents": "Events on day {day}",
+    "dayHeading": "{season} {day}",
+    "noDayEvents": "No events on this day."
+  },
+  "events": {
+    "loading": "Loading events...",
+    "error": "Could not load the events. Reload the page.",
+    "search": "Search event",
+    "kindFilter": "Event type",
+    "allKinds": "All types",
+    "none": "No events found.",
+    "detail": {
+      "back": "Back to events",
+      "loading": "Loading...",
+      "error": "Could not load the event. Reload the page.",
+      "notFound": "Event not found",
+      "type": "Type",
+      "day": "Day",
+      "days": "Days",
+      "shops": "Shops",
+      "shopsClosed": "Shops closed",
+      "shopsOpen": "Shops open",
+      "item": "Item",
+      "marriageable": "Marriageable",
+      "yes": "Yes",
+      "no": "No",
+      "lovedGifts": "Loved gifts",
+      "giftsLoading": "Loading gifts...",
+      "giftsError": "Could not load the gifts.",
+      "noLovedGifts": "No loved gifts on record.",
+      "lastPlantingDay": "Last planting day",
+      "lastPlantingDayValue": "Day {day}",
+      "growthDays": "Growth days",
+      "growthDaysValue": "{days, plural, one {# day} other {# days}}"
+    }
+  },
+  "shops": {
+    "title": "Shops",
+    "loading": "Loading shops...",
+    "loadError": "Could not load the shops.",
+    "loadingOne": "Loading shop...",
+    "loadErrorOne": "Could not load the shop.",
+    "notFound": "Shop not found",
+    "viewAll": "View all shops",
+    "viewCatalog": "View full catalog",
+    "loadingCatalog": "Loading catalog...",
+    "catalogError": "Could not load the catalog.",
+    "emptyDay": "Nothing for sale on this day.",
+    "randomStock": "Part of the stock is random",
+    "free": "Free",
+    "quantityOf": "Quantity of {name}",
+    "section": {
+      "shop": "Shop",
+      "upgrade": "Upgrades",
+      "geode": "Geodes",
+      "building": "Buildings",
+      "magic": "Magic"
+    },
+    "badge": {
+      "open": "Open",
+      "closed": "Closed",
+      "always": "No fixed hours"
+    },
+    "status": {
+      "always": "No fixed hours",
+      "alwaysAccess": "No fixed hours · {access}",
+      "open": "Open · {hours}",
+      "closed": "Closed · {reason}"
+    },
+    "closedDays": "Closed: {days}",
+    "cart": {
+      "total": "Total: {gold}g",
+      "clear": "Clear purchase"
+    },
+    "gifts": {
+      "showOthers": "Show other tastes ({count})",
+      "except": "except {names}"
+    },
+    "hoursTwo": "{first} and {second}"
+  },
+  "labels": {
+    "season": {
+      "spring": "Spring",
+      "summer": "Summer",
+      "fall": "Fall",
+      "winter": "Winter"
+    },
+    "weekday": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "weekdayPlural": {
+      "mon": "Mondays",
+      "tue": "Tuesdays",
+      "wed": "Wednesdays",
+      "thu": "Thursdays",
+      "fri": "Fridays",
+      "sat": "Saturdays",
+      "sun": "Sundays"
+    },
+    "location": {
+      "farm": "Farm",
+      "greenhouse": "Greenhouse",
+      "ginger-island": "Ginger Island"
+    },
+    "plantingStatus": {
+      "growing": "Growing",
+      "ready": "Ready",
+      "regrowing": "Regrowing",
+      "finished": "Finished",
+      "dead": "Dead"
+    },
+    "quality": {
+      "normal": "Normal",
+      "silver": "Silver",
+      "gold": "Gold",
+      "iridium": "Iridium"
+    },
+    "machineStatus": {
+      "processing": "Processing",
+      "ready": "Ready",
+      "aging": "Aging",
+      "iridium": "Iridium"
+    },
+    "fertilizerSpeed": {
+      "none": "No bonus",
+      "speed-gro": "−10%",
+      "deluxe-speed-gro": "−25%",
+      "hyper-speed-gro": "−33%"
+    },
+    "noFertilizer": "None",
+    "warning": {
+      "will_not_mature": "Does not mature before the end of the season.",
+      "approximate": "Approximate calculation for this seed."
+    },
+    "eventKind": {
+      "festival": "Festival",
+      "birthday": "Birthday",
+      "cropDeadline": "Crop deadline",
+      "foraging": "Foraging"
+    },
+    "machineMarker": {
+      "machine": "Machine",
+      "caskMilestone": "Cask"
+    },
+    "giftTier": {
+      "loves": "Loves",
+      "likes": "Likes",
+      "neutral": "Neutral",
+      "dislikesOrHates": "Dislikes or hates"
+    },
+    "gameDate": "{season} {day}, Year {year}",
+    "eventDay": "{season} {day}",
+    "eventDayRange": "{season} {day}–{endDay}",
+    "expectedYield": {
+      "total": "≈ {total} total ({perHarvest} per harvest)",
+      "perHarvest": "≈ {perHarvest} per harvest"
+    },
+    "relativeDay": {
+      "today": "today",
+      "tomorrow": "tomorrow",
+      "yesterday": "yesterday",
+      "inDays": "in {days} days",
+      "daysAgo": "{days} days ago"
+    },
+    "firstHarvest": "{date} ({relative})",
+    "neverMatures": "Does not mature before the end of the season",
+    "scheduleSummary": "Ready on {firstHarvest} · {harvests}",
+    "harvests": {
+      "endless": "endless harvests",
+      "count": "{count, plural, =1 {# harvest} other {# harvests}}"
+    },
+    "plantable": {
+      "crop": "{seasons} · {days, plural, =1 {# day} other {# days}}",
+      "cropRegrow": "{seasons} · {days, plural, =1 {# day} other {# days}} · regrows every {regrow, plural, =1 {# day} other {# days}}",
+      "tree": "{seasons} · tree: {days, plural, =1 {# day} other {# days}}"
+    },
+    "machineSummary": {
+      "collection": "Collects every {days} {days, plural, =1 {day} other {days}} · next {date}",
+      "ready": "Ready on {date}",
+      "noCollections": "No collections scheduled",
+      "noForecast": "No forecast",
+      "milestone": "{quality} {date}"
+    },
+    "machineDate": {
+      "collection": "Collection",
+      "ready": "Ready"
+    },
+    "harvest": "Harvest",
+    "cost": {
+      "gold": "{amount}g",
+      "qiCoins": "{amount} Qi Coins",
+      "qiGems": "{amount} Qi Gems",
+      "goldenWalnuts": "{amount} Golden Walnuts",
+      "cinderShards": "{amount} Cinder Shards"
+    },
+    "offerTag": {
+      "fishingLevel": "Requires Fishing level {level}",
+      "requires": "Requires {name}",
+      "monsterGoal": "Requires monster goal",
+      "recipe": "Recipe",
+      "pack": "Pack of {size}",
+      "rotating": "Rotating"
+    },
+    "offerSpecial": {
+      "onlyOneAtMaxKrobusFriendshipWhileSingle": "Only one, at max friendship with Krobus and while single",
+      "wednesdayRandomFishOrMagnetBait": "Wednesdays: random fish or Magnet"
+    },
+    "shopReason": {
+      "permanent": "Permanently closed",
+      "season": "Out of season",
+      "rain": "Rain",
+      "festival": "Festival",
+      "closedToday": "Closed today",
+      "closesOnWeekday": "Closed on {day}",
+      "closesOnWeekend": "Closed on {day}"
+    },
+    "shopNote": {
+      "closesIfRain": "Closes if it rains",
+      "opensIfRain": "Opens if it rains"
+    },
+    "fishSection": {
+      "rod": "Rod",
+      "nightMarket": "Night Market",
+      "legendary": "Legendary Fish",
+      "legendaryII": "Legendary Fish II",
+      "crabPot": "Crab Pot",
+      "rainOnly": "Rain only"
+    },
+    "fishWeather": {
+      "all": "All",
+      "sun": "Sun",
+      "rain": "Rain"
+    },
+    "fishKind": {
+      "all": "All",
+      "rod": "Rod",
+      "crabPot": "Crab Pot",
+      "special": "Special"
+    },
+    "valueMode": {
+      "continuous": "Continuous",
+      "window": "28 days"
+    },
+    "fertilizer": {
+      "basic": "Basic Fertilizer",
+      "quality": "Quality Fertilizer",
+      "deluxe": "Deluxe Fertilizer",
+      "speed-gro": "Speed-Gro",
+      "deluxe-speed-gro": "Deluxe Speed-Gro",
+      "hyper-speed-gro": "Hyper Speed-Gro"
+    },
+    "seedSort": {
+      "goldPerDay": "Gold/day · direct sale",
+      "bestPerDay": "Gold/day · best destination",
+      "goldTotal": "Gold over the period",
+      "name": "Name"
+    },
+    "dotJoin": "{first} · {second}"
+  },
+  "errors": {
+    "generic": "Could not save. Try again.",
+    "planting": {
+      "chooseSeed": "Choose a seed or sapling",
+      "outOfSeason": "Out of season on the Farm — use the Greenhouse or Ginger Island",
+      "onlyRegrowing": "Only regrowing crops can start from a harvest"
+    },
+    "machine": {
+      "chooseMachine": "Choose a machine",
+      "chooseProduct": "Choose a product for this machine"
+    },
+    "api": {
+      "seedNotInSeason": "The seed cannot be planted in this season.",
+      "notPlantable": "This item cannot be planted.",
+      "regrowOnly": "Only regrowing crops can start from a harvest date.",
+      "seedNotFound": "Seed not found.",
+      "plantingNotFound": "Planting not found.",
+      "outputNotInMachine": "This product does not belong to this machine.",
+      "machineNotFound": "Machine not found.",
+      "machineBatchNotFound": "Machine record not found.",
+      "planNotFound": "Plan not found.",
+      "tooManyObjects": "Limit of 8,000 objects reached.",
+      "unknownObject": "Unknown object: {object}",
+      "objectOutsideFarm": "Object outside the farm: {object}",
+      "missingFixedObject": "Missing fixed object: {object}"
+    }
+  },
+  "notFound": {
+    "title": "Page not found"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "green-tea",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Green Tea",
+    "pt-BR": "Chá Verde"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "loves": [
+      "caroline",
+      "lewis"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bat-wing",
+  "type": "resources",
+  "name": {
+    "en": "Bat Wing",
+    "pt-BR": "Asa de Morcego"
+  },
+  "nameVerified": true
+}

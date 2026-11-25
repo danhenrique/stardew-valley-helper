@@ -1,0 +1,26 @@
+{
+  "id": "rare-seed",
+  "type": "seeds",
+  "name": {
+    "en": "Rare Seed",
+    "pt-BR": "Semente Rara"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 24,
+    "phases": [
+      2,
+      4,
+      6,
+      6,
+      6
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 4,
+    "averageExtraYield": 0,
+    "produce": "sweet-gem-berry"
+  }
+}

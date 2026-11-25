@@ -1,0 +1,9 @@
+{
+  "id": "snake-skull",
+  "type": "fossils",
+  "name": {
+    "en": "Snake Skull",
+    "pt-BR": "Crânio de Cobra"
+  },
+  "nameVerified": true
+}

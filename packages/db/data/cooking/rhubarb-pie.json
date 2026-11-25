@@ -1,0 +1,43 @@
+{
+  "id": "rhubarb-pie",
+  "type": "cooking",
+  "name": {
+    "en": "Rhubarb Pie",
+    "pt-BR": "Torta de Ruibarbo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 800
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey"
+    ],
+    "loves": [
+      "jodi",
+      "maru"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "rhubarb",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

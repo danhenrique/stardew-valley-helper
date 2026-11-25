@@ -1,0 +1,14 @@
+{
+  "id": "achievement-38",
+  "type": "achievements",
+  "name": {
+    "en": "Master Of The Five Ways",
+    "pt-BR": "Mestre dos Cinco Caminhos"
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Reach skill level 10 in every skill.",
+    "pt-BR": "Alcance o nível 10 em todas as habilidades."
+  },
+  "order": 38
+}

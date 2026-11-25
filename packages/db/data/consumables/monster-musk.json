@@ -1,0 +1,26 @@
+{
+  "id": "monster-musk",
+  "type": "consumables",
+  "name": {
+    "en": "Monster Musk",
+    "pt-BR": "Almíscar de Monstro"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "loves": [
+      "krobus"
+    ]
+  },
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bat-wing",
+        "qty": 30
+      },
+      {
+        "item": "slime",
+        "qty": 30
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rarecrow-6",
+  "type": "planner-objects",
+  "name": {
+    "en": "Rarecrow 6",
+    "pt-BR": "Espantalho Raro"
+  },
+  "nameVerified": false,
+  "item": "rarecrow-6",
+  "category": "planting",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "range": {
+    "shape": "circle",
+    "radius": 8
+  },
+  "paint": false,
+  "removable": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mango-sapling",
+  "type": "fruit-trees",
+  "name": {
+    "en": "Mango Sapling",
+    "pt-BR": "Muda de Mangueira"
+  },
+  "nameVerified": true,
+  "fruitTree": {
+    "fruit": "mango",
+    "season": "summer",
+    "daysToMature": 28,
+    "fruitsPerDay": 1,
+    "maxFruitOnTree": 3
+  }
+}

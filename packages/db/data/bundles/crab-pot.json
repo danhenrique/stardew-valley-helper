@@ -1,0 +1,50 @@
+{
+  "id": "crab-pot",
+  "type": "bundles",
+  "name": {
+    "en": "Crab Pot Bundle",
+    "pt-BR": "Conjunto de Covo"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 5,
+  "items": [
+    {
+      "item": "lobster"
+    },
+    {
+      "item": "crab"
+    },
+    {
+      "item": "shrimp"
+    },
+    {
+      "item": "crayfish"
+    },
+    {
+      "item": "snail"
+    },
+    {
+      "item": "periwinkle"
+    },
+    {
+      "item": "mussel"
+    },
+    {
+      "item": "cockle"
+    },
+    {
+      "item": "oyster"
+    },
+    {
+      "item": "clam"
+    }
+  ]
+}

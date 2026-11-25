@@ -1,0 +1,18 @@
+{
+  "id": "vinegar",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Vinegar",
+    "pt-BR": "Vinagre"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 200
+    }
+  ]
+}

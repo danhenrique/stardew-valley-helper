@@ -1,0 +1,26 @@
+{
+  "id": "iron-bar",
+  "type": "resources",
+  "name": {
+    "en": "Iron Bar",
+    "pt-BR": "Barra de Ferro"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "clint",
+      "maru"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ]
+  },
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 3
+      }
+    ]
+  }
+}

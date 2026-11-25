@@ -1,0 +1,13 @@
+{
+  "id": "luau",
+  "type": "festivals",
+  "name": {
+    "en": "Luau",
+    "pt-BR": "Luau"
+  },
+  "nameVerified": true,
+  "season": "summer",
+  "startDay": 11,
+  "endDay": 11,
+  "shopsClosed": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "maple-syrup",
+  "type": "resources",
+  "name": {
+    "en": "Maple Syrup",
+    "pt-BR": "Xarope de Ácer"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "maru"
+    ]
+  }
+}

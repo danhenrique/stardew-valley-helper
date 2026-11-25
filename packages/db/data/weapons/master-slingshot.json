@@ -1,0 +1,15 @@
+{
+  "id": "master-slingshot",
+  "type": "weapons",
+  "name": {
+    "en": "Master Slingshot",
+    "pt-BR": "Estilingue-mestre"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 1000
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cookie",
+  "type": "cooking",
+  "name": {
+    "en": "Cookie",
+    "pt-BR": "Biscoitos"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 280
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey",
+      "leah"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "egg",
+        "qty": 1
+      }
+    ]
+  }
+}

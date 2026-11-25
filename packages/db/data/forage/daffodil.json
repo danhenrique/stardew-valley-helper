@@ -1,0 +1,53 @@
+{
+  "id": "daffodil",
+  "type": "forage",
+  "name": {
+    "en": "Daffodil",
+    "pt-BR": "Narciso"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "clint",
+      "demetrius",
+      "lewis",
+      "marnie",
+      "maru",
+      "penny",
+      "robin"
+    ],
+    "likes": [
+      "caroline",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "harvey",
+      "jas",
+      "kent",
+      "leah",
+      "linus",
+      "pam",
+      "pierre",
+      "vincent"
+    ],
+    "dislikesOrHates": [
+      "dwarf",
+      "elliott",
+      "jodi",
+      "krobus",
+      "leo",
+      "sam",
+      "sebastian",
+      "shane",
+      "willy",
+      "wizard"
+    ],
+    "loves": [
+      "sandy"
+    ]
+  }
+}

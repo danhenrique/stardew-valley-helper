@@ -1,0 +1,18 @@
+{
+  "id": "desert-obelisk",
+  "type": "planner-objects",
+  "name": {
+    "en": "Desert Obelisk",
+    "pt-BR": "Obelisco do Deserto"
+  },
+  "nameVerified": true,
+  "item": "desert-obelisk",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 2
+  },
+  "removable": true,
+  "paint": false
+}

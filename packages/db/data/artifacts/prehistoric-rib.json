@@ -1,0 +1,13 @@
+{
+  "id": "prehistoric-rib",
+  "type": "artifacts",
+  "name": {
+    "en": "Prehistoric Rib",
+    "pt-BR": "Costela Pré-histórica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

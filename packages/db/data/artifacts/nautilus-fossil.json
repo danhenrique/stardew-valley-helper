@@ -1,0 +1,13 @@
+{
+  "id": "nautilus-fossil",
+  "type": "artifacts",
+  "name": {
+    "en": "Nautilus Fossil",
+    "pt-BR": "Fóssil de Náutilo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

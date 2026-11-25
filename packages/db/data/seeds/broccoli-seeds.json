@@ -1,0 +1,19 @@
+{
+  "id": "broccoli-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Broccoli Seeds",
+    "pt-BR": "Sementes de Brócolis"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 8,
+    "regrowDays": 4,
+    "lastPlantingDay": 20,
+    "averageExtraYield": 0,
+    "produce": "broccoli"
+  }
+}

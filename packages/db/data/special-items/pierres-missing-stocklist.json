@@ -1,0 +1,18 @@
+{
+  "id": "pierres-missing-stocklist",
+  "type": "special-items",
+  "name": {
+    "en": "Pierre's Missing Stocklist",
+    "pt-BR": "Lista de Estoque Perdida do Pierre"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 50
+      }
+    }
+  ]
+}

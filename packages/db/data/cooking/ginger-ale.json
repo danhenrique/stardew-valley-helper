@@ -1,0 +1,29 @@
+{
+  "id": "ginger-ale",
+  "type": "cooking",
+  "name": {
+    "en": "Ginger Ale",
+    "pt-BR": "Ginger Ale"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "vincent"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "ginger",
+        "qty": 3
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

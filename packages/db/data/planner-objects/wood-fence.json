@@ -1,0 +1,18 @@
+{
+  "id": "wood-fence",
+  "type": "planner-objects",
+  "name": {
+    "en": "Wood Fence",
+    "pt-BR": "Cerca de Madeira"
+  },
+  "nameVerified": false,
+  "item": "wood-fence",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

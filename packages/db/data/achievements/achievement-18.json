@@ -1,0 +1,14 @@
+{
+  "id": "achievement-18",
+  "type": "achievements",
+  "name": {
+    "en": "D.I.Y.",
+    "pt-BR": "Faça Você Mesmo"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Craft 15 different items.",
+    "pt-BR": "Crie 15 itens diferentes."
+  },
+  "order": 18
+}

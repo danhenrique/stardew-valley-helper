@@ -1,0 +1,14 @@
+{
+  "id": "pig",
+  "type": "animals",
+  "name": {
+    "en": "Pig",
+    "pt-BR": "Porco"
+  },
+  "nameVerified": true,
+  "purchase": {
+    "shop": "ranch",
+    "price": 16000
+  },
+  "housing": "deluxe-barn"
+}

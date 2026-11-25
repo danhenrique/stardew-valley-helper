@@ -1,0 +1,18 @@
+{
+  "id": "tree-fruit",
+  "type": "categories",
+  "name": {
+    "en": "All tree fruit",
+    "pt-BR": "Todas as frutas de árvore"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "apple",
+    "apricot",
+    "cherry",
+    "orange",
+    "peach",
+    "pomegranate"
+  ]
+}

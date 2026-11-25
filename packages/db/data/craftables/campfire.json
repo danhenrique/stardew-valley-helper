@@ -1,0 +1,25 @@
+{
+  "id": "campfire",
+  "type": "craftables",
+  "name": {
+    "en": "Campfire",
+    "pt-BR": "Fogueira"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 10
+      },
+      {
+        "item": "wood",
+        "qty": 10
+      },
+      {
+        "item": "fiber",
+        "qty": 10
+      }
+    ]
+  }
+}

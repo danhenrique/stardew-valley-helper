@@ -1,0 +1,12 @@
+{
+  "id": "way-of-the-wind-pt-1",
+  "type": "books",
+  "name": {
+    "en": "Way Of The Wind pt. 1",
+    "pt-BR": "Caminho do Vento - Parte 1"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "orpiment",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Orpiment",
+    "pt-BR": "Auripigmento"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

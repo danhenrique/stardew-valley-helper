@@ -1,0 +1,25 @@
+{
+  "id": "geode-crusher",
+  "type": "machines",
+  "name": {
+    "en": "Geode Crusher",
+    "pt-BR": "Esmagador de Geodos"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 2
+      },
+      {
+        "item": "stone",
+        "qty": 50
+      },
+      {
+        "item": "diamond",
+        "qty": 1
+      }
+    ]
+  }
+}

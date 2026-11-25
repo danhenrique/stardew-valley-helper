@@ -1,0 +1,18 @@
+{
+  "id": "bone-mill",
+  "type": "planner-objects",
+  "name": {
+    "en": "Bone Mill",
+    "pt-BR": "Moedor de Ossos"
+  },
+  "nameVerified": false,
+  "item": "bone-mill",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

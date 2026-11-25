@@ -1,0 +1,15 @@
+{
+  "id": "cactus-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Cactus Seeds",
+    "pt-BR": "Sementes de Cacto"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 150
+    }
+  ]
+}

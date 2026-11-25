@@ -1,0 +1,19 @@
+{
+  "id": "summer-squash-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Summer Squash Seeds",
+    "pt-BR": "Sementes de Abobrinha de Verão"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": 3,
+    "lastPlantingDay": 22,
+    "averageExtraYield": 0,
+    "produce": "summer-squash"
+  }
+}

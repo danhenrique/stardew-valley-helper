@@ -1,0 +1,14 @@
+{
+  "id": "achievement-34",
+  "type": "achievements",
+  "name": {
+    "en": "Joja Co. Member Of The Year",
+    "pt-BR": "Membro do Ano da Joja Co."
+  },
+  "nameVerified": false,
+  "description": {
+    "en": "Complete all Joja community development projects.",
+    "pt-BR": "Conclua todos os projetos de desenvolvimento da comunidade Joja."
+  },
+  "order": 34
+}

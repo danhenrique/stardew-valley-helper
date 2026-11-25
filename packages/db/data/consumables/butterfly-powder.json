@@ -1,0 +1,15 @@
+{
+  "id": "butterfly-powder",
+  "type": "consumables",
+  "name": {
+    "en": "Butterfly Powder",
+    "pt-BR": "Pó de Borboleta"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "wizard-tower",
+      "price": 20000
+    }
+  ]
+}

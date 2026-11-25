@@ -1,0 +1,236 @@
+{
+  "id": "leah",
+  "type": "villagers",
+  "name": {
+    "en": "Leah",
+    "pt-BR": "Leah"
+  },
+  "nameVerified": true,
+  "marriageable": true,
+  "birthday": {
+    "season": "winter",
+    "day": 23
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "goat-cheese"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "poppyseed-muffin"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "salad"
+      },
+      {
+        "item": "stir-fry"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "vegetable-medley"
+      },
+      {
+        "item": "wine"
+      }
+    ],
+    "likes": [
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "driftwood"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "holly"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "spring-onion"
+      },
+      {
+        "item": "wild-horseradish"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "category": "fruits"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom"
+        ]
+      },
+      {
+        "category": "milk"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      }
+    ],
+    "dislikesOrHates": [
+      "bread",
+      "carp-surprise",
+      "cookie",
+      "fried-egg",
+      "hashbrowns",
+      "ice-cream",
+      "pancakes",
+      "pink-cake",
+      "pizza",
+      "rice-pudding",
+      "seaweed",
+      "survival-burger",
+      "tortilla",
+      "void-egg"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "mysterium"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "the-zuzu-city-express"
+    ],
+    "lovedSnacks": [
+      "panzanella-salad",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "jawbreaker",
+      "kale-smoothie",
+      "rock-candy",
+      "salmon-burger",
+      "sour-slimes",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

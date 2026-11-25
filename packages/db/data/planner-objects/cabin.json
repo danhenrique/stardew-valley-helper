@@ -1,0 +1,22 @@
+{
+  "id": "cabin",
+  "type": "planner-objects",
+  "name": {
+    "en": "Log Cabin Stage 1",
+    "pt-BR": "Casa"
+  },
+  "nameVerified": true,
+  "item": "cabin",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 5,
+    "h": 3
+  },
+  "humanDoor": {
+    "x": 2,
+    "y": 1
+  },
+  "removable": true,
+  "paint": false
+}

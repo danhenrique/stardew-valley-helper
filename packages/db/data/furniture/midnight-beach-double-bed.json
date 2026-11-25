@@ -1,0 +1,21 @@
+{
+  "id": "midnight-beach-double-bed",
+  "type": "furniture",
+  "name": {
+    "en": "Midnight Beach Double Bed",
+    "pt-BR": "Cama de Casal Praia Meia-noite"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 30
+        }
+      ]
+    }
+  ]
+}

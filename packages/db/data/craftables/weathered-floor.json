@@ -1,0 +1,17 @@
+{
+  "id": "weathered-floor",
+  "type": "craftables",
+  "name": {
+    "en": "Weathered Floor",
+    "pt-BR": "Piso Desgastado"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ]
+  }
+}

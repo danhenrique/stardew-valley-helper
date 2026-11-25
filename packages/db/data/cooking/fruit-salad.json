@@ -1,0 +1,33 @@
+{
+  "id": "fruit-salad",
+  "type": "cooking",
+  "name": {
+    "en": "Fruit Salad",
+    "pt-BR": "Salada de Frutas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "haley"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "blueberry",
+        "qty": 1
+      },
+      {
+        "item": "melon",
+        "qty": 1
+      },
+      {
+        "item": "apricot",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "jade",
+  "type": "minerals",
+  "subtype": "gem",
+  "name": {
+    "en": "Jade",
+    "pt-BR": "Jade"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "dwarf",
+      "emily"
+    ]
+  },
+  "museumDonation": true
+}

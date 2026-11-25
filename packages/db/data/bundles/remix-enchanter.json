@@ -1,0 +1,35 @@
+{
+  "id": "remix-enchanter",
+  "type": "bundles",
+  "name": {
+    "en": "Enchanter's Bundle",
+    "pt-BR": "Conjunto de Encantador"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "bulletin-board",
+    "name": {
+      "en": "Bulletin Board",
+      "pt-BR": "Mural de Recados"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "oak-resin"
+    },
+    {
+      "item": "wine"
+    },
+    {
+      "item": "rabbits-foot"
+    },
+    {
+      "item": "pomegranate",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

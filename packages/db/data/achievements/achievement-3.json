@@ -1,0 +1,14 @@
+{
+  "id": "achievement-3",
+  "type": "achievements",
+  "name": {
+    "en": "Homesteader (250k)",
+    "pt-BR": "Autossuficiência (250 mil)"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Earn 250,000g",
+    "pt-BR": "Ganhe 250.000 ouros."
+  },
+  "order": 3
+}

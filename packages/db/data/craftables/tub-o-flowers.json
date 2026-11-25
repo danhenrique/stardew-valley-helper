@@ -1,0 +1,33 @@
+{
+  "id": "tub-o-flowers",
+  "type": "craftables",
+  "name": {
+    "en": "Tub o' Flowers",
+    "pt-BR": "Barril de Flores"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 15
+      },
+      {
+        "item": "tulip-bulb",
+        "qty": 1
+      },
+      {
+        "item": "jazz-seeds",
+        "qty": 1
+      },
+      {
+        "item": "poppy-seeds",
+        "qty": 1
+      },
+      {
+        "item": "spangle-seeds",
+        "qty": 1
+      }
+    ]
+  }
+}

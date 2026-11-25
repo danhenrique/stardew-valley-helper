@@ -1,0 +1,213 @@
+{
+  "id": "sam",
+  "type": "villagers",
+  "name": {
+    "en": "Sam",
+    "pt-BR": "Sam"
+  },
+  "nameVerified": true,
+  "marriageable": true,
+  "birthday": {
+    "season": "summer",
+    "day": 17
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "cactus-fruit"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "maple-bar"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "pizza"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "tigerseye"
+      }
+    ],
+    "likes": [
+      {
+        "item": "joja-cola"
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits",
+        "except": [
+          "cactus-fruit"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "bone-fragment",
+      "cinder-shard",
+      "coal",
+      "copper-bar",
+      "daffodil",
+      "dandelion",
+      "duck-mayonnaise",
+      "ginger",
+      "gold-bar",
+      "gold-ore",
+      "hazelnut",
+      "holly",
+      "iridium-bar",
+      "iridium-ore",
+      "iron-bar",
+      "leek",
+      "mayonnaise",
+      "pickles",
+      "quartz",
+      "refined-quartz",
+      "salmonberry",
+      "seaweed",
+      "snow-yam",
+      "wild-horseradish",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "wumbus"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "mysterium",
+      "natural-wonders-exploring-our-vibrant-world",
+      "it-howls-in-the-rain"
+    ],
+    "lovedSnacks": [
+      "personal-pizza",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "chocolate-popcorn",
+      "cotton-candy",
+      "fries",
+      "ice-cream-sandwich",
+      "jawbreaker",
+      "joja-cola-large",
+      "nachos",
+      "popcorn",
+      "rock-candy",
+      "salmon-burger",
+      "salted-peanuts",
+      "sour-slimes",
+      "star-cookie"
+    ]
+  }
+}

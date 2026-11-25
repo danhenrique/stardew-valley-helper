@@ -1,0 +1,15 @@
+{
+  "id": "galaxy-sword",
+  "type": "weapons",
+  "name": {
+    "en": "Galaxy Sword",
+    "pt-BR": "Espada da Galáxia"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 50000
+    }
+  ]
+}

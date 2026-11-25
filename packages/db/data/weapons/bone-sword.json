@@ -1,0 +1,15 @@
+{
+  "id": "bone-sword",
+  "type": "weapons",
+  "name": {
+    "en": "Bone Sword",
+    "pt-BR": "Espada de Osso"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 6000
+    }
+  ]
+}

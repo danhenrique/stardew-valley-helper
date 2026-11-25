@@ -1,0 +1,35 @@
+{
+  "id": "lingcod",
+  "type": "fish",
+  "name": {
+    "en": "Lingcod",
+    "pt-BR": "Ófis"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "likes": [
+      "willy"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest), Mountain Lake",
+      "pt-BR": "Rio (cidade + floresta), Lago da montanha"
+    },
+    "locationVerified": false
+  }
+}

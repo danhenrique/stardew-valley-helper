@@ -1,0 +1,9 @@
+{
+  "id": "sap",
+  "type": "resources",
+  "name": {
+    "en": "Sap",
+    "pt-BR": "Seiva"
+  },
+  "nameVerified": true
+}

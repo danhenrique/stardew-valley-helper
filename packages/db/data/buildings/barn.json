@@ -1,0 +1,25 @@
+{
+  "id": "barn",
+  "type": "buildings",
+  "name": {
+    "en": "Barn",
+    "pt-BR": "Celeiro"
+  },
+  "nameVerified": true,
+  "category": "animal",
+  "construction": {
+    "price": 6000,
+    "materials": [
+      {
+        "item": "wood",
+        "qty": 350
+      },
+      {
+        "item": "stone",
+        "qty": 150
+      }
+    ],
+    "buildDays": 3,
+    "builtBy": "carpenter"
+  }
+}

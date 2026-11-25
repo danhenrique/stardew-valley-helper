@@ -1,0 +1,28 @@
+{
+  "id": "glacierfish",
+  "type": "fish",
+  "subtype": "legendary",
+  "name": {
+    "en": "Glacierfish",
+    "pt-BR": "Peixe-gelo"
+  },
+  "nameVerified": true,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Pulsenest sap forest at the south tip of Arrowhead Island, in deep water. Fishing level 6 required.",
+      "pt-BR": "Floresta de seiva incandescente na ponta sul da Ilha Ponta de Flecha, em água funda. Nível de pesca 6 necessário."
+    },
+    "locationVerified": false
+  }
+}

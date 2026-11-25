@@ -1,0 +1,23 @@
+{
+ "id": "test-perfection",
+ "type": "perfection",
+ "name": {
+  "en": "Perfection",
+  "pt-BR": "Perfeição"
+ },
+ "nameVerified": false,
+ "categories": [
+  {
+   "id": "crops",
+   "name": {
+    "en": "Crops",
+    "pt-BR": "Cultivos"
+   },
+   "kind": "items",
+   "weight": 5,
+   "items": [
+    "test-fruit"
+   ]
+  }
+ ]
+}

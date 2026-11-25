@@ -1,0 +1,14 @@
+{
+  "id": "battery-pack",
+  "type": "resources",
+  "name": {
+    "en": "Battery Pack",
+    "pt-BR": "Conjunto de Pilhas"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "loves": [
+      "maru"
+    ]
+  }
+}

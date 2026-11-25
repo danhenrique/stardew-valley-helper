@@ -1,0 +1,15 @@
+{
+  "id": "energy-tonic",
+  "type": "consumables",
+  "name": {
+    "en": "Energy Tonic",
+    "pt-BR": "Tônico de Energia"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "clinic",
+      "price": 500
+    }
+  ]
+}

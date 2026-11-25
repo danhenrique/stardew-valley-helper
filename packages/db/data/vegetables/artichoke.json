@@ -1,0 +1,18 @@
+{
+  "id": "artichoke",
+  "type": "vegetables",
+  "name": {
+    "en": "Artichoke",
+    "pt-BR": "Alcachofra"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 160,
+  "artisan": {
+    "kegPrice": 360,
+    "jarPrice": 370
+  },
+  "growsFrom": "artichoke-seeds"
+}

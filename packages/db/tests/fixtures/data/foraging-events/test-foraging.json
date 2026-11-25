@@ -1,0 +1,13 @@
+{
+ "id": "test-foraging",
+ "type": "foraging-events",
+ "name": {
+  "en": "Test Foraging",
+  "pt-BR": "Coleta Teste"
+ },
+ "nameVerified": true,
+ "season": "fall",
+ "startDay": 8,
+ "endDay": 11,
+ "item": "test-fruit"
+}

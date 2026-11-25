@@ -1,0 +1,13 @@
+{
+  "id": "ancient-drum",
+  "type": "artifacts",
+  "name": {
+    "en": "Ancient Drum",
+    "pt-BR": "Tambor Antigo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

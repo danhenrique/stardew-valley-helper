@@ -1,0 +1,33 @@
+{
+  "id": "plum-pudding",
+  "type": "cooking",
+  "name": {
+    "en": "Plum Pudding",
+    "pt-BR": "Pudim de Ameixa"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "jas"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wild-plum",
+        "qty": 2
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

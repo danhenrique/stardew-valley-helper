@@ -1,0 +1,17 @@
+{
+  "id": "stone-fence",
+  "type": "craftables",
+  "name": {
+    "en": "Stone Fence",
+    "pt-BR": "Cerca de Pedra"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 2
+      }
+    ]
+  }
+}

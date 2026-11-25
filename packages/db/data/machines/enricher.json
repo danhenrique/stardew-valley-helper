@@ -1,0 +1,18 @@
+{
+  "id": "enricher",
+  "type": "machines",
+  "name": {
+    "en": "Enricher",
+    "pt-BR": "Enriquecedor"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    }
+  ]
+}

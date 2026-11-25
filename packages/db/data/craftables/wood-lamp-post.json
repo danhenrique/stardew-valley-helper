@@ -1,0 +1,21 @@
+{
+  "id": "wood-lamp-post",
+  "type": "craftables",
+  "name": {
+    "en": "Wood Lamp-post",
+    "pt-BR": "Poste de Luz Lígneo"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 50
+      },
+      {
+        "item": "battery-pack",
+        "qty": 1
+      }
+    ]
+  }
+}

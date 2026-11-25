@@ -1,0 +1,34 @@
+{
+  "id": "seafoam-pudding",
+  "type": "cooking",
+  "name": {
+    "en": "Seafoam Pudding",
+    "pt-BR": "Pudim de Espuma do Mar"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "likes": [
+      "krobus",
+      "willy"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "flounder",
+        "qty": 1
+      },
+      {
+        "item": "midnight-carp",
+        "qty": 1
+      },
+      {
+        "item": "squid-ink",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "lucky-lunch",
+  "type": "cooking",
+  "name": {
+    "en": "Lucky Lunch",
+    "pt-BR": "Almoço da Sorte"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 500
+    }
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "sea-cucumber",
+        "qty": 1
+      },
+      {
+        "item": "tortilla",
+        "qty": 1
+      },
+      {
+        "item": "blue-jazz",
+        "qty": 1
+      }
+    ]
+  }
+}

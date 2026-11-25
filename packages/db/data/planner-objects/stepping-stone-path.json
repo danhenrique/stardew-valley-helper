@@ -1,0 +1,18 @@
+{
+  "id": "stepping-stone-path",
+  "type": "planner-objects",
+  "name": {
+    "en": "Stepping Stone Path",
+    "pt-BR": "Caminho de Pedras Polidas"
+  },
+  "nameVerified": false,
+  "item": "stepping-stone-path",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

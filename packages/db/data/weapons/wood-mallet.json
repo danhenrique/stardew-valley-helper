@@ -1,0 +1,15 @@
+{
+  "id": "wood-mallet",
+  "type": "weapons",
+  "name": {
+    "en": "Wood Mallet",
+    "pt-BR": "Malho de Madeira"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 2000
+    }
+  ]
+}

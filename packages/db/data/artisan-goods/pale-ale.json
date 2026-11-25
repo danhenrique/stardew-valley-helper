@@ -1,0 +1,21 @@
+{
+  "id": "pale-ale",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Pale Ale",
+    "pt-BR": "Pale Ale"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leo",
+      "penny"
+    ],
+    "loves": [
+      "pam"
+    ]
+  }
+}

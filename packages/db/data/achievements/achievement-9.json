@@ -1,0 +1,14 @@
+{
+  "id": "achievement-9",
+  "type": "achievements",
+  "name": {
+    "en": "The Beloved Farmer",
+    "pt-BR": "Amado Fazendeiro"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Reach a 10-heart friend level with 8 people.",
+    "pt-BR": "Alcance amizade nível 10 com 8 pessoas."
+  },
+  "order": 9
+}

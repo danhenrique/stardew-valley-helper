@@ -1,0 +1,14 @@
+{
+  "id": "achievement-19",
+  "type": "achievements",
+  "name": {
+    "en": "Artisan",
+    "pt-BR": "Artesão"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Craft 30 different items.",
+    "pt-BR": "Crie 30 itens diferentes."
+  },
+  "order": 19
+}

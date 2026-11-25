@@ -1,0 +1,12 @@
+{
+  "id": "magic-hair-gel",
+  "type": "trinkets",
+  "name": {
+    "en": "Magic Hair Gel",
+    "pt-BR": "Gel Mágico de Cabelo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ]
+}

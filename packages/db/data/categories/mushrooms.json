@@ -1,0 +1,18 @@
+{
+  "id": "mushrooms",
+  "type": "categories",
+  "name": {
+    "en": "All mushrooms",
+    "pt-BR": "Todos os cogumelos"
+  },
+  "nameVerified": false,
+  "note": "App UI label, not an in-game item name.",
+  "members": [
+    "common-mushroom",
+    "chanterelle",
+    "morel",
+    "red-mushroom",
+    "purple-mushroom",
+    "magma-cap"
+  ]
+}

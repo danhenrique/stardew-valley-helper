@@ -1,0 +1,31 @@
+{
+  "id": "remix-fish-farmer",
+  "type": "bundles",
+  "name": {
+    "en": "Fish Farmer's Bundle",
+    "pt-BR": "Conjunto Piscicultor"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "roe",
+      "qty": 15
+    },
+    {
+      "item": "aged-roe",
+      "qty": 15
+    },
+    {
+      "item": "squid-ink"
+    }
+  ]
+}

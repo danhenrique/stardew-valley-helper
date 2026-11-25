@@ -1,0 +1,34 @@
+{
+  "id": "warp-totem-farm",
+  "type": "consumables",
+  "name": {
+    "en": "Warp Totem Farm",
+    "pt-BR": "Totem de Teletransporte: Fazenda"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "casino",
+      "price": 0,
+      "currency": {
+        "qiCoins": 500
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 1
+      },
+      {
+        "item": "honey",
+        "qty": 1
+      },
+      {
+        "item": "fiber",
+        "qty": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "rare-disc",
+  "type": "artifacts",
+  "name": {
+    "en": "Rare Disc",
+    "pt-BR": "Disco Raro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "copper-pan",
+  "type": "tools",
+  "name": {
+    "en": "Copper Pan",
+    "pt-BR": "Peneira de Cobre"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 2500,
+      "fishingLevel": 0
+    }
+  ]
+}

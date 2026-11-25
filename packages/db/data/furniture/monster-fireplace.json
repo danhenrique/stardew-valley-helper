@@ -1,0 +1,15 @@
+{
+  "id": "monster-fireplace",
+  "type": "furniture",
+  "name": {
+    "en": "Monster Fireplace",
+    "pt-BR": "Lareira Monstruosa"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 20000
+    }
+  ]
+}

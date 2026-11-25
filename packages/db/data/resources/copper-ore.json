@@ -1,0 +1,15 @@
+{
+  "id": "copper-ore",
+  "type": "resources",
+  "name": {
+    "en": "Copper Ore",
+    "pt-BR": "Minério de Cobre"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "blacksmith",
+      "price": 75
+    }
+  ]
+}

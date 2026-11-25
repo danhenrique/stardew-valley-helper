@@ -1,0 +1,53 @@
+{
+  "id": "leek",
+  "type": "forage",
+  "name": {
+    "en": "Leek",
+    "pt-BR": "Alho-poró"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "clint",
+      "demetrius",
+      "emily",
+      "evelyn",
+      "gus",
+      "kent",
+      "lewis",
+      "marnie",
+      "maru",
+      "pam",
+      "robin",
+      "sandy"
+    ],
+    "dislikesOrHates": [
+      "caroline",
+      "dwarf",
+      "elliott",
+      "haley",
+      "jas",
+      "jodi",
+      "krobus",
+      "leo",
+      "pierre",
+      "sam",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "loves": [
+      "george"
+    ],
+    "likes": [
+      "harvey",
+      "leah",
+      "linus",
+      "penny"
+    ]
+  }
+}

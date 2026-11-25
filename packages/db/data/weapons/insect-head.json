@@ -1,0 +1,15 @@
+{
+  "id": "insect-head",
+  "type": "weapons",
+  "name": {
+    "en": "Insect Head",
+    "pt-BR": "Cabeça de Inseto"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 10000
+    }
+  ]
+}

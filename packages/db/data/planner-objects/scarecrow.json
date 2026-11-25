@@ -1,0 +1,22 @@
+{
+  "id": "scarecrow",
+  "type": "planner-objects",
+  "name": {
+    "en": "Scarecrow",
+    "pt-BR": "Espantalho"
+  },
+  "nameVerified": false,
+  "item": "scarecrow",
+  "category": "planting",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "range": {
+    "shape": "circle",
+    "radius": 8
+  },
+  "paint": false,
+  "removable": true
+}

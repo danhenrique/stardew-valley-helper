@@ -1,0 +1,24 @@
+{
+  "id": "sugar",
+  "type": "resources",
+  "name": {
+    "en": "Sugar",
+    "pt-BR": "Açúcar"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100
+    },
+    {
+      "shop": "joja",
+      "price": 125
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "abigail"
+    ]
+  }
+}

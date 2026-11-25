@@ -1,0 +1,23 @@
+{
+  "id": "yam",
+  "type": "vegetables",
+  "name": {
+    "en": "Yam",
+    "pt-BR": "Inhame"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 160,
+  "artisan": {
+    "kegPrice": 360,
+    "jarPrice": 370
+  },
+  "growsFrom": "yam-seeds",
+  "giftTastes": {
+    "loves": [
+      "linus"
+    ]
+  }
+}

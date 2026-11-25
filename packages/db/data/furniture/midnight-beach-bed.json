@@ -1,0 +1,21 @@
+{
+  "id": "midnight-beach-bed",
+  "type": "furniture",
+  "name": {
+    "en": "Midnight Beach Bed",
+    "pt-BR": "Cama de Praia Meia-noite"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 15
+        }
+      ]
+    }
+  ]
+}

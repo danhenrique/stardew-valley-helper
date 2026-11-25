@@ -1,0 +1,43 @@
+{
+  "id": "maki-roll",
+  "type": "cooking",
+  "name": {
+    "en": "Maki Roll",
+    "pt-BR": "Hossomaki"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 440
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "emily",
+      "evelyn"
+    ],
+    "neutral": [
+      "willy"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "category": "fish",
+        "qty": 1
+      },
+      {
+        "item": "seaweed",
+        "qty": 1
+      },
+      {
+        "item": "rice",
+        "qty": 1
+      }
+    ]
+  }
+}

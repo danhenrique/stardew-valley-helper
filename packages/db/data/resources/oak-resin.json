@@ -1,0 +1,14 @@
+{
+  "id": "oak-resin",
+  "type": "resources",
+  "name": {
+    "en": "Oak Resin",
+    "pt-BR": "Resina de Carvalho"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "likes": [
+      "maru"
+    ]
+  }
+}

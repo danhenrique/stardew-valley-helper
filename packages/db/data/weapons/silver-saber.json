@@ -1,0 +1,15 @@
+{
+  "id": "silver-saber",
+  "type": "weapons",
+  "name": {
+    "en": "Silver Saber",
+    "pt-BR": "Sabre de Prata"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 750
+    }
+  ]
+}

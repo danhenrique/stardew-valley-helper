@@ -1,0 +1,18 @@
+{
+  "id": "bone-flute",
+  "type": "artifacts",
+  "name": {
+    "en": "Bone Flute",
+    "pt-BR": "Flauta de Osso"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "giftTastes": {
+    "likes": [
+      "abigail"
+    ]
+  },
+  "museumDonation": true
+}

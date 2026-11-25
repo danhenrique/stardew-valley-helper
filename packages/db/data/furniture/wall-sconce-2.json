@@ -1,0 +1,16 @@
+{
+  "id": "wall-sconce-2",
+  "type": "furniture",
+  "name": {
+    "en": "Wall Sconce 2",
+    "pt-BR": "Arandela"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 500,
+      "availability": "tue"
+    }
+  ]
+}

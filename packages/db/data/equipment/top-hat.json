@@ -1,0 +1,19 @@
+{
+  "id": "top-hat",
+  "type": "equipment",
+  "subtype": "hat",
+  "name": {
+    "en": "Top Hat",
+    "pt-BR": "Cartola"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "casino",
+      "price": 0,
+      "currency": {
+        "qiCoins": 8000
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "remix-wild-medicine",
+  "type": "bundles",
+  "name": {
+    "en": "Wild Medicine Bundle",
+    "pt-BR": "Conjunto Medicina Selvagem"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "purple-mushroom",
+      "qty": 5
+    },
+    {
+      "item": "fiddlehead-fern",
+      "qty": 5,
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "white-algae",
+      "qty": 5
+    },
+    {
+      "item": "hops",
+      "qty": 5,
+      "seasons": [
+        "summer"
+      ]
+    }
+  ]
+}

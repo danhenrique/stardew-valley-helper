@@ -1,0 +1,18 @@
+{
+  "id": "rhubarb",
+  "type": "fruits",
+  "name": {
+    "en": "Rhubarb",
+    "pt-BR": "Ruibarbo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 220,
+  "artisan": {
+    "kegPrice": 660,
+    "jarPrice": 490
+  },
+  "growsFrom": "rhubarb-seeds"
+}

@@ -1,0 +1,248 @@
+{
+  "id": "penny",
+  "type": "villagers",
+  "name": {
+    "en": "Penny",
+    "pt-BR": "Penny"
+  },
+  "nameVerified": true,
+  "marriageable": true,
+  "birthday": {
+    "season": "fall",
+    "day": 2
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "diamond"
+      },
+      {
+        "item": "emerald"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "melon"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "poppy"
+      },
+      {
+        "item": "poppyseed-muffin"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "red-plate"
+      },
+      {
+        "item": "roots-platter"
+      },
+      {
+        "item": "sandfish"
+      },
+      {
+        "item": "tom-kha-soup"
+      },
+      {
+        "category": "books"
+      }
+    ],
+    "likes": [
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "category": "milk"
+      },
+      {
+        "category": "artifacts"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wild-horseradish"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "category": "fruits",
+        "except": [
+          "grape",
+          "melon"
+        ]
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom",
+          "purple-mushroom"
+        ]
+      }
+    ],
+    "dislikesOrHates": [
+      "algae-soup",
+      "beer",
+      "duck-feather",
+      "grape",
+      "holly",
+      "hops",
+      "mead",
+      "pale-ale",
+      "pale-broth",
+      "pina-colada",
+      "purple-mushroom",
+      "quartz",
+      "rabbits-foot",
+      "red-mushroom",
+      "salmonberry",
+      "wine",
+      "wool"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "the-brave-little-sapling"
+    ],
+    "likedMovies": [
+      "journey-of-the-prairie-king-the-motion-picture",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus",
+      "the-zuzu-city-express"
+    ],
+    "lovedSnacks": [
+      "cotton-candy",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "fries",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "jawbreaker",
+      "kale-smoothie",
+      "nachos",
+      "panzanella-salad",
+      "personal-pizza",
+      "popcorn",
+      "rock-candy",
+      "salmon-burger",
+      "salted-peanuts",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

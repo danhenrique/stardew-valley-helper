@@ -1,0 +1,33 @@
+{
+  "id": "maple-bar",
+  "type": "cooking",
+  "name": {
+    "en": "Maple Bar",
+    "pt-BR": "Pão de Ácer"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "sam"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "maple-syrup",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      }
+    ]
+  }
+}

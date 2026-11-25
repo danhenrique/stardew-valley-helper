@@ -1,0 +1,20 @@
+{
+  "id": "summer-spangle",
+  "type": "flowers",
+  "name": {
+    "en": "Summer Spangle",
+    "pt-BR": "Flor-Miçanga"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "sellPrice": 90,
+  "artisan": {},
+  "growsFrom": "spangle-seeds",
+  "giftTastes": {
+    "loves": [
+      "caroline"
+    ]
+  }
+}

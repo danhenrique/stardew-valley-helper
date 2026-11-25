@@ -1,0 +1,13 @@
+{
+  "id": "stardew-valley-fair",
+  "type": "festivals",
+  "name": {
+    "en": "Stardew Valley Fair",
+    "pt-BR": "Feira do Vale do Orvalho"
+  },
+  "nameVerified": true,
+  "season": "fall",
+  "startDay": 16,
+  "endDay": 16,
+  "shopsClosed": true
+}

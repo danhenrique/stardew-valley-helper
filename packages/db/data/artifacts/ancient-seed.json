@@ -1,0 +1,13 @@
+{
+  "id": "ancient-seed",
+  "type": "artifacts",
+  "name": {
+    "en": "Ancient Seed",
+    "pt-BR": "Semente Antiga"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

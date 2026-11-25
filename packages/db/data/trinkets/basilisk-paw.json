@@ -1,0 +1,17 @@
+{
+  "id": "basilisk-paw",
+  "type": "trinkets",
+  "name": {
+    "en": "Basilisk Paw",
+    "pt-BR": "Pata de Basilisco"
+  },
+  "nameVerified": true,
+  "tags": [
+    "trinkets"
+  ],
+  "giftTastes": {
+    "likes": [
+      "abigail"
+    ]
+  }
+}

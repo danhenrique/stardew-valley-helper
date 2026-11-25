@@ -1,0 +1,18 @@
+{
+  "id": "weathered-floor",
+  "type": "planner-objects",
+  "name": {
+    "en": "Weathered Floor",
+    "pt-BR": "Piso Desgastado"
+  },
+  "nameVerified": false,
+  "item": "weathered-floor",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

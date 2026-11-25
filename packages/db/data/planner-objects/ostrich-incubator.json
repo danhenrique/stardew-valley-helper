@@ -1,0 +1,18 @@
+{
+  "id": "ostrich-incubator",
+  "type": "planner-objects",
+  "name": {
+    "en": "Ostrich Incubator",
+    "pt-BR": "Incubadora de Avestruzes"
+  },
+  "nameVerified": false,
+  "item": "ostrich-incubator",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

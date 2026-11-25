@@ -1,0 +1,50 @@
+{
+  "id": "ocean-fish",
+  "type": "bundles",
+  "name": {
+    "en": "Ocean Fish Bundle",
+    "pt-BR": "Conjunto Peixes de Oceano"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "sardine",
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ]
+    },
+    {
+      "item": "tuna",
+      "seasons": [
+        "summer",
+        "winter"
+      ]
+    },
+    {
+      "item": "red-snapper",
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ]
+    },
+    {
+      "item": "tilapia",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    }
+  ]
+}

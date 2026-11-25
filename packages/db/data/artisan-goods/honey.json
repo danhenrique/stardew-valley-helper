@@ -1,0 +1,24 @@
+{
+  "id": "honey",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Honey",
+    "pt-BR": "Mel"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 200,
+      "availability": "fri"
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "maru"
+    ]
+  }
+}

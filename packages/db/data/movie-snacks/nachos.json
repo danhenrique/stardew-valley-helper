@@ -1,0 +1,9 @@
+{
+  "id": "nachos",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Nachos",
+    "pt-BR": "Nachos"
+  },
+  "nameVerified": true
+}

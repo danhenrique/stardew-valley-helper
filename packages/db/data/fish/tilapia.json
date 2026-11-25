@@ -1,0 +1,31 @@
+{
+  "id": "tilapia",
+  "type": "fish",
+  "name": {
+    "en": "Tilapia",
+    "pt-BR": "Tilápia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "14:00"
+      }
+    ],
+    "location": {
+      "en": "Ocean, Ginger Island freshwater",
+      "pt-BR": "Oceano, água doce da Ilha Gengibre"
+    },
+    "locationVerified": false
+  }
+}

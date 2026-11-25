@@ -1,0 +1,21 @@
+{
+  "id": "iron-lamp-post",
+  "type": "craftables",
+  "name": {
+    "en": "Iron Lamp-post",
+    "pt-BR": "Poste de Luz Férreo"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-bar",
+        "qty": 1
+      },
+      {
+        "item": "battery-pack",
+        "qty": 1
+      }
+    ]
+  }
+}

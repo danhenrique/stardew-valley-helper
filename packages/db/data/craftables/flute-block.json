@@ -1,0 +1,25 @@
+{
+  "id": "flute-block",
+  "type": "craftables",
+  "name": {
+    "en": "Flute Block",
+    "pt-BR": "Bloco de Flauta"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 10
+      },
+      {
+        "item": "copper-ore",
+        "qty": 2
+      },
+      {
+        "item": "fiber",
+        "qty": 20
+      }
+    ]
+  }
+}

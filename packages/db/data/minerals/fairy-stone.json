@@ -1,0 +1,14 @@
+{
+  "id": "fairy-stone",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Fairy Stone",
+    "pt-BR": "Pedra de Fada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

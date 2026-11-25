@@ -1,0 +1,18 @@
+{
+  "id": "green-bean",
+  "type": "vegetables",
+  "name": {
+    "en": "Green Bean",
+    "pt-BR": "Vagem"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 40,
+  "artisan": {
+    "kegPrice": 90,
+    "jarPrice": 130
+  },
+  "growsFrom": "bean-starter"
+}

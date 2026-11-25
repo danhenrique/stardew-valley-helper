@@ -1,0 +1,33 @@
+{
+  "id": "ice-pip",
+  "type": "fish",
+  "name": {
+    "en": "Ice Pip",
+    "pt-BR": "Chione"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Mines floor 60, Fishing level 5+",
+      "pt-BR": "Minas andar 60, nível de pesca 5+"
+    },
+    "locationVerified": false
+  }
+}

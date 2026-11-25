@@ -1,0 +1,53 @@
+{
+  "id": "fall-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Fall Seeds",
+    "pt-BR": "Sementes de Outono"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 7,
+    "regrowDays": null,
+    "lastPlantingDay": 21,
+    "averageExtraYield": 0,
+    "produce": "seasonal-forage"
+  },
+  "averageForageValue": 57.5,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "winter-seeds",
+          "qty": 2
+        }
+      ],
+      "availability": "sat"
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "common-mushroom",
+        "qty": 1
+      },
+      {
+        "item": "wild-plum",
+        "qty": 1
+      },
+      {
+        "item": "hazelnut",
+        "qty": 1
+      },
+      {
+        "item": "blackberry",
+        "qty": 1
+      }
+    ]
+  }
+}

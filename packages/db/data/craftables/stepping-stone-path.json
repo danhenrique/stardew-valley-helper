@@ -1,0 +1,17 @@
+{
+  "id": "stepping-stone-path",
+  "type": "craftables",
+  "name": {
+    "en": "Stepping Stone Path",
+    "pt-BR": "Caminho de Pedras Polidas"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 1
+      }
+    ]
+  }
+}

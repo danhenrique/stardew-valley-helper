@@ -1,0 +1,13 @@
+{
+  "id": "chipped-amphora",
+  "type": "artifacts",
+  "name": {
+    "en": "Chipped Amphora",
+    "pt-BR": "Ânfora Quebrada"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

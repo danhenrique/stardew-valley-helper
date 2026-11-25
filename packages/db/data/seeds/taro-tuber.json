@@ -1,0 +1,19 @@
+{
+  "id": "taro-tuber",
+  "type": "seeds",
+  "name": {
+    "en": "Taro Tuber",
+    "pt-BR": "Tubérculo de Inhame-coco"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 10,
+    "regrowDays": null,
+    "lastPlantingDay": 18,
+    "averageExtraYield": 0,
+    "produce": "taro-root"
+  }
+}

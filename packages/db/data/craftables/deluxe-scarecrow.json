@@ -1,0 +1,25 @@
+{
+  "id": "deluxe-scarecrow",
+  "type": "craftables",
+  "name": {
+    "en": "Deluxe Scarecrow",
+    "pt-BR": "Espantalho de Luxo"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 50
+      },
+      {
+        "item": "fiber",
+        "qty": 40
+      },
+      {
+        "item": "iridium-ore",
+        "qty": 1
+      }
+    ]
+  }
+}

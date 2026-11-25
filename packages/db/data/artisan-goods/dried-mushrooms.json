@@ -1,0 +1,12 @@
+{
+  "id": "dried-mushrooms",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Dried Mushrooms",
+    "pt-BR": "Cogumelos Desidratados"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ]
+}

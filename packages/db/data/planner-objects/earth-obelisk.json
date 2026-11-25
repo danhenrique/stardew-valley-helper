@@ -1,0 +1,18 @@
+{
+  "id": "earth-obelisk",
+  "type": "planner-objects",
+  "name": {
+    "en": "Earth Obelisk",
+    "pt-BR": "Obelisco da Terra"
+  },
+  "nameVerified": true,
+  "item": "earth-obelisk",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 2
+  },
+  "removable": true,
+  "paint": false
+}

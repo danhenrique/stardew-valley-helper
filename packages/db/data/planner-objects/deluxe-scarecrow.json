@@ -1,0 +1,22 @@
+{
+  "id": "deluxe-scarecrow",
+  "type": "planner-objects",
+  "name": {
+    "en": "Deluxe Scarecrow",
+    "pt-BR": "Espantalho de Luxo"
+  },
+  "nameVerified": false,
+  "item": "deluxe-scarecrow",
+  "category": "planting",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "range": {
+    "shape": "circle",
+    "radius": 16
+  },
+  "paint": false,
+  "removable": true
+}

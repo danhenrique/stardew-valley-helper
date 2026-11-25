@@ -1,0 +1,23 @@
+{
+  "id": "basic-fertilizer",
+  "type": "fertilizers",
+  "name": {
+    "en": "Basic Fertilizer",
+    "pt-BR": "Fertilizante Básico"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 100
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "sap",
+        "qty": 2
+      }
+    ]
+  }
+}

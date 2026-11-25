@@ -1,0 +1,17 @@
+{
+  "id": "jewels-of-the-sea",
+  "type": "books",
+  "name": {
+    "en": "Jewels Of The Sea",
+    "pt-BR": "Joias do Mar"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ],
+  "giftTastes": {
+    "loves": [
+      "willy"
+    ]
+  }
+}

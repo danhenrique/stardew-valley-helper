@@ -1,0 +1,12 @@
+{
+  "id": "dust-sprites",
+  "type": "monster-goals",
+  "name": {
+    "en": "Dust Sprites",
+    "pt-BR": "Espíritos de Poeira"
+  },
+  "nameVerified": true,
+  "killsRequired": 500,
+  "reward": "burglars-ring",
+  "location": "adventurers-guild"
+}

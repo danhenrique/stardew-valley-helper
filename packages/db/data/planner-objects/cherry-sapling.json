@@ -1,0 +1,18 @@
+{
+  "id": "cherry-sapling",
+  "type": "planner-objects",
+  "name": {
+    "en": "Cherry Sapling",
+    "pt-BR": "Muda de Cerejeira"
+  },
+  "nameVerified": true,
+  "item": "cherry-sapling",
+  "category": "planting",
+  "placement": "diggable",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

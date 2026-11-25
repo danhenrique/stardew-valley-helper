@@ -1,0 +1,16 @@
+{
+  "id": "jade-hills-extended",
+  "type": "furniture",
+  "name": {
+    "en": "'Jade Hills Extended'",
+    "pt-BR": "\"Colinas de Jade Extendidas\""
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 5000,
+      "availability": "wed"
+    }
+  ]
+}

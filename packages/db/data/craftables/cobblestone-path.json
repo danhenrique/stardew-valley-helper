@@ -1,0 +1,17 @@
+{
+  "id": "cobblestone-path",
+  "type": "craftables",
+  "name": {
+    "en": "Cobblestone Path",
+    "pt-BR": "Caminho Arredondado de Pedra"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 1
+      }
+    ]
+  }
+}

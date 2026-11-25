@@ -1,0 +1,18 @@
+{
+  "id": "apple-sapling",
+  "type": "planner-objects",
+  "name": {
+    "en": "Apple Sapling",
+    "pt-BR": "Muda de Macieira"
+  },
+  "nameVerified": true,
+  "item": "apple-sapling",
+  "category": "planting",
+  "placement": "diggable",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

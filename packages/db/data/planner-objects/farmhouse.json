@@ -1,0 +1,22 @@
+{
+  "id": "farmhouse",
+  "type": "planner-objects",
+  "name": {
+    "en": "Farmhouse",
+    "pt-BR": "Casa da fazenda"
+  },
+  "nameVerified": false,
+  "icon": null,
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 9,
+    "h": 5
+  },
+  "humanDoor": {
+    "x": 5,
+    "y": 2
+  },
+  "removable": false,
+  "paint": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tortilla",
+  "type": "cooking",
+  "name": {
+    "en": "Tortilla",
+    "pt-BR": "Tortilha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 100
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "kent",
+      "leah",
+      "pierre"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "corn",
+        "qty": 1
+      }
+    ]
+  }
+}

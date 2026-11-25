@@ -1,0 +1,2 @@
+Stardew Valley map art © ConcernedApe LLC. Rendered from the game's own farm maps and tilesheets
+(packages/db/scripts/build_farm_maps.py) for non-commercial fan use. Not covered by this repository's license.

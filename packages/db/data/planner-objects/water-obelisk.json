@@ -1,0 +1,18 @@
+{
+  "id": "water-obelisk",
+  "type": "planner-objects",
+  "name": {
+    "en": "Water Obelisk",
+    "pt-BR": "Obelisco da Água"
+  },
+  "nameVerified": true,
+  "item": "water-obelisk",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 2
+  },
+  "removable": true,
+  "paint": false
+}

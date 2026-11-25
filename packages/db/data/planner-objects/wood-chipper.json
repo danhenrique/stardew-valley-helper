@@ -1,0 +1,18 @@
+{
+  "id": "wood-chipper",
+  "type": "planner-objects",
+  "name": {
+    "en": "Wood Chipper",
+    "pt-BR": "Triturador de Madeira"
+  },
+  "nameVerified": false,
+  "item": "wood-chipper",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

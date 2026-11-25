@@ -1,0 +1,9 @@
+{
+  "id": "kale-smoothie",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Kale Smoothie",
+    "pt-BR": "Batida de Couve"
+  },
+  "nameVerified": true
+}

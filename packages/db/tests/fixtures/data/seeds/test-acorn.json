@@ -1,0 +1,9 @@
+{
+ "id": "test-acorn",
+ "type": "seeds",
+ "name": {
+  "en": "Test Acorn",
+  "pt-BR": null
+ },
+ "nameVerified": false
+}

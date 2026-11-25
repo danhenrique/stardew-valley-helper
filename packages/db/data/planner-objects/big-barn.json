@@ -1,0 +1,28 @@
+{
+  "id": "big-barn",
+  "type": "planner-objects",
+  "name": {
+    "en": "Big Barn",
+    "pt-BR": "Celeiro Grande"
+  },
+  "nameVerified": true,
+  "item": "big-barn",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 7,
+    "h": 4
+  },
+  "humanDoor": {
+    "x": 1,
+    "y": 3
+  },
+  "animalDoor": {
+    "x": 4,
+    "y": 3,
+    "w": 2,
+    "h": 1
+  },
+  "removable": true,
+  "paint": false
+}

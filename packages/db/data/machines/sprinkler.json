@@ -1,0 +1,21 @@
+{
+  "id": "sprinkler",
+  "type": "machines",
+  "name": {
+    "en": "Sprinkler",
+    "pt-BR": "Aspersor"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 1
+      },
+      {
+        "item": "iron-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

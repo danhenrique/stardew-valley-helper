@@ -1,0 +1,23 @@
+{
+  "id": "remix-vault25000",
+  "type": "bundles",
+  "name": {
+    "en": "25,000g Bundle",
+    "pt-BR": "Conjunto 25.000 ouros"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "vault",
+    "name": {
+      "en": "Vault",
+      "pt-BR": "Cofre"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 1,
+  "items": [
+    {
+      "gold": 25000
+    }
+  ]
+}

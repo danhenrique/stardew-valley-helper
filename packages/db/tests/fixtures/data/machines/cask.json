@@ -1,0 +1,10 @@
+{
+ "id": "cask",
+ "type": "machines",
+ "name": {
+  "en": "Cask",
+  "pt-BR": "Tonel"
+ },
+ "nameVerified": true,
+ "category": "artisan"
+}

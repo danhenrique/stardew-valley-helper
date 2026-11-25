@@ -1,0 +1,30 @@
+{
+  "id": "rainbow-trout",
+  "type": "fish",
+  "name": {
+    "en": "Rainbow Trout",
+    "pt-BR": "Truta Arco-íris"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer"
+    ],
+    "weather": "sun",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "19:00"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest), Mountain Lake",
+      "pt-BR": "Rio (cidade + floresta), Lago da montanha"
+    },
+    "locationVerified": false
+  }
+}

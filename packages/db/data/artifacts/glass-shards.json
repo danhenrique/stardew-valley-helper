@@ -1,0 +1,13 @@
+{
+  "id": "glass-shards",
+  "type": "artifacts",
+  "name": {
+    "en": "Glass Shards",
+    "pt-BR": "Cacos de Vidro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

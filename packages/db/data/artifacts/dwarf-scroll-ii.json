@@ -1,0 +1,13 @@
+{
+  "id": "dwarf-scroll-ii",
+  "type": "artifacts",
+  "name": {
+    "en": "Dwarf Scroll II",
+    "pt-BR": "Pergaminho dos Anões II"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

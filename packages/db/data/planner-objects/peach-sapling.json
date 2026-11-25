@@ -1,0 +1,18 @@
+{
+  "id": "peach-sapling",
+  "type": "planner-objects",
+  "name": {
+    "en": "Peach Sapling",
+    "pt-BR": "Muda de Pessegueiro"
+  },
+  "nameVerified": true,
+  "item": "peach-sapling",
+  "category": "planting",
+  "placement": "diggable",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

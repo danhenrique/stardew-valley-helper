@@ -1,0 +1,45 @@
+{
+  "id": "tea-sapling",
+  "type": "seeds",
+  "name": {
+    "en": "Tea Sapling",
+    "pt-BR": "Broto de Chá"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "growthDays": 20,
+    "regrowDays": 1,
+    "lastPlantingDay": null,
+    "averageExtraYield": 0,
+    "notes": [
+      "harvestOnlyLast7DaysOfSeason"
+    ],
+    "produce": "tea-leaves"
+  },
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "anyOf": [
+          "spring-seeds",
+          "summer-seeds",
+          "fall-seeds",
+          "winter-seeds"
+        ],
+        "qty": 2
+      },
+      {
+        "item": "fiber",
+        "qty": 5
+      },
+      {
+        "item": "wood",
+        "qty": 5
+      }
+    ]
+  }
+}

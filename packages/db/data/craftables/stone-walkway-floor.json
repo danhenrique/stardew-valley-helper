@@ -1,0 +1,17 @@
+{
+  "id": "stone-walkway-floor",
+  "type": "craftables",
+  "name": {
+    "en": "Stone Walkway Floor",
+    "pt-BR": "Piso Passarela de Pedra"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 1
+      }
+    ]
+  }
+}

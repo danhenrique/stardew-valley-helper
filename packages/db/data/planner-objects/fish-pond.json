@@ -1,0 +1,18 @@
+{
+  "id": "fish-pond",
+  "type": "planner-objects",
+  "name": {
+    "en": "Fish Pond",
+    "pt-BR": "Lago de Peixes"
+  },
+  "nameVerified": true,
+  "item": "fish-pond",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 5,
+    "h": 5
+  },
+  "removable": true,
+  "paint": false
+}

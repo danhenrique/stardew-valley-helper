@@ -1,0 +1,19 @@
+{
+  "id": "rice",
+  "type": "resources",
+  "name": {
+    "en": "Rice",
+    "pt-BR": "Arroz"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 200
+    },
+    {
+      "shop": "joja",
+      "price": 250
+    }
+  ]
+}

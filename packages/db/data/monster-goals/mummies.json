@@ -1,0 +1,12 @@
+{
+  "id": "mummies",
+  "type": "monster-goals",
+  "name": {
+    "en": "Mummies",
+    "pt-BR": "Múmias"
+  },
+  "nameVerified": true,
+  "killsRequired": 100,
+  "reward": "arcane-hat",
+  "location": "adventurers-guild"
+}

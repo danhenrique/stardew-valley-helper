@@ -1,0 +1,142 @@
+[
+  {
+    "context": "shops/casino",
+    "en": "Casino",
+    "ptBrUnverified": "Cassino"
+  },
+  {
+    "context": "shops/desert-trader",
+    "en": "Desert Trader",
+    "ptBrUnverified": "Comerciante do deserto"
+  },
+  {
+    "context": "shops/ice-cream-stand",
+    "en": "Ice Cream Stand",
+    "ptBrUnverified": "Barraca de sorvete"
+  },
+  {
+    "context": "shops/museum",
+    "en": "Museum",
+    "ptBrUnverified": "Museu"
+  },
+  {
+    "context": "shops/oasis",
+    "en": "Oasis & Casino",
+    "ptBrUnverified": "Oásis e Cassino"
+  },
+  {
+    "context": "shops/sewers",
+    "en": "Sewers (Krobus)",
+    "ptBrUnverified": "Esgoto"
+  },
+  {
+    "context": "shops/traveling-cart",
+    "en": "Traveling Cart",
+    "ptBrUnverified": "Carroça viajante"
+  },
+  {
+    "context": "foraging-events/salmonberry-season",
+    "en": "Salmonberry season",
+    "ptBrUnverified": "Temporada de salmonberry"
+  },
+  {
+    "context": "foraging-events/summer-beach-foraging",
+    "en": "Extra foraging on the beach",
+    "ptBrUnverified": "Coleta extra na praia"
+  },
+  {
+    "context": "foraging-events/blackberry-season",
+    "en": "Blackberry season",
+    "ptBrUnverified": "Temporada de amoras"
+  },
+  {
+    "context": "reminders/traveling-cart",
+    "en": "Check Traveling Cart stock",
+    "ptBrUnverified": "Verificar estoque da carroça viajante"
+  },
+  {
+    "context": "reminders/krobus-sprinkler",
+    "en": "Buy Iridium Sprinkler (Krobus)",
+    "ptBrUnverified": "Comprar aspersor de irídio (Krobus)"
+  },
+  {
+    "context": "reminders/desert-trader-staircase",
+    "en": "Buy Staircase (Desert Trader)",
+    "ptBrUnverified": "Comprar escada (Comerciante do deserto)"
+  },
+  {
+    "context": "reminders/queen-of-sauce-new",
+    "en": "Queen of Sauce (new episode)",
+    "ptBrUnverified": "A Rainha do Molho (novo episódio)"
+  },
+  {
+    "context": "reminders/queen-of-sauce-rerun",
+    "en": "Queen of Sauce (rerun)",
+    "ptBrUnverified": "A Rainha do Molho (reprise)"
+  },
+  {
+    "context": "reminders/special-orders",
+    "en": "Check Special Orders board",
+    "ptBrUnverified": "Verificar o quadro de pedidos especiais"
+  },
+  {
+    "context": "reminders/forage-weekly",
+    "en": "Gather forage",
+    "ptBrUnverified": "Coletar forrageáveis"
+  },
+  {
+    "context": "reminders/buy-seeds",
+    "en": "New season",
+    "ptBrUnverified": "Nova estação"
+  },
+  {
+    "context": "achievements/a31",
+    "en": "Prairie King",
+    "ptBrUnverified": "Rei da Pradaria"
+  },
+  {
+    "context": "achievements/a32",
+    "en": "The Bottom",
+    "ptBrUnverified": "O Fundo"
+  },
+  {
+    "context": "achievements/a33",
+    "en": "Local Legend",
+    "ptBrUnverified": "Lenda Local"
+  },
+  {
+    "context": "achievements/a34",
+    "en": "Joja Co. Member Of The Year",
+    "ptBrUnverified": "Membro do Ano da Joja Co."
+  },
+  {
+    "context": "achievements/a35",
+    "en": "Mystery Of The Stardrops",
+    "ptBrUnverified": "O Mistério das Gotas Estelares"
+  },
+  {
+    "context": "achievements/a36",
+    "en": "Full House",
+    "ptBrUnverified": "Casa Cheia"
+  },
+  {
+    "context": "achievements/a37",
+    "en": "Singular Talent",
+    "ptBrUnverified": "Talento Singular"
+  },
+  {
+    "context": "achievements/a38",
+    "en": "Master Of The Five Ways",
+    "ptBrUnverified": "Mestre dos Cinco Caminhos"
+  },
+  {
+    "context": "achievements/a39",
+    "en": "Protector Of The Valley",
+    "ptBrUnverified": "Protetor do Vale"
+  },
+  {
+    "context": "achievements/a40",
+    "en": "Fector's Challenge",
+    "ptBrUnverified": "O Desafio de Fector"
+  }
+]

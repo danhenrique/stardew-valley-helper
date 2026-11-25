@@ -1,0 +1,51 @@
+{
+  "id": "quartz",
+  "type": "minerals",
+  "subtype": "foraged-mineral",
+  "name": {
+    "en": "Quartz",
+    "pt-BR": "Quartzo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "foragedMinerals"
+  ],
+  "giftTastes": {
+    "likes": [
+      "abigail",
+      "dwarf",
+      "emily",
+      "harvey",
+      "krobus",
+      "leo",
+      "marnie",
+      "maru",
+      "robin",
+      "sandy",
+      "sebastian",
+      "willy",
+      "wizard"
+    ],
+    "dislikesOrHates": [
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "elliott",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "jas",
+      "jodi",
+      "kent",
+      "lewis",
+      "pam",
+      "penny",
+      "sam",
+      "shane",
+      "vincent"
+    ]
+  },
+  "museumDonation": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "gold-clock",
+  "type": "planner-objects",
+  "name": {
+    "en": "Gold Clock",
+    "pt-BR": "Relógio Dourado"
+  },
+  "nameVerified": true,
+  "item": "gold-clock",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 2
+  },
+  "removable": true,
+  "paint": false
+}

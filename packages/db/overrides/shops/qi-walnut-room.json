@@ -1,0 +1,8 @@
+{
+  "id": "qi-walnut-room",
+  "type": "shops",
+  "access": {
+    "en": "Requires 100 Golden Walnuts",
+    "pt-BR": "Requer 100 nozes douradas"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "star-cookie",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Star Cookie",
+    "pt-BR": "Biscoito de Estrela"
+  },
+  "nameVerified": true
+}

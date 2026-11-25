@@ -1,0 +1,16 @@
+{
+  "id": "topaz-ring",
+  "type": "equipment",
+  "subtype": "ring",
+  "name": {
+    "en": "Topaz Ring",
+    "pt-BR": "Anel de Topázio"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 1000
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rock-candy",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Rock Candy",
+    "pt-BR": "Doce-Pedra"
+  },
+  "nameVerified": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "smallmouth-bass",
+  "type": "fish",
+  "name": {
+    "en": "Smallmouth Bass",
+    "pt-BR": "Achigã-pequeno"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town), Forest pond, Riverland Farm",
+      "pt-BR": "Rio (cidade), lago da floresta, Fazenda do Rio"
+    },
+    "locationVerified": false
+  }
+}

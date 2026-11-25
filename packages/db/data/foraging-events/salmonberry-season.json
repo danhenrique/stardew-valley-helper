@@ -1,0 +1,13 @@
+{
+  "id": "salmonberry-season",
+  "type": "foraging-events",
+  "name": {
+    "en": "Salmonberry season",
+    "pt-BR": "Temporada de salmonberry"
+  },
+  "nameVerified": false,
+  "season": "spring",
+  "startDay": 15,
+  "endDay": 18,
+  "item": "salmonberry"
+}

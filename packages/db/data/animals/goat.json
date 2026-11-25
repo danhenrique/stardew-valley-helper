@@ -1,0 +1,14 @@
+{
+  "id": "goat",
+  "type": "animals",
+  "name": {
+    "en": "Goat",
+    "pt-BR": "Cabra"
+  },
+  "nameVerified": true,
+  "purchase": {
+    "shop": "ranch",
+    "price": 4000
+  },
+  "housing": "big-barn"
+}

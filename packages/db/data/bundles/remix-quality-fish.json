@@ -1,0 +1,42 @@
+{
+  "id": "remix-quality-fish",
+  "type": "bundles",
+  "name": {
+    "en": "Quality Fish Bundle",
+    "pt-BR": "Conjunto Peixes de Qualidade"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "largemouth-bass"
+    },
+    {
+      "item": "shad",
+      "rainOnly": true
+    },
+    {
+      "item": "tuna",
+      "seasons": [
+        "summer",
+        "winter"
+      ]
+    },
+    {
+      "item": "walleye",
+      "seasons": [
+        "fall"
+      ],
+      "rainOnly": true
+    }
+  ],
+  "quality": "gold"
+}

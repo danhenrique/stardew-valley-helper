@@ -1,0 +1,18 @@
+{
+  "id": "well",
+  "type": "planner-objects",
+  "name": {
+    "en": "Well",
+    "pt-BR": "Poço"
+  },
+  "nameVerified": true,
+  "item": "well",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 3
+  },
+  "removable": true,
+  "paint": false
+}

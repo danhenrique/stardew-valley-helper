@@ -1,0 +1,18 @@
+{
+  "id": "silo",
+  "type": "planner-objects",
+  "name": {
+    "en": "Silo",
+    "pt-BR": "Silo"
+  },
+  "nameVerified": true,
+  "item": "silo",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 3
+  },
+  "removable": true,
+  "paint": false
+}

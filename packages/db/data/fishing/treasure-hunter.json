@@ -1,0 +1,24 @@
+{
+  "id": "treasure-hunter",
+  "type": "fishing",
+  "name": {
+    "en": "Treasure Hunter",
+    "pt-BR": "Caçador de Tesouros"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 750,
+      "fishingLevel": 7
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "unmilled-rice",
+  "type": "vegetables",
+  "name": {
+    "en": "Unmilled Rice",
+    "pt-BR": "Arroz não Moído"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 30,
+  "artisan": {
+    "kegPrice": 67,
+    "jarPrice": 110
+  },
+  "growsFrom": "rice-shoot",
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leo"
+    ]
+  }
+}

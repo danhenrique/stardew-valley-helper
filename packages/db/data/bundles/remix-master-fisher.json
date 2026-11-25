@@ -1,0 +1,38 @@
+{
+  "id": "remix-master-fisher",
+  "type": "bundles",
+  "name": {
+    "en": "Master Fisher's Bundle",
+    "pt-BR": "Conjunto Mestre Pescador"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "lava-eel"
+    },
+    {
+      "item": "scorpion-carp"
+    },
+    {
+      "item": "octopus",
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "blobfish",
+      "seasons": [
+        "winter"
+      ]
+    }
+  ]
+}

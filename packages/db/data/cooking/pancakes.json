@@ -1,0 +1,39 @@
+{
+  "id": "pancakes",
+  "type": "cooking",
+  "name": {
+    "en": "Pancakes",
+    "pt-BR": "Panquecas"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 160
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "harvey",
+      "leah"
+    ],
+    "loves": [
+      "jodi"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "egg",
+        "qty": 1
+      }
+    ]
+  }
+}

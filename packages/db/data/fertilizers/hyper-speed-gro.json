@@ -1,0 +1,25 @@
+{
+  "id": "hyper-speed-gro",
+  "type": "fertilizers",
+  "name": {
+    "en": "Hyper Speed-Gro",
+    "pt-BR": "Hiper Solo Foliar"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "radioactive-ore",
+        "qty": 1
+      },
+      {
+        "item": "bone-fragment",
+        "qty": 3
+      },
+      {
+        "item": "solar-essence",
+        "qty": 1
+      }
+    ]
+  }
+}

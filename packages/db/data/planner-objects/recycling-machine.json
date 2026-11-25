@@ -1,0 +1,18 @@
+{
+  "id": "recycling-machine",
+  "type": "planner-objects",
+  "name": {
+    "en": "Recycling Machine",
+    "pt-BR": "Máquina de Reciclagem"
+  },
+  "nameVerified": false,
+  "item": "recycling-machine",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

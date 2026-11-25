@@ -1,0 +1,23 @@
+{
+  "id": "oil",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Oil",
+    "pt-BR": "Óleo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 200
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leo"
+    ]
+  }
+}

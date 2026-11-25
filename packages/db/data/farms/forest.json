@@ -1,0 +1,34 @@
+{
+  "id": "forest",
+  "type": "farms",
+  "name": {
+    "en": "Forest Farm",
+    "pt-BR": "Fazenda na Floresta"
+  },
+  "nameVerified": true,
+  "width": 80,
+  "height": 65,
+  "tiles": "40x2c78x2c78x2c78x2c62x6c10x1b1c60x8c10x1b1c58x10c4x1f5x1b1c5x1c1x1c50x10c4x1f5x2b4x2c1f4c2b29x3c3f5c5f12c2f1d2f16c2b13x1c4f1c10x10c6f3c3b6c5f18c2x2c8x2c4f1c10x10c6f2c5b5c2f1d2f32c4f5c11x11f2c7b5c2b33c4f5c11x10f3c8b4c6b29c4f5c11x9f4c8b4c6b29c4f5c11x9f3c9b4c8b36c11x9f3c9b4c8b29c2f7c9x9f2c23b28c1b1f7c14x3f2c24b27c2b8f15x1f4c22b17c16b2c1b1c1b15x1f4c22b16c14b5c16x3f5c20b17c13b6c10x7f7c20b17c12b7c8x3f13c20b17c12b7c7x2f15c20b16c13b7c7x16c21b16c13b7c7x15c22b16c13b7c7x16c21b16c13b7c7x16c21b16c14b6c7x16c22b14c14b5x1b1c7x16c23b13c14b6x1b8x16c28b6c15b1x4w1x1b8x16c21b7x2b4c15b1x4w1x1b8x16c20b9x20b2x1w3x1b8x16c19b2x7w3x19b4x2b8x16c18b2x9w3x23b9x11c6x17b1x12w3x20b10x10c8x2c14b1x14w1x5b6c7b13x8c9x2c14b1x14w1x3b12c1b1c14x7c10x2c13b2x14w1x3b14c15x1c15x2c13b1x15w1x1b17c14x1f15x2c13b1x15w1x1b20c11x1f15x2c13b1x1w1x12w1x2b19c12x1f15x2c14b1x1w1x11w1x2b6c1b7x1b6c10x1f14x3c15b3x7w3x3b5c1b3x4w2x1b5c10x1f14x3c18b7x5b5c1b2x7w2x5c10x1f11x6c29b6c1b1x9w1x2b3c6x10f4x7c30b6c1b1x3w1x5w1x2b3c6x2f19c29b7c2x9w1x2b3c6x20c30b6c1b1x9w1x3b3c6x19c30b8c1x7w2x1c2b4c6x17c32b8c1b1x3w1x1w1x1b8c6x16c33b9c1b5x1b9c6x18c27b3x1b12c5b8c7x17c22b9x1b24c7x17c21b2x7w1x2b19c12x16c21b1x8w1x3b17c13x16c21b1x7w1x6b14c15x15c22b7x5b15c16x16c33b11c30x6c32b11c36x1c4b4x20b14c50x2b3x4b77x2b78x2b78x2b38x",
+  "fixed": [
+    {
+      "t": "farmhouse",
+      "x": 59,
+      "y": 12
+    },
+    {
+      "t": "greenhouse",
+      "x": 25,
+      "y": 10
+    },
+    {
+      "t": "shipping-bin",
+      "x": 71,
+      "y": 14
+    },
+    {
+      "t": "pet-bowl",
+      "x": 53,
+      "y": 7
+    }
+  ]
+}

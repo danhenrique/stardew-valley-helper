@@ -1,0 +1,31 @@
+{
+  "id": "blobfish",
+  "type": "fish",
+  "subtype": "night-market",
+  "name": {
+    "en": "Blobfish",
+    "pt-BR": "Peixe-bolha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "17:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Submarine (Night Market)",
+      "pt-BR": "Submarino (Mercado Noturno)"
+    },
+    "locationVerified": false
+  }
+}

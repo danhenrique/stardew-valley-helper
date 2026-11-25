@@ -1,0 +1,49 @@
+{
+  "id": "holly",
+  "type": "forage",
+  "name": {
+    "en": "Holly",
+    "pt-BR": "Azevinho"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "elliott",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leo",
+      "lewis",
+      "marnie",
+      "maru",
+      "pam",
+      "penny",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "likes": [
+      "harvey",
+      "leah",
+      "linus"
+    ]
+  }
+}

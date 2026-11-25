@@ -1,0 +1,9 @@
+{
+  "id": "panzanella-salad",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Panzanella Salad",
+    "pt-BR": "Salada Panzanella"
+  },
+  "nameVerified": true
+}

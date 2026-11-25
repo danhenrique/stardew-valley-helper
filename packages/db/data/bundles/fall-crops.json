@@ -1,0 +1,45 @@
+{
+  "id": "fall-crops",
+  "type": "bundles",
+  "name": {
+    "en": "Fall Crops Bundle",
+    "pt-BR": "Conjunto Plantações de Outono"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "corn",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "eggplant",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "pumpkin",
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "yam",
+      "seasons": [
+        "fall"
+      ]
+    }
+  ]
+}

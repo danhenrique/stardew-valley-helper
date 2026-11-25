@@ -1,0 +1,21 @@
+{
+  "id": "ruby",
+  "type": "minerals",
+  "subtype": "gem",
+  "name": {
+    "en": "Ruby",
+    "pt-BR": "Rubi"
+  },
+  "nameVerified": true,
+  "tags": [
+    "gems"
+  ],
+  "giftTastes": {
+    "loves": [
+      "clint",
+      "dwarf",
+      "emily"
+    ]
+  },
+  "museumDonation": true
+}

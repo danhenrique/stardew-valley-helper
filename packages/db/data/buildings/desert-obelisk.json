@@ -1,0 +1,28 @@
+{
+  "id": "desert-obelisk",
+  "type": "buildings",
+  "name": {
+    "en": "Desert Obelisk",
+    "pt-BR": "Obelisco do Deserto"
+  },
+  "nameVerified": true,
+  "construction": {
+    "price": 1000000,
+    "materials": [
+      {
+        "item": "iridium-bar",
+        "qty": 20
+      },
+      {
+        "item": "coconut",
+        "qty": 10
+      },
+      {
+        "item": "cactus-fruit",
+        "qty": 10
+      }
+    ],
+    "builtBy": "wizard"
+  },
+  "category": "magical"
+}

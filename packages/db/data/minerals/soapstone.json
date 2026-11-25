@@ -1,0 +1,14 @@
+{
+  "id": "soapstone",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Soapstone",
+    "pt-BR": "Pedra-sabão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

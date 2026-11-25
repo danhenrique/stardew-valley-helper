@@ -1,0 +1,53 @@
+{
+  "id": "duck-feather",
+  "type": "animal-products",
+  "name": {
+    "en": "Duck Feather",
+    "pt-BR": "Pena de Pato"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "abigail",
+      "alex",
+      "caroline",
+      "clint",
+      "demetrius",
+      "dwarf",
+      "emily",
+      "evelyn",
+      "george",
+      "gus",
+      "haley",
+      "jas",
+      "jodi",
+      "kent",
+      "krobus",
+      "leah",
+      "lewis",
+      "linus",
+      "marnie",
+      "maru",
+      "pam",
+      "pierre",
+      "robin",
+      "sam",
+      "sandy",
+      "sebastian",
+      "shane",
+      "vincent",
+      "willy",
+      "wizard"
+    ],
+    "loves": [
+      "elliott",
+      "leo"
+    ],
+    "likes": [
+      "harvey"
+    ],
+    "dislikesOrHates": [
+      "penny"
+    ]
+  }
+}

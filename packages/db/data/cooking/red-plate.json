@@ -1,0 +1,35 @@
+{
+  "id": "red-plate",
+  "type": "cooking",
+  "name": {
+    "en": "Red Plate",
+    "pt-BR": "Prato Vermelho"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 800
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "penny"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "red-cabbage",
+        "qty": 1
+      },
+      {
+        "item": "radish",
+        "qty": 1
+      }
+    ]
+  }
+}

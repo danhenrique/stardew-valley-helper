@@ -1,0 +1,16 @@
+{
+  "id": "large-fish-tank",
+  "type": "furniture",
+  "name": {
+    "en": "Large Fish Tank",
+    "pt-BR": "Aquário Grande"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 2000,
+      "fishingLevel": 0
+    }
+  ]
+}

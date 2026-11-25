@@ -1,0 +1,17 @@
+{
+  "id": "seaweed",
+  "type": "resources",
+  "name": {
+    "en": "Seaweed",
+    "pt-BR": "Algas Marinhas"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leah",
+      "marnie",
+      "sam",
+      "shane"
+    ]
+  }
+}

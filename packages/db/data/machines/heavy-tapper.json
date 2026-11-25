@@ -1,0 +1,48 @@
+{
+  "id": "heavy-tapper",
+  "type": "machines",
+  "name": {
+    "en": "Heavy Tapper",
+    "pt-BR": "Torneirinha Pesada"
+  },
+  "nameVerified": true,
+  "category": "refining",
+  "processing": [
+    {
+      "days": 5,
+      "output": "maple-syrup",
+      "label": {
+        "en": "Maple Syrup",
+        "pt-BR": "Xarope de Ácer"
+      }
+    },
+    {
+      "days": 4,
+      "output": "oak-resin",
+      "label": {
+        "en": "Oak Resin",
+        "pt-BR": "Resina de Carvalho"
+      }
+    },
+    {
+      "days": 3,
+      "output": "pine-tar",
+      "label": {
+        "en": "Pine Tar",
+        "pt-BR": "Alcatrão de Pinho"
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 30
+      },
+      {
+        "item": "radioactive-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

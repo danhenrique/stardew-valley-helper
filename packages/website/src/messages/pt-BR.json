@@ -1,0 +1,795 @@
+{
+  "common": {
+    "close": "Fechar",
+    "undo": "Desfazer",
+    "edit": "Editar",
+    "save": "Salvar",
+    "season": "Estação",
+    "seasons": "Estações",
+    "chooseSeason": "Escolher estação",
+    "all": "Todas",
+    "day": "Dia",
+    "year": "Ano",
+    "previousDay": "Dia anterior",
+    "nextDay": "Próximo dia",
+    "footer": {
+      "data": "Dados do jogo © ConcernedApe LLC e Stardew Valley Wiki (CC BY-NC-SA 3.0). Site de fã, sem fins comerciais.",
+      "images": "Stardew Valley © ConcernedApe. Imagens usadas sem fins comerciais."
+    },
+    "machineCatalog": {
+      "loading": "Carregando máquinas...",
+      "error": "Não foi possível carregar as máquinas. Recarregue a página."
+    },
+    "cancel": "Cancelar",
+    "moreActions": "Mais ações",
+    "unavailable": "Indisponível",
+    "calculating": "Calculando...",
+    "location": "Local",
+    "locationTabs": {
+      "all": "Todos",
+      "nav": "Locais",
+      "choose": "Escolher local"
+    },
+    "seasonCalendar": {
+      "title": "{season}, Ano {year}",
+      "previous": "Estação anterior",
+      "next": "Próxima estação"
+    },
+    "search": "Buscar...",
+    "stepper": {
+      "decrease": "Diminuir {label}",
+      "increase": "Aumentar {label}"
+    }
+  },
+  "nav": {
+    "today": "Hoje",
+    "farming": "Produção",
+    "farm": "Fazenda",
+    "seeds": "Sementes",
+    "fish": "Peixes",
+    "calendar": "Calendário",
+    "shops": "Lojas",
+    "openUserMenu": "Abrir menu do usuário",
+    "openMainMenu": "Abrir menu principal",
+    "signOut": "Sair",
+    "day": {
+      "group": "Dia no jogo",
+      "change": "Alterar dia e progresso",
+      "changeLabel": "{action}: {label}",
+      "panel": "Dia e progresso",
+      "current": "{season} {day} · Ano {year}",
+      "raining": "Chovendo hoje",
+      "dry": "Sem chuva hoje",
+      "legend": "Hoje no jogo",
+      "profession": "Profissão (nível 10 de Lavrador)",
+      "professionNone": "Nenhuma",
+      "professionAgriculturist": "Agricultor",
+      "professionArtisan": "Artesão",
+      "professionHint": "Agricultor: +10% de velocidade de crescimento. Artesão: +40% no valor dos artesanais.",
+      "communityCenter": "Centro Comunitário restaurado",
+      "communityCenterHint": "Pierre abre às quartas e a Joja fecha",
+      "keyToTown": "Chave da Cidade",
+      "keyToTownHint": "Lojas abrem mais cedo ou fecham mais tarde",
+      "boat": "Barco para a Ilha Gengibre consertado",
+      "boatHint": "Peixaria abre às 8:00",
+      "loading": "Carregando a data do jogo..."
+    }
+  },
+  "theme": {
+    "system": "Tema automático (alternar para claro)",
+    "light": "Tema claro (alternar para escuro)",
+    "dark": "Tema escuro (alternar para automático)"
+  },
+  "language": {
+    "label": "Idioma",
+    "portuguese": "Português",
+    "english": "English"
+  },
+  "today": {
+    "title": "Hoje",
+    "addPlanting": "Adicionar plantio",
+    "addMachine": "Adicionar máquina",
+    "events": "Eventos",
+    "plantings": "Plantios",
+    "machines": "Máquinas",
+    "untilDay": "Até o dia {day}",
+    "nothingToCollect": "Nada para coletar hoje",
+    "addFirstSeed": "Adicione sua primeira semente",
+    "nextUp": "Próximo: {name} em {days, plural, one {# dia} other {# dias}}",
+    "plantingReady": "{quantity, plural, one {# unidade} other {# unidades}} · Pronta para colher",
+    "replant": "Replantar",
+    "outOfSeasonHere": "Fora da estação neste local",
+    "remove": "Remover",
+    "empty": "Esvaziar",
+    "takeOut": "Retirar",
+    "refill": "Recolocar",
+    "changeProduct": "Trocar produto",
+    "machineReady": "{quantity, plural, one {# máquina} other {# máquinas}} · Pronto para coletar",
+    "machineQuality": "{quantity, plural, one {# máquina} other {# máquinas}} · Qualidade {quality} alcançada",
+    "eventsLoading": "Carregando eventos...",
+    "eventsError": "Não foi possível carregar os eventos.",
+    "loading": "Carregando o dia...",
+    "loadError": "Não foi possível carregar seus dados. Recarregue a página.",
+    "rainAlert": "Está chovendo hoje",
+    "seeRainFish": "Ver peixes de chuva",
+    "reminders": "Lembretes",
+    "remindersLoading": "Carregando lembretes...",
+    "remindersError": "Não foi possível carregar os lembretes.",
+    "upcoming": "Próximos dias",
+    "openShops": "Lojas abertas hoje",
+    "shopsLoading": "Carregando lojas...",
+    "shopsError": "Não foi possível carregar as lojas.",
+    "noShops": "Nenhuma loja aberta hoje.",
+    "allShops": "Ver todas as lojas",
+    "closesAt": "até {time}",
+    "randomStock": "Estoque aleatório",
+    "birthdayOf": "Aniversário de {name}",
+    "viewEvent": "Ver evento",
+    "giftsLoading": "Carregando presentes...",
+    "giftsError": "Não foi possível carregar os presentes.",
+    "noGifts": "Nenhum presente cadastrado.",
+    "rainFish": "Peixes de chuva",
+    "allFish": "Ver todos os peixes",
+    "fishLoading": "Carregando peixes...",
+    "fishError": "Não foi possível carregar os peixes."
+  },
+  "farming": {
+    "title": "Produção",
+    "tabs": {
+      "plantings": "Plantios",
+      "machines": "Máquinas"
+    },
+    "sections": "Seções da produção",
+    "chooseSection": "Escolha uma seção da produção",
+    "loadError": "Não foi possível carregar seus dados. Recarregue a página.",
+    "form": {
+      "useToday": "Usar hoje",
+      "otherDate": "Outra data",
+      "today": "Hoje ({date})",
+      "moreOptions": "Mais opções",
+      "nickname": "Apelido (opcional)"
+    },
+    "drawer": {
+      "details": "Ver detalhes",
+      "calculating": "Calculando previsão..."
+    }
+  },
+  "plantings": {
+    "replanted": "Plantio replantado",
+    "removed": "Plantio removido",
+    "add": "Adicionar plantio",
+    "edit": "Editar plantio",
+    "loading": "Carregando plantios...",
+    "mine": "Meus plantios",
+    "new": "Novo plantio",
+    "list": "Plantios",
+    "replant": "Replantar",
+    "remove": "Remover",
+    "empty": {
+      "title": "Nenhum plantio ainda",
+      "description": "Adicione sua primeira semente.",
+      "locationDescription": "Adicione um plantio escolhendo este local no formulário.",
+      "farm": "Nenhum plantio na Fazenda",
+      "greenhouse": "Nenhum plantio na Estufa",
+      "ginger-island": "Nenhum plantio na Ilha Gengibre"
+    },
+    "row": {
+      "units": "{quantity, plural, =1 {# unidade} other {# unidades}}",
+      "planted": "Plantado em {date}",
+      "harvested": "Colhido em {date}",
+      "readyToday": "Pronta para colher hoje",
+      "dead": "A planta morreu na troca de estação",
+      "finished": "Sem novas colheitas",
+      "nextIn": "Próxima colheita em {days, plural, =1 {# dia} other {# dias}}"
+    },
+    "form": {
+      "seed": "Semente ou muda",
+      "showSeeds": "Mostrar sementes",
+      "outOfSeason": "{description} · Fora da estação",
+      "plantedDate": "Data do plantio",
+      "harvestDate": "Data da colheita",
+      "fertilizer": "Fertilizante",
+      "harvestOnly": "Sei só a data de uma colheita",
+      "harvestOnlyHint": "Para cultivos que rebrotam",
+      "quantity": "Quantidade"
+    },
+    "drawer": {
+      "firstHarvest": "Primeira colheita",
+      "firstHarvestLabel": "Primeira colheita:",
+      "choose": "Escolha uma semente para ver a previsão"
+    },
+    "preview": {
+      "choose": "Escolha uma semente para ver a previsão.",
+      "title": "Previsão",
+      "firstHarvest": "Primeira colheita",
+      "harvests": "Colheitas",
+      "continuous": "Contínuas (próximas 10)",
+      "expectedYield": "Colheita esperada",
+      "regrowEvery": "Rebrota a cada",
+      "regrowDays": "{days, plural, =1 {# dia} other {# dias}}",
+      "noRegrow": "Não rebrota",
+      "diesOn": "Morre em",
+      "neverDies": "Não morre na troca de estação"
+    }
+  },
+  "machines": {
+    "recollected": "Máquina recolocada",
+    "emptied": "Máquina esvaziada",
+    "add": "Adicionar máquina",
+    "edit": "Editar máquina",
+    "loading": "Carregando máquinas...",
+    "mine": "Minhas máquinas",
+    "new": "Nova máquina",
+    "list": "Máquinas",
+    "refill": "Recolocar",
+    "empty": "Esvaziar",
+    "tabs": {
+      "all": "Todas",
+      "ready": "Prontas",
+      "running": "Em andamento",
+      "nav": "Situação das máquinas",
+      "choose": "Escolher situação"
+    },
+    "emptyState": {
+      "all": "Nenhuma máquina ainda",
+      "ready": "Nenhuma máquina pronta",
+      "running": "Nenhuma máquina em andamento",
+      "firstDescription": "Adicione sua primeira máquina.",
+      "otherDescription": "Nada aqui por enquanto."
+    },
+    "row": {
+      "count": "{quantity, plural, =1 {# máquina} other {# máquinas}}",
+      "started": "Iniciado em {date}",
+      "ready": "Pronto para coletar",
+      "iridium": "Qualidade irídio alcançada",
+      "noForecast": "Sem previsão",
+      "nextQuality": "Próxima qualidade em {days, plural, =1 {# dia} other {# dias}}",
+      "nextCollection": "Próxima coleta em {days, plural, =1 {# dia} other {# dias}}",
+      "readyIn": "Pronto em {days, plural, =1 {# dia} other {# dias}}",
+      "withDate": "{relative} ({date})"
+    },
+    "form": {
+      "machine": "Máquina",
+      "chooseMachine": "Escolha uma máquina",
+      "product": "Produto",
+      "chooseProduct": "Escolha um produto",
+      "chooseMachineFirst": "Escolha a máquina primeiro",
+      "start": "Início",
+      "startQuality": "Qualidade inicial",
+      "count": "Quantidade de máquinas",
+      "days": "{days, plural, =1 {# dia} other {# dias}}",
+      "daysApproximate": "{days, plural, =1 {# dia} other {# dias}} · aprox."
+    },
+    "drawer": {
+      "dates": "Datas previstas",
+      "approximate": "Tempo aproximado para este produto.",
+      "noDates": "Sem datas previstas.",
+      "dateLine": "{label}: {date}",
+      "chooseMachine": "Escolha uma máquina para ver a previsão",
+      "chooseProduct": "Escolha um produto para ver a previsão",
+      "chooseMachineSentence": "Escolha uma máquina para ver a previsão.",
+      "chooseProductSentence": "Escolha um produto para ver a previsão."
+    }
+  },
+  "farmPlanner": {
+    "category": {
+      "building": "Construções",
+      "planting": "Plantio",
+      "machine": "Máquinas",
+      "decoration": "Decoração"
+    },
+    "group": {
+      "soil": "Solo",
+      "sprinklers": "Aspersores",
+      "scarecrows": "Espantalhos",
+      "fruitTrees": "Árvores frutíferas",
+      "fences": "Cercas",
+      "gates": "Portões",
+      "floors": "Pisos e caminhos"
+    },
+    "issue": {
+      "overlap": "Sobrepõe {name}",
+      "otherObject": "outro objeto",
+      "outside": "Fora do mapa",
+      "notBuildable": "Área não construível",
+      "notDiggable": "Esse terreno não pode ser arado",
+      "blockedTile": "Terreno bloqueado",
+      "treeSpace": "Árvore frutífera precisa de 3×3 livres em volta",
+      "doorBlocked": "Porta bloqueada",
+      "limit": "Limite de 8.000 objetos atingido"
+    },
+    "title": "Fazenda",
+    "list": {
+      "loading": "Carregando planos...",
+      "loadError": "Não foi possível carregar seus planos. Recarregue a página.",
+      "limit": "Limite de {max} planos",
+      "new": "Novo plano",
+      "empty": "Nenhum plano ainda",
+      "open": "Abrir {name}",
+      "updatedAt": "Atualizado em {date}",
+      "rename": "Renomear {name}",
+      "duplicate": "Duplicar {name}",
+      "delete": "Excluir {name}",
+      "copyName": "{name} (cópia)",
+      "nameLabel": "Nome do plano",
+      "deleteTitle": "Excluir plano",
+      "deleteConfirm": "Excluir \"{name}\"? Esta ação não pode ser desfeita.",
+      "deleteAction": "Excluir"
+    },
+    "create": {
+      "title": "Novo plano",
+      "name": "Nome",
+      "hint": "Até {max} caracteres.",
+      "farm": "Fazenda",
+      "submit": "Criar"
+    },
+    "conflict": {
+      "title": "Plano alterado em outro lugar",
+      "intro": "Este plano foi salvo em outra aba ou dispositivo depois que você o abriu.",
+      "help": "<reload>Recarregar</reload> descarta suas alterações e abre a versão salva. <overwrite>Sobrescrever</overwrite> salva a sua versão por cima da outra.",
+      "reload": "Recarregar",
+      "overwrite": "Sobrescrever"
+    },
+    "leave": {
+      "title": "Sair sem salvar?",
+      "body": "Há alterações que ainda não foram salvas.",
+      "leave": "Sair",
+      "stay": "Continuar editando"
+    },
+    "save": {
+      "label": "Salvamento",
+      "saving": "Salvando…",
+      "saved": "Salvo",
+      "error": "Erro ao salvar",
+      "errorDetail": "Erro ao salvar: {detail}",
+      "conflict": "Conflito ao salvar"
+    },
+    "toolbar": {
+      "tools": "Ferramentas",
+      "history": "Histórico",
+      "zoom": "Zoom",
+      "panels": "Painéis",
+      "place": "Colocar",
+      "select": "Selecionar",
+      "erase": "Apagar",
+      "redo": "Refazer",
+      "coverage": "Cobertura",
+      "zoomOut": "Diminuir zoom",
+      "zoomIn": "Aumentar zoom",
+      "fit": "Ajustar à tela",
+      "openObjects": "Abrir objetos",
+      "openDetails": "Abrir detalhes"
+    },
+    "coverage": {
+      "title": "Cobertura",
+      "empty": "Nenhum tile arado ainda",
+      "tilled": "Tiles arados: {count}",
+      "watered": "Regados: {count} ({percent}%)",
+      "protected": "Protegidos: {count} ({percent}%)",
+      "dry": "{count, plural, one {# tile} other {# tiles}} sem água",
+      "unprotected": "{count, plural, one {# tile} other {# tiles}} sem proteção",
+      "legendWatered": "Regado",
+      "legendProtected": "Protegido",
+      "legendDry": "Sem água",
+      "legendUnprotected": "Sem proteção"
+    },
+    "details": {
+      "label": "Detalhes",
+      "selection": "Seleção",
+      "none": "Nenhum objeto selecionado.",
+      "position": "Posição {x}, {y}",
+      "many": "{count} objetos selecionados",
+      "problems": "Problemas",
+      "noProblems": "Nenhum problema.",
+      "more": "e mais {count}",
+      "summary": "Resumo",
+      "hint": "Arraste o fundo ou role para mover · Ctrl + roda para zoom",
+      "dropped": "{count, plural, one {# objeto removido porque não existe mais} other {# objetos removidos porque não existem mais}}"
+    },
+    "notice": {
+      "notRemovable": "Esse objeto não pode ser removido",
+      "moveRefused": "Não é possível mover para lá"
+    },
+    "palette": {
+      "label": "Objetos",
+      "search": "Buscar objeto",
+      "empty": "Nenhum objeto encontrado."
+    },
+    "map": {
+      "label": "Mapa da fazenda"
+    },
+    "page": {
+      "back": "Planos",
+      "notFound": "Plano não encontrado",
+      "notFoundHint": "Ele pode ter sido apagado ou o endereço está errado.",
+      "backToPlans": "Voltar para os planos",
+      "loadError": "Não foi possível carregar o plano.",
+      "retry": "Tentar de novo",
+      "loading": "Carregando plano...",
+      "switch": "Trocar de plano",
+      "switchNamed": "Trocar de plano: {name}"
+    }
+  },
+  "seeds": {
+    "goldPerDay": "{gold} g/dia",
+    "goldTotal": "{gold} g · {harvests, plural, =1 {# colheita} other {# colheitas}}",
+    "goldPerHarvest": "{gold} g por colheita · {cycle, plural, =1 {todo dia} other {a cada # dias}}",
+    "title": "Sementes",
+    "loading": "Carregando sementes...",
+    "loadError": "Não foi possível carregar as sementes. Recarregue a página.",
+    "period": "Período",
+    "periodSeason": "Estação inteira",
+    "periodToday": "A partir de hoje",
+    "mode": "Cálculo",
+    "fertilizer": "Fertilizante",
+    "farmingLevel": "Nível de Agricultura",
+    "sortBy": "Ordenar por",
+    "machinesNote": "Jarra e barril supõem máquinas suficientes para toda a colheita.",
+    "calcError": "Não foi possível calcular os valores.",
+    "willNotMature": "Não amadurece a tempo",
+    "pricesByQuality": "Preços por qualidade",
+    "showPrices": "Ver preços",
+    "direct": "Direto {price}g",
+    "qualityPrice": "{quality} {price}g",
+    "baseQuality": "Base",
+    "machineProduct": "{machine} · {product} {price}g",
+    "machineNoProduct": "{machine} · —",
+    "machine": {
+      "jar": "Jarra",
+      "keg": "Barril"
+    },
+    "products": {
+      "jelly": "Geleia",
+      "pickles": "Picles",
+      "wine": "Vinho",
+      "juice": "Suco",
+      "pale-ale": "Pale Ale",
+      "beer": "Cerveja",
+      "green-tea": "Chá Verde",
+      "coffee": "Café"
+    }
+  },
+  "fish": {
+    "title": "Peixes",
+    "loading": "Carregando peixes...",
+    "loadError": "Não foi possível carregar os peixes. Recarregue a página.",
+    "weather": "Clima",
+    "kind": "Tipo",
+    "search": "Buscar peixe",
+    "searchPlaceholder": "Nome do peixe",
+    "unverified": "Locais ainda não verificados com o jogo.",
+    "empty": "Nenhum peixe com esses filtros.",
+    "sectionTitle": "{title} ({count})",
+    "rainOnly": "Só com chuva",
+    "sunOnly": "Só com sol",
+    "drawer": {
+      "type": "Tipo",
+      "hours": "Horário",
+      "typeValue": "{category} · {tool}",
+      "category": {
+        "regular": "Comum",
+        "night-market": "Mercado Noturno",
+        "legendary": "Lendário",
+        "legendary-ii": "Lendário II"
+      },
+      "tool": {
+        "rod": "Vara",
+        "crab-pot": "Covo"
+      },
+      "weatherValue": {
+        "any": "Qualquer clima",
+        "sun": "Só com sol",
+        "rain": "Só com chuva"
+      }
+    }
+  },
+  "calendar": {
+    "title": "Calendário",
+    "tabs": {
+      "calendar": "Calendário",
+      "events": "Eventos",
+      "nav": "Seções do calendário",
+      "choose": "Escolha uma seção do calendário"
+    },
+    "loading": "Carregando calendário...",
+    "error": "Não foi possível carregar o calendário. Recarregue a página.",
+    "markerKind": "{kind}: ",
+    "eventKinds": "Tipos de evento",
+    "noSeasonEvents": "Nenhum evento nesta estação.",
+    "dayButton": "Dia {day}",
+    "dayEvents": "Eventos do dia {day}",
+    "dayHeading": "{season} {day}",
+    "noDayEvents": "Nenhum evento neste dia."
+  },
+  "events": {
+    "loading": "Carregando eventos...",
+    "error": "Não foi possível carregar os eventos. Recarregue a página.",
+    "search": "Buscar evento",
+    "kindFilter": "Tipo de evento",
+    "allKinds": "Todos os tipos",
+    "none": "Nenhum evento encontrado.",
+    "detail": {
+      "back": "Voltar para eventos",
+      "loading": "Carregando...",
+      "error": "Não foi possível carregar o evento. Recarregue a página.",
+      "notFound": "Evento não encontrado",
+      "type": "Tipo",
+      "day": "Dia",
+      "days": "Dias",
+      "shops": "Lojas",
+      "shopsClosed": "Lojas fecham",
+      "shopsOpen": "Lojas abertas",
+      "item": "Item",
+      "marriageable": "Casável",
+      "yes": "Sim",
+      "no": "Não",
+      "lovedGifts": "Presentes amados",
+      "giftsLoading": "Carregando presentes...",
+      "giftsError": "Não foi possível carregar os presentes.",
+      "noLovedGifts": "Nenhum presente amado cadastrado.",
+      "lastPlantingDay": "Último dia de plantio",
+      "lastPlantingDayValue": "Dia {day}",
+      "growthDays": "Dias de crescimento",
+      "growthDaysValue": "{days} dias"
+    }
+  },
+  "shops": {
+    "title": "Lojas",
+    "loading": "Carregando lojas...",
+    "loadError": "Não foi possível carregar as lojas.",
+    "loadingOne": "Carregando loja...",
+    "loadErrorOne": "Não foi possível carregar a loja.",
+    "notFound": "Loja não encontrada",
+    "viewAll": "Ver todas as lojas",
+    "viewCatalog": "Ver catálogo completo",
+    "loadingCatalog": "Carregando catálogo...",
+    "catalogError": "Não foi possível carregar o catálogo.",
+    "emptyDay": "Nada à venda neste dia.",
+    "randomStock": "Parte do estoque é sorteada pelo jogo",
+    "free": "Grátis",
+    "quantityOf": "Quantidade de {name}",
+    "section": {
+      "shop": "Loja",
+      "upgrade": "Melhorias",
+      "geode": "Geodos",
+      "building": "Construções",
+      "magic": "Magia"
+    },
+    "badge": {
+      "open": "Aberta",
+      "closed": "Fechada",
+      "always": "Sem horário fixo"
+    },
+    "status": {
+      "always": "Sem horário fixo",
+      "alwaysAccess": "Sem horário fixo · {access}",
+      "open": "Aberta · {hours}",
+      "closed": "Fechada · {reason}"
+    },
+    "closedDays": "Fecha: {days}",
+    "cart": {
+      "total": "Total: {gold}g",
+      "clear": "Limpar compra"
+    },
+    "gifts": {
+      "showOthers": "Ver outras preferências ({count})",
+      "except": "exceto {names}"
+    },
+    "hoursTwo": "{first} e {second}"
+  },
+  "labels": {
+    "season": {
+      "spring": "Primavera",
+      "summer": "Verão",
+      "fall": "Outono",
+      "winter": "Inverno"
+    },
+    "weekday": {
+      "mon": "seg",
+      "tue": "ter",
+      "wed": "qua",
+      "thu": "qui",
+      "fri": "sex",
+      "sat": "sáb",
+      "sun": "dom"
+    },
+    "weekdayPlural": {
+      "mon": "segundas",
+      "tue": "terças",
+      "wed": "quartas",
+      "thu": "quintas",
+      "fri": "sextas",
+      "sat": "sábados",
+      "sun": "domingos"
+    },
+    "location": {
+      "farm": "Fazenda",
+      "greenhouse": "Estufa",
+      "ginger-island": "Ilha Gengibre"
+    },
+    "plantingStatus": {
+      "growing": "Crescendo",
+      "ready": "Pronta",
+      "regrowing": "Rebrotando",
+      "finished": "Finalizada",
+      "dead": "Morta"
+    },
+    "quality": {
+      "normal": "Normal",
+      "silver": "Prata",
+      "gold": "Ouro",
+      "iridium": "Irídio"
+    },
+    "machineStatus": {
+      "processing": "Processando",
+      "ready": "Pronto",
+      "aging": "Envelhecendo",
+      "iridium": "Irídio"
+    },
+    "fertilizerSpeed": {
+      "none": "Sem bônus",
+      "speed-gro": "−10%",
+      "deluxe-speed-gro": "−25%",
+      "hyper-speed-gro": "−33%"
+    },
+    "noFertilizer": "Nenhum",
+    "warning": {
+      "will_not_mature": "Não amadurece antes do fim da estação.",
+      "approximate": "Cálculo aproximado para esta semente."
+    },
+    "eventKind": {
+      "festival": "Festival",
+      "birthday": "Aniversário",
+      "cropDeadline": "Prazo de plantio",
+      "foraging": "Coleta"
+    },
+    "machineMarker": {
+      "machine": "Máquina",
+      "caskMilestone": "Barril de Madeira"
+    },
+    "giftTier": {
+      "loves": "Ama",
+      "likes": "Gosta",
+      "neutral": "Neutro",
+      "dislikesOrHates": "Não gosta ou odeia"
+    },
+    "gameDate": "{season} {day}, Ano {year}",
+    "eventDay": "{season} {day}",
+    "eventDayRange": "{season} {day}–{endDay}",
+    "expectedYield": {
+      "total": "≈ {total} no total ({perHarvest} por colheita)",
+      "perHarvest": "≈ {perHarvest} por colheita"
+    },
+    "relativeDay": {
+      "today": "hoje",
+      "tomorrow": "amanhã",
+      "yesterday": "ontem",
+      "inDays": "daqui a {days} dias",
+      "daysAgo": "há {days} dias"
+    },
+    "firstHarvest": "{date} ({relative})",
+    "neverMatures": "Não amadurece antes do fim da estação",
+    "scheduleSummary": "Pronto em {firstHarvest} · {harvests}",
+    "harvests": {
+      "endless": "colheitas sem fim",
+      "count": "{count, plural, =1 {# colheita} other {# colheitas}}"
+    },
+    "plantable": {
+      "crop": "{seasons} · {days} dias",
+      "cropRegrow": "{seasons} · {days} dias · rebrota {regrow}",
+      "tree": "{seasons} · árvore: {days} dias"
+    },
+    "machineSummary": {
+      "collection": "Coleta a cada {days} {days, plural, =1 {dia} other {dias}} · próxima {date}",
+      "ready": "Pronto em {date}",
+      "noCollections": "Sem coletas previstas",
+      "noForecast": "Sem previsão",
+      "milestone": "{quality} {date}"
+    },
+    "machineDate": {
+      "collection": "Coleta",
+      "ready": "Pronto"
+    },
+    "harvest": "Colheita",
+    "cost": {
+      "gold": "{amount}g",
+      "qiCoins": "{amount} fichas Qi",
+      "qiGems": "{amount} gemas Qi",
+      "goldenWalnuts": "{amount} nozes douradas",
+      "cinderShards": "{amount} fragmentos de cinza"
+    },
+    "offerTag": {
+      "fishingLevel": "Requer pesca nível {level}",
+      "requires": "Requer {name}",
+      "monsterGoal": "Requer meta de monstros",
+      "recipe": "Receita",
+      "pack": "Pacote com {size}",
+      "rotating": "Rotativo"
+    },
+    "offerSpecial": {
+      "onlyOneAtMaxKrobusFriendshipWhileSingle": "Só um, com amizade máxima com Krobus e solteiro",
+      "wednesdayRandomFishOrMagnetBait": "Às quartas: peixe aleatório ou isca magnética"
+    },
+    "shopReason": {
+      "permanent": "Fechada definitivamente",
+      "season": "Fora de temporada",
+      "rain": "Chuva",
+      "festival": "Festival",
+      "closedToday": "Fechada hoje",
+      "closesOnWeekday": "Fecha às {day}",
+      "closesOnWeekend": "Fecha aos {day}"
+    },
+    "shopNote": {
+      "closesIfRain": "Fecha se chover",
+      "opensIfRain": "Abre se chover"
+    },
+    "fishSection": {
+      "rod": "Vara",
+      "nightMarket": "Mercado Noturno",
+      "legendary": "Lendários",
+      "legendaryII": "Lendários II",
+      "crabPot": "Covo",
+      "rainOnly": "Só na chuva"
+    },
+    "fishWeather": {
+      "all": "Todos",
+      "sun": "Sol",
+      "rain": "Chuva"
+    },
+    "fishKind": {
+      "all": "Todos",
+      "rod": "Vara",
+      "crabPot": "Covo",
+      "special": "Especiais"
+    },
+    "valueMode": {
+      "continuous": "Contínuo",
+      "window": "28 dias"
+    },
+    "fertilizer": {
+      "basic": "Fertilizante Básico",
+      "quality": "Fertilizante de Qualidade",
+      "deluxe": "Fertilizante Premium",
+      "speed-gro": "Solo Foliar",
+      "deluxe-speed-gro": "Solo Foliar Premium",
+      "hyper-speed-gro": "Hiper Solo Foliar"
+    },
+    "seedSort": {
+      "goldPerDay": "Ouro/dia · venda direta",
+      "bestPerDay": "Ouro/dia · melhor destino",
+      "goldTotal": "Ouro no período",
+      "name": "Nome"
+    },
+    "dotJoin": "{first} · {second}"
+  },
+  "errors": {
+    "generic": "Não foi possível salvar. Tente novamente.",
+    "planting": {
+      "chooseSeed": "Escolha uma semente ou muda",
+      "outOfSeason": "Fora da estação na Fazenda — use Estufa ou Ilha",
+      "onlyRegrowing": "Só cultivos que rebrotam podem partir de uma colheita"
+    },
+    "machine": {
+      "chooseMachine": "Escolha uma máquina",
+      "chooseProduct": "Escolha um produto desta máquina"
+    },
+    "api": {
+      "seedNotInSeason": "A semente não pode ser plantada nesta estação.",
+      "notPlantable": "Este item não pode ser plantado.",
+      "regrowOnly": "Apenas cultivos que rebrotam podem partir de uma data de colheita.",
+      "seedNotFound": "Semente não encontrada.",
+      "plantingNotFound": "Plantio não encontrado.",
+      "outputNotInMachine": "Este produto não é desta máquina.",
+      "machineNotFound": "Máquina não encontrada.",
+      "machineBatchNotFound": "Registro de máquina não encontrado.",
+      "planNotFound": "Plano não encontrado.",
+      "tooManyObjects": "Limite de 8.000 objetos atingido.",
+      "unknownObject": "Objeto desconhecido: {object}",
+      "objectOutsideFarm": "Objeto fora da fazenda: {object}",
+      "missingFixedObject": "Objeto fixo ausente: {object}"
+    }
+  },
+  "notFound": {
+    "title": "Página não encontrada"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "random-shirt",
+  "type": "equipment",
+  "subtype": "shirt",
+  "name": {
+    "en": "Random Shirt",
+    "pt-BR": "Camisa"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 1000
+    }
+  ]
+}

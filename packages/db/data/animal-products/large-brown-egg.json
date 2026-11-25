@@ -1,0 +1,13 @@
+{
+  "id": "large-brown-egg",
+  "type": "animal-products",
+  "subtype": "egg",
+  "name": {
+    "en": "Large Brown Egg",
+    "pt-BR": "Ovo Grande"
+  },
+  "nameVerified": true,
+  "tags": [
+    "eggs"
+  ]
+}

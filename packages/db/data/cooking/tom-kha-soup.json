@@ -1,0 +1,40 @@
+{
+  "id": "tom-kha-soup",
+  "type": "cooking",
+  "name": {
+    "en": "Tom Kha Soup",
+    "pt-BR": "Sopa Tom Kha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 500
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "elliott",
+      "penny"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "coconut",
+        "qty": 1
+      },
+      {
+        "item": "shrimp",
+        "qty": 1
+      },
+      {
+        "item": "common-mushroom",
+        "qty": 1
+      }
+    ]
+  }
+}

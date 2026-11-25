@@ -1,0 +1,22 @@
+{
+  "id": "mead",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Mead",
+    "pt-BR": "Hidromel"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "leo",
+      "penny"
+    ],
+    "loves": [
+      "pam",
+      "willy"
+    ]
+  }
+}

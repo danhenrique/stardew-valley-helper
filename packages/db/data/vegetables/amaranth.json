@@ -1,0 +1,24 @@
+{
+  "id": "amaranth",
+  "type": "vegetables",
+  "name": {
+    "en": "Amaranth",
+    "pt-BR": "Amaranto"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 150,
+  "artisan": {
+    "kegPrice": 337,
+    "jarPrice": 350
+  },
+  "growsFrom": "amaranth-seeds",
+  "giftTastes": {
+    "dislikesOrHates": [
+      "caroline",
+      "elliott"
+    ]
+  }
+}

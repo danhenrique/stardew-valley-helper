@@ -1,0 +1,18 @@
+{
+  "id": "junimo-hut",
+  "type": "planner-objects",
+  "name": {
+    "en": "Junimo Hut",
+    "pt-BR": "Cabana de Junimo"
+  },
+  "nameVerified": true,
+  "item": "junimo-hut",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 3,
+    "h": 2
+  },
+  "removable": true,
+  "paint": false
+}

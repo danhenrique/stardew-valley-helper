@@ -1,0 +1,15 @@
+{
+  "id": "seasonal-plant",
+  "type": "furniture",
+  "name": {
+    "en": "Seasonal Plant",
+    "pt-BR": "Planta Sazonal"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 100
+    }
+  ]
+}

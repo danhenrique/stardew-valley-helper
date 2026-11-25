@@ -1,0 +1,12 @@
+{
+  "id": "void-spirits",
+  "type": "monster-goals",
+  "name": {
+    "en": "Void Spirits",
+    "pt-BR": "Espíritos do Vazio"
+  },
+  "nameVerified": true,
+  "killsRequired": 150,
+  "reward": "savage-ring",
+  "location": "adventurers-guild"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "duck-mayonnaise",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Duck Mayonnaise",
+    "pt-BR": "Maionese de Ovo de Pata"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "caroline",
+      "sam"
+    ]
+  }
+}

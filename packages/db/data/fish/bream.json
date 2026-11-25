@@ -1,0 +1,40 @@
+{
+  "id": "bream",
+  "type": "fish",
+  "name": {
+    "en": "Bream",
+    "pt-BR": "Brema"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "soldAt": [
+    {
+      "shop": "sewers",
+      "price": 200,
+      "availability": "wed"
+    }
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "18:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest)",
+      "pt-BR": "Rio (cidade + floresta)"
+    },
+    "locationVerified": false
+  }
+}

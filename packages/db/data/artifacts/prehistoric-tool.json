@@ -1,0 +1,13 @@
+{
+  "id": "prehistoric-tool",
+  "type": "artifacts",
+  "name": {
+    "en": "Prehistoric Tool",
+    "pt-BR": "Ferramenta Pré-histórica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

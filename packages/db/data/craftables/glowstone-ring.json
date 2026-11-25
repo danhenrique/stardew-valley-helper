@@ -1,0 +1,21 @@
+{
+  "id": "glowstone-ring",
+  "type": "craftables",
+  "name": {
+    "en": "Glowstone Ring",
+    "pt-BR": "Anel de Pedra Luminosa"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "solar-essence",
+        "qty": 5
+      },
+      {
+        "item": "iron-bar",
+        "qty": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fairy-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Fairy Seeds",
+    "pt-BR": "Sementes de Fada"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 12,
+    "phases": [
+      1,
+      4,
+      4,
+      3
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 16,
+    "averageExtraYield": 0,
+    "produce": "fairy-rose"
+  },
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 200,
+      "season": "fall"
+    },
+    {
+      "shop": "joja",
+      "price": 250,
+      "season": "fall"
+    }
+  ]
+}

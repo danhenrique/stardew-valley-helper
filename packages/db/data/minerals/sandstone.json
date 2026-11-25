@@ -1,0 +1,14 @@
+{
+  "id": "sandstone",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Sandstone",
+    "pt-BR": "Arenito"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "wizard-catalogue",
+  "type": "furniture",
+  "name": {
+    "en": "Wizard Catalogue",
+    "pt-BR": "Catálogo do Feiticeiro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "wizard-tower",
+      "price": 150000
+    }
+  ]
+}

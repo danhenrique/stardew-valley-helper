@@ -1,0 +1,27 @@
+{
+ "id": "universal",
+ "type": "gifts",
+ "description": {
+  "en": "Applies to most villagers.",
+  "pt-BR": "Aplica-se à maioria."
+ },
+ "loves": [
+  {
+   "item": "test-fruit"
+  }
+ ],
+ "likes": [
+  {
+   "category": "test-category",
+   "except": [
+    "test-dish"
+   ]
+  }
+ ],
+ "tierLabels": {
+  "loves": {
+   "en": "Universally loved",
+   "pt-BR": "Adorados"
+  }
+ }
+}

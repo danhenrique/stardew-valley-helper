@@ -1,0 +1,9 @@
+{
+  "id": "joja-corn",
+  "type": "movie-snacks",
+  "name": {
+    "en": "JojaCorn",
+    "pt-BR": "Joja-Milho"
+  },
+  "nameVerified": true
+}

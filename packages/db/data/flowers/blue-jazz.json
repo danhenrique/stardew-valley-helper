@@ -1,0 +1,15 @@
+{
+  "id": "blue-jazz",
+  "type": "flowers",
+  "name": {
+    "en": "Blue Jazz",
+    "pt-BR": "Jasmim-azul"
+  },
+  "nameVerified": true,
+  "tags": [
+    "flowers"
+  ],
+  "sellPrice": 50,
+  "artisan": {},
+  "growsFrom": "jazz-seeds"
+}

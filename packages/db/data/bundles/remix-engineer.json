@@ -1,0 +1,30 @@
+{
+  "id": "remix-engineer",
+  "type": "bundles",
+  "name": {
+    "en": "Engineer's Bundle",
+    "pt-BR": "Conjunto do Engenheiro"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "boiler-room",
+    "name": {
+      "en": "Boiler Room",
+      "pt-BR": "Sala da Caldeira"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "iridium-ore"
+    },
+    {
+      "item": "battery-pack"
+    },
+    {
+      "item": "refined-quartz",
+      "qty": 5
+    }
+  ]
+}

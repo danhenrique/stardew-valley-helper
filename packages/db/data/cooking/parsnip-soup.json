@@ -1,0 +1,42 @@
+{
+  "id": "parsnip-soup",
+  "type": "cooking",
+  "name": {
+    "en": "Parsnip Soup",
+    "pt-BR": "Sopa de Chirívia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 240
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "pam"
+    ],
+    "dislikesOrHates": [
+      "pierre"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "parsnip",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      },
+      {
+        "item": "vinegar",
+        "qty": 1
+      }
+    ]
+  }
+}

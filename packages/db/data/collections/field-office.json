@@ -1,0 +1,10 @@
+{
+  "id": "field-office",
+  "type": "collections",
+  "name": {
+    "en": "Field Office Donations",
+    "pt-BR": "Doações ao escritório de campo"
+  },
+  "nameVerified": false,
+  "donations": []
+}

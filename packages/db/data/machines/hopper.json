@@ -1,0 +1,34 @@
+{
+  "id": "hopper",
+  "type": "machines",
+  "name": {
+    "en": "Hopper",
+    "pt-BR": "Funil"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 10
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 10
+      },
+      {
+        "item": "iridium-bar",
+        "qty": 1
+      },
+      {
+        "item": "radioactive-bar",
+        "qty": 1
+      }
+    ]
+  }
+}

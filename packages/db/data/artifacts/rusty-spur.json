@@ -1,0 +1,13 @@
+{
+  "id": "rusty-spur",
+  "type": "artifacts",
+  "name": {
+    "en": "Rusty Spur",
+    "pt-BR": "Esporão Enferrujado"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

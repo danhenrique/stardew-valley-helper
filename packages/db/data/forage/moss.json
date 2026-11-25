@@ -1,0 +1,9 @@
+{
+  "id": "moss",
+  "type": "forage",
+  "name": {
+    "en": "Moss",
+    "pt-BR": "Musgo"
+  },
+  "nameVerified": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "stardrop",
+  "type": "consumables",
+  "name": {
+    "en": "Stardrop",
+    "pt-BR": "Fruta-estrela"
+  },
+  "nameVerified": true
+}

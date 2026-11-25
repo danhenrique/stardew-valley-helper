@@ -1,0 +1,37 @@
+{
+  "id": "pumpkin-pie",
+  "type": "cooking",
+  "name": {
+    "en": "Pumpkin Pie",
+    "pt-BR": "Torta de Abóbora"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "marnie"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "pumpkin",
+        "qty": 1
+      },
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "slime-incubator",
+  "type": "planner-objects",
+  "name": {
+    "en": "Slime Incubator",
+    "pt-BR": "Incubador de Gosmas"
+  },
+  "nameVerified": false,
+  "item": "slime-incubator",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

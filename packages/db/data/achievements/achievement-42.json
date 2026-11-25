@@ -1,0 +1,14 @@
+{
+  "id": "achievement-42",
+  "type": "achievements",
+  "name": {
+    "en": "Well-read",
+    "pt-BR": "Estudioso"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Read every book.",
+    "pt-BR": "Leia todos os livros."
+  },
+  "order": 42
+}

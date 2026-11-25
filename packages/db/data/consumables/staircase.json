@@ -1,0 +1,30 @@
+{
+  "id": "staircase",
+  "type": "consumables",
+  "name": {
+    "en": "Staircase",
+    "pt-BR": "Escadaria"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "jade",
+          "qty": 1
+        }
+      ],
+      "availability": "sun"
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 99
+      }
+    ]
+  }
+}

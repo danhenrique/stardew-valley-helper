@@ -1,0 +1,48 @@
+name: Protected paths
+
+# Fails when a pull request from anyone but the repository owner changes a protected path.
+# The owner reviews the change and merges it through the ruleset bypass.
+# Keep PROTECTED in sync with .github/CODEOWNERS.
+#
+# Uses `pull_request` (never `pull_request_target`): fork pull requests run with a read-only token
+# and no secrets. No checkout: the file list comes from the GitHub API.
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  protected-paths:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: github.event.pull_request.user.login != github.repository_owner && github.event.pull_request.user.login != 'dependabot[bot]'
+    steps:
+      - name: Check changed files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PROTECTED: >-
+            ^\.claude/|^\.mcp\.json$|^\.cursor/|^\.codex/|^\.gemini/|^\.kiro/|^\.vscode/|(^|/)CLAUDE\.md$|
+            ^\.husky/|^\.git-secrets/|^\.gitallowed$|^\.gitignore$|
+            ^\.github/|
+            ^packages/infra/|^packages/common/terraform/|
+            (^|/)package\.json$|(^|/)project\.json$|(^|/)pyproject\.toml$|^pnpm-lock\.yaml$|^pnpm-workspace\.yaml$|^uv\.lock$|^nx\.json$|
+            (^|/)scripts/|\.sh$|
+            ^LICENSE$|^SECURITY\.md$|(^|/)NOTICE\.txt$
+        run: |
+          set -euo pipefail
+          pattern="$(printf '%s' "$PROTECTED" | tr -d ' ')"
+          # Includes the old name of renamed files, so moving a protected file out is caught too.
+          files="$(gh api --paginate "repos/$REPO/pulls/$PR_NUMBER/files" \
+            --jq '.[] | .filename, (.previous_filename // empty)')"
+          blocked="$(printf '%s\n' "$files" | grep -E "$pattern" | sort -u || true)"
+          if [ -n "$blocked" ]; then
+            echo "::error::This pull request changes protected paths. Only the maintainer can merge it, after review:"
+            printf '%s\n' "$blocked" | sed 's/^/  - /'
+            exit 1
+          fi
+          echo "No protected paths changed."

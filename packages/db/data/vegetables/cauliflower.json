@@ -1,0 +1,23 @@
+{
+  "id": "cauliflower",
+  "type": "vegetables",
+  "name": {
+    "en": "Cauliflower",
+    "pt-BR": "Couve-flor"
+  },
+  "nameVerified": true,
+  "tags": [
+    "vegetables"
+  ],
+  "sellPrice": 175,
+  "artisan": {
+    "kegPrice": 393,
+    "jarPrice": 400
+  },
+  "growsFrom": "cauliflower-seeds",
+  "giftTastes": {
+    "loves": [
+      "maru"
+    ]
+  }
+}

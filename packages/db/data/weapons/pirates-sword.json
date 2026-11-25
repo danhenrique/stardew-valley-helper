@@ -1,0 +1,15 @@
+{
+  "id": "pirates-sword",
+  "type": "weapons",
+  "name": {
+    "en": "Pirate's Sword",
+    "pt-BR": "Espada de Pirata"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 850
+    }
+  ]
+}

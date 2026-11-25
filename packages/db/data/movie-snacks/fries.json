@@ -1,0 +1,9 @@
+{
+  "id": "fries",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Fries",
+    "pt-BR": "Batata Frita"
+  },
+  "nameVerified": true
+}

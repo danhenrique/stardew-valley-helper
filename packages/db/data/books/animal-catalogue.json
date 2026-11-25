@@ -1,0 +1,12 @@
+{
+  "id": "animal-catalogue",
+  "type": "books",
+  "name": {
+    "en": "Animal Catalogue",
+    "pt-BR": "Catálogo de Animais"
+  },
+  "nameVerified": true,
+  "tags": [
+    "books"
+  ]
+}

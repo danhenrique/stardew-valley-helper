@@ -1,0 +1,34 @@
+{
+  "id": "hilltop",
+  "type": "farms",
+  "name": {
+    "en": "Hill-top Farm",
+    "pt-BR": "Fazenda na Colina"
+  },
+  "nameVerified": true,
+  "width": 80,
+  "height": 65,
+  "tiles": "16x1w23x2c54x2w22x1f1c54x2w22x1b1c54x2w2x1c19x1b1c54x2w2x1c19x1b1c53x3w2x1c19x1b1c53x1w1x1w2x1c13x1f5x1b1c7x1c45x3w2x6c8x1f5x1b1c4x2c1f4c1b1c30x2c3f2c3x2w3x1c4b7c5f3c1b1c4x7c1b1c13x5f1c9x4c3f2c3x2w2x2c11b5d4b1c4x6c2b2c10x3c4f3c7x9c3x2w2x1c8b4c2f3d4b1c4x6c2b15c4f5c5x4c1x2b1x1c2x3w2x2c6b7c7b1c4x3c6b14c4f5c5x4c1x2f1x1c2x2w4x1c6b7c7b3c1f3c8b13c4f5c5x4c1x2f4x2w4x1c6b7c23b12c4f5c5x4c1x2f4x2w4x1c7b6c24b20c10x2f4x3w3x2c7b5c24b13c2f5c10x2f5x2w1x1c1x3c34b14c1b1f7c8x2c3x1c1x2w1x1c3x2c33b13c2b8f8x1c1b3c1b1x2w1x1c3x2c33b18c3b1c1b5x3c6b2x1w1x1c3x2c15b10c8b20c8x9b1x2w1x1c3x5c1b2c1x2b2x26c2x2c2x10c8x9b4x3c1x8c1x2f1x6c8x14c1x2f1x11c8x9b4w2b1c6x3c1x2f1x1c24x3c1x2f1x1c20x7b5x1b1c10x2f30x2f22x7b1x3w1x1b1c10x2f30x2f22x8b1x2w1x1b1c10x2f8x6c16x2f22x8b1x2w2x6c5x2c3x5c5b12c5x2c3x9c10x8b1x2w3x4b5c4b2c21b5c4b2c8b1c10x9b1x3w2x54b1c10x9b1x4w3x52b1c10x2b7c2x5w8x2w4x39b1c11x10c1x11w1x2w1x2w5x35b1c12x9c1b3x8w1x2w1x6w4x32b1c13x8c3b10x2w3x7w2x31b1c32x7b3x2w1x2w2x30b1c7x1c2x5c2x8c2x3c2x10b2x4w2x27b9x2c24x12b1x4w1x9b6x3f18x26c3x10b1x3w2x8b6x3f18x28c1x11b1x3w1x7b1c6x3f18x28c1x11b1x3w1x7b1c1x3c13b4c6x26c3x11b1x3w1x7b1c1x2c16b2c6x25c4x12b1x2w1x7b1c1x1c17b2c6x25c4x12b4x7b1c1x2c16b2c6x25c4x12b4w7b1c1x3c2x3b1x2c7b2c6x11c1x3f1x9c2x1c13b4x7b1c1x4c1x3f1x2c7b2c6x11c1x3f1x9c1x1c14b1x1w2x7b1c6x3f1x5c4b2c6x11c1x3f1x7c3x15b1x2w1x7b1c6x3f5x4c1b2c18x3f11x15b1x2w1x7b1c6x3f7x5c18x3f11x15b1x2w1x7b1c6x3f30x3f11x15b1x2w2x6b3c4x3c30x3c9x1c16b1x3w1x8b4c4b4c14x11c4b9c17b1x3w2x18b3c12x42b1x3w2x19b7c6x43b1x3w3x2w4x17b1c6x2b5x21b3c13b1x4w1x2w1x1w6x13b1c6x2b6x19b4c13b1x4w1x2w1x6w4x10b1c6x2b1x4w1x19b5c13b3x1w1x2w1x9w3x5b10x2b1x4w1x17b8c15b2x2w4x8w2x4b10x2b2x1w3x16b9c23b4x1w1x3w2x3b10x3b4x15b11c27b2x4w14x20b13c29b1x3w14x20b14c29b1x2w51x2b25x2w51x2b25x2w51x2b25x2w11x",
+  "fixed": [
+    {
+      "t": "farmhouse",
+      "x": 59,
+      "y": 12
+    },
+    {
+      "t": "greenhouse",
+      "x": 25,
+      "y": 10
+    },
+    {
+      "t": "shipping-bin",
+      "x": 71,
+      "y": 14
+    },
+    {
+      "t": "pet-bowl",
+      "x": 53,
+      "y": 7
+    }
+  ]
+}

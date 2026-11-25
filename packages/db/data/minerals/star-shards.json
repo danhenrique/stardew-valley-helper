@@ -1,0 +1,14 @@
+{
+  "id": "star-shards",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Star Shards",
+    "pt-BR": "Fragmentos de Estrela"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

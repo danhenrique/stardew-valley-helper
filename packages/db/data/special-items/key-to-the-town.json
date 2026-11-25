@@ -1,0 +1,18 @@
+{
+  "id": "key-to-the-town",
+  "type": "special-items",
+  "name": {
+    "en": "Key To The Town",
+    "pt-BR": "Chave da Vila"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "qi-walnut-room",
+      "price": 0,
+      "currency": {
+        "qiGems": 20
+      }
+    }
+  ]
+}

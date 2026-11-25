@@ -1,0 +1,13 @@
+{
+  "id": "rusty-cog",
+  "type": "artifacts",
+  "name": {
+    "en": "Rusty Cog",
+    "pt-BR": "Engrenagem Velha"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

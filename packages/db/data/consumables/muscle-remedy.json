@@ -1,0 +1,15 @@
+{
+  "id": "muscle-remedy",
+  "type": "consumables",
+  "name": {
+    "en": "Muscle Remedy",
+    "pt-BR": "Relaxante Muscular"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "clinic",
+      "price": 500
+    }
+  ]
+}

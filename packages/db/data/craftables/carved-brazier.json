@@ -1,0 +1,21 @@
+{
+  "id": "carved-brazier",
+  "type": "craftables",
+  "name": {
+    "en": "Carved Brazier",
+    "pt-BR": "Braseiro Esculpido"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "hardwood",
+        "qty": 10
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      }
+    ]
+  }
+}

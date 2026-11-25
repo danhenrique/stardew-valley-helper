@@ -1,0 +1,16 @@
+{
+ "id": "test-sapling",
+ "type": "fruit-trees",
+ "name": {
+  "en": "Test Sapling",
+  "pt-BR": "Muda Teste"
+ },
+ "nameVerified": true,
+ "fruitTree": {
+  "fruit": "test-fruit",
+  "season": "fall",
+  "daysToMature": 28,
+  "fruitsPerDay": 1,
+  "maxFruitOnTree": 3
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "achievement-1",
+  "type": "achievements",
+  "name": {
+    "en": "Greenhorn (15k)",
+    "pt-BR": "Dedo Verde (15 mil)"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Earn 15,000g",
+    "pt-BR": "Ganhe 15.000 ouros."
+  },
+  "order": 1
+}

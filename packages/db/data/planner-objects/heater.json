@@ -1,0 +1,18 @@
+{
+  "id": "heater",
+  "type": "planner-objects",
+  "name": {
+    "en": "Heater",
+    "pt-BR": "Aquecedor"
+  },
+  "nameVerified": true,
+  "item": "heater",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

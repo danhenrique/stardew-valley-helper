@@ -1,0 +1,33 @@
+{
+  "id": "lionfish",
+  "type": "fish",
+  "name": {
+    "en": "Lionfish",
+    "pt-BR": "Peixe-leão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Ginger Island ocean",
+      "pt-BR": "Oceano da Ilha Gengibre"
+    },
+    "locationVerified": false
+  }
+}

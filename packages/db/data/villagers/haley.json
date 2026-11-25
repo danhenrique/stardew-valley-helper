@@ -1,0 +1,181 @@
+{
+  "id": "haley",
+  "type": "villagers",
+  "name": {
+    "en": "Haley",
+    "pt-BR": "Haley"
+  },
+  "nameVerified": true,
+  "marriageable": true,
+  "birthday": {
+    "season": "spring",
+    "day": 14
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "coconut"
+      },
+      {
+        "item": "fruit-salad"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "pink-cake"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "sunflower"
+      }
+    ],
+    "likes": [
+      {
+        "item": "daffodil"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      }
+    ],
+    "dislikesOrHates": [
+      "clay",
+      "dandelion",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "leek",
+      "mystic-syrup",
+      "prismatic-shard",
+      "quartz",
+      "snow-yam",
+      "wild-horseradish",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "mysterium",
+      "the-miracle-at-coldstar-ranch",
+      "natural-wonders-exploring-our-vibrant-world",
+      "it-howls-in-the-rain",
+      "the-zuzu-city-express"
+    ],
+    "lovedSnacks": [
+      "cappuccino-mousse-cake",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "hummus-snack-pack",
+      "ice-cream-sandwich",
+      "jasmine-tea",
+      "jawbreaker",
+      "kale-smoothie",
+      "panzanella-salad",
+      "rock-candy",
+      "salmon-burger",
+      "sour-slimes",
+      "star-cookie"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hardwood-fence",
+  "type": "planner-objects",
+  "name": {
+    "en": "Hardwood Fence",
+    "pt-BR": "Cerca de Madeira de Lei"
+  },
+  "nameVerified": true,
+  "item": "hardwood-fence",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

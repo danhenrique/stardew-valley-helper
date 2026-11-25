@@ -1,0 +1,17 @@
+{
+  "id": "farmhouse-upgrade-3",
+  "type": "buildings",
+  "name": {
+    "en": "House (tier 4)",
+    "pt-BR": "Aprimorar Casa 4"
+  },
+  "nameVerified": true,
+  "category": "farmhouse",
+  "construction": {
+    "price": 100000,
+    "materials": [],
+    "buildDays": 3,
+    "upgradeFrom": "farmhouse-upgrade-2",
+    "builtBy": "carpenter"
+  }
+}

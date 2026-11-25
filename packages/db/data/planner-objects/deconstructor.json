@@ -1,0 +1,18 @@
+{
+  "id": "deconstructor",
+  "type": "planner-objects",
+  "name": {
+    "en": "Deconstructor",
+    "pt-BR": "Desconstrutor"
+  },
+  "nameVerified": true,
+  "item": "deconstructor",
+  "category": "machine",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": false,
+  "removable": true
+}

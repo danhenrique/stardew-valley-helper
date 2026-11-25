@@ -1,0 +1,36 @@
+{
+ "id": "bee-house",
+ "type": "machines",
+ "name": {
+  "en": "Bee House",
+  "pt-BR": "Apiário"
+ },
+ "nameVerified": true,
+ "category": "artisan",
+ "processing": [
+  {
+   "days": 4,
+   "output": "honey",
+   "label": {
+    "en": "Honey",
+    "pt-BR": "Honey"
+   }
+  },
+  {
+   "days": 56,
+   "output": "wine",
+   "label": {
+    "en": "Wine",
+    "pt-BR": "Wine"
+   }
+  },
+  {
+   "days": 14,
+   "output": "cheese",
+   "label": {
+    "en": "Cheese",
+    "pt-BR": "Cheese"
+   }
+  }
+ ]
+}

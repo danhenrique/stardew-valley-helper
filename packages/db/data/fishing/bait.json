@@ -1,0 +1,24 @@
+{
+  "id": "bait",
+  "type": "fishing",
+  "name": {
+    "en": "Bait",
+    "pt-BR": "Isca"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "fish-shop",
+      "price": 5,
+      "fishingLevel": 2
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "bug-meat",
+        "qty": 1
+      }
+    ]
+  }
+}

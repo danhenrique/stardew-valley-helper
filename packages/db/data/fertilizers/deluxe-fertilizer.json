@@ -1,0 +1,21 @@
+{
+  "id": "deluxe-fertilizer",
+  "type": "fertilizers",
+  "name": {
+    "en": "Deluxe Fertilizer",
+    "pt-BR": "Fertilizante Premium"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iridium-bar",
+        "qty": 1
+      },
+      {
+        "item": "sap",
+        "qty": 40
+      }
+    ]
+  }
+}

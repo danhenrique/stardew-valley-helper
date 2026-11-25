@@ -1,0 +1,233 @@
+{
+  "id": "demetrius",
+  "type": "villagers",
+  "name": {
+    "en": "Demetrius",
+    "pt-BR": "Demetrius"
+  },
+  "nameVerified": true,
+  "marriageable": false,
+  "birthday": {
+    "season": "summer",
+    "day": 19
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "bean-hotpot"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "ice-cream"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      },
+      {
+        "item": "rice-pudding"
+      },
+      {
+        "item": "strawberry"
+      }
+    ],
+    "likes": [
+      {
+        "item": "dinosaur-egg"
+      },
+      {
+        "item": "purple-mushroom"
+      },
+      {
+        "category": "fruits",
+        "except": [
+          "strawberry"
+        ]
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg"
+        ]
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "daffodil"
+      },
+      {
+        "item": "dandelion"
+      },
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "ginger"
+      },
+      {
+        "item": "hazelnut"
+      },
+      {
+        "item": "hops"
+      },
+      {
+        "item": "leek"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "snow-yam"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wild-horseradish"
+      },
+      {
+        "item": "winter-root"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "mushrooms",
+        "except": [
+          "red-mushroom",
+          "purple-mushroom"
+        ]
+      },
+      {
+        "category": "fish",
+        "except": [
+          "carp",
+          "snail"
+        ]
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "holly",
+      "quartz"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [
+      "natural-wonders-exploring-our-vibrant-world",
+      "wumbus"
+    ],
+    "likedMovies": [
+      "the-brave-little-sapling",
+      "journey-of-the-prairie-king-the-motion-picture",
+      "mysterium",
+      "it-howls-in-the-rain"
+    ],
+    "lovedSnacks": [
+      "popcorn",
+      "stardrop-sorbet"
+    ],
+    "likedSnacks": [
+      "apple-slices",
+      "cappuccino-mousse-cake",
+      "chocolate-popcorn",
+      "cotton-candy",
+      "fries",
+      "ice-cream-sandwich",
+      "jawbreaker",
+      "nachos",
+      "personal-pizza",
+      "rock-candy",
+      "salmon-burger",
+      "salted-peanuts",
+      "sour-slimes",
+      "star-cookie",
+      "truffle-popcorn"
+    ]
+  }
+}

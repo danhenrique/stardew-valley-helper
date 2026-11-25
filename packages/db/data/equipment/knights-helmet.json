@@ -1,0 +1,16 @@
+{
+  "id": "knights-helmet",
+  "type": "equipment",
+  "subtype": "hat",
+  "name": {
+    "en": "Knight's Helmet",
+    "pt-BR": "Elmo de Cavaleiro"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 20000
+    }
+  ]
+}

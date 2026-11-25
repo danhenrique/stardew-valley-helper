@@ -1,0 +1,15 @@
+{
+  "id": "lava-katana",
+  "type": "weapons",
+  "name": {
+    "en": "Lava Katana",
+    "pt-BR": "Katana de Lava"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 25000
+    }
+  ]
+}

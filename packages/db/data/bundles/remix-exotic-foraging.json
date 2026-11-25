@@ -1,0 +1,54 @@
+{
+  "id": "remix-exotic-foraging",
+  "type": "bundles",
+  "name": {
+    "en": "Exotic Foraging Bundle",
+    "pt-BR": "Conjunto Recursos Exóticos"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "crafts-room",
+    "name": {
+      "en": "Crafts Room",
+      "pt-BR": "Sala de Artesanato"
+    }
+  },
+  "remixed": true,
+  "slotsRequired": 5,
+  "items": [
+    {
+      "item": "coconut"
+    },
+    {
+      "item": "cactus-fruit"
+    },
+    {
+      "item": "cave-carrot"
+    },
+    {
+      "item": "red-mushroom",
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "item": "purple-mushroom"
+    },
+    {
+      "item": "maple-syrup"
+    },
+    {
+      "item": "oak-resin"
+    },
+    {
+      "item": "pine-tar"
+    },
+    {
+      "item": "morel",
+      "seasons": [
+        "spring"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": "blacksmith",
+  "type": "shops",
+  "name": {
+    "en": "Blacksmith",
+    "pt-BR": "Ferreiro"
+  },
+  "nameVerified": true,
+  "schedule": {
+    "hours": {
+      "open": "09:00",
+      "close": "16:00"
+    },
+    "hoursWithKeyToTown": [
+      {
+        "open": "06:00",
+        "close": "19:00"
+      }
+    ],
+    "closedDaysBeforeCC": [],
+    "closedDaysAfterCC": [
+      "fri"
+    ],
+    "festivalClosure": "all",
+    "closedDates": [
+      {
+        "season": "winter",
+        "day": 16
+      }
+    ]
+  },
+  "scheduleText": {
+    "open": {
+      "en": "9 AM – 4 PM",
+      "pt-BR": "9 AM – 4 PM"
+    },
+    "key": {
+      "en": "6 AM – 7 PM",
+      "pt-BR": "6 AM – 7 PM"
+    },
+    "closed": {
+      "en": "Friday (after Community Center restored)",
+      "pt-BR": "Sexta-feira (após restaurar o Centro Comunitário)"
+    },
+    "festival": {
+      "en": "Closed (except exception festivals)",
+      "pt-BR": "Fechado (exceto festivais de exceção)"
+    },
+    "checkup": {
+      "en": "Winter 16",
+      "pt-BR": "Inverno 16"
+    }
+  },
+  "scheduleTextVerified": false,
+  "offers": [
+    {
+      "item": "copper-ore",
+      "price": 75,
+      "section": "shop",
+      "priceByYear": {
+        "year1": 75,
+        "year2plus": 150
+      }
+    },
+    {
+      "item": "iron-ore",
+      "price": 150,
+      "section": "shop",
+      "priceByYear": {
+        "year1": 150,
+        "year2plus": 250
+      }
+    },
+    {
+      "item": "coal",
+      "price": 150,
+      "section": "shop",
+      "priceByYear": {
+        "year1": 150,
+        "year2plus": 250
+      }
+    },
+    {
+      "item": "gold-ore",
+      "price": 400,
+      "section": "shop",
+      "priceByYear": {
+        "year1": 400,
+        "year2plus": 750
+      }
+    },
+    {
+      "item": "tool-upgrade-copper",
+      "price": 2000,
+      "materials": [
+        {
+          "item": "copper-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "tool-upgrade-steel",
+      "price": 5000,
+      "materials": [
+        {
+          "item": "iron-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "tool-upgrade-gold",
+      "price": 10000,
+      "materials": [
+        {
+          "item": "gold-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "tool-upgrade-iridium",
+      "price": 25000,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "trash-can-copper",
+      "price": 1000,
+      "materials": [
+        {
+          "item": "copper-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "trash-can-steel",
+      "price": 2500,
+      "materials": [
+        {
+          "item": "iron-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "trash-can-gold",
+      "price": 5000,
+      "materials": [
+        {
+          "item": "gold-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "trash-can-iridium",
+      "price": 12500,
+      "materials": [
+        {
+          "item": "iridium-bar",
+          "qty": 5
+        }
+      ],
+      "section": "upgrade"
+    },
+    {
+      "item": "geode",
+      "price": 25,
+      "section": "geode"
+    },
+    {
+      "item": "frozen-geode",
+      "price": 25,
+      "section": "geode"
+    },
+    {
+      "item": "magma-geode",
+      "price": 25,
+      "section": "geode"
+    },
+    {
+      "item": "omni-geode",
+      "price": 25,
+      "section": "geode"
+    },
+    {
+      "item": "artifact-trove",
+      "price": 25,
+      "section": "geode"
+    },
+    {
+      "item": "golden-coconut",
+      "price": 25,
+      "section": "geode"
+    },
+    {
+      "item": "mystery-box",
+      "price": 25,
+      "section": "geode"
+    },
+    {
+      "item": "golden-mystery-box",
+      "price": 25,
+      "section": "geode"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "tapper",
+ "type": "machines",
+ "name": {
+  "en": "Tapper",
+  "pt-BR": "Extrator"
+ },
+ "nameVerified": true,
+ "category": "refining",
+ "processing": [
+  {
+   "days": 9,
+   "output": "test-syrup",
+   "label": {
+    "en": "Test-Syrup",
+    "pt-BR": "Test-Syrup"
+   }
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "omelet",
+  "type": "cooking",
+  "name": {
+    "en": "Omelet",
+    "pt-BR": "Omelete"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 250
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "sebastian"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "egg",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "void-salmon",
+  "type": "fish",
+  "name": {
+    "en": "Void Salmon",
+    "pt-BR": "Salmão Nulo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Witch's Swamp",
+      "pt-BR": "Pântano da Bruxa"
+    },
+    "locationVerified": false
+  }
+}

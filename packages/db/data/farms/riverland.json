@@ -1,0 +1,34 @@
+{
+  "id": "riverland",
+  "type": "farms",
+  "name": {
+    "en": "Riverland Farm",
+    "pt-BR": "Fazenda entre Rios"
+  },
+  "nameVerified": true,
+  "width": 80,
+  "height": 65,
+  "tiles": "32w6x1w1x2b2x32w3x33w6x1w1x1c1b1x33w4x6w5x20w7x1w1x2w1x33w4x5w6x18w9x1w1x2w1x32w5x5w7x16w1x1b1c7x1w1x2w1x8w5x10w1x1w12x4w1x1c7x1w6x7w1x2b1c9x2w4x2w1x1w1x5b1x10w1x4c11x1w1x1c5x1b1x1w6x2w5x3b1c3x1f3x1c7b5x3b1c1f1c2x7w1x5c11x1w1x1c5x1b10x8b1c3x1f3x1c8b3c4b1c1x2c9x2c14x1w1x1b1c3f1c1b1x1w7x9b2c5f1c10b1c5b1c1x3c8b2c4f12x5b1c1b1x1w5x1w1x11b5d17b1c1x13c4f10x1w1x4b1c2b1x7w1x8b3c5f4c13b2c2x11c4f5c2x4w2x4b1c1b1x6w1x8b14c13b14c4f5c3x4w5x1w2x6w1x8b14c14b13c4f5c2x9w1x1w1x7w1x9b13c15b12c4f5c2x9w1x1w1x2w4x1w2x2b1c5b13c16b20c2x9w1x1w4x2c2x1w1x9b10c18b13c2f7c9w1x7c4x11b8c18b13c1b1f7c1w6x2w1x7c4w11b8c18b12c2b8f1w6x2w2x5c5x11b10c36b1c1b7x3w7x3w1x11b11c33b1c3x1w6x2w1x10w1x11b12c32b1c3x2w4x14w1x12b12c31b1c3x20w2x11b12c6b3x22b1c3x21w3x2w3x4b12c4b3x1w3x20b1c3x9w4x10w1x2w1x1w4x1b12c3b2x4w3x19b1c3x8w6x9w1x2w1x4w3x11c3b1x7w1x19b1c3x7w8x8w1x2w1x6w1x2b8c4b1x7w2x18b1c3x7w8x4w5x2w3x4w1x3b6c5b1x8w2x17b1c3x7w8x3w1x10b1x3w7x7b3x8w5x4b13x7w7x3w1x12b1x7w10x14w1x4b2x19w5x3w1x14b1x30w1x4b1x28w1x14b1x30w2x2w2x21w3x4w1x14b1x31w1x2w1x20w2x3b5x14b1x31w1x2w1x18w2x6b4w14b1x31w1x2w1x13w5x8b5x12b2x5w16x10w1x2w1x13w3x1c9b1x3w2x10b2x4w2x16b2x7w1x4b2x11w3x1c9b1x4w8x2w2x4w1x20b1x5w1x7b1x10w4x10b1x10w1x2w1x4w1x22b1x3w1x8b1x10w6x9b2x8w1x2w1x3w1x23b1x3w1x8b3x8w7x10b1x7w1x2w4x25b4x11b1x7w7x11b1x6w1x31b4w12b1x6w7x1c11b6x32b4x13b1x5w7x1c11b6w32b1x2w1x13b1x5w7x1c11b6x32b1x2w2x12b1x5w7x1c11b1x4w2x31b1x3w2x11b2x4w7x1c11b1x5w3x30b1x3w3x9b1x5w5x2c11b2x7w2x29b1x5w1x8b2x5w3x3c8b2x2w1x8w2x29b1x5w3x5b2x6w2x3b11x2w1x9w2x6b7x9b7x7w2x3f2x8w5x9w1x2w1x10w1x5b2x5w2x8b2x13w1x3f1x23w1x2w1x10w7x7w3x4b3x13w2x3f1x23w1x2w5x22w2x2w2x16w1x3f2x15w1x2w5x7b1x22w1x2w1x17w1x3f2x7w11x13b1x21w1x2w1x17w5x8w3x2c19b3x19w1x2w12x5w1x13w3x2c22b1x17w1x15b1x18w3x3c22b1x13w3x17b1x17w3x5c12b5c3b2x11w1x12b7c2b2x15w5x3c10b9c1b1x11w1x11b11c1x16w6x5c6b11c1x10w1x11b13c1x15w7x4c6b10c1b1x10w1x11b12c1b1x15w27x1b1x9w2x1c1f2b19x1b1x15w30x9w1x2w24x14w30x9w1x2w24x14w",
+  "fixed": [
+    {
+      "t": "farmhouse",
+      "x": 59,
+      "y": 12
+    },
+    {
+      "t": "greenhouse",
+      "x": 25,
+      "y": 10
+    },
+    {
+      "t": "shipping-bin",
+      "x": 71,
+      "y": 14
+    },
+    {
+      "t": "pet-bowl",
+      "x": 53,
+      "y": 7
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "slate",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Slate",
+    "pt-BR": "Ardósia"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

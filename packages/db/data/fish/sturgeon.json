@@ -1,0 +1,36 @@
+{
+  "id": "sturgeon",
+  "type": "fish",
+  "name": {
+    "en": "Sturgeon",
+    "pt-BR": "Esturjão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "giftTastes": {
+    "loves": [
+      "willy"
+    ]
+  },
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "19:00"
+      }
+    ],
+    "location": {
+      "en": "Mountain Lake",
+      "pt-BR": "Lago da montanha"
+    },
+    "locationVerified": false
+  }
+}

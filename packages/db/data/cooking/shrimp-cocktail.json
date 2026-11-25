@@ -1,0 +1,28 @@
+{
+  "id": "shrimp-cocktail",
+  "type": "cooking",
+  "name": {
+    "en": "Shrimp Cocktail",
+    "pt-BR": "Coquetel de Camarão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "tomato",
+        "qty": 1
+      },
+      {
+        "item": "shrimp",
+        "qty": 1
+      },
+      {
+        "item": "wild-horseradish",
+        "qty": 1
+      }
+    ]
+  }
+}

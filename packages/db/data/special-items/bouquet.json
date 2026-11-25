@@ -1,0 +1,15 @@
+{
+  "id": "bouquet",
+  "type": "special-items",
+  "name": {
+    "en": "Bouquet",
+    "pt-BR": "Buquê"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "pierre",
+      "price": 200
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "stone-brazier",
+  "type": "craftables",
+  "name": {
+    "en": "Stone Brazier",
+    "pt-BR": "Braseiro de Pedra"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "stone",
+        "qty": 10
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      },
+      {
+        "item": "fiber",
+        "qty": 5
+      }
+    ]
+  }
+}

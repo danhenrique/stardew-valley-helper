@@ -1,0 +1,19 @@
+{
+  "id": "pineapple-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Pineapple Seeds",
+    "pt-BR": "Sementes de Abacaxi"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "summer"
+    ],
+    "growthDays": 14,
+    "regrowDays": 7,
+    "lastPlantingDay": 14,
+    "averageExtraYield": 0,
+    "produce": "pineapple"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "quality-crops",
+  "type": "bundles",
+  "name": {
+    "en": "Quality Crops Bundle",
+    "pt-BR": "Conjunto Plantações de Qualidade"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry",
+      "pt-BR": "Copa"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 3,
+  "items": [
+    {
+      "item": "parsnip",
+      "qty": 5,
+      "seasons": [
+        "spring"
+      ]
+    },
+    {
+      "item": "melon",
+      "qty": 5,
+      "seasons": [
+        "summer"
+      ]
+    },
+    {
+      "item": "pumpkin",
+      "qty": 5,
+      "seasons": [
+        "fall"
+      ]
+    },
+    {
+      "item": "corn",
+      "qty": 5,
+      "seasons": [
+        "summer",
+        "fall"
+      ]
+    }
+  ],
+  "quality": "gold"
+}

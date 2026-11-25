@@ -1,0 +1,12 @@
+{
+  "id": "dried-fruit",
+  "type": "artisan-goods",
+  "name": {
+    "en": "Dried Fruit",
+    "pt-BR": "Fruta Seca"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artisanGoods"
+  ]
+}

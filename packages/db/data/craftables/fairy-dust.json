@@ -1,0 +1,21 @@
+{
+  "id": "fairy-dust",
+  "type": "craftables",
+  "name": {
+    "en": "Fairy Dust",
+    "pt-BR": "Pó de Fada"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "diamond",
+        "qty": 1
+      },
+      {
+        "item": "fairy-rose",
+        "qty": 1
+      }
+    ]
+  }
+}

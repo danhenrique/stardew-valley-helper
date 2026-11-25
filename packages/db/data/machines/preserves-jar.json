@@ -1,0 +1,44 @@
+{
+  "id": "preserves-jar",
+  "type": "machines",
+  "name": {
+    "en": "Preserves Jar",
+    "pt-BR": "Jarra de Conserva"
+  },
+  "nameVerified": true,
+  "category": "artisan",
+  "processing": [
+    {
+      "days": 3,
+      "output": "pickles",
+      "label": {
+        "en": "Pickles (veg)",
+        "pt-BR": "Picles (vegetal)"
+      }
+    },
+    {
+      "days": 3,
+      "output": "jelly",
+      "label": {
+        "en": "Jelly (fruit)",
+        "pt-BR": "Geleia (fruta)"
+      }
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 50
+      },
+      {
+        "item": "stone",
+        "qty": 40
+      },
+      {
+        "item": "coal",
+        "qty": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "sashimi",
+  "type": "cooking",
+  "name": {
+    "en": "Sashimi",
+    "pt-BR": "Sashimi"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 150
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "emily",
+      "evelyn",
+      "kent"
+    ],
+    "loves": [
+      "sebastian"
+    ],
+    "neutral": [
+      "willy"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "category": "fish",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "farmers-lunch",
+  "type": "cooking",
+  "name": {
+    "en": "Farmer's Lunch",
+    "pt-BR": "Almoço de Fazendeiro"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "giftTastes": {
+    "loves": [
+      "marnie"
+    ],
+    "dislikesOrHates": [
+      "sebastian"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "omelet",
+        "qty": 1
+      },
+      {
+        "item": "parsnip",
+        "qty": 1
+      }
+    ]
+  }
+}

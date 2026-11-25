@@ -1,0 +1,25 @@
+{
+  "id": "gold-brazier",
+  "type": "craftables",
+  "name": {
+    "en": "Gold Brazier",
+    "pt-BR": "Braseiro Dourado"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 1
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      },
+      {
+        "item": "fiber",
+        "qty": 5
+      }
+    ]
+  }
+}

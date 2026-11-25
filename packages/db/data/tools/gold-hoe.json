@@ -1,0 +1,9 @@
+{
+  "id": "gold-hoe",
+  "type": "tools",
+  "name": {
+    "en": "Gold Hoe",
+    "pt-BR": "Enxada de Ouro"
+  },
+  "nameVerified": true
+}

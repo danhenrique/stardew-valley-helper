@@ -1,0 +1,18 @@
+{
+  "id": "cobblestone-path",
+  "type": "planner-objects",
+  "name": {
+    "en": "Cobblestone Path",
+    "pt-BR": "Caminho Arredondado de Pedra"
+  },
+  "nameVerified": false,
+  "item": "cobblestone-path",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

@@ -1,0 +1,201 @@
+{
+  "id": "leo",
+  "type": "villagers",
+  "name": {
+    "en": "Leo",
+    "pt-BR": "Leo"
+  },
+  "nameVerified": true,
+  "marriageable": false,
+  "birthday": {
+    "season": "summer",
+    "day": 26
+  },
+  "gifts": {
+    "loves": [
+      {
+        "item": "duck-feather"
+      },
+      {
+        "item": "golden-pumpkin"
+      },
+      {
+        "item": "magic-rock-candy"
+      },
+      {
+        "item": "mango"
+      },
+      {
+        "item": "ostrich-egg"
+      },
+      {
+        "item": "parrot-egg"
+      },
+      {
+        "item": "pearl"
+      },
+      {
+        "item": "poi"
+      },
+      {
+        "item": "prismatic-shard"
+      },
+      {
+        "item": "rabbits-foot"
+      }
+    ],
+    "likes": [
+      {
+        "item": "dragon-tooth"
+      },
+      {
+        "item": "nautilus-shell"
+      },
+      {
+        "item": "quartz"
+      },
+      {
+        "item": "sea-urchin"
+      },
+      {
+        "item": "spice-berry"
+      },
+      {
+        "category": "artisan-goods",
+        "except": [
+          "void-mayonnaise",
+          "oil"
+        ]
+      },
+      {
+        "category": "cooking",
+        "except": [
+          "fried-egg",
+          "strange-bun",
+          "bread",
+          "seafoam-pudding"
+        ]
+      },
+      {
+        "category": "flowers",
+        "except": [
+          "poppy"
+        ]
+      },
+      {
+        "category": "foraged-minerals"
+      },
+      {
+        "category": "tree-fruit"
+      },
+      {
+        "category": "gems",
+        "except": [
+          "prismatic-shard"
+        ]
+      },
+      {
+        "category": "vegetables",
+        "except": [
+          "hops",
+          "tea-leaves",
+          "unmilled-rice",
+          "wheat"
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "item": "bread"
+      },
+      {
+        "item": "clam"
+      },
+      {
+        "item": "coffee"
+      },
+      {
+        "item": "coral"
+      },
+      {
+        "item": "fried-egg"
+      },
+      {
+        "item": "rainbow-shell"
+      },
+      {
+        "item": "roe"
+      },
+      {
+        "item": "squid-ink"
+      },
+      {
+        "item": "sweet-gem-berry"
+      },
+      {
+        "item": "tea-leaves"
+      },
+      {
+        "item": "truffle"
+      },
+      {
+        "item": "wheat"
+      },
+      {
+        "item": "wool"
+      },
+      {
+        "category": "fruits",
+        "except": [
+          "spice-berry",
+          "mango"
+        ]
+      },
+      {
+        "category": "eggs",
+        "except": [
+          "void-egg",
+          "ostrich-egg"
+        ]
+      },
+      {
+        "category": "fish"
+      },
+      {
+        "category": "milk"
+      }
+    ],
+    "dislikesOrHates": [
+      "beer",
+      "daffodil",
+      "dandelion",
+      "ginger",
+      "hazelnut",
+      "holly",
+      "hops",
+      "leek",
+      "life-elixir",
+      "mead",
+      "morel",
+      "oil",
+      "pale-ale",
+      "pickles",
+      "pina-colada",
+      "salmonberry",
+      "snow-yam",
+      "triple-shot-espresso",
+      "unmilled-rice",
+      "wild-horseradish",
+      "wine",
+      "winter-root"
+    ]
+  },
+  "movieTheater": {
+    "lovedMovies": [],
+    "likedMovies": [],
+    "lovedSnacks": [],
+    "likedSnacks": [
+      "stardrop-sorbet"
+    ]
+  }
+}

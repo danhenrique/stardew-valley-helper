@@ -1,0 +1,31 @@
+{
+  "id": "ms-angler",
+  "type": "fish",
+  "subtype": "legendary-ii",
+  "name": {
+    "en": "Ms. Angler",
+    "pt-BR": "Srta. Tamboril"
+  },
+  "nameVerified": true,
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "02:00 (+1d)"
+      }
+    ],
+    "location": {
+      "en": "Wooden plank bridge north of JojaMart. Fishing level 3 required.",
+      "pt-BR": "Ponte de tábuas ao norte do JojaMart. Nível de pesca 3 necessário."
+    },
+    "locationVerified": false
+  }
+}

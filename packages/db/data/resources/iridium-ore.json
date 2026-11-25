@@ -1,0 +1,17 @@
+{
+  "id": "iridium-ore",
+  "type": "resources",
+  "name": {
+    "en": "Iridium Ore",
+    "pt-BR": "Minério de Irídio"
+  },
+  "nameVerified": true,
+  "giftTastes": {
+    "neutral": [
+      "clint"
+    ],
+    "dislikesOrHates": [
+      "sam"
+    ]
+  }
+}

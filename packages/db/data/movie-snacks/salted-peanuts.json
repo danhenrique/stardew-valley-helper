@@ -1,0 +1,9 @@
+{
+  "id": "salted-peanuts",
+  "type": "movie-snacks",
+  "name": {
+    "en": "Salted Peanuts",
+    "pt-BR": "Amendoim Salgado"
+  },
+  "nameVerified": true
+}

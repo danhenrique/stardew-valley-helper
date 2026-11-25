@@ -1,0 +1,9 @@
+{
+  "id": "wumbus",
+  "type": "movies",
+  "name": {
+    "en": "Wumbus",
+    "pt-BR": "Wumbus"
+  },
+  "nameVerified": true
+}

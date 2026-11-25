@@ -1,0 +1,18 @@
+{
+  "id": "iron-fence",
+  "type": "planner-objects",
+  "name": {
+    "en": "Iron Fence",
+    "pt-BR": "Cerca de Ferro"
+  },
+  "nameVerified": false,
+  "item": "iron-fence",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

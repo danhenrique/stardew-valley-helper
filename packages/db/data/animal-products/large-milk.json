@@ -1,0 +1,19 @@
+{
+  "id": "large-milk",
+  "type": "animal-products",
+  "subtype": "milk",
+  "name": {
+    "en": "Large Milk",
+    "pt-BR": "Leite Grande"
+  },
+  "nameVerified": true,
+  "tags": [
+    "milk"
+  ],
+  "giftTastes": {
+    "neutral": [
+      "harvey",
+      "sandy"
+    ]
+  }
+}

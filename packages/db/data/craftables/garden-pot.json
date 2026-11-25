@@ -1,0 +1,25 @@
+{
+  "id": "garden-pot",
+  "type": "craftables",
+  "name": {
+    "en": "Garden Pot",
+    "pt-BR": "Vaso de Jardim"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "clay",
+        "qty": 1
+      },
+      {
+        "item": "stone",
+        "qty": 10
+      },
+      {
+        "item": "refined-quartz",
+        "qty": 1
+      }
+    ]
+  }
+}

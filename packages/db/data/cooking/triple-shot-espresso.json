@@ -1,0 +1,39 @@
+{
+  "id": "triple-shot-espresso",
+  "type": "cooking",
+  "name": {
+    "en": "Triple Shot Espresso",
+    "pt-BR": "Café Expresso Triplo"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "diamond",
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "giftTastes": {
+    "dislikesOrHates": [
+      "jas",
+      "leo",
+      "vincent"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "coffee",
+        "qty": 3
+      }
+    ]
+  }
+}

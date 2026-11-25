@@ -1,0 +1,14 @@
+{
+  "id": "esperite",
+  "type": "minerals",
+  "subtype": "geode-mineral",
+  "name": {
+    "en": "Esperite",
+    "pt-BR": "Esperita"
+  },
+  "nameVerified": true,
+  "tags": [
+    "geodeMinerals"
+  ],
+  "museumDonation": true
+}

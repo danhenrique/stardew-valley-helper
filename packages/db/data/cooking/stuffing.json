@@ -1,0 +1,39 @@
+{
+  "id": "stuffing",
+  "type": "cooking",
+  "name": {
+    "en": "Stuffing",
+    "pt-BR": "Recheio"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 330
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "evelyn"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "bread",
+        "qty": 1
+      },
+      {
+        "item": "cranberries",
+        "qty": 1
+      },
+      {
+        "item": "hazelnut",
+        "qty": 1
+      }
+    ]
+  }
+}

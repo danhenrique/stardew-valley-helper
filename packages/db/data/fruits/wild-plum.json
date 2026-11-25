@@ -1,0 +1,12 @@
+{
+  "id": "wild-plum",
+  "type": "fruits",
+  "name": {
+    "en": "Wild Plum",
+    "pt-BR": "Ameixa Selvagem"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ]
+}

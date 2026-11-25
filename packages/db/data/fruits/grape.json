@@ -1,0 +1,26 @@
+{
+  "id": "grape",
+  "type": "fruits",
+  "name": {
+    "en": "Grape",
+    "pt-BR": "Uva"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 80,
+  "artisan": {
+    "kegPrice": 240,
+    "jarPrice": 210
+  },
+  "growsFrom": "grape-starter",
+  "giftTastes": {
+    "dislikesOrHates": [
+      "penny"
+    ],
+    "loves": [
+      "vincent"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hot-pepper",
+  "type": "fruits",
+  "name": {
+    "en": "Hot Pepper",
+    "pt-BR": "Pimenta Picante"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fruits"
+  ],
+  "sellPrice": 40,
+  "artisan": {
+    "kegPrice": 120,
+    "jarPrice": 130
+  },
+  "growsFrom": "pepper-seeds",
+  "giftTastes": {
+    "loves": [
+      "lewis",
+      "shane"
+    ]
+  }
+}

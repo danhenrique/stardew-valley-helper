@@ -1,0 +1,13 @@
+{
+  "id": "trout-derby",
+  "type": "festivals",
+  "name": {
+    "en": "Trout Derby",
+    "pt-BR": "Competição de Truta"
+  },
+  "nameVerified": true,
+  "season": "summer",
+  "startDay": 20,
+  "endDay": 21,
+  "shopsClosed": false
+}

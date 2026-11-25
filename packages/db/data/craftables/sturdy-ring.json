@@ -1,0 +1,25 @@
+{
+  "id": "sturdy-ring",
+  "type": "craftables",
+  "name": {
+    "en": "Sturdy Ring",
+    "pt-BR": "Anel Resistente"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 2
+      },
+      {
+        "item": "bug-meat",
+        "qty": 25
+      },
+      {
+        "item": "slime",
+        "qty": 25
+      }
+    ]
+  }
+}

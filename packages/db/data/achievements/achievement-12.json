@@ -1,0 +1,14 @@
+{
+  "id": "achievement-12",
+  "type": "achievements",
+  "name": {
+    "en": "Popular",
+    "pt-BR": "Popular"
+  },
+  "nameVerified": true,
+  "description": {
+    "en": "Reach a 5-heart friend level with 20 people.",
+    "pt-BR": "Alcance amizade nível 5 com 20 pessoas."
+  },
+  "order": 12
+}

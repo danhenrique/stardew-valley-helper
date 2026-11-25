@@ -1,0 +1,44 @@
+{
+  "id": "chocolate-cake",
+  "type": "cooking",
+  "name": {
+    "en": "Chocolate Cake",
+    "pt-BR": "Bolo de Chocolate"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "soldAt": [
+    {
+      "shop": "saloon",
+      "price": 400
+    }
+  ],
+  "giftTastes": {
+    "loves": [
+      "abigail",
+      "evelyn",
+      "jodi"
+    ],
+    "dislikesOrHates": [
+      "harvey"
+    ]
+  },
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "wheat-flour",
+        "qty": 1
+      },
+      {
+        "item": "sugar",
+        "qty": 1
+      },
+      {
+        "item": "egg",
+        "qty": 1
+      }
+    ]
+  }
+}

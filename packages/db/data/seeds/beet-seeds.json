@@ -1,0 +1,31 @@
+{
+  "id": "beet-seeds",
+  "type": "seeds",
+  "name": {
+    "en": "Beet Seeds",
+    "pt-BR": "Sementes de Beterraba"
+  },
+  "nameVerified": true,
+  "crop": {
+    "seasons": [
+      "fall"
+    ],
+    "growthDays": 6,
+    "phases": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "regrowDays": null,
+    "lastPlantingDay": 22,
+    "averageExtraYield": 0,
+    "produce": "beet"
+  },
+  "soldAt": [
+    {
+      "shop": "oasis",
+      "price": 20
+    }
+  ]
+}

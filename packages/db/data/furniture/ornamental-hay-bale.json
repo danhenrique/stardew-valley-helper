@@ -1,0 +1,15 @@
+{
+  "id": "ornamental-hay-bale",
+  "type": "furniture",
+  "name": {
+    "en": "Ornamental Hay Bale",
+    "pt-BR": "Fardo de Feno Ornamental"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "ranch",
+      "price": 250
+    }
+  ]
+}

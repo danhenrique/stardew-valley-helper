@@ -1,0 +1,18 @@
+{
+  "id": "brick-floor",
+  "type": "planner-objects",
+  "name": {
+    "en": "Brick Floor",
+    "pt-BR": "Piso de Tijolo"
+  },
+  "nameVerified": false,
+  "item": "brick-floor",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

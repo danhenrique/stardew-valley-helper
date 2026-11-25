@@ -1,0 +1,13 @@
+{
+  "id": "prehistoric-scapula",
+  "type": "artifacts",
+  "name": {
+    "en": "Prehistoric Scapula",
+    "pt-BR": "Escápula Pré-histórica"
+  },
+  "nameVerified": true,
+  "tags": [
+    "artifacts"
+  ],
+  "museumDonation": true
+}

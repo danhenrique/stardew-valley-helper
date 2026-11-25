@@ -1,0 +1,33 @@
+{
+  "id": "bomb",
+  "type": "consumables",
+  "name": {
+    "en": "Bomb",
+    "pt-BR": "Bomba"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "desert-trader",
+      "price": 0,
+      "materials": [
+        {
+          "item": "quartz",
+          "qty": 5
+        }
+      ]
+    }
+  ],
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "qty": 4
+      },
+      {
+        "item": "coal",
+        "qty": 1
+      }
+    ]
+  }
+}

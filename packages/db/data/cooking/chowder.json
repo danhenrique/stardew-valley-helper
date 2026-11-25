@@ -1,0 +1,24 @@
+{
+  "id": "chowder",
+  "type": "cooking",
+  "name": {
+    "en": "Chowder",
+    "pt-BR": "Ensopado de Peixe"
+  },
+  "nameVerified": true,
+  "tags": [
+    "cooking"
+  ],
+  "cookingRecipe": {
+    "ingredients": [
+      {
+        "item": "clam",
+        "qty": 1
+      },
+      {
+        "item": "milk",
+        "qty": 1
+      }
+    ]
+  }
+}

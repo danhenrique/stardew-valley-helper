@@ -1,0 +1,30 @@
+{
+  "id": "salmon",
+  "type": "fish",
+  "name": {
+    "en": "Salmon",
+    "pt-BR": "Salmão"
+  },
+  "nameVerified": true,
+  "tags": [
+    "fish"
+  ],
+  "catch": {
+    "tool": "rod",
+    "seasons": [
+      "fall"
+    ],
+    "weather": "any",
+    "timeWindows": [
+      {
+        "from": "06:00",
+        "to": "19:00"
+      }
+    ],
+    "location": {
+      "en": "River (Town + Forest)",
+      "pt-BR": "Rio (cidade + floresta)"
+    },
+    "locationVerified": false
+  }
+}

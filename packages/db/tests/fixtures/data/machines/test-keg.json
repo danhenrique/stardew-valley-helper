@@ -1,0 +1,35 @@
+{
+ "id": "test-keg",
+ "type": "machines",
+ "name": {
+  "en": "Test Keg",
+  "pt-BR": "Barril Teste"
+ },
+ "nameVerified": true,
+ "category": "artisan",
+ "processing": [
+  {
+   "days": 7,
+   "output": "test-wine",
+   "label": {
+    "en": "Wine",
+    "pt-BR": "Vinho"
+   }
+  }
+ ],
+ "craftingRecipe": {
+  "ingredients": [
+   {
+    "item": "test-wood",
+    "qty": 30
+   },
+   {
+    "anyOf": [
+     "test-fruit",
+     "test-veg"
+    ],
+    "qty": 1
+   }
+  ]
+ }
+}

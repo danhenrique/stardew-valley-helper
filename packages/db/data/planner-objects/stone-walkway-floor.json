@@ -1,0 +1,18 @@
+{
+  "id": "stone-walkway-floor",
+  "type": "planner-objects",
+  "name": {
+    "en": "Stone Walkway Floor",
+    "pt-BR": "Piso Passarela de Pedra"
+  },
+  "nameVerified": false,
+  "item": "stone-walkway-floor",
+  "category": "decoration",
+  "placement": "any",
+  "size": {
+    "w": 1,
+    "h": 1
+  },
+  "paint": true,
+  "removable": true
+}

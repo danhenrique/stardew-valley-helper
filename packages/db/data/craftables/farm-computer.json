@@ -1,0 +1,25 @@
+{
+  "id": "farm-computer",
+  "type": "craftables",
+  "name": {
+    "en": "Farm Computer",
+    "pt-BR": "Computador da Fazenda"
+  },
+  "nameVerified": true,
+  "craftingRecipe": {
+    "ingredients": [
+      {
+        "item": "dwarf-gadget",
+        "qty": 1
+      },
+      {
+        "item": "battery-pack",
+        "qty": 1
+      },
+      {
+        "item": "refined-quartz",
+        "qty": 10
+      }
+    ]
+  }
+}

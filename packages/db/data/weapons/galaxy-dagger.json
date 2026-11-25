@@ -1,0 +1,15 @@
+{
+  "id": "galaxy-dagger",
+  "type": "weapons",
+  "name": {
+    "en": "Galaxy Dagger",
+    "pt-BR": "Adaga da Galáxia"
+  },
+  "nameVerified": true,
+  "soldAt": [
+    {
+      "shop": "adventurers-guild",
+      "price": 35000
+    }
+  ]
+}

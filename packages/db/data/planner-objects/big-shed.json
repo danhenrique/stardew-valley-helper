@@ -1,0 +1,22 @@
+{
+  "id": "big-shed",
+  "type": "planner-objects",
+  "name": {
+    "en": "Big Shed",
+    "pt-BR": "Galpão Grande"
+  },
+  "nameVerified": true,
+  "item": "big-shed",
+  "category": "building",
+  "placement": "buildable",
+  "size": {
+    "w": 7,
+    "h": 3
+  },
+  "humanDoor": {
+    "x": 3,
+    "y": 2
+  },
+  "removable": true,
+  "paint": false
+}

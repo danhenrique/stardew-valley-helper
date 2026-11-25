@@ -1,0 +1,36 @@
+{
+  "id": "lake-fish",
+  "type": "bundles",
+  "name": {
+    "en": "Lake Fish Bundle",
+    "pt-BR": "Conjunto Peixes de Lago"
+  },
+  "nameVerified": true,
+  "room": {
+    "id": "fish-tank",
+    "name": {
+      "en": "Fish Tank",
+      "pt-BR": "Aquário"
+    }
+  },
+  "remixed": false,
+  "slotsRequired": 4,
+  "items": [
+    {
+      "item": "largemouth-bass"
+    },
+    {
+      "item": "carp"
+    },
+    {
+      "item": "bullhead"
+    },
+    {
+      "item": "sturgeon",
+      "seasons": [
+        "summer",
+        "winter"
+      ]
+    }
+  ]
+}
