@@ -119,8 +119,7 @@
     },
     "output": {
       "executor": "nx:run-commands",
-      "cache": true,
-      "inputs": ["default"],
+      "cache": false,
       "options": {
         "command": "terraform output -json",
         "forwardAllArgs": true,
