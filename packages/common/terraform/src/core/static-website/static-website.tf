@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "6.66.0"
+      version = "6.73.0"
       configuration_aliases = [aws.us_east_1]
     }
     null = {
@@ -616,7 +616,7 @@ resource "null_resource" "upload_website_files" {
   provisioner "local-exec" {
     command = <<-EOT
       cd "$ROOT_PATH"
-      uv run --with boto3==1.43.103 python3 -c "
+      uv run --with boto3==1.44.9 python3 -c "
 import os
 import sys
 import boto3
@@ -739,7 +739,7 @@ resource "null_resource" "cloudfront_invalidation" {
 
   provisioner "local-exec" {
     command = <<-EOT
-      uv run --with boto3==1.43.103 python3 -c "
+      uv run --with boto3==1.44.9 python3 -c "
 import boto3
 import os
 import sys

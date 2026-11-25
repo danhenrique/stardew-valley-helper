@@ -1,6 +1,6 @@
 locals {
   metric_id = "uksb-4wk0bqpg5s"
-  metric_version = "1.0.4"
+  metric_version = "1.8.0"
   metric_tags    = ["g5", "g23"]
 }
 
