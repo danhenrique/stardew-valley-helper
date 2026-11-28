@@ -57,7 +57,8 @@ module "runtime_config_appconfig" {
 module "asset_bucket" {
   source = "../../common/terraform/src/core/asset-bucket"
 
-  bucket_name_prefix = "stardew-valley-assets"
+  bucket_name_prefix           = "stardew-valley-assets"
+  encrypt_access_logs_with_kms = local.cost_settings.access_logs_kms
 }
 
 module "table" {
@@ -88,6 +89,7 @@ module "api" {
   appconfig_application_arn    = module.runtime_config_appconfig.application_arn
   enable_waf                   = local.cost_settings.waf
   encrypt_access_logs_with_kms = local.cost_settings.access_logs_kms
+  lambda_log_retention_in_days = local.cost_settings.lambda_log_retention_days
 
   env = {
     ALLOWED_ORIGINS = local.website_origin

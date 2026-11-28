@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.0"
+  required_version = ">= 1.7" # `removed` blocks
 
   required_providers {
     aws = {
@@ -48,97 +48,58 @@ locals {
   entries_dir = "${local.config_dir}/entries"
 }
 
-# Aggregate the per-entry leaf JSON files into a single JSON file per
-# namespace. Runs at apply time so every contributor's entry file is
-# guaranteed to be on disk when aggregation happens.
-resource "null_resource" "aggregate_namespace" {
+# LOCAL DIVERGENCE from the @aws/nx-plugin template (kept as of plugin 1.11.0):
+# the template creates a new hosted configuration version and a deployment for
+# every namespace on every apply, even when nothing changed. Each deployment makes
+# every warm Lambda download the configuration again, which AppConfig bills.
+# `publish.py` aggregates the entries (same logic as the template) and only
+# creates a version + deployment when the content differs from what is deployed.
+#
+# Runs on every apply so entries written earlier in the same apply are picked up.
+resource "terraform_data" "publish_namespace" {
   for_each = toset(var.namespaces)
 
-  triggers = {
+  triggers_replace = {
     namespace = each.key
-    # Re-run the aggregation every apply so newly-written entries are
-    # always picked up. The local-exec is idempotent.
-    always = timestamp()
+    always    = timestamp()
   }
 
   provisioner "local-exec" {
-    command = <<-EOT
-      uv run python -c "
-import json
-import os
-import pathlib
-import sys
-
-namespace = os.environ['NAMESPACE']
-entries_dir = pathlib.Path(os.environ['ENTRIES_DIR']) / namespace
-output_file = pathlib.Path(os.environ['CONFIG_DIR']) / f'{namespace}.json'
-
-def deep_merge(target: dict, source: dict) -> dict:
-    for k, v in source.items():
-        if k in target and isinstance(target[k], dict) and isinstance(v, dict):
-            deep_merge(target[k], v)
-        else:
-            target[k] = v
-    return target
-
-# Each entry file is named '<key>-<sha>.json' — callers that share the
-# same (namespace, key) pair hash their value into a distinct sha suffix,
-# and their contributions are deep-merged back together under 'key' here.
-merged: dict = {}
-if entries_dir.is_dir():
-    for entry_path in sorted(entries_dir.glob('*.json')):
-        section = entry_path.stem.rsplit('-', 1)[0]
-        try:
-            contribution = json.loads(entry_path.read_text())
-        except json.JSONDecodeError as e:
-            print(f'Skipping malformed entry {entry_path}: {e}', file=sys.stderr)
-            continue
-        existing = merged.get(section)
-        if isinstance(existing, dict) and isinstance(contribution, dict):
-            deep_merge(existing, contribution)
-        else:
-            merged[section] = contribution
-
-output_file.parent.mkdir(parents=True, exist_ok=True)
-output_file.write_text(json.dumps(merged, indent=2))
-print(f'Aggregated {namespace}.json with {len(merged)} section(s)')
-"
-    EOT
+    command = "uv run python ${abspath(path.module)}/publish.py"
     environment = {
-      NAMESPACE   = each.key
-      ENTRIES_DIR = local.entries_dir
-      CONFIG_DIR  = local.config_dir
+      NAMESPACE                = each.key
+      ENTRIES_DIR              = local.entries_dir
+      CONFIG_DIR               = local.config_dir
+      APPLICATION_ID           = var.application_id
+      ENVIRONMENT_ID           = var.environment_id
+      CONFIGURATION_PROFILE_ID = var.configuration_profile_ids[each.key]
+      DEPLOYMENT_STRATEGY_ID   = var.deployment_strategy_id
+      AWS_REGION               = data.aws_region.current.region
     }
   }
 }
 
-data "local_file" "namespace_content" {
-  for_each = toset(var.namespaces)
+data "aws_region" "current" {}
 
-  filename   = "${local.config_dir}/${each.key}.json"
-  depends_on = [null_resource.aggregate_namespace]
+# Previously managed by the template. Forget them without deleting: the
+# currently deployed hosted versions must stay in AppConfig.
+removed {
+  from = null_resource.aggregate_namespace
+  lifecycle {
+    destroy = false
+  }
 }
 
-resource "aws_appconfig_hosted_configuration_version" "namespace" {
-  for_each = toset(var.namespaces)
-
-  application_id           = var.application_id
-  configuration_profile_id = var.configuration_profile_ids[each.key]
-  content_type             = "application/json"
-  content                  = data.local_file.namespace_content[each.key].content
+removed {
+  from = aws_appconfig_hosted_configuration_version.namespace
+  lifecycle {
+    destroy = false
+  }
 }
 
-resource "aws_appconfig_deployment" "namespace" {
-  for_each = toset(var.namespaces)
-
-  application_id           = var.application_id
-  environment_id           = var.environment_id
-  configuration_profile_id = var.configuration_profile_ids[each.key]
-  configuration_version    = aws_appconfig_hosted_configuration_version.namespace[each.key].version_number
-  deployment_strategy_id   = var.deployment_strategy_id
-}
-
-output "hosted_configuration_version_numbers" {
-  description = "Map of namespace to hosted configuration version number."
-  value       = { for k, v in aws_appconfig_hosted_configuration_version.namespace : k => v.version_number }
+removed {
+  from = aws_appconfig_deployment.namespace
+  lifecycle {
+    destroy = false
+  }
 }

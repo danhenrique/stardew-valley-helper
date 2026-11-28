@@ -19,5 +19,7 @@ locals {
     table_encryption   = "DEFAULT"
     website_encryption = "S3_MANAGED"
     access_logs_kms    = false
+    # Lambda logs are only used for debugging; keep a month instead of forever
+    lambda_log_retention_days = 30
   }
 }
