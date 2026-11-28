@@ -108,6 +108,12 @@ variable "encrypt_access_logs_with_kms" {
   default     = true
 }
 
+variable "lambda_log_retention_in_days" {
+  description = "Retention of the Lambda log groups, in days. Null keeps the logs forever (template default)."
+  type        = number
+  default     = null
+}
+
 # Tags
 variable "tags" {
   description = "Tags to apply to all resources"
@@ -582,12 +588,12 @@ locals {
 # CloudWatch Log Group for Lambda
 resource "aws_cloudwatch_log_group" "lambda_logs" {
   #checkov:skip=CKV_AWS_158:Using default CloudWatch log encryption
-  #checkov:skip=CKV_AWS_338:Log retention set to forever
-  #checkov:skip=CKV_AWS_66:Log retention set to forever
+  #checkov:skip=CKV_AWS_338:Retention is configurable via lambda_log_retention_in_days
   for_each = local.operations
 
-  name = "/aws/lambda/${local.function_name[each.key]}"
-  tags = var.tags
+  name              = "/aws/lambda/${local.function_name[each.key]}"
+  retention_in_days = var.lambda_log_retention_in_days
+  tags              = var.tags
 }
 
 

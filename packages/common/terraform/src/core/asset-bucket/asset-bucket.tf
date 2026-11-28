@@ -25,6 +25,12 @@ variable "tags" {
   default     = {}
 }
 
+variable "encrypt_access_logs_with_kms" {
+  description = "Encrypt the access log group with a customer-managed KMS key (~US$1/month). When false, CloudWatch Logs default encryption is used."
+  type        = bool
+  default     = true
+}
+
 data "aws_caller_identity" "current" {}
 data "aws_region" "current" {}
 
@@ -42,6 +48,8 @@ locals {
 
 # KMS key encrypting the server access logs delivered to CloudWatch Logs.
 resource "aws_kms_key" "access_logs" {
+  count = var.encrypt_access_logs_with_kms ? 1 : 0
+
   description             = "KMS key for ${var.bucket_name_prefix} asset bucket access logs"
   enable_key_rotation     = true
   deletion_window_in_days = 7
@@ -80,11 +88,16 @@ resource "aws_kms_key" "access_logs" {
   tags = var.tags
 }
 
+moved {
+  from = aws_kms_key.access_logs
+  to   = aws_kms_key.access_logs[0]
+}
+
 # CloudWatch log group receiving the asset bucket server access logs.
 resource "aws_cloudwatch_log_group" "access_logs" {
   name              = "/aws/s3/${var.bucket_name_prefix}-access-logs-${random_string.suffix.result}"
   retention_in_days = 365
-  kms_key_id        = aws_kms_key.access_logs.arn
+  kms_key_id        = var.encrypt_access_logs_with_kms ? aws_kms_key.access_logs[0].arn : null
 
   tags = var.tags
 }
